@@ -71,6 +71,39 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "featured_collection_kpBPDr": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.product-list {--product-list-carousel-item-width: 46vw !important; }}",
+        ".product-card__figure {position: relative;}",
+        ".product-card__figure::before,.product-card__figure::after {position: absolute; top: 8px; padding: 5px 10px; border-radius: 99px; font: 600 12px Arial; z-index: 5;}",
+        ".price-list {position: relative;}",
+        ".price-list sale-price,.price-list .sale-price {font-size: 22px; font-weight: 800;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Meilleures Ventes",
+        "content": "",
+        "link_url": "",
+        "link_text": "Découvrir",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "logoscroll_DPhgVL": {
       "type": "logoscroll",
       "blocks": {
@@ -315,6 +348,7 @@
   },
   "order": [
     "slideshow",
+    "featured_collection_kpBPDr",
     "logoscroll_DPhgVL",
     "rich_text_LhUqTA",
     "testimonials_NJ8KYx"
