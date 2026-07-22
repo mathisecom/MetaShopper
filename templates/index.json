@@ -612,6 +612,57 @@
         "padding_bottom_mobile": 24
       }
     },
+    "logoscroll_DWPagg": {
+      "type": "logoscroll",
+      "blocks": {
+        "image_TPFe3h": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TPFe3h"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 26,
+        "scrolling_velocity_mobile": 26,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 46,
+        "scrolling_gap_mobile": 20,
+        "card_width_desktop": 130,
+        "card_width_mobile": 100,
+        "heading_color": "#121212",
+        "layout_bg_color": "#ffffff",
+        "layout_border_color": "#121212",
+        "background_color": "#ffffff",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "rich_text_LhUqTA": {
       "type": "rich-text",
       "blocks": {
@@ -816,6 +867,7 @@
     "cardcollection_wbQQQy",
     "pourquoinouschoisir_qQHraU",
     "produitvedette_bXxAiy",
+    "logoscroll_DWPagg",
     "rich_text_LhUqTA",
     "testimonials_NJ8KYx",
     "faq_dPFARi"
