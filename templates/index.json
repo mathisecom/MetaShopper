@@ -71,6 +71,88 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "iconsbenefice_dFQmz9": {
+      "type": "iconsbenefice",
+      "blocks": {
+        "highlight_mqjjXK": {
+          "type": "highlight",
+          "settings": {
+            "product": "",
+            "use_product_image": false,
+            "icon": "store",
+            "title": "+3,000",
+            "text": "<p>Entreprises nous font confiance</p>",
+            "link": "",
+            "link_label": "",
+            "open_new_tab": false
+          }
+        },
+        "highlight_38hXqh": {
+          "type": "highlight",
+          "settings": {
+            "product": "",
+            "use_product_image": false,
+            "icon": "printer",
+            "title": "1M+",
+            "text": "<p>Produits imprimés chaque mois</p>",
+            "link": "",
+            "link_label": "",
+            "open_new_tab": false
+          }
+        },
+        "highlight_B4qpJR": {
+          "type": "highlight",
+          "settings": {
+            "product": "",
+            "use_product_image": false,
+            "icon": "review",
+            "title": "4.9★",
+            "text": "<p>Plus de 10 000 clients satisfaits</p>",
+            "link": "",
+            "link_label": "",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "highlight_mqjjXK",
+        "highlight_38hXqh",
+        "highlight_B4qpJR"
+      ],
+      "name": "Produits / chiffres clés",
+      "settings": {
+        "heading": "",
+        "intro": "",
+        "header_alignment": "center",
+        "max_width": 1400,
+        "desktop_columns": 3,
+        "mobile_layout": "scroll",
+        "text_alignment": "center",
+        "show_separators": true,
+        "gap_desktop": 20,
+        "gap_mobile": 0,
+        "background_color": "#F7F7F9",
+        "card_background": "#F7F7F7",
+        "heading_color": "#000000",
+        "title_color": "#FF3B0A",
+        "text_color": "#000000",
+        "icon_color": "#000000",
+        "link_color": "#FF3B0A",
+        "icon_size": 48,
+        "icon_size_mobile": 44,
+        "title_size": 30,
+        "title_size_mobile": 26,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "card_radius": 0,
+        "card_padding": 8,
+        "card_padding_mobile": 12,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    },
     "featured_collection_kpBPDr": {
       "type": "featured-collection",
       "custom_css": [
@@ -568,6 +650,7 @@
   },
   "order": [
     "slideshow",
+    "iconsbenefice_dFQmz9",
     "featured_collection_kpBPDr",
     "logoscroll_DPhgVL",
     "cardcollection_wbQQQy",
