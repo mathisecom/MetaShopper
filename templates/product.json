@@ -400,21 +400,21 @@
         "item_nBidzM": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
+            "title": "Quelle est la vitesse d'impression de cette imprimante thermique ?",
             "content": "<p>Cette imprimante thermique Bluetooth Pro 4x6 offre une vitesse d'impression de 150 mm/seconde, permettant un traitement rapide et efficace de vos étiquettes de colis. Cette performance garantit une gestion optimisée de vos flux d'expédition sans compromettre la qualité d'impression.</p>"
           }
         },
         "item_Rf8qUX": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
+            "title": "Est-ce que l'imprimante est facile à installer et à utiliser ?",
             "content": "<p>Absolument ! L'installation est un jeu d'enfant grâce à la connexion Bluetooth. Que vous soyez sur Windows, macOS ou ChromeOS, l'application dédiée vous permettra de créer et imprimer vos étiquettes en quelques clics, même depuis votre smartphone.</p>"
           }
         },
         "item_F6aQwp": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
+            "title": "Puis-je personnaliser les étiquettes selon mon identité de marque ?",
             "content": "<p>Oui, vous pouvez totalement personnaliser vos étiquettes ! Accédez à une vaste bibliothèque de modèles, graphiques et polices pour créer des étiquettes uniques qui reflètent parfaitement l'identité de votre marque, que ce soit pour l'expédition ou des projets spéciaux.</p>"
           }
         },
