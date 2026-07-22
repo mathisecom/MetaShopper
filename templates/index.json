@@ -77,24 +77,70 @@
         "image_XmKE8x": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Amazon_c206df84-1e40-42b2-aeaa-d9464bda369a.avif",
             "url": ""
           }
         },
         "image_aBJKEC": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Ebay_d5a89c7c-e63c-4a80-8840-7723c98c2c62.avif",
             "url": ""
           }
         },
         "image_ELeqRE": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Fedex.avif",
             "url": ""
           }
         },
         "image_YbqRkw": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/UPS.webp",
+            "url": ""
+          }
+        },
+        "image_iEFdFB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GLS_dcb20778-8b10-4169-8ab0-e30b1df7d7a6.avif",
+            "url": ""
+          }
+        },
+        "image_Gz3Dj7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DHL.avif",
+            "url": ""
+          }
+        },
+        "image_fpUYjA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DPD_7a93b1e3-c878-4448-9776-2806797c76b0.avif",
+            "url": ""
+          }
+        },
+        "image_hctF6q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Etsy_a65a0f11-44d4-4abc-a427-6771c57e0fbf.avif",
+            "url": ""
+          }
+        },
+        "image_7kAFax": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tiktok_f9316f07-c5cd-49f9-ad5a-9793ffa8658c.avif",
+            "url": ""
+          }
+        },
+        "image_YdtxFR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shopify_c9926203-23ed-4bdf-9e68-3b3a6470fec3.avif",
             "url": ""
           }
         }
@@ -103,7 +149,13 @@
         "image_XmKE8x",
         "image_aBJKEC",
         "image_ELeqRE",
-        "image_YbqRkw"
+        "image_YbqRkw",
+        "image_iEFdFB",
+        "image_Gz3Dj7",
+        "image_fpUYjA",
+        "image_hctF6q",
+        "image_7kAFax",
+        "image_YdtxFR"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
@@ -115,12 +167,12 @@
         "heading_size": 18,
         "heading_size_mobile": 18,
         "heading_height": 130,
-        "scrolling_velocity": 30,
-        "scrolling_velocity_mobile": 30,
+        "scrolling_velocity": 26,
+        "scrolling_velocity_mobile": 26,
         "scrolling_direction": "left",
         "pause_hover": false,
-        "scrolling_gap": 70,
-        "scrolling_gap_mobile": 30,
+        "scrolling_gap": 46,
+        "scrolling_gap_mobile": 20,
         "card_width_desktop": 130,
         "card_width_mobile": 100,
         "heading_color": "#121212",
@@ -136,7 +188,7 @@
         "padding_bottom": 0,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 0,
-        "full_width": false,
+        "full_width": true,
         "content_width": 1200,
         "border_thickness": 0,
         "section_radius": 0,
