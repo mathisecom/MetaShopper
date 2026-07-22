@@ -401,28 +401,36 @@
           "type": "item",
           "settings": {
             "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "content": "<p>Cette imprimante thermique Bluetooth Pro 4x6 offre une vitesse d'impression de 150 mm/seconde, permettant un traitement rapide et efficace de vos étiquettes de colis. Cette performance garantit une gestion optimisée de vos flux d'expédition sans compromettre la qualité d'impression.</p>"
           }
         },
         "item_Rf8qUX": {
           "type": "item",
           "settings": {
             "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "content": "<p>Absolument ! L'installation est un jeu d'enfant grâce à la connexion Bluetooth. Que vous soyez sur Windows, macOS ou ChromeOS, l'application dédiée vous permettra de créer et imprimer vos étiquettes en quelques clics, même depuis votre smartphone.</p>"
           }
         },
         "item_F6aQwp": {
           "type": "item",
           "settings": {
             "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "content": "<p>Oui, vous pouvez totalement personnaliser vos étiquettes ! Accédez à une vaste bibliothèque de modèles, graphiques et polices pour créer des étiquettes uniques qui reflètent parfaitement l'identité de votre marque, que ce soit pour l'expédition ou des projets spéciaux.</p>"
+          }
+        },
+        "item_ByVcWk": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>Oui, l'imprimante thermique élimine le besoin d'encre coûteuse et utilise un papier spécial pour des impressions de haute qualité, permettant ainsi de réaliser des économies significatives sur vos fournitures d'impression tout en maintenant un excellent rapport qualité prix.</p>"
           }
         }
       },
       "block_order": [
         "item_nBidzM",
         "item_Rf8qUX",
-        "item_F6aQwp"
+        "item_F6aQwp",
+        "item_ByVcWk"
       ],
       "name": "FAQ",
       "settings": {
