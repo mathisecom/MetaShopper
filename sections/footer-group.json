@@ -130,7 +130,7 @@
           "type": "text",
           "settings": {
             "title": "Contactez-Nous",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "content": "<p>SIRET: 503 817 652 00038</p><p>contact@metashopper.fr</p>",
             "enable_follow_on_shop": true
           }
         }
