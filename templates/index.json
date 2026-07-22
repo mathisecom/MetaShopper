@@ -151,6 +151,7 @@
         },
         "image_fpUYjA": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DPD_7a93b1e3-c878-4448-9776-2806797c76b0.avif",
             "url": ""
