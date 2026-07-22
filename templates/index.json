@@ -369,12 +369,28 @@
             "title": "Faut‑il acheter de l’encre ou des toners ?",
             "content": "<p>Non, jamais. <a href=\"https://zapf1a-6u.myshopify.com/products/metashopper-imprimante-thermique-bluetooth\" title=\"Imprimante Thermique Sans Fil – Expédiez 10x Plus Vite, Sans Encre\">Cette imprimante</a> utilise la technologie d'impression thermique directe.</p><p>En chauffant <a href=\"https://zapf1a-6u.myshopify.com/products/etiquettes-thermiques-expedition-colis-4x6\" title=\"Étiquettes Thermiques 100×150 mm – Expéditions de colis\">le papier thermique autocollant</a>, elle élimine tout besoin de cartouches d'encre ou de toners.</p><p>Vous achetez uniquement du papier thermique quand vous en manquez.</p><p>C'est la solution de marquage logistique la plus économique et écologique pour votre activité.</p>"
           }
+        },
+        "item_bb4Rpr": {
+          "type": "item",
+          "settings": {
+            "title": "Quelles économies réelles sur le long terme ?",
+            "content": "<p>En moyenne, vous économisez 70 % par rapport à une imprimante classique.</p><p>Plus de cartouche à 30 €, plus de découpage de feuille A4.</p><p>Juste des étiquettes thermiques à moins de 10 € les 100 bordereaux.</p>"
+          }
+        },
+        "item_zhx3dG": {
+          "type": "item",
+          "settings": {
+            "title": "Quelles économies réelles sur le long terme ?",
+            "content": "<p>Absolument. Vous pouvez imprimer vos logos, QR codes et éléments graphiques via l'application dédiée pour renforcer votre image de marque. Cette personnalisation offre une expérience de déballage (unboxing) professionnelle et mémorable à chacun de vos clients.</p><h3></h3>"
+          }
         }
       },
       "block_order": [
         "item_mYT7Cj",
         "item_rJ9c7x",
-        "item_7jfCci"
+        "item_7jfCci",
+        "item_bb4Rpr",
+        "item_zhx3dG"
       ],
       "name": "FAQ",
       "settings": {
