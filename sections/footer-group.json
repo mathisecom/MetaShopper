@@ -11,64 +11,98 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "text-with-icons": {
-      "type": "text-with-icons",
+    "pourquoinouschoisir_nLbYiF": {
+      "type": "pourquoinouschoisir",
       "blocks": {
-        "free-shipping": {
-          "type": "item",
+        "highlight_PPeXxg": {
+          "type": "highlight",
           "settings": {
-            "icon": "picto-box",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "product": "",
+            "use_product_image": false,
+            "icon": "shipping",
+            "title": "Expédition rapide",
+            "text": "<p>Livraison rapide et suivie.</p>",
+            "link": "",
+            "show_button": false,
+            "button_label": "Découvrir"
           }
         },
-        "customer-support": {
-          "type": "item",
+        "highlight_brmwJY": {
+          "type": "highlight",
           "settings": {
-            "icon": "picto-customer-support",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "product": "",
+            "use_product_image": false,
+            "icon": "shield",
+            "title": "Garantie incluse",
+            "text": "<p>Achetez en toute sérénité.</p>",
+            "link": "",
+            "show_button": false,
+            "button_label": "Découvrir"
           }
         },
-        "discount": {
-          "type": "item",
+        "highlight_NcWhUn": {
+          "type": "highlight",
           "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "product": "",
+            "use_product_image": false,
+            "icon": "return",
+            "title": "Retour facile",
+            "text": "<p>Une procédure simple et rapide.</p>",
+            "link": "",
+            "show_button": false,
+            "button_label": "Découvrir"
+          }
+        },
+        "highlight_4dDGGd": {
+          "type": "highlight",
+          "settings": {
+            "product": "",
+            "use_product_image": false,
+            "icon": "support",
+            "title": "Support réactif",
+            "text": "<p>Une équipe disponible pour vous.</p>",
+            "link": "",
+            "show_button": false,
+            "button_label": "Découvrir"
           }
         }
       },
       "block_order": [
-        "free-shipping",
-        "customer-support",
-        "discount"
+        "highlight_PPeXxg",
+        "highlight_brmwJY",
+        "highlight_NcWhUn",
+        "highlight_4dDGGd"
       ],
+      "name": "Cartes produits",
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h6",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "heading": "",
+        "text": "",
+        "section_background": "#FFFFFF",
+        "card_background": "#ffffff",
+        "text_color": "#111111",
+        "accent_color": "#FF4713",
+        "content_width": 1320,
+        "columns_desktop": "4",
+        "columns_mobile": "2",
+        "card_gap": 20,
+        "card_gap_mobile": 10,
+        "card_radius": 16,
+        "card_height": 200,
+        "card_height_mobile": 180,
+        "icon_box_size": 60,
+        "icon_size": 32,
+        "icon_radius": 16,
+        "icon_box_size_mobile": 50,
+        "icon_size_mobile": 26,
+        "icon_radius_mobile": 14,
+        "title_size": 17,
+        "text_size": 16,
+        "title_size_mobile": 15,
+        "text_size_mobile": 12,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12
       }
     },
     "footer": {
@@ -117,7 +151,7 @@
     }
   },
   "order": [
-    "text-with-icons",
+    "pourquoinouschoisir_nLbYiF",
     "footer"
   ]
 }
