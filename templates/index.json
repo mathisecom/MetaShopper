@@ -299,6 +299,78 @@
         "padding_bottom_mobile": 28
       }
     },
+    "produitvedette_bXxAiy": {
+      "type": "produitvedette",
+      "blocks": {
+        "featured_product_qYjQnL": {
+          "type": "featured_product",
+          "settings": {
+            "product": "metashopper-imprimante-thermique-bluetooth",
+            "custom_image": "shopify://shop_images/ChatGPT_Image_22_juil._2026_14_31_39.png",
+            "image_position": "right",
+            "mobile_order": "image_first",
+            "image_clickable": true,
+            "badge_1": "Best seller",
+            "badge_2": "PACK BUISNESS",
+            "custom_title": "Votre produit phare",
+            "subtitle": "Une courte phrase d’accroche",
+            "show_price": false,
+            "description": "<p>Présentez les points forts de votre produit avec un texte clair et convaincant.</p>",
+            "highlight_1": "Premier avantage important",
+            "highlight_2": "Deuxième avantage important",
+            "highlight_3": "",
+            "button_label": "Obtenir Votre Pack",
+            "button_link": "",
+            "show_button_arrow": true,
+            "min_height": 480,
+            "background_color": "#ffffff",
+            "text_color": "#242424",
+            "accent_color": "#FF4713",
+            "image_background": "#ffffff",
+            "button_background": "#242424",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "featured_product_qYjQnL"
+      ],
+      "name": "Produits vedette",
+      "settings": {
+        "heading": "",
+        "intro": "",
+        "header_alignment": "center",
+        "section_background": "#ffffff",
+        "section_text_color": "#1d1d1f",
+        "content_width": 1400,
+        "row_gap": 32,
+        "card_radius": 0,
+        "card_border_width": 0,
+        "card_border_color": "#e5e5e5",
+        "show_shadow": false,
+        "content_column_width": 1,
+        "image_column_width": 1,
+        "content_padding": 48,
+        "image_padding": 12,
+        "image_max_height": 540,
+        "image_fit": "contain",
+        "title_size_desktop": 52,
+        "title_size_mobile": 36,
+        "subtitle_size": 19,
+        "description_size": 17,
+        "description_size_mobile": 15,
+        "button_radius": 10,
+        "full_width_button_mobile": true,
+        "mobile_image_height": 360,
+        "content_padding_mobile": 24,
+        "image_padding_mobile": 8,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
     "rich_text_LhUqTA": {
       "type": "rich-text",
       "blocks": {
@@ -499,6 +571,7 @@
     "featured_collection_kpBPDr",
     "logoscroll_DPhgVL",
     "cardcollection_wbQQQy",
+    "produitvedette_bXxAiy",
     "rich_text_LhUqTA",
     "testimonials_NJ8KYx",
     "faq_dPFARi"
