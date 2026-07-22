@@ -224,7 +224,13 @@
       "name": "Featured collection",
       "settings": {
         "collection": "",
-        "products": [],
+        "products": [
+          "metashopper-imprimante-thermique-bluetooth",
+          "etiquettes-thermiques-expedition-colis-4x6",
+          "support-detiquettes-thermique",
+          "pochettes-envoi-colis-grises-pack-30",
+          "pochettes-envoi-colis-roses-pack-30"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
