@@ -137,6 +137,88 @@
         "input_text_color": ""
       }
     },
+    "iconsbenefice_mapNKM": {
+      "type": "iconsbenefice",
+      "blocks": {
+        "highlight_CyEBhQ": {
+          "type": "highlight",
+          "settings": {
+            "product": "",
+            "use_product_image": false,
+            "icon": "store",
+            "title": "+3,000",
+            "text": "<p>Les entreprises nous font confiance</p>",
+            "link": "",
+            "link_label": "",
+            "open_new_tab": false
+          }
+        },
+        "highlight_FbFDQ9": {
+          "type": "highlight",
+          "settings": {
+            "product": "",
+            "use_product_image": false,
+            "icon": "printer",
+            "title": "1M+",
+            "text": "<p>Produits imprimés chaque mois</p>",
+            "link": "",
+            "link_label": "",
+            "open_new_tab": false
+          }
+        },
+        "highlight_xEBFEL": {
+          "type": "highlight",
+          "settings": {
+            "product": "",
+            "use_product_image": false,
+            "icon": "review",
+            "title": "4.9★",
+            "text": "<p>Plus de 10 000 clients satisfaits</p>",
+            "link": "",
+            "link_label": "",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "highlight_CyEBhQ",
+        "highlight_FbFDQ9",
+        "highlight_xEBFEL"
+      ],
+      "name": "Produits / chiffres clés",
+      "settings": {
+        "heading": "",
+        "intro": "",
+        "header_alignment": "center",
+        "max_width": 1200,
+        "desktop_columns": 3,
+        "mobile_layout": "scroll",
+        "text_alignment": "center",
+        "show_separators": false,
+        "gap_desktop": 48,
+        "gap_mobile": 24,
+        "background_color": "#FFFFFF",
+        "card_background": "#FFFFFF",
+        "heading_color": "#111111",
+        "title_color": "#FF3B0A",
+        "text_color": "#050505",
+        "icon_color": "#111111",
+        "link_color": "#FF3B0A",
+        "icon_size": 48,
+        "icon_size_mobile": 44,
+        "title_size": 30,
+        "title_size_mobile": 26,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "card_radius": 0,
+        "card_padding": 8,
+        "card_padding_mobile": 12,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    },
     "logoscroll_kxTj8A": {
       "type": "logoscroll",
       "blocks": {
@@ -254,88 +336,6 @@
         "lazy": true
       }
     },
-    "iconsbenefice_mapNKM": {
-      "type": "iconsbenefice",
-      "blocks": {
-        "highlight_CyEBhQ": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "store",
-            "title": "+3,000",
-            "text": "<p>Les entreprises nous font confiance</p>",
-            "link": "",
-            "link_label": "",
-            "open_new_tab": false
-          }
-        },
-        "highlight_FbFDQ9": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "printer",
-            "title": "1M+",
-            "text": "<p>Produits imprimés chaque mois</p>",
-            "link": "",
-            "link_label": "",
-            "open_new_tab": false
-          }
-        },
-        "highlight_xEBFEL": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "review",
-            "title": "4.9★",
-            "text": "<p>Plus de 10 000 clients satisfaits</p>",
-            "link": "",
-            "link_label": "",
-            "open_new_tab": false
-          }
-        }
-      },
-      "block_order": [
-        "highlight_CyEBhQ",
-        "highlight_FbFDQ9",
-        "highlight_xEBFEL"
-      ],
-      "name": "Produits / chiffres clés",
-      "settings": {
-        "heading": "",
-        "intro": "",
-        "header_alignment": "center",
-        "max_width": 1200,
-        "desktop_columns": 3,
-        "mobile_layout": "scroll",
-        "text_alignment": "center",
-        "show_separators": false,
-        "gap_desktop": 48,
-        "gap_mobile": 24,
-        "background_color": "#FFFFFF",
-        "card_background": "#FFFFFF",
-        "heading_color": "#111111",
-        "title_color": "#FF3B0A",
-        "text_color": "#050505",
-        "icon_color": "#111111",
-        "link_color": "#FF3B0A",
-        "icon_size": 48,
-        "icon_size_mobile": 44,
-        "title_size": 30,
-        "title_size_mobile": 26,
-        "text_size": 16,
-        "text_size_mobile": 15,
-        "card_radius": 0,
-        "card_padding": 8,
-        "card_padding_mobile": 12,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
     "produitvedette_YDKNYH": {
       "type": "produitvedette",
       "blocks": {
@@ -348,7 +348,7 @@
             "image_clickable": true,
             "badge_1": "Exclusif",
             "badge_2": "Best seller",
-            "custom_title": "Votre produit phare",
+            "custom_title": "Une impression instantanée pour vos expéditions",
             "subtitle": "Une courte phrase d’accroche",
             "show_price": false,
             "description": "<p>Présentez les points forts de votre produit avec un texte clair et convaincant.</p>",
@@ -391,8 +391,8 @@
         "image_padding": 12,
         "image_max_height": 540,
         "image_fit": "contain",
-        "title_size_desktop": 52,
-        "title_size_mobile": 36,
+        "title_size_desktop": 38,
+        "title_size_mobile": 26,
         "subtitle_size": 19,
         "description_size": 17,
         "description_size_mobile": 15,
@@ -403,7 +403,7 @@
         "image_padding_mobile": 8,
         "padding_top": 40,
         "padding_bottom": 40,
-        "padding_top_mobile": 24,
+        "padding_top_mobile": 0,
         "padding_bottom_mobile": 24
       }
     },
@@ -611,8 +611,8 @@
   },
   "order": [
     "main",
-    "logoscroll_kxTj8A",
     "iconsbenefice_mapNKM",
+    "logoscroll_kxTj8A",
     "produitvedette_YDKNYH",
     "rich_text_mcTiCC",
     "testimonials_FKTYQG",
