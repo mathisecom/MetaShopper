@@ -496,10 +496,10 @@
         "image_padding": 12,
         "image_max_height": 540,
         "image_fit": "contain",
-        "title_size_desktop": 52,
-        "title_size_mobile": 36,
-        "subtitle_size": 19,
-        "description_size": 17,
+        "title_size_desktop": 40,
+        "title_size_mobile": 32,
+        "subtitle_size": 18,
+        "description_size": 16,
         "description_size_mobile": 15,
         "button_radius": 10,
         "full_width_button_mobile": true,
@@ -507,7 +507,7 @@
         "content_padding_mobile": 24,
         "image_padding_mobile": 8,
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 0,
         "padding_top_mobile": 24,
         "padding_bottom_mobile": 24
       }
