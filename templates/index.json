@@ -380,8 +380,15 @@
         "item_zhx3dG": {
           "type": "item",
           "settings": {
-            "title": "Quelles économies réelles sur le long terme ?",
-            "content": "<p>Absolument. Vous pouvez imprimer vos logos, QR codes et éléments graphiques via l'application dédiée pour renforcer votre image de marque. Cette personnalisation offre une expérience de déballage (unboxing) professionnelle et mémorable à chacun de vos clients.</p><h3></h3>"
+            "title": "Peut‑on personnaliser les étiquettes ?",
+            "content": "<p>Absolument. Vous pouvez imprimer vos logos, QR codes et éléments graphiques via l'application dédiée pour renforcer votre image de marque. Cette personnalisation offre une expérience de déballage (unboxing) professionnelle et mémorable à chacun de vos clients.</p>"
+          }
+        },
+        "item_iFY66p": {
+          "type": "item",
+          "settings": {
+            "title": "Comment se passe la configuration initiale ?",
+            "content": "<p>Chaque unité est livrée avec un <a href=\"https://metashopper.fr/blogs/actualites/meilleure-imprimante-thermique-en-2026\" title=\"https://metashopper.fr/blogs/actualites/meilleure-imprimante-thermique-en-2026\"><strong>guide d'installation</strong></a> en français et différentes langue. En cas de besoin, notre support technique spécialisé en <strong>solutions e-commerce</strong> vous assure une assistance rapide pour garantir la continuité de vos envois et la performance de votre <strong>setup entrepreneur</strong>.</p>"
           }
         }
       },
@@ -390,7 +397,8 @@
         "item_rJ9c7x",
         "item_7jfCci",
         "item_bb4Rpr",
-        "item_zhx3dG"
+        "item_zhx3dG",
+        "item_iFY66p"
       ],
       "name": "FAQ",
       "settings": {
