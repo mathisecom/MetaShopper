@@ -83,9 +83,7 @@
       "name": "Featured collection",
       "settings": {
         "collection": "",
-        "products": [
-          "metashopper-imprimante-thermique-bluetooth"
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
@@ -104,6 +102,73 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "cardcollection_wbQQQy": {
+      "type": "cardcollection",
+      "blocks": {
+        "product_card_UwxWNB": {
+          "type": "product_card",
+          "settings": {
+            "product": "metashopper-imprimante-thermique-bluetooth",
+            "custom_title": "Imprimante Thermiques",
+            "subtitle": "Une courte description",
+            "button_label": "",
+            "link": "",
+            "image_fit": "contain",
+            "card_background": "#ffffff",
+            "text_color": "#111111",
+            "link_color": "#FF4713"
+          }
+        },
+        "product_card_LFbgUR": {
+          "type": "product_card",
+          "settings": {
+            "product": "metashopper-imprimante-thermique-bluetooth",
+            "custom_title": "Pochettes D'Éxpédition",
+            "subtitle": "Une courte description",
+            "button_label": "",
+            "link": "",
+            "image_fit": "contain",
+            "card_background": "#ffffff",
+            "text_color": "#111111",
+            "link_color": "#FF4713"
+          }
+        },
+        "product_card_Hprydb": {
+          "type": "product_card",
+          "settings": {
+            "product": "metashopper-imprimante-thermique-bluetooth",
+            "custom_title": "Produit vedette",
+            "subtitle": "Une courte description",
+            "button_label": "",
+            "link": "",
+            "image_fit": "contain",
+            "card_background": "#ffffff",
+            "text_color": "#111111",
+            "link_color": "#FF4713"
+          }
+        }
+      },
+      "block_order": [
+        "product_card_UwxWNB",
+        "product_card_LFbgUR",
+        "product_card_Hprydb"
+      ],
+      "name": "Produits vedette",
+      "settings": {
+        "heading": "",
+        "text": "",
+        "default_button_label": "Achetez maintenant",
+        "section_background": "#f3f3f3",
+        "content_width": 1320,
+        "card_gap": 20,
+        "card_radius": 16,
+        "card_height": 510,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
       }
     },
     "logoscroll_DPhgVL": {
@@ -429,6 +494,7 @@
   "order": [
     "slideshow",
     "featured_collection_kpBPDr",
+    "cardcollection_wbQQQy",
     "logoscroll_DPhgVL",
     "rich_text_LhUqTA",
     "testimonials_NJ8KYx",
