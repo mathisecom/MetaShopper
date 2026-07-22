@@ -71,6 +71,39 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "rich_text_LhUqTA": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yE3tMf": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_meeX7C": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yE3tMf",
+        "heading_meeX7C"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_NJ8KYx": {
       "type": "testimonials",
       "blocks": {
@@ -158,6 +191,7 @@
   },
   "order": [
     "slideshow",
+    "rich_text_LhUqTA",
     "testimonials_NJ8KYx"
   ]
 }
