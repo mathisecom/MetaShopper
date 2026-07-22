@@ -196,7 +196,7 @@
         "desktop_columns": 3,
         "mobile_layout": "scroll",
         "text_alignment": "center",
-        "show_separators": false,
+        "show_separators": true,
         "gap_desktop": 48,
         "gap_mobile": 24,
         "background_color": "#ffffff",
@@ -309,10 +309,10 @@
         "text_size": 16,
         "title_size_mobile": 14,
         "text_size_mobile": 12,
-        "padding_top": 32,
-        "padding_bottom": 32,
+        "padding_top": 80,
+        "padding_bottom": 16,
         "padding_top_mobile": 52,
-        "padding_bottom_mobile": 24
+        "padding_bottom_mobile": 16
       }
     },
     "logoscroll_kxTj8A": {
