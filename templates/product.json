@@ -229,46 +229,7 @@
             "use_product_image": false,
             "icon": "shipping",
             "title": "Expédition rapide",
-            "text": "<p>Livraison rapide et suivie.</p>",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_DLWWHX": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "shield",
-            "title": "Garantie incluse",
-            "text": "<p>Achetez en toute sérénité.</p>",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_XtME3d": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "return",
-            "title": "Retour facile",
-            "text": "<p>Une procédure simple et rapide.</p>",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_RfmtMW": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "support",
-            "title": "Support réactif",
-            "text": "<p>Une équipe disponible pour vous.</p>",
+            "text": "",
             "link": "",
             "show_button": false,
             "button_label": "Découvrir"
@@ -276,10 +237,7 @@
         }
       },
       "block_order": [
-        "highlight_AaeeBR",
-        "highlight_DLWWHX",
-        "highlight_XtME3d",
-        "highlight_RfmtMW"
+        "highlight_AaeeBR"
       ],
       "name": "Cartes produits",
       "settings": {
