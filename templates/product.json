@@ -120,6 +120,39 @@
         "input_text_color": ""
       }
     },
+    "rich_text_mcTiCC": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_zTq9Pk": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_HhdUpP": {
+          "type": "heading",
+          "settings": {
+            "text": "+3,000 Clients Satisfaits",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zTq9Pk",
+        "heading_HhdUpP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_FKTYQG": {
       "type": "testimonials",
       "blocks": {
@@ -258,6 +291,7 @@
   },
   "order": [
     "main",
+    "rich_text_mcTiCC",
     "testimonials_FKTYQG",
     "related-products",
     "faq_bd9tjE"
