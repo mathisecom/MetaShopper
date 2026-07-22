@@ -237,7 +237,7 @@
           "settings": {
             "product": "metashopper-imprimante-thermique-bluetooth",
             "custom_title": "Imprimante Thermique",
-            "subtitle": "Une courte description",
+            "subtitle": "",
             "button_label": "",
             "link": "",
             "image": "shopify://shop_images/ChatGPT_Image_22_juil._2026_14_31_39.png",
@@ -252,7 +252,7 @@
           "settings": {
             "product": "etiquettes-thermiques-expedition-colis-4x6",
             "custom_title": "Étiquettes Thermique",
-            "subtitle": "Une courte description",
+            "subtitle": "",
             "button_label": "",
             "link": "",
             "image": "shopify://shop_images/ChatGPT_Image_22_juil._2026_14_38_54.png",
@@ -266,8 +266,8 @@
           "type": "product_card",
           "settings": {
             "product": "metashopper-imprimante-thermique-bluetooth",
-            "custom_title": "Produit vedette",
-            "subtitle": "Une courte description",
+            "custom_title": "Fournitures",
+            "subtitle": "",
             "button_label": "",
             "link": "",
             "image": "shopify://shop_images/ChatGPT_Image_22_juil._2026_14_42_53.png",
