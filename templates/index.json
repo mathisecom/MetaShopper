@@ -71,6 +71,87 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "barrdefilant_7BYcW3": {
+      "type": "barrdefilant",
+      "blocks": {
+        "item_DhCtA8": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "NETSTAMPS SHEETS & ROLLS",
+            "custom_link": ""
+          }
+        },
+        "item_Kbepnj": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "SAVE ON POSTAGE RATES",
+            "custom_link": ""
+          }
+        },
+        "item_hFb7GK": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "FAST SHIPPING ON ALL ORDERS",
+            "custom_link": ""
+          }
+        },
+        "item_HmFhfr": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "OFFICIAL USPS POSTAGE",
+            "custom_link": ""
+          }
+        },
+        "item_74w8pi": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "PRINT FROM ANYWHERE",
+            "custom_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_DhCtA8",
+        "item_Kbepnj",
+        "item_hFb7GK",
+        "item_HmFhfr",
+        "item_74w8pi"
+      ],
+      "name": "Barre produits défilante",
+      "settings": {
+        "enable_marquee": true,
+        "direction": "left",
+        "speed_desktop": 30,
+        "speed_mobile": 22,
+        "pause_on_hover": true,
+        "uppercase": true,
+        "font_weight": "700",
+        "font_size_desktop": 14,
+        "font_size_mobile": 12,
+        "letter_spacing": 8,
+        "open_new_tab": false,
+        "show_separator": true,
+        "separator": "•",
+        "background_color": "#FF4713",
+        "text_color": "#ffffff",
+        "hover_color": "#ffe4e4",
+        "separator_color": "#ff9b9b",
+        "border_color": "#FF4713",
+        "border_width": 0,
+        "padding_y_desktop": 8,
+        "padding_y_mobile": 7,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "accessibility_label": "Nos produits et avantages"
+      }
+    },
     "iconsbenefice_dFQmz9": {
       "type": "iconsbenefice",
       "blocks": {
@@ -131,13 +212,13 @@
         "show_separators": true,
         "gap_desktop": 20,
         "gap_mobile": 0,
-        "background_color": "#F7F7F9",
-        "card_background": "#F7F7F7",
+        "background_color": "#f7f7f9",
+        "card_background": "#f7f7f7",
         "heading_color": "#000000",
-        "title_color": "#FF3B0A",
+        "title_color": "#ff3b0a",
         "text_color": "#000000",
         "icon_color": "#000000",
-        "link_color": "#FF3B0A",
+        "link_color": "#ff3b0a",
         "icon_size": 48,
         "icon_size_mobile": 44,
         "title_size": 30,
@@ -407,7 +488,7 @@
             "min_height": 480,
             "background_color": "#ffffff",
             "text_color": "#242424",
-            "accent_color": "#FF4713",
+            "accent_color": "#ff4713",
             "image_background": "#ffffff",
             "button_background": "#242424",
             "button_text_color": "#ffffff",
@@ -650,6 +731,7 @@
   },
   "order": [
     "slideshow",
+    "barrdefilant_7BYcW3",
     "iconsbenefice_dFQmz9",
     "featured_collection_kpBPDr",
     "logoscroll_DPhgVL",
