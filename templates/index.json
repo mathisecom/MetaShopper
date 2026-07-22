@@ -447,7 +447,7 @@
           "type": "featured_product",
           "settings": {
             "product": "metashopper-imprimante-thermique-bluetooth",
-            "custom_image": "shopify://shop_images/ChatGPT_Image_22_juil._2026_15_47_16.png",
+            "custom_image": "shopify://shop_images/ChatGPT_Image_22_juil._2026_15_54_44.png",
             "image_position": "right",
             "mobile_order": "image_first",
             "image_clickable": true,
@@ -497,7 +497,7 @@
         "image_max_height": 540,
         "image_fit": "contain",
         "title_size_desktop": 40,
-        "title_size_mobile": 32,
+        "title_size_mobile": 34,
         "subtitle_size": 18,
         "description_size": 16,
         "description_size_mobile": 15,
