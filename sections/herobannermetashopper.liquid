@@ -1,0 +1,1275 @@
+{% comment %}
+  Hero banner Shopify — Metashopper
+  - Pleine largeur
+  - Branding par défaut : #FF4713 / #FFF8F5
+  - Responsive ordinateur, tablette et mobile
+  - Image produit modifiable
+  - Boutons, preuve sociale et avantages modifiables
+{% endcomment %}
+
+<section
+  id="metashopper-hero-{{ section.id }}"
+  class="metashopper-hero"
+  style="
+    --hero-bg: {{ section.settings.background_color }};
+    --hero-accent: {{ section.settings.accent_color }};
+    --hero-title: {{ section.settings.title_color }};
+    --hero-text: {{ section.settings.text_color }};
+    --hero-muted: {{ section.settings.muted_color }};
+    --hero-button-bg: {{ section.settings.button_background }};
+    --hero-button-text: {{ section.settings.button_text_color }};
+    --hero-secondary-border: {{ section.settings.secondary_button_border }};
+    --hero-chip-bg: {{ section.settings.chip_background }};
+    --hero-chip-text: {{ section.settings.chip_text_color }};
+    --hero-feature-bg: {{ section.settings.feature_background }};
+    --hero-feature-text: {{ section.settings.feature_text_color }};
+    --hero-max-width: {{ section.settings.max_width }}px;
+    --hero-radius: {{ section.settings.section_radius }}px;
+  "
+>
+  <div class="metashopper-hero__inner">
+    <div class="metashopper-hero__content">
+      {% if section.settings.eyebrow != blank %}
+        <div class="metashopper-hero__eyebrow">
+          {{ section.settings.eyebrow | escape }}
+        </div>
+      {% endif %}
+
+      <div class="metashopper-hero__heading">
+        {% if section.settings.heading_line_1 != blank %}
+          <h1>
+            <span>{{ section.settings.heading_line_1 | escape }}</span>
+            {% if section.settings.heading_line_2 != blank %}
+              <span>{{ section.settings.heading_line_2 | escape }}</span>
+            {% endif %}
+            {% if section.settings.heading_line_3 != blank %}
+              <span class="metashopper-hero__heading-accent">
+                {{ section.settings.heading_line_3 | escape }}
+              </span>
+            {% endif %}
+          </h1>
+        {% endif %}
+      </div>
+
+      {% if section.settings.description != blank %}
+        <div class="metashopper-hero__description rte">
+          {{ section.settings.description }}
+        </div>
+      {% endif %}
+
+      <div class="metashopper-hero__social-proof">
+        {% if section.settings.rating_text != blank %}
+          <div class="metashopper-hero__rating">
+            <span class="metashopper-hero__stars" aria-hidden="true">★★★★★</span>
+            <span>{{ section.settings.rating_text | escape }}</span>
+          </div>
+        {% endif %}
+
+        {% if section.settings.merchant_text != blank %}
+          <div class="metashopper-hero__proof-item">
+            <span class="metashopper-hero__proof-icon" aria-hidden="true">✓</span>
+            <span>{{ section.settings.merchant_text | escape }}</span>
+          </div>
+        {% endif %}
+
+        {% if section.settings.app_text != blank %}
+          <div class="metashopper-hero__proof-item">
+            <span class="metashopper-hero__proof-icon" aria-hidden="true">📱</span>
+            <span>{{ section.settings.app_text | escape }}</span>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="metashopper-hero__buttons">
+        {% if section.settings.primary_button_text != blank %}
+          <a
+            class="metashopper-hero__button metashopper-hero__button--primary"
+            href="{{ section.settings.primary_button_link | default: '#' }}"
+            {% if section.settings.primary_button_link == blank %}
+              role="link"
+              aria-disabled="true"
+            {% endif %}
+          >
+            <span>{{ section.settings.primary_button_text | escape }}</span>
+            {% if section.settings.show_primary_arrow %}
+              <span aria-hidden="true">→</span>
+            {% endif %}
+          </a>
+        {% endif %}
+
+        {% if section.settings.secondary_button_text != blank %}
+          <a
+            class="metashopper-hero__button metashopper-hero__button--secondary"
+            href="{{ section.settings.secondary_button_link | default: '#' }}"
+            {% if section.settings.secondary_button_link == blank %}
+              role="link"
+              aria-disabled="true"
+            {% endif %}
+          >
+            {{ section.settings.secondary_button_text | escape }}
+          </a>
+        {% endif %}
+      </div>
+
+      {% if section.blocks.size > 0 %}
+        <div class="metashopper-hero__features">
+          {% for block in section.blocks %}
+            <div class="metashopper-hero__feature" {{ block.shopify_attributes }}>
+              {% if block.settings.icon != blank %}
+                <span class="metashopper-hero__feature-icon" aria-hidden="true">
+                  {{ block.settings.icon }}
+                </span>
+              {% endif %}
+              <span>{{ block.settings.text | escape }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="metashopper-hero__visual">
+      <div class="metashopper-hero__visual-glow" aria-hidden="true"></div>
+
+      {% if section.settings.product_image != blank %}
+        <div class="metashopper-hero__image-wrap">
+          {{
+            section.settings.product_image
+            | image_url: width: 1800
+            | image_tag:
+              loading: 'eager',
+              fetchpriority: 'high',
+              widths: '480, 720, 960, 1200, 1500, 1800',
+              sizes: '(max-width: 749px) calc(100vw - 32px), 50vw',
+              alt: section.settings.product_image_alt
+          }}
+        </div>
+      {% else %}
+        <div class="metashopper-hero__placeholder">
+          {{ 'product-1' | placeholder_svg_tag: 'metashopper-hero__placeholder-svg' }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.show_visual_badge %}
+        <div class="metashopper-hero__visual-badge metashopper-hero__visual-badge--top">
+          <span aria-hidden="true">⚡</span>
+          <span>{{ section.settings.visual_badge_top | escape }}</span>
+        </div>
+
+        <div class="metashopper-hero__visual-badge metashopper-hero__visual-badge--bottom">
+          <span aria-hidden="true">📦</span>
+          <span>{{ section.settings.visual_badge_bottom | escape }}</span>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if section.settings.show_bottom_wave %}
+    <div class="metashopper-hero__wave" aria-hidden="true"></div>
+  {% endif %}
+</section>
+
+{% style %}
+  #metashopper-hero-{{ section.id }} {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    background:
+      radial-gradient(
+        circle at 74% 35%,
+        rgba(255, 71, 19, {{ section.settings.glow_opacity | divided_by: 100.0 }}) 0,
+        rgba(255, 71, 19, 0) 34%
+      ),
+      var(--hero-bg);
+    border-radius: var(--hero-radius);
+    color: var(--hero-text);
+  }
+
+  #metashopper-hero-{{ section.id }} * {
+    box-sizing: border-box;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__inner {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    width: min(calc(100% - 48px), var(--hero-max-width));
+    margin: 0 auto;
+    grid-template-columns: minmax(0, 1fr) minmax(0, .95fr);
+    align-items: center;
+    gap: {{ section.settings.column_gap }}px;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__content {
+    min-width: 0;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
+    padding: 7px 14px;
+    background: var(--hero-chip-bg);
+    border: 1px solid rgba(255, 71, 19, .22);
+    border-radius: 999px;
+    color: var(--hero-chip-text);
+    font-size: {{ section.settings.eyebrow_size }}px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__heading {
+    margin-top: {{ section.settings.heading_top_spacing }}px;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__heading h1 {
+    margin: 0;
+    color: var(--hero-title);
+    font-size: clamp(
+      {{ section.settings.heading_size_mobile }}px,
+      4.6vw,
+      {{ section.settings.heading_size_desktop }}px
+    );
+    font-weight: {{ section.settings.heading_weight }};
+    line-height: {{ section.settings.heading_line_height | divided_by: 100.0 }};
+    letter-spacing: -0.045em;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__heading h1 > span {
+    display: block;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__heading-accent {
+    color: var(--hero-accent);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__description {
+    max-width: {{ section.settings.description_max_width }}px;
+    margin-top: {{ section.settings.description_top_spacing }}px;
+    color: var(--hero-muted);
+    font-size: {{ section.settings.description_size }}px;
+    line-height: {{ section.settings.description_line_height | divided_by: 100.0 }};
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__description > * {
+    margin: 0;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__social-proof {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 12px;
+    margin-top: {{ section.settings.proof_top_spacing }}px;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__rating,
+  #metashopper-hero-{{ section.id }} .metashopper-hero__proof-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    min-height: 38px;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, .72);
+    border: 1px solid rgba(255, 71, 19, .12);
+    border-radius: 999px;
+    color: var(--hero-text);
+    font-size: {{ section.settings.proof_size }}px;
+    font-weight: 600;
+    line-height: 1.25;
+    backdrop-filter: blur(10px);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__stars {
+    color: var(--hero-accent);
+    font-size: 14px;
+    letter-spacing: .06em;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__proof-icon {
+    color: var(--hero-accent);
+    font-weight: 800;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: {{ section.settings.buttons_top_spacing }}px;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__button {
+    display: inline-flex;
+    min-height: {{ section.settings.button_height }}px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 24px;
+    border-radius: {{ section.settings.button_radius }}px;
+    font-size: {{ section.settings.button_font_size }}px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: transform .18s ease, box-shadow .18s ease, opacity .18s ease;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__button:hover {
+    transform: translateY(-2px);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__button:active {
+    transform: translateY(0) scale(.98);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__button[aria-disabled="true"] {
+    pointer-events: none;
+    opacity: .65;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__button--primary {
+    background: var(--hero-button-bg);
+    border: 1px solid var(--hero-button-bg);
+    box-shadow: 0 14px 34px rgba(255, 71, 19, .22);
+    color: var(--hero-button-text);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__button--secondary {
+    background: transparent;
+    border: 1px solid var(--hero-secondary-border);
+    color: var(--hero-title);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__features {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: {{ section.settings.features_top_spacing }}px;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    min-height: 48px;
+    padding: 12px 14px;
+    background: var(--hero-feature-bg);
+    border: 1px solid rgba(255, 71, 19, .11);
+    border-radius: {{ section.settings.feature_radius }}px;
+    color: var(--hero-feature-text);
+    font-size: {{ section.settings.feature_size }}px;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__feature-icon {
+    flex: 0 0 auto;
+    color: var(--hero-accent);
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__visual {
+    position: relative;
+    display: grid;
+    min-height: {{ section.settings.visual_min_height }}px;
+    place-items: center;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__visual-glow {
+    position: absolute;
+    inset: 12% 6%;
+    background: radial-gradient(circle, rgba(255, 71, 19, .22), rgba(255, 71, 19, 0) 70%);
+    filter: blur(24px);
+    pointer-events: none;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__image-wrap,
+  #metashopper-hero-{{ section.id }} .metashopper-hero__placeholder {
+    position: relative;
+    z-index: 2;
+    width: min(100%, {{ section.settings.image_max_width }}px);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__image-wrap img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: {{ section.settings.image_max_height }}px;
+    object-fit: contain;
+    filter: drop-shadow(0 28px 34px rgba(47, 20, 10, .22));
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__placeholder {
+    display: grid;
+    aspect-ratio: 1 / 1;
+    place-items: center;
+    color: rgba(255, 71, 19, .35);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__placeholder-svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__visual-badge {
+    position: absolute;
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 230px;
+    padding: 11px 14px;
+    background: rgba(255, 255, 255, .88);
+    border: 1px solid rgba(255, 71, 19, .14);
+    border-radius: 999px;
+    box-shadow: 0 14px 34px rgba(47, 20, 10, .12);
+    color: var(--hero-title);
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.25;
+    backdrop-filter: blur(12px);
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__visual-badge--top {
+    top: 13%;
+    right: 1%;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__visual-badge--bottom {
+    bottom: 12%;
+    left: 1%;
+  }
+
+  #metashopper-hero-{{ section.id }} .metashopper-hero__wave {
+    position: absolute;
+    right: -5%;
+    bottom: -62px;
+    left: -5%;
+    z-index: 1;
+    height: 110px;
+    background: {{ section.settings.wave_color }};
+    border-radius: 50% 50% 0 0 / 35% 35% 0 0;
+  }
+
+  @media screen and (max-width: 989px) {
+    #metashopper-hero-{{ section.id }} .metashopper-hero__inner {
+      grid-template-columns: 1fr 1fr;
+      gap: {{ section.settings.column_gap_tablet }}px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__features {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    #metashopper-hero-{{ section.id }} {
+      padding: {{ section.settings.padding_top_mobile }}px 0 {{ section.settings.padding_bottom_mobile }}px;
+      border-radius: {{ section.settings.section_radius_mobile }}px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__inner {
+      width: min(calc(100% - 28px), var(--hero-max-width));
+      grid-template-columns: 1fr;
+      gap: {{ section.settings.column_gap_mobile }}px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__content {
+      text-align: {{ section.settings.mobile_text_alignment }};
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__description {
+      margin-right: {% if section.settings.mobile_text_alignment == 'center' %}auto{% else %}0{% endif %};
+      margin-left: {% if section.settings.mobile_text_alignment == 'center' %}auto{% else %}0{% endif %};
+      font-size: {{ section.settings.description_size_mobile }}px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__social-proof,
+    #metashopper-hero-{{ section.id }} .metashopper-hero__buttons {
+      justify-content: {% if section.settings.mobile_text_alignment == 'center' %}center{% else %}flex-start{% endif %};
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__buttons {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__button {
+      width: 100%;
+      min-height: {{ section.settings.button_height_mobile }}px;
+      font-size: {{ section.settings.button_font_size_mobile }}px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__features {
+      grid-template-columns: 1fr;
+      margin-top: {{ section.settings.features_top_spacing_mobile }}px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__feature {
+      font-size: {{ section.settings.feature_size_mobile }}px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__visual {
+      min-height: {{ section.settings.visual_min_height_mobile }}px;
+      order: {% if section.settings.mobile_image_first %}-1{% else %}2{% endif %};
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__image-wrap img {
+      max-height: {{ section.settings.image_max_height_mobile }}px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__visual-badge {
+      max-width: 185px;
+      padding: 9px 11px;
+      font-size: 11px;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__visual-badge--top {
+      top: 8%;
+      right: 0;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__visual-badge--bottom {
+      bottom: 8%;
+      left: 0;
+    }
+
+    #metashopper-hero-{{ section.id }} .metashopper-hero__wave {
+      bottom: -72px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #metashopper-hero-{{ section.id }} .metashopper-hero__button {
+      transition: none;
+    }
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Hero Metashopper",
+  "tag": "section",
+  "class": "section-metashopper-hero",
+  "max_blocks": 8,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Contenu principal"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Sur-titre",
+      "default": "IMPRIMANTE THERMIQUE SANS FIL • EXPÉDITION RAPIDE"
+    },
+    {
+      "type": "text",
+      "id": "heading_line_1",
+      "label": "Titre — ligne 1",
+      "default": "IMPRIMEZ. EXPÉDIEZ."
+    },
+    {
+      "type": "text",
+      "id": "heading_line_2",
+      "label": "Titre — ligne 2",
+      "default": "DÉVELOPPEZ"
+    },
+    {
+      "type": "text",
+      "id": "heading_line_3",
+      "label": "Titre — ligne accentuée",
+      "default": "VOTRE BOUTIQUE."
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Gagnez un temps précieux avec l’imprimante thermique Metashopper : sans fil, ultra rapide et compatible avec Vinted, Mondial Relay, Colissimo, Shopify, Amazon et plus.</p>"
+    },
+    {
+      "type": "text",
+      "id": "rating_text",
+      "label": "Note",
+      "default": "Excellent 4,9/5"
+    },
+    {
+      "type": "text",
+      "id": "merchant_text",
+      "label": "Preuve sociale",
+      "default": "Déjà adoptée par de nombreux e-commerçants"
+    },
+    {
+      "type": "text",
+      "id": "app_text",
+      "label": "Application",
+      "default": "Application mobile gratuite"
+    },
+    {
+      "type": "text",
+      "id": "primary_button_text",
+      "label": "Bouton principal",
+      "default": "DÉCOUVRIR L’IMPRIMANTE"
+    },
+    {
+      "type": "url",
+      "id": "primary_button_link",
+      "label": "Lien du bouton principal"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_primary_arrow",
+      "label": "Afficher une flèche",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "secondary_button_text",
+      "label": "Bouton secondaire"
+    },
+    {
+      "type": "url",
+      "id": "secondary_button_link",
+      "label": "Lien du bouton secondaire"
+    },
+    {
+      "type": "header",
+      "content": "Visuel produit"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image",
+      "label": "Image de l’imprimante"
+    },
+    {
+      "type": "text",
+      "id": "product_image_alt",
+      "label": "Texte alternatif",
+      "default": "Imprimante thermique Metashopper"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_visual_badge",
+      "label": "Afficher les badges sur l’image",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "visual_badge_top",
+      "label": "Badge supérieur",
+      "default": "Bluetooth & USB"
+    },
+    {
+      "type": "text",
+      "id": "visual_badge_bottom",
+      "label": "Badge inférieur",
+      "default": "Livraison 24/48h offerte"
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Fond principal",
+      "default": "#FFF8F5"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Couleur principale",
+      "default": "#FF4713"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Titres",
+      "default": "#161616"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Texte principal",
+      "default": "#252525"
+    },
+    {
+      "type": "color",
+      "id": "muted_color",
+      "label": "Texte secondaire",
+      "default": "#5E514D"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Fond du bouton principal",
+      "default": "#FF4713"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Texte du bouton principal",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "secondary_button_border",
+      "label": "Bordure du bouton secondaire",
+      "default": "#FF4713"
+    },
+    {
+      "type": "color",
+      "id": "chip_background",
+      "label": "Fond du sur-titre",
+      "default": "#FFE6DE"
+    },
+    {
+      "type": "color",
+      "id": "chip_text_color",
+      "label": "Texte du sur-titre",
+      "default": "#C9340C"
+    },
+    {
+      "type": "color",
+      "id": "feature_background",
+      "label": "Fond des avantages",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "feature_text_color",
+      "label": "Texte des avantages",
+      "default": "#28201E"
+    },
+    {
+      "type": "color",
+      "id": "wave_color",
+      "label": "Couleur de la vague basse",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "header",
+      "content": "Dimensions générales"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Largeur maximale",
+      "min": 1000,
+      "max": 1800,
+      "step": 20,
+      "unit": "px",
+      "default": 1460
+    },
+    {
+      "type": "range",
+      "id": "section_radius",
+      "label": "Arrondi de la section sur ordinateur",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "section_radius_mobile",
+      "label": "Arrondi de la section sur mobile",
+      "min": 0,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "label": "Espace entre les colonnes",
+      "min": 20,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "column_gap_tablet",
+      "label": "Espace sur tablette",
+      "min": 16,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "column_gap_mobile",
+      "label": "Espace sur mobile",
+      "min": 20,
+      "max": 72,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "glow_opacity",
+      "label": "Intensité de la lueur orange",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "%",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Typographie"
+    },
+    {
+      "type": "range",
+      "id": "eyebrow_size",
+      "label": "Taille du sur-titre",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "label": "Titre sur ordinateur",
+      "min": 42,
+      "max": 96,
+      "step": 2,
+      "unit": "px",
+      "default": 68
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Titre sur mobile",
+      "min": 30,
+      "max": 58,
+      "step": 2,
+      "unit": "px",
+      "default": 42
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Graisse du titre",
+      "default": "800",
+      "options": [
+        { "value": "600", "label": "Semi-gras" },
+        { "value": "700", "label": "Gras" },
+        { "value": "800", "label": "Très gras" },
+        { "value": "900", "label": "Ultra gras" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "heading_line_height",
+      "label": "Interligne du titre",
+      "min": 90,
+      "max": 130,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description sur ordinateur",
+      "min": 15,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "description_size_mobile",
+      "label": "Description sur mobile",
+      "min": 14,
+      "max": 21,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "description_line_height",
+      "label": "Interligne de la description",
+      "min": 130,
+      "max": 190,
+      "step": 5,
+      "unit": "%",
+      "default": 160
+    },
+    {
+      "type": "range",
+      "id": "description_max_width",
+      "label": "Largeur maximale de la description",
+      "min": 360,
+      "max": 760,
+      "step": 20,
+      "unit": "px",
+      "default": 620
+    },
+    {
+      "type": "range",
+      "id": "proof_size",
+      "label": "Taille des preuves sociales",
+      "min": 11,
+      "max": 17,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "header",
+      "content": "Boutons et avantages"
+    },
+    {
+      "type": "range",
+      "id": "button_height",
+      "label": "Hauteur du bouton sur ordinateur",
+      "min": 44,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "default": 54
+    },
+    {
+      "type": "range",
+      "id": "button_height_mobile",
+      "label": "Hauteur du bouton sur mobile",
+      "min": 44,
+      "max": 68,
+      "step": 2,
+      "unit": "px",
+      "default": 52
+    },
+    {
+      "type": "range",
+      "id": "button_radius",
+      "label": "Arrondi des boutons",
+      "min": 0,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "label": "Texte du bouton sur ordinateur",
+      "min": 13,
+      "max": 21,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "button_font_size_mobile",
+      "label": "Texte du bouton sur mobile",
+      "min": 13,
+      "max": 19,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "feature_radius",
+      "label": "Arrondi des avantages",
+      "min": 0,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "feature_size",
+      "label": "Texte des avantages sur ordinateur",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "feature_size_mobile",
+      "label": "Texte des avantages sur mobile",
+      "min": 12,
+      "max": 17,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Visuel"
+    },
+    {
+      "type": "range",
+      "id": "visual_min_height",
+      "label": "Hauteur minimale du visuel sur ordinateur",
+      "min": 360,
+      "max": 760,
+      "step": 20,
+      "unit": "px",
+      "default": 560
+    },
+    {
+      "type": "range",
+      "id": "visual_min_height_mobile",
+      "label": "Hauteur minimale du visuel sur mobile",
+      "min": 260,
+      "max": 600,
+      "step": 20,
+      "unit": "px",
+      "default": 360
+    },
+    {
+      "type": "range",
+      "id": "image_max_width",
+      "label": "Largeur maximale de l’image",
+      "min": 360,
+      "max": 900,
+      "step": 20,
+      "unit": "px",
+      "default": 680
+    },
+    {
+      "type": "range",
+      "id": "image_max_height",
+      "label": "Hauteur maximale de l’image sur ordinateur",
+      "min": 320,
+      "max": 760,
+      "step": 20,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "image_max_height_mobile",
+      "label": "Hauteur maximale de l’image sur mobile",
+      "min": 240,
+      "max": 520,
+      "step": 20,
+      "unit": "px",
+      "default": 360
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_image_first",
+      "label": "Afficher l’image avant le texte sur mobile",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "mobile_text_alignment",
+      "label": "Alignement du texte sur mobile",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "À gauche" },
+        { "value": "center", "label": "Centré" }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_bottom_wave",
+      "label": "Afficher la vague en bas",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Espacements"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Marge haute sur ordinateur",
+      "min": 20,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "default": 72
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Marge basse sur ordinateur",
+      "min": 20,
+      "max": 220,
+      "step": 4,
+      "unit": "px",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Marge haute sur mobile",
+      "min": 20,
+      "max": 140,
+      "step": 4,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Marge basse sur mobile",
+      "min": 20,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "default": 72
+    },
+    {
+      "type": "range",
+      "id": "heading_top_spacing",
+      "label": "Espace avant le titre",
+      "min": 8,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "description_top_spacing",
+      "label": "Espace avant la description",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "proof_top_spacing",
+      "label": "Espace avant les preuves sociales",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "buttons_top_spacing",
+      "label": "Espace avant les boutons",
+      "min": 12,
+      "max": 56,
+      "step": 2,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "range",
+      "id": "features_top_spacing",
+      "label": "Espace avant les avantages",
+      "min": 12,
+      "max": 56,
+      "step": 2,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "range",
+      "id": "features_top_spacing_mobile",
+      "label": "Espace avant les avantages sur mobile",
+      "min": 12,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 22
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Avantage",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Icône ou emoji",
+          "default": "✓"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texte",
+          "default": "Livraison 24/48h offerte"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Metashopper",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🚚",
+            "text": "Livraison 24/48h OFFERTE"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🛡️",
+            "text": "Garantie 2 ans"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🎁",
+            "text": "Étiquettes offertes"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "📱",
+            "text": "Compatible smartphones et ordinateurs"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🏷️",
+            "text": "Fonctionne avec la plupart des étiquettes thermiques"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🛍️",
+            "text": "Compatible avec toutes les marketplaces"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🔗",
+            "text": "Connectivité Bluetooth & USB"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
