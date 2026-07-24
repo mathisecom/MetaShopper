@@ -546,9 +546,9 @@
       ],
       "name": "Étapes imprimante Avisi",
       "settings": {
-        "heading": "COMMENT FONCTIONNE L'IMPRIMANTE THERMIQUE ?",
+        "heading": "Comment Fonctionne l'imprimante Thermique ?",
         "subtitle": "4 étapes simples pour créer et imprimer vos étiquettes",
-        "heading_uppercase": true,
+        "heading_uppercase": false,
         "background_color": "#FFF8F5",
         "accent_color": "#FF4713",
         "number_text_color": "#FFFFFF",
