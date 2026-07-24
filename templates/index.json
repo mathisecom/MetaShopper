@@ -940,6 +940,7 @@
         "image_wNbLHW",
         "image_4TPX4A"
       ],
+      "disabled": true,
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
         "layout_radius": 30,
