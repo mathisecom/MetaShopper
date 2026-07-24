@@ -53,7 +53,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -287,10 +286,10 @@
       "settings": {
         "heading": "Simplifiez Vos Expéditions",
         "text": "",
-        "section_background": "#FFFFFF",
+        "section_background": "#ffffff",
         "card_background": "#ffffff",
         "text_color": "#111111",
-        "accent_color": "#FF4713",
+        "accent_color": "#ff4713",
         "content_width": 1320,
         "columns_desktop": "4",
         "columns_mobile": "2",
