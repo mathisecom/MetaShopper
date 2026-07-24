@@ -484,9 +484,9 @@
         "title_size_mobile": 14,
         "text_size_mobile": 13,
         "padding_top": 80,
-        "padding_bottom": 16,
+        "padding_bottom": 60,
         "padding_top_mobile": 52,
-        "padding_bottom_mobile": 16
+        "padding_bottom_mobile": 28
       }
     },
     "etapeimprimante_aHGmrw": {
