@@ -31,6 +31,12 @@
             "heading_tag": "h3"
           }
         },
+        "price_L3ctEa": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
         "liquid_mUKjG4": {
           "type": "liquid",
           "disabled": true,
@@ -104,6 +110,7 @@
         },
         "collapsible_text_PAbMgp": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 20,
@@ -117,6 +124,7 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "price_L3ctEa",
         "liquid_mUKjG4",
         "description",
         "variant_picker",
