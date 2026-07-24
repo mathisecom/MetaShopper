@@ -502,6 +502,107 @@
         "padding_bottom_mobile": 16
       }
     },
+    "etapeimprimante_aHGmrw": {
+      "type": "etapeimprimante",
+      "blocks": {
+        "step_QeeXEa": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Scannez le QR code",
+            "text": "<p>Scannez le QR code pour télécharger l’application.</p>"
+          }
+        },
+        "step_XkeMVt": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "Connectez l’imprimante",
+            "text": "<p>Ouvrez l’application et cliquez sur « Connecter ».</p>"
+          }
+        },
+        "step_BkC7qm": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Créez votre étiquette",
+            "text": "<p>Choisissez le format et la taille adaptés à votre besoin.</p>"
+          }
+        },
+        "step_KYB3yk": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Imprimez instantanément",
+            "text": "<p>Téléchargez votre création et imprimez-la immédiatement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_QeeXEa",
+        "step_XkeMVt",
+        "step_BkC7qm",
+        "step_KYB3yk"
+      ],
+      "name": "Étapes imprimante Avisi",
+      "settings": {
+        "heading": "COMMENT FONCTIONNE L'IMPRIMANTE THERMIQUE ?",
+        "subtitle": "4 étapes simples pour créer et imprimer vos étiquettes",
+        "heading_uppercase": true,
+        "background_color": "#FFF8F5",
+        "accent_color": "#FF4713",
+        "number_text_color": "#FFFFFF",
+        "title_color": "#111111",
+        "text_color": "#222222",
+        "muted_color": "#4B4B4B",
+        "grid_line_color": "#E9DDD8",
+        "max_width": 1440,
+        "header_max_width": 900,
+        "desktop_columns": 4,
+        "tablet_columns": 2,
+        "desktop_gap": 32,
+        "tablet_gap": 24,
+        "mobile_gap": 28,
+        "item_min_height": 220,
+        "item_padding_vertical": 20,
+        "item_padding_horizontal": 16,
+        "item_padding_vertical_mobile": 12,
+        "item_padding_horizontal_mobile": 12,
+        "grid_size": 80,
+        "grid_size_mobile": 60,
+        "grid_opacity": 18,
+        "heading_size_desktop": 32,
+        "heading_size_mobile": 26,
+        "heading_weight": "700",
+        "heading_line_height": 110,
+        "subtitle_size_desktop": 15,
+        "subtitle_size_mobile": 13,
+        "subtitle_weight": "400",
+        "item_title_size_desktop": 19,
+        "item_title_size_mobile": 19,
+        "item_title_weight": "700",
+        "item_text_size_desktop": 16,
+        "item_text_size_mobile": 14,
+        "item_text_weight": "400",
+        "item_text_line_height": 155,
+        "item_text_max_width": 320,
+        "item_text_max_width_mobile": 360,
+        "number_size": 56,
+        "number_radius": 16,
+        "number_font_size": 24,
+        "number_bottom_spacing": 22,
+        "number_bottom_spacing_mobile": 18,
+        "number_shadow_y": 8,
+        "number_shadow_blur": 18,
+        "number_shadow_opacity": 18,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "header_bottom_spacing": 48,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48,
+        "header_bottom_spacing_mobile": 32
+      }
+    },
     "logoscroll_kxTj8A": {
       "type": "logoscroll",
       "blocks": {
@@ -827,6 +928,7 @@
     "imagebenefice_mE9rDL",
     "barrdefilant_rHtehN",
     "pourquoinouschoisir_GhLyKW",
+    "etapeimprimante_aHGmrw",
     "logoscroll_kxTj8A",
     "rich_text_mcTiCC",
     "testimonials_FKTYQG",
