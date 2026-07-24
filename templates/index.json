@@ -162,7 +162,7 @@
           "type": "item",
           "settings": {
             "product": "",
-            "custom_text": "NETSTAMPS SHEETS & ROLLS",
+            "custom_text": "Impression ultra rapide",
             "custom_link": ""
           }
         },
@@ -170,7 +170,7 @@
           "type": "item",
           "settings": {
             "product": "",
-            "custom_text": "SAVE ON POSTAGE RATES",
+            "custom_text": "Zéro encre, zéro cartouche",
             "custom_link": ""
           }
         },
@@ -178,23 +178,7 @@
           "type": "item",
           "settings": {
             "product": "",
-            "custom_text": "FAST SHIPPING ON ALL ORDERS",
-            "custom_link": ""
-          }
-        },
-        "item_HmFhfr": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "custom_text": "OFFICIAL USPS POSTAGE",
-            "custom_link": ""
-          }
-        },
-        "item_74w8pi": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "custom_text": "PRINT FROM ANYWHERE",
+            "custom_text": "Compatible partout",
             "custom_link": ""
           }
         }
@@ -202,9 +186,7 @@
       "block_order": [
         "item_DhCtA8",
         "item_Kbepnj",
-        "item_hFb7GK",
-        "item_HmFhfr",
-        "item_74w8pi"
+        "item_hFb7GK"
       ],
       "name": "Barre produits défilante",
       "settings": {
