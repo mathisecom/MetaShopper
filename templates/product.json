@@ -221,6 +221,106 @@
         "padding_bottom_mobile": 16
       }
     },
+    "imagebenefice_mE9rDL": {
+      "type": "imagebenefice",
+      "blocks": {
+        "feature_7QaiGC": {
+          "type": "feature",
+          "settings": {
+            "show_icon": false,
+            "icon": "check",
+            "title": "Sans encre, pour toujours",
+            "text": "<p>Imprimez sans acheter d’encre ni de cartouches. La technologie thermique directe permet une impression simple, rapide et économique.</p>"
+          }
+        },
+        "feature_Bqp6Bh": {
+          "type": "feature",
+          "settings": {
+            "show_icon": false,
+            "icon": "check",
+            "title": "Simplifiez vos expéditions",
+            "text": "<p>Décollez l’étiquette, collez-la sur l’emballage et votre colis est prêt à partir. C’est aussi simple que cela.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_7QaiGC",
+        "feature_Bqp6Bh"
+      ],
+      "name": "Image et Avantages",
+      "settings": {
+        "heading": "L’impression n’a jamais été aussi simple.",
+        "subheading": "",
+        "image_alt": "Imprimante d’étiquettes et exemples d’impression",
+        "content_heading": "",
+        "content_intro": "",
+        "button_text": "",
+        "button_link": "",
+        "show_button_arrow": true,
+        "section_background": "#FFFFFF",
+        "image_background": "#F9FAFB",
+        "title_color": "#000000",
+        "text_color": "#000000",
+        "muted_color": "#5E6470",
+        "accent_color": "#FF4713",
+        "icon_background": "#F0F5FF",
+        "max_width": 1480,
+        "header_max_width": 900,
+        "image_position": "left",
+        "mobile_order": "image-first",
+        "image_column_width": 1,
+        "text_column_width": 1,
+        "column_gap": 44,
+        "column_gap_tablet": 32,
+        "column_gap_mobile": 32,
+        "image_ratio": "1 / 1",
+        "image_fit": "cover",
+        "image_position_x": 50,
+        "image_position_y": 50,
+        "image_radius": 0,
+        "heading_size_desktop": 54,
+        "heading_size_mobile": 34,
+        "heading_weight": "700",
+        "heading_line_height": 105,
+        "subheading_size": 17,
+        "content_heading_size": 42,
+        "content_heading_size_mobile": 30,
+        "content_heading_weight": "700",
+        "content_intro_size": 17,
+        "content_intro_size_mobile": 16,
+        "feature_title_size": 34,
+        "feature_title_size_mobile": 26,
+        "feature_title_weight": "700",
+        "feature_text_size": 17,
+        "feature_text_size_mobile": 16,
+        "feature_text_line_height": 155,
+        "feature_gap": 36,
+        "features_top_spacing": 0,
+        "icon_gap": 14,
+        "icon_size": 40,
+        "icon_font_size": 18,
+        "icon_radius": 20,
+        "button_background": "#0066FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#0066FF",
+        "button_border_width": 1,
+        "button_radius": 10,
+        "button_height": 50,
+        "button_height_mobile": 48,
+        "button_font_size": 16,
+        "button_font_size_mobile": 15,
+        "button_weight": "700",
+        "button_top_spacing": 28,
+        "button_top_spacing_mobile": 24,
+        "button_full_width_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 80,
+        "header_bottom_spacing": 36,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 48,
+        "header_bottom_spacing_mobile": 28
+      }
+    },
     "pourquoinouschoisir_GhLyKW": {
       "type": "pourquoinouschoisir",
       "blocks": {
@@ -637,6 +737,7 @@
   "order": [
     "main",
     "iconsbenefice_mapNKM",
+    "imagebenefice_mE9rDL",
     "pourquoinouschoisir_GhLyKW",
     "logoscroll_kxTj8A",
     "rich_text_mcTiCC",
