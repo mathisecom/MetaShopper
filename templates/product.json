@@ -328,6 +328,87 @@
         "header_bottom_spacing_mobile": 28
       }
     },
+    "barrdefilant_rHtehN": {
+      "type": "barrdefilant",
+      "blocks": {
+        "item_DpMHfM": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "NETSTAMPS SHEETS & ROLLS",
+            "custom_link": ""
+          }
+        },
+        "item_C6Jprg": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "SAVE ON POSTAGE RATES",
+            "custom_link": ""
+          }
+        },
+        "item_px6hAh": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "FAST SHIPPING ON ALL ORDERS",
+            "custom_link": ""
+          }
+        },
+        "item_nNYKQ7": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "OFFICIAL USPS POSTAGE",
+            "custom_link": ""
+          }
+        },
+        "item_jUJktr": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "custom_text": "PRINT FROM ANYWHERE",
+            "custom_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_DpMHfM",
+        "item_C6Jprg",
+        "item_px6hAh",
+        "item_nNYKQ7",
+        "item_jUJktr"
+      ],
+      "name": "Barre produits défilante",
+      "settings": {
+        "enable_marquee": true,
+        "direction": "left",
+        "speed_desktop": 30,
+        "speed_mobile": 22,
+        "pause_on_hover": true,
+        "uppercase": true,
+        "font_weight": "700",
+        "font_size_desktop": 14,
+        "font_size_mobile": 12,
+        "letter_spacing": 8,
+        "open_new_tab": false,
+        "show_separator": true,
+        "separator": "•",
+        "background_color": "#FF4713",
+        "text_color": "#ffffff",
+        "hover_color": "#ffe4e4",
+        "separator_color": "#ff9b9b",
+        "border_color": "#FF4713",
+        "border_width": 0,
+        "padding_y_desktop": 14,
+        "padding_y_mobile": 14,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "accessibility_label": "Nos produits et avantages"
+      }
+    },
     "pourquoinouschoisir_GhLyKW": {
       "type": "pourquoinouschoisir",
       "blocks": {
@@ -745,6 +826,7 @@
     "main",
     "iconsbenefice_mapNKM",
     "imagebenefice_mE9rDL",
+    "barrdefilant_rHtehN",
     "pourquoinouschoisir_GhLyKW",
     "logoscroll_kxTj8A",
     "rich_text_mcTiCC",
