@@ -116,7 +116,7 @@
         "column_gap": 64,
         "column_gap_tablet": 36,
         "column_gap_mobile": 32,
-        "glow_opacity": 14,
+        "glow_opacity": 8,
         "eyebrow_size": 10,
         "heading_size_desktop": 46,
         "heading_size_mobile": 30,
