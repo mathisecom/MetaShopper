@@ -1,0 +1,1148 @@
+{% comment %}
+  Section Shopify : Image + avantages — Avisi
+  Inspirée du visuel fourni :
+  - grand titre centré
+  - image à gauche sur ordinateur
+  - avantages à droite
+  - empilement responsive sur mobile
+  - contenu entièrement modifiable dans l’éditeur Shopify
+{% endcomment %}
+
+<section
+  id="avisi-image-features-{{ section.id }}"
+  class="avisi-image-features"
+  style="
+    --avisi-section-bg: {{ section.settings.section_background }};
+    --avisi-title-color: {{ section.settings.title_color }};
+    --avisi-text-color: {{ section.settings.text_color }};
+    --avisi-muted-color: {{ section.settings.muted_color }};
+    --avisi-accent-color: {{ section.settings.accent_color }};
+    --avisi-image-bg: {{ section.settings.image_background }};
+    --avisi-max-width: {{ section.settings.max_width }}px;
+    --avisi-column-gap: {{ section.settings.column_gap }}px;
+    --avisi-feature-gap: {{ section.settings.feature_gap }}px;
+    --avisi-image-radius: {{ section.settings.image_radius }}px;
+  "
+>
+  <div class="avisi-image-features__container">
+    {% if section.settings.heading != blank %}
+      <header class="avisi-image-features__header">
+        <h2 class="avisi-image-features__heading">
+          {{ section.settings.heading | escape }}
+        </h2>
+
+        {% if section.settings.subheading != blank %}
+          <div class="avisi-image-features__subheading rte">
+            {{ section.settings.subheading }}
+          </div>
+        {% endif %}
+      </header>
+    {% endif %}
+
+    <div class="avisi-image-features__grid avisi-image-features__grid--{{ section.settings.image_position }}{% if section.settings.mobile_order == 'text-first' %} avisi-image-features__grid--mobile-text-first{% endif %}">
+      <div class="avisi-image-features__media">
+        {% if section.settings.image != blank %}
+          <div class="avisi-image-features__image-wrap">
+            {{
+              section.settings.image
+              | image_url: width: 1800
+              | image_tag:
+                loading: 'lazy',
+                widths: '480, 720, 960, 1200, 1500, 1800',
+                sizes: '(max-width: 749px) calc(100vw - 28px), 50vw',
+                alt: section.settings.image_alt
+            }}
+          </div>
+        {% else %}
+          <div class="avisi-image-features__placeholder">
+            {{ 'image' | placeholder_svg_tag: 'avisi-image-features__placeholder-svg' }}
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="avisi-image-features__content">
+        {% if section.settings.content_heading != blank %}
+          <h3 class="avisi-image-features__content-heading">
+            {{ section.settings.content_heading | escape }}
+          </h3>
+        {% endif %}
+
+        {% if section.settings.content_intro != blank %}
+          <div class="avisi-image-features__content-intro rte">
+            {{ section.settings.content_intro }}
+          </div>
+        {% endif %}
+
+        {% if section.blocks.size > 0 %}
+          <div class="avisi-image-features__features">
+            {% for block in section.blocks %}
+              <article
+                class="avisi-image-features__feature"
+                {{ block.shopify_attributes }}
+              >
+                {% if block.settings.show_icon %}
+                  <div class="avisi-image-features__icon" aria-hidden="true">
+                    {% case block.settings.icon %}
+                      {% when 'check' %}
+                        ✓
+                      {% when 'star' %}
+                        ★
+                      {% when 'sparkle' %}
+                        ✦
+                      {% when 'arrow' %}
+                        →
+                      {% when 'box' %}
+                        □
+                      {% else %}
+                        ✓
+                    {% endcase %}
+                  </div>
+                {% endif %}
+
+                <div class="avisi-image-features__feature-copy">
+                  {% if block.settings.title != blank %}
+                    <h4>{{ block.settings.title | escape }}</h4>
+                  {% endif %}
+
+                  {% if block.settings.text != blank %}
+                    <div class="rte">
+                      {{ block.settings.text }}
+                    </div>
+                  {% endif %}
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if section.settings.button_text != blank %}
+          <div class="avisi-image-features__button-wrap">
+            <a
+              class="avisi-image-features__button"
+              href="{{ section.settings.button_link | default: '#' }}"
+              {% if section.settings.button_link == blank %}
+                role="link"
+                aria-disabled="true"
+              {% endif %}
+            >
+              <span>{{ section.settings.button_text | escape }}</span>
+
+              {% if section.settings.show_button_arrow %}
+                <span aria-hidden="true">→</span>
+              {% endif %}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% style %}
+  #avisi-image-features-{{ section.id }} {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    background: var(--avisi-section-bg);
+    color: var(--avisi-text-color);
+  }
+
+  #avisi-image-features-{{ section.id }} * {
+    box-sizing: border-box;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__container {
+    width: min(calc(100% - 40px), var(--avisi-max-width));
+    margin: 0 auto;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__header {
+    max-width: {{ section.settings.header_max_width }}px;
+    margin: 0 auto {{ section.settings.header_bottom_spacing }}px;
+    text-align: center;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__heading {
+    margin: 0;
+    color: var(--avisi-title-color);
+    font-size: clamp(
+      {{ section.settings.heading_size_mobile }}px,
+      4vw,
+      {{ section.settings.heading_size_desktop }}px
+    );
+    font-weight: {{ section.settings.heading_weight }};
+    line-height: {{ section.settings.heading_line_height | divided_by: 100.0 }};
+    letter-spacing: -0.04em;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__subheading {
+    margin-top: 16px;
+    color: var(--avisi-muted-color);
+    font-size: {{ section.settings.subheading_size }}px;
+    line-height: 1.6;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__subheading > * {
+    margin: 0;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__grid {
+    display: grid;
+    grid-template-columns:
+      minmax(0, {{ section.settings.image_column_width }}fr)
+      minmax(0, {{ section.settings.text_column_width }}fr);
+    align-items: center;
+    gap: var(--avisi-column-gap);
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__grid--right .avisi-image-features__media {
+    order: 2;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__grid--right .avisi-image-features__content {
+    order: 1;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__media {
+    min-width: 0;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__image-wrap,
+  #avisi-image-features-{{ section.id }} .avisi-image-features__placeholder {
+    overflow: hidden;
+    width: 100%;
+    background: var(--avisi-image-bg);
+    border-radius: var(--avisi-image-radius);
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__image-wrap {
+    aspect-ratio: {{ section.settings.image_ratio }};
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__image-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: {{ section.settings.image_fit }};
+    object-position: {{ section.settings.image_position_x }}% {{ section.settings.image_position_y }}%;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__placeholder {
+    display: grid;
+    aspect-ratio: {{ section.settings.image_ratio }};
+    place-items: center;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__placeholder-svg {
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 102, 255, 0.25);
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__content {
+    min-width: 0;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__content-heading {
+    margin: 0;
+    color: var(--avisi-title-color);
+    font-size: {{ section.settings.content_heading_size }}px;
+    font-weight: {{ section.settings.content_heading_weight }};
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__content-intro {
+    margin-top: 16px;
+    color: var(--avisi-muted-color);
+    font-size: {{ section.settings.content_intro_size }}px;
+    line-height: 1.65;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__content-intro > * {
+    margin: 0;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__features {
+    display: grid;
+    gap: var(--avisi-feature-gap);
+    margin-top: {{ section.settings.features_top_spacing }}px;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__feature {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    gap: {{ section.settings.icon_gap }}px;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__icon {
+    display: grid;
+    width: {{ section.settings.icon_size }}px;
+    height: {{ section.settings.icon_size }}px;
+    place-items: center;
+    margin-top: 2px;
+    background: {{ section.settings.icon_background }};
+    border-radius: {{ section.settings.icon_radius }}px;
+    color: var(--avisi-accent-color);
+    font-size: {{ section.settings.icon_font_size }}px;
+    font-weight: 800;
+    line-height: 1;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__feature-copy h4 {
+    margin: 0;
+    color: var(--avisi-title-color);
+    font-size: {{ section.settings.feature_title_size }}px;
+    font-weight: {{ section.settings.feature_title_weight }};
+    line-height: 1.25;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__feature-copy .rte {
+    margin-top: 10px;
+    color: var(--avisi-muted-color);
+    font-size: {{ section.settings.feature_text_size }}px;
+    line-height: {{ section.settings.feature_text_line_height | divided_by: 100.0 }};
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__feature-copy .rte > * {
+    margin: 0;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__button-wrap {
+    margin-top: {{ section.settings.button_top_spacing }}px;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: {{ section.settings.button_height }}px;
+    padding: 12px 24px;
+    background: {{ section.settings.button_background }};
+    border: {{ section.settings.button_border_width }}px solid {{ section.settings.button_border_color }};
+    border-radius: {{ section.settings.button_radius }}px;
+    color: {{ section.settings.button_text_color }};
+    font-size: {{ section.settings.button_font_size }}px;
+    font-weight: {{ section.settings.button_weight }};
+    line-height: 1.2;
+    text-decoration: none;
+    transition: transform .16s ease, opacity .16s ease;
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__button:hover {
+    transform: translateY(-1px);
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__button:active {
+    transform: scale(.98);
+  }
+
+  #avisi-image-features-{{ section.id }} .avisi-image-features__button[aria-disabled="true"] {
+    pointer-events: none;
+    opacity: .6;
+  }
+
+  @media screen and (max-width: 989px) {
+    #avisi-image-features-{{ section.id }} .avisi-image-features__grid {
+      grid-template-columns: 1fr 1fr;
+      gap: {{ section.settings.column_gap_tablet }}px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    #avisi-image-features-{{ section.id }} {
+      padding: {{ section.settings.padding_top_mobile }}px 0 {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__container {
+      width: min(calc(100% - 28px), var(--avisi-max-width));
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__header {
+      margin-bottom: {{ section.settings.header_bottom_spacing_mobile }}px;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__grid {
+      grid-template-columns: 1fr;
+      gap: {{ section.settings.column_gap_mobile }}px;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__grid--right .avisi-image-features__media,
+    #avisi-image-features-{{ section.id }} .avisi-image-features__grid--right .avisi-image-features__content {
+      order: initial;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__grid--mobile-text-first .avisi-image-features__content {
+      order: 1;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__grid--mobile-text-first .avisi-image-features__media {
+      order: 2;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__content-heading {
+      font-size: {{ section.settings.content_heading_size_mobile }}px;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__content-intro {
+      font-size: {{ section.settings.content_intro_size_mobile }}px;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__feature-copy h4 {
+      font-size: {{ section.settings.feature_title_size_mobile }}px;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__feature-copy .rte {
+      font-size: {{ section.settings.feature_text_size_mobile }}px;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__button-wrap {
+      margin-top: {{ section.settings.button_top_spacing_mobile }}px;
+    }
+
+    #avisi-image-features-{{ section.id }} .avisi-image-features__button {
+      width: {% if section.settings.button_full_width_mobile %}100%{% else %}auto{% endif %};
+      min-height: {{ section.settings.button_height_mobile }}px;
+      font-size: {{ section.settings.button_font_size_mobile }}px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #avisi-image-features-{{ section.id }} .avisi-image-features__button {
+      transition: none;
+    }
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Image et avantages Avisi",
+  "tag": "section",
+  "class": "section-avisi-image-features",
+  "max_blocks": 8,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Contenu principal"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Grand titre",
+      "default": "L’impression n’a jamais été aussi simple."
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Texte sous le grand titre"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image principale"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Texte alternatif de l’image",
+      "default": "Imprimante d’étiquettes et exemples d’impression"
+    },
+    {
+      "type": "text",
+      "id": "content_heading",
+      "label": "Titre au-dessus des avantages"
+    },
+    {
+      "type": "richtext",
+      "id": "content_intro",
+      "label": "Introduction au-dessus des avantages"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Texte du bouton"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Lien du bouton"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button_arrow",
+      "label": "Afficher une flèche dans le bouton",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "section_background",
+      "label": "Fond de la section",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "image_background",
+      "label": "Fond derrière l’image",
+      "default": "#F9FAFB"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Titres",
+      "default": "#17191F"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Texte principal",
+      "default": "#30343D"
+    },
+    {
+      "type": "color",
+      "id": "muted_color",
+      "label": "Texte secondaire",
+      "default": "#5E6470"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Couleur principale",
+      "default": "#0066FF"
+    },
+    {
+      "type": "color",
+      "id": "icon_background",
+      "label": "Fond des icônes",
+      "default": "#F0F5FF"
+    },
+    {
+      "type": "header",
+      "content": "Disposition"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Largeur maximale",
+      "min": 900,
+      "max": 1800,
+      "step": 20,
+      "unit": "px",
+      "default": 1480
+    },
+    {
+      "type": "range",
+      "id": "header_max_width",
+      "label": "Largeur maximale de l’en-tête",
+      "min": 500,
+      "max": 1200,
+      "step": 20,
+      "unit": "px",
+      "default": 900
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Position de l’image sur ordinateur",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "À gauche" },
+        { "value": "right", "label": "À droite" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobile_order",
+      "label": "Ordre sur mobile",
+      "default": "image-first",
+      "options": [
+        { "value": "image-first", "label": "Image en premier" },
+        { "value": "text-first", "label": "Texte en premier" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "image_column_width",
+      "label": "Largeur relative de l’image",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "text_column_width",
+      "label": "Largeur relative du texte",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "label": "Espace entre les colonnes",
+      "min": 20,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 44
+    },
+    {
+      "type": "range",
+      "id": "column_gap_tablet",
+      "label": "Espace entre les colonnes sur tablette",
+      "min": 16,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "column_gap_mobile",
+      "label": "Espace entre l’image et le texte sur mobile",
+      "min": 16,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Format de l’image",
+      "default": "1 / 1",
+      "options": [
+        { "value": "1 / 1", "label": "Carré" },
+        { "value": "4 / 3", "label": "Paysage 4:3" },
+        { "value": "3 / 4", "label": "Portrait 3:4" },
+        { "value": "16 / 9", "label": "Paysage 16:9" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "image_fit",
+      "label": "Ajustement de l’image",
+      "default": "cover",
+      "options": [
+        { "value": "cover", "label": "Remplir" },
+        { "value": "contain", "label": "Afficher en entier" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "image_position_x",
+      "label": "Position horizontale de l’image",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "image_position_y",
+      "label": "Position verticale de l’image",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "label": "Arrondi de l’image",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Typographie"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "label": "Grand titre sur ordinateur",
+      "min": 30,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 54
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Grand titre sur mobile",
+      "min": 26,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 34
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Graisse du grand titre",
+      "default": "700",
+      "options": [
+        { "value": "500", "label": "Medium" },
+        { "value": "600", "label": "Semi-gras" },
+        { "value": "700", "label": "Gras" },
+        { "value": "800", "label": "Très gras" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "heading_line_height",
+      "label": "Interligne du grand titre",
+      "min": 90,
+      "max": 140,
+      "step": 5,
+      "unit": "%",
+      "default": 105
+    },
+    {
+      "type": "range",
+      "id": "subheading_size",
+      "label": "Texte sous le grand titre",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "content_heading_size",
+      "label": "Titre de contenu sur ordinateur",
+      "min": 24,
+      "max": 62,
+      "step": 2,
+      "unit": "px",
+      "default": 42
+    },
+    {
+      "type": "range",
+      "id": "content_heading_size_mobile",
+      "label": "Titre de contenu sur mobile",
+      "min": 22,
+      "max": 44,
+      "step": 2,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "select",
+      "id": "content_heading_weight",
+      "label": "Graisse du titre de contenu",
+      "default": "700",
+      "options": [
+        { "value": "500", "label": "Medium" },
+        { "value": "600", "label": "Semi-gras" },
+        { "value": "700", "label": "Gras" },
+        { "value": "800", "label": "Très gras" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "content_intro_size",
+      "label": "Introduction sur ordinateur",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "content_intro_size_mobile",
+      "label": "Introduction sur mobile",
+      "min": 14,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "feature_title_size",
+      "label": "Titre des avantages sur ordinateur",
+      "min": 20,
+      "max": 52,
+      "step": 2,
+      "unit": "px",
+      "default": 34
+    },
+    {
+      "type": "range",
+      "id": "feature_title_size_mobile",
+      "label": "Titre des avantages sur mobile",
+      "min": 18,
+      "max": 38,
+      "step": 2,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "select",
+      "id": "feature_title_weight",
+      "label": "Graisse des titres d’avantage",
+      "default": "700",
+      "options": [
+        { "value": "500", "label": "Medium" },
+        { "value": "600", "label": "Semi-gras" },
+        { "value": "700", "label": "Gras" },
+        { "value": "800", "label": "Très gras" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "feature_text_size",
+      "label": "Texte des avantages sur ordinateur",
+      "min": 14,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "feature_text_size_mobile",
+      "label": "Texte des avantages sur mobile",
+      "min": 14,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "feature_text_line_height",
+      "label": "Interligne des avantages",
+      "min": 120,
+      "max": 190,
+      "step": 5,
+      "unit": "%",
+      "default": 155
+    },
+    {
+      "type": "header",
+      "content": "Icônes et espacements"
+    },
+    {
+      "type": "range",
+      "id": "feature_gap",
+      "label": "Espace entre les avantages",
+      "min": 16,
+      "max": 72,
+      "step": 4,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "features_top_spacing",
+      "label": "Espace avant les avantages",
+      "min": 0,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "icon_gap",
+      "label": "Espace entre l’icône et le texte",
+      "min": 8,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Taille de l’icône",
+      "min": 28,
+      "max": 64,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "icon_font_size",
+      "label": "Taille du symbole",
+      "min": 12,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "icon_radius",
+      "label": "Arrondi de l’icône",
+      "min": 0,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Bouton"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Fond du bouton",
+      "default": "#0066FF"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Texte du bouton",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Bordure du bouton",
+      "default": "#0066FF"
+    },
+    {
+      "type": "range",
+      "id": "button_border_width",
+      "label": "Épaisseur de la bordure",
+      "min": 0,
+      "max": 3,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "button_radius",
+      "label": "Arrondi du bouton",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "button_height",
+      "label": "Hauteur du bouton sur ordinateur",
+      "min": 40,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "button_height_mobile",
+      "label": "Hauteur du bouton sur mobile",
+      "min": 40,
+      "max": 68,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "label": "Taille du bouton sur ordinateur",
+      "min": 13,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_font_size_mobile",
+      "label": "Taille du bouton sur mobile",
+      "min": 13,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "select",
+      "id": "button_weight",
+      "label": "Graisse du bouton",
+      "default": "700",
+      "options": [
+        { "value": "500", "label": "Medium" },
+        { "value": "600", "label": "Semi-gras" },
+        { "value": "700", "label": "Gras" },
+        { "value": "800", "label": "Très gras" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "button_top_spacing",
+      "label": "Espace au-dessus du bouton sur ordinateur",
+      "min": 8,
+      "max": 56,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "button_top_spacing_mobile",
+      "label": "Espace au-dessus du bouton sur mobile",
+      "min": 8,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "checkbox",
+      "id": "button_full_width_mobile",
+      "label": "Bouton pleine largeur sur mobile",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Espacements de la section"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Marge haute sur ordinateur",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Marge basse sur ordinateur",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "header_bottom_spacing",
+      "label": "Espace sous le grand titre",
+      "min": 20,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Marge haute sur mobile",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Marge basse sur mobile",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "header_bottom_spacing_mobile",
+      "label": "Espace sous le grand titre sur mobile",
+      "min": 16,
+      "max": 72,
+      "step": 4,
+      "unit": "px",
+      "default": 28
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Avantage",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_icon",
+          "label": "Afficher une icône",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icône",
+          "default": "check",
+          "options": [
+            { "value": "check", "label": "Coche" },
+            { "value": "star", "label": "Étoile" },
+            { "value": "sparkle", "label": "Étincelle" },
+            { "value": "arrow", "label": "Flèche" },
+            { "value": "box", "label": "Carré" }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre",
+          "default": "Sans encre, pour toujours"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Description",
+          "default": "<p>Imprimez sans acheter d’encre ni de cartouches. La technologie thermique directe permet une impression simple, rapide et économique.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image et avantages Avisi",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "show_icon": false,
+            "title": "Sans encre, pour toujours",
+            "text": "<p>Imprimez sans acheter d’encre ni de cartouches. La technologie thermique directe permet une impression simple, rapide et économique.</p>"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "show_icon": false,
+            "title": "Simplifiez vos expéditions",
+            "text": "<p>Décollez l’étiquette, collez-la sur l’emballage et votre colis est prêt à partir. C’est aussi simple que cela.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
