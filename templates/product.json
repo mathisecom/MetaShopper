@@ -30,12 +30,6 @@
             "heading_tag": "h2"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "liquid_mUKjG4": {
           "type": "liquid",
           "settings": {
@@ -122,7 +116,6 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
-        "price",
         "liquid_mUKjG4",
         "description",
         "variant_picker",
