@@ -192,8 +192,8 @@
       "settings": {
         "enable_marquee": true,
         "direction": "left",
-        "speed_desktop": 30,
-        "speed_mobile": 22,
+        "speed_desktop": 22,
+        "speed_mobile": 18,
         "pause_on_hover": true,
         "uppercase": true,
         "font_weight": "700",
@@ -211,8 +211,8 @@
         "border_width": 0,
         "padding_y_desktop": 14,
         "padding_y_mobile": 14,
-        "gap_desktop": 10,
-        "gap_mobile": 18,
+        "gap_desktop": 8,
+        "gap_mobile": 10,
         "margin_top": 0,
         "margin_bottom": 0,
         "accessibility_label": "Nos produits et avantages"
