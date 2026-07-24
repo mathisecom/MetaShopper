@@ -9,44 +9,150 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "herobannermetashopper_mAGpMB": {
+      "type": "herobannermetashopper",
       "blocks": {
-        "slide-1": {
-          "type": "image",
+        "feature_tLFd8L": {
+          "type": "feature",
+          "disabled": true,
           "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
+            "icon": "🚚",
+            "text": "Livraison 24/48h OFFERTE"
+          }
+        },
+        "feature_AckjXh": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "🛡️",
+            "text": "Garantie 2 ans"
+          }
+        },
+        "feature_HVECJU": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "🎁",
+            "text": "Étiquettes offertes"
+          }
+        },
+        "feature_9c7QFa": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "📱",
+            "text": "Compatible smartphones et ordinateurs"
+          }
+        },
+        "feature_bcAGB7": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "🏷️",
+            "text": "Fonctionne avec la plupart des étiquettes thermiques"
+          }
+        },
+        "feature_KQMpCt": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "🛍️",
+            "text": "Compatible avec toutes les marketplaces"
+          }
+        },
+        "feature_gcJChM": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "🔗",
+            "text": "Connectivité Bluetooth & USB"
           }
         }
       },
       "block_order": [
-        "slide-1"
+        "feature_tLFd8L",
+        "feature_AckjXh",
+        "feature_HVECJU",
+        "feature_9c7QFa",
+        "feature_bcAGB7",
+        "feature_KQMpCt",
+        "feature_gcJChM"
       ],
+      "name": "Hero Metashopper",
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "show_initial_transition": false,
-        "image_size": "md",
-        "controls_type": "numbers",
-        "transition_type": "fade_with_text",
-        "autoplay": true,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "eyebrow": "",
+        "heading_line_1": "IMPRIMEZ. EXPÉDIEZ.",
+        "heading_line_2": "DÉVELOPPEZ",
+        "heading_line_3": "VOTRE BOUTIQUE.",
+        "description": "<p>Gagnez un temps précieux avec l’imprimante thermique Metashopper : sans fil, ultra rapide et compatible avec Vinted, Mondial Relay, Colissimo, Shopify, Amazon et plus.</p>",
+        "rating_text": "Excellent 4,9/5",
+        "merchant_text": "Déjà adoptée par de nombreux e-commerçants",
+        "app_text": "",
+        "primary_button_text": "DÉCOUVRIR L’IMPRIMANTE",
+        "primary_button_link": "shopify://products/metashopper-imprimante-thermique-bluetooth",
+        "show_primary_arrow": true,
+        "secondary_button_text": "",
+        "secondary_button_link": "",
+        "product_image_alt": "Imprimante thermique Metashopper",
+        "show_visual_badge": false,
+        "visual_badge_top": "Bluetooth & USB",
+        "visual_badge_bottom": "Livraison 24/48h offerte",
+        "background_color": "#FFF8F5",
+        "accent_color": "#FF4713",
+        "title_color": "#161616",
+        "text_color": "#252525",
+        "muted_color": "#5E514D",
+        "button_background": "#FF4713",
+        "button_text_color": "#FFFFFF",
+        "secondary_button_border": "#FF4713",
+        "chip_background": "#FFE6DE",
+        "chip_text_color": "#C9340C",
+        "feature_background": "#FFFFFF",
+        "feature_text_color": "#28201E",
+        "wave_color": "#FFFFFF",
+        "max_width": 1460,
+        "section_radius": 0,
+        "section_radius_mobile": 0,
+        "column_gap": 64,
+        "column_gap_tablet": 36,
+        "column_gap_mobile": 32,
+        "glow_opacity": 14,
+        "eyebrow_size": 10,
+        "heading_size_desktop": 46,
+        "heading_size_mobile": 30,
+        "heading_weight": "800",
+        "heading_line_height": 100,
+        "description_size": 18,
+        "description_size_mobile": 14,
+        "description_line_height": 140,
+        "description_max_width": 620,
+        "proof_size": 13,
+        "button_height": 54,
+        "button_height_mobile": 52,
+        "button_radius": 14,
+        "button_font_size": 15,
+        "button_font_size_mobile": 15,
+        "feature_radius": 14,
+        "feature_size": 14,
+        "feature_size_mobile": 14,
+        "visual_min_height": 520,
+        "visual_min_height_mobile": 340,
+        "image_max_width": 680,
+        "image_max_height": 600,
+        "image_max_height_mobile": 360,
+        "mobile_image_first": true,
+        "mobile_text_alignment": "left",
+        "show_bottom_wave": false,
+        "padding_top": 36,
+        "padding_bottom": 56,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 36,
+        "heading_top_spacing": 20,
+        "description_top_spacing": 20,
+        "proof_top_spacing": 20,
+        "buttons_top_spacing": 26,
+        "features_top_spacing": 26,
+        "features_top_spacing_mobile": 22
       }
     },
     "barrdefilant_7BYcW3": {
@@ -587,13 +693,13 @@
         "heading": "COMMENT FONCTIONNE L'IMPRIMANTE THERMIQUE ?",
         "subtitle": "4 étapes simples pour créer et imprimer vos étiquettes",
         "heading_uppercase": true,
-        "background_color": "#FFF8F5",
-        "accent_color": "#FF4713",
-        "number_text_color": "#FFFFFF",
+        "background_color": "#fff8f5",
+        "accent_color": "#ff4713",
+        "number_text_color": "#ffffff",
         "title_color": "#111111",
         "text_color": "#222222",
-        "muted_color": "#4B4B4B",
-        "grid_line_color": "#E9DDD8",
+        "muted_color": "#4b4b4b",
+        "grid_line_color": "#e9ddd8",
         "max_width": 1440,
         "header_max_width": 900,
         "desktop_columns": 4,
@@ -960,7 +1066,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "herobannermetashopper_mAGpMB",
     "barrdefilant_7BYcW3",
     "iconsbenefice_dFQmz9",
     "featured_collection_kpBPDr",
