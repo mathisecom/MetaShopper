@@ -702,14 +702,14 @@
             "icon_width": 48,
             "subheading": "",
             "title": "La liberté sans fil",
-            "content": "<p>Dites adieu aux enchevêtrements de câbles et découvrez l'impression sans effort. Profitez d'une connexion Bluetooth instantanée, où que vous travailliez, ou connectez votre appareil via USB si nécessaire. </p><p>Compatibilité totale avec Windows, Mac, iPhone, iPad et Android : tout votre espace de travail est connecté, et l'impression devient un jeu d'enfant.</p>",
-            "link_text": "",
+            "content": "<p><strong>Dites adieu aux câbles encombrants</strong> et imprimez facilement en Bluetooth ou par USB. Compatible avec Windows, Mac, iPhone, iPad et Android pour une <strong>impression simple, où que vous soyez.</strong></p>",
+            "link_text": "OBTENIR MAINTENANT",
             "link_url": "",
             "background": "#f5f5f5",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#FF4713",
             "button_text_color": ""
           }
         }
