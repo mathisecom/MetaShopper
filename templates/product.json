@@ -68,6 +68,12 @@
             "product": "{{product}}"
           }
         },
+        "liquid_ntiw4M": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__liquid\">\n            \n \n\n\n\n\n\n\n\n\n<style>\n  .rv-delivery-estimate {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    font-size: 0.85rem;\n    color: #444;\n    background: #fdfdfd;\n    padding: 10px;\n    border: 1px solid #eee;\n    border-radius: 4px;\n    margin-top: 5px;\n    border-left: 3px solid #0055A4;\n  }\n\n  .rv-delivery-icon {\n    font-size: 1.2rem;\n    line-height: 1;\n  }\n\n  .rv-delivery-estimate strong {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"rv-delivery-estimate\">\n  <span class=\"rv-delivery-icon\">🇫🇷</span>\n  <div>\n    <strong>Expédié depuis la France.</strong><br>\n    <span style=\"font-size:0.9em; color:#666;\">\n      Livraison Estimée le 29 juillet\n    </span>\n  </div>\n</div>\n          </div>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -127,6 +133,7 @@
         "variant_picker",
         "quantity_selector",
         "rapi_bundle_rapi_bundle_3z7gQE",
+        "liquid_ntiw4M",
         "buy_buttons",
         "liquid_44hqU6",
         "liquid_xht8Li",
@@ -630,7 +637,7 @@
             "content": "<p>Dites adieu aux enchevêtrements de câbles et découvrez l'impression sans effort. Profitez d'une connexion Bluetooth instantanée, où que vous travailliez, ou connectez votre appareil via USB si nécessaire. </p><p>Compatibilité totale avec Windows, Mac, iPhone, iPad et Android : tout votre espace de travail est connecté, et l'impression devient un jeu d'enfant.</p>",
             "link_text": "",
             "link_url": "",
-            "background": "#F5F5F5",
+            "background": "#f5f5f5",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
