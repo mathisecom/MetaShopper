@@ -755,56 +755,61 @@
         "testimonial_4xafUi": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/icone_19.png",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Très simple à installer et à utiliser",
+            "content": "<p>Très simple à installer et à utiliser. J’imprime mes étiquettes en quelques secondes depuis mon téléphone, c’est un vrai gain de temps.</p>"
           }
         },
         "testimonial_f9xPrC": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/icone_17.png",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Nette et Professionnelle",
+            "content": "<p>La qualité d’impression est nette et professionnelle. Les codes-barres sont parfaitement lisibles et je n’ai plus besoin d’acheter d’encre.</p>"
           }
         },
         "testimonial_7p4mqk": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/icone_18.png",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "Julia C.",
+            "title": "Elle est devenue indispensable",
+            "content": "<p>Connexion Bluetooth rapide et fonctionnement très fluide. Elle est devenue indispensable pour préparer toutes mes commandes au quotidien.</p>"
           }
         },
         "testimonial_CiGQKY": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/icone_20.png",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "Louis H.",
+            "title": "Imprimante compacte, silencieuse et efficace",
+            "content": "<p>Imprimante compacte, silencieuse et efficace. Elle prend peu de place sur mon bureau et imprime très rapidement, même en grande quantité.</p>"
           }
         },
         "testimonial_QqgdgV": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/icone_21.png",
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Marine T.",
+            "title": "Je suis vraiment satisfaite de mon achat.",
+            "content": "<p>Je suis vraiment satisfaite de mon achat. Elle fonctionne parfaitement avec mes plateformes de vente et simplifie énormément mes expéditions.</p>"
           }
         }
       },
