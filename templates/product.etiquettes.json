@@ -262,6 +262,7 @@
         "feature_7QaiGC",
         "feature_Bqp6Bh"
       ],
+      "disabled": true,
       "name": "Image et Avantages",
       "settings": {
         "heading": "L’impression n’a jamais été aussi simple.",
@@ -370,6 +371,7 @@
         "item_C6Jprg",
         "item_px6hAh"
       ],
+      "disabled": true,
       "name": "Barre produits défilante",
       "settings": {
         "enable_marquee": true,
@@ -540,6 +542,7 @@
         "step_BkC7qm",
         "step_KYB3yk"
       ],
+      "disabled": true,
       "name": "Étapes imprimante Avisi",
       "settings": {
         "heading": "Comment Fonctionne l'imprimante Thermique ?",
