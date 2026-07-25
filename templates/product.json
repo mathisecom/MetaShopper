@@ -620,6 +620,72 @@
         "padding_bottom_mobile": 28
       }
     },
+    "nousvseux_6UGzcP": {
+      "type": "nousvseux",
+      "blocks": {
+        "row_kVj9eg": {
+          "type": "row",
+          "settings": {
+            "text_left": "Impression sans fil (Bluetooth & USB)",
+            "text_right": "Connexion filaire uniquement, contraignante"
+          }
+        },
+        "row_cPdXJT": {
+          "type": "row",
+          "settings": {
+            "text_left": "Rapidité exceptionnelle (72 étiquettes/min)",
+            "text_right": "Impression lente, perte de temps"
+          }
+        },
+        "row_LeaG6H": {
+          "type": "row",
+          "settings": {
+            "text_left": "Économies sur les fournitures (zéro encre)",
+            "text_right": "Cartouches d'encre coûteuses"
+          }
+        },
+        "row_NNYejL": {
+          "type": "row",
+          "settings": {
+            "text_left": "Formats multiples (10×15, 5×7, 7×6…)",
+            "text_right": "Un seul format disponible"
+          }
+        },
+        "row_KgChJp": {
+          "type": "row",
+          "settings": {
+            "text_left": "Facilité d'utilisation (Allumez, connectez, imprimez)",
+            "text_right": "Installation longue et technique"
+          }
+        }
+      },
+      "block_order": [
+        "row_kVj9eg",
+        "row_cPdXJT",
+        "row_LeaG6H",
+        "row_NNYejL",
+        "row_KgChJp"
+      ],
+      "name": "Nous VS Eux",
+      "settings": {
+        "title": "Kalinelo face aux autres",
+        "title_size": 28,
+        "title_color": "#1a1a1a",
+        "label_left": "Votre produit",
+        "label_right": "Concurrent",
+        "image_bg_color": "#f4f4f4",
+        "vs_text": "VS",
+        "vs_badge_bg": "#FF4713",
+        "vs_badge_color": "#ffffff",
+        "row_bg_color": "#ffffff",
+        "row_border_color": "#ececec",
+        "text_color": "#000000",
+        "text_color_them": "#8a8a8a",
+        "good_color": "#FF4713",
+        "good_icon_color": "#ffffff",
+        "bad_color": "#CA2D00"
+      }
+    },
     "media_with_text_jMajNb": {
       "type": "media-with-text",
       "blocks": {
@@ -1084,6 +1150,7 @@
     "imagebenefice_mE9rDL",
     "barrdefilant_rHtehN",
     "pourquoinouschoisir_GhLyKW",
+    "nousvseux_6UGzcP",
     "media_with_text_jMajNb",
     "etapeimprimante_aHGmrw",
     "logoscroll_kxTj8A",
