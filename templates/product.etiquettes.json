@@ -75,6 +75,12 @@
             "product": "{{product}}"
           }
         },
+        "liquid_8XiVNT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -130,6 +136,7 @@
         "variant_picker",
         "quantity_selector",
         "rapi_bundle_rapi_bundle_3z7gQE",
+        "liquid_8XiVNT",
         "buy_buttons",
         "liquid_xht8Li",
         "liquid_4tqfL7",
