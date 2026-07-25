@@ -145,6 +145,90 @@
         "input_text_color": ""
       }
     },
+    "testimonials_PhUMFF": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_jVTHBj": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "John S.",
+            "title": "Très simple à installer et à utiliser",
+            "content": "<p>Très simple à installer et à utiliser. J’imprime mes étiquettes en quelques secondes depuis mon téléphone, c’est un vrai gain de temps.</p>"
+          }
+        },
+        "testimonial_8KaqBJ": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "La qualité d’impression est nette et professionnelle",
+            "content": "<p>La qualité d’impression est nette et professionnelle. Les codes-barres sont parfaitement lisibles et je n’ai plus besoin d’acheter d’encre.</p>"
+          }
+        },
+        "testimonial_iQpra3": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Marine O.",
+            "title": "Elle est devenue indispensable",
+            "content": "<p>Connexion Bluetooth rapide et fonctionnement très fluide. Elle est devenue indispensable pour préparer toutes mes commandes au quotidien.</p>"
+          }
+        },
+        "testimonial_bK3mVH": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Oriane P.",
+            "title": "imprime très rapidement",
+            "content": "<p>Imprimante compacte, silencieuse et efficace. Elle prend peu de place sur mon bureau et imprime très rapidement, même en grande quantité.</p>"
+          }
+        },
+        "testimonial_NCGYPt": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Louis K.",
+            "title": "Je suis vraiment satisfaite de mon achat.",
+            "content": "<p>Je suis vraiment satisfaite de mon achat. Elle fonctionne parfaitement avec mes plateformes de vente et simplifie énormément mes expéditions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_jVTHBj",
+        "testimonial_8KaqBJ",
+        "testimonial_iQpra3",
+        "testimonial_bK3mVH",
+        "testimonial_NCGYPt"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#f7f7f9",
+        "testimonial_card_text_color": ""
+      }
+    },
     "iconsbenefice_mapNKM": {
       "type": "iconsbenefice",
       "blocks": {
@@ -740,6 +824,39 @@
         "text_color": ""
       }
     },
+    "rich_text_DeUbtA": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_493Ckn": {
+          "type": "subheading",
+          "settings": {
+            "text": "DES ENTREPRENEURS QUI FONT CONFIANCE"
+          }
+        },
+        "heading_bjR4f3": {
+          "type": "heading",
+          "settings": {
+            "text": "+3,000 Clients Satisfaits",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_493Ckn",
+        "heading_bjR4f3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_FKTYQG": {
       "type": "testimonials",
       "blocks": {
@@ -911,6 +1028,8 @@
   },
   "order": [
     "main",
+    "rich_text_DeUbtA",
+    "testimonials_PhUMFF",
     "iconsbenefice_mapNKM",
     "imagebenefice_mE9rDL",
     "barrdefilant_rHtehN",
