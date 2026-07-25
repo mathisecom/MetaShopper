@@ -613,6 +613,42 @@
         "padding_bottom_mobile": 28
       }
     },
+    "media_with_text_jMajNb": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_P9xt7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_25_juil._2026_12_46_27.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "La liberté sans fil",
+            "content": "<p>Dites adieu aux enchevêtrements de câbles et découvrez l'impression sans effort. Profitez d'une connexion Bluetooth instantanée, où que vous travailliez, ou connectez votre appareil via USB si nécessaire. </p><p>Compatibilité totale avec Windows, Mac, iPhone, iPad et Android : tout votre espace de travail est connecté, et l'impression devient un jeu d'enfant.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#F5F5F5",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_P9xt7e"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
     "etapeimprimante_aHGmrw": {
       "type": "etapeimprimante",
       "blocks": {
@@ -1041,6 +1077,7 @@
     "imagebenefice_mE9rDL",
     "barrdefilant_rHtehN",
     "pourquoinouschoisir_GhLyKW",
+    "media_with_text_jMajNb",
     "etapeimprimante_aHGmrw",
     "logoscroll_kxTj8A",
     "rich_text_mcTiCC",
