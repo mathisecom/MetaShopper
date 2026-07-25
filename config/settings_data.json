@@ -46,6 +46,7 @@
     "cart_type": "drawer",
     "cart_icon": "shopping_cart",
     "cart_show_free_shipping_threshold": true,
+    "favicon": "shopify://shop_images/icone_22.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
