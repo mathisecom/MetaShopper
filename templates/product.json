@@ -1105,6 +1105,7 @@
         "video_cJ8XnL": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/ssstik.io_@metashopper.fr_1784984696307.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
@@ -1113,6 +1114,7 @@
         "video_k4AGVj": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/ssstik.io_@metashopper.fr_1784984765419.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
