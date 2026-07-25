@@ -1,0 +1,405 @@
+{% comment %}
+  Section : Nous VS Eux
+  Comparatif responsive (PC / Mobile) entièrement personnalisable via le theme editor
+{% endcomment %}
+
+<div class="vs-comparison" id="vs-comparison-{{ section.id }}">
+  <style>
+    #vs-comparison-{{ section.id }} {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      font-family: {{ section.settings.font_family | default: "'Fustat', sans-serif" }};
+    }
+
+    #vs-comparison-{{ section.id }} .vs-title {
+      text-align: center;
+      font-size: {{ section.settings.title_size }}px;
+      font-weight: 700;
+      margin-bottom: 32px;
+      color: {{ section.settings.title_color }};
+    }
+
+    #vs-comparison-{{ section.id }} .vs-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      position: relative;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-header-col {
+      flex: 1;
+      max-width: 260px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: {{ section.settings.image_bg_color }};
+      aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-header-col img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-badge {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: {{ section.settings.vs_badge_bg }};
+      color: {{ section.settings.vs_badge_color }};
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      z-index: 2;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    #vs-comparison-{{ section.id }} .vs-col-label {
+      text-align: center;
+      font-weight: 600;
+      font-size: 15px;
+      margin-top: 10px;
+      color: {{ section.settings.title_color }};
+    }
+
+    #vs-comparison-{{ section.id }} .vs-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-cell {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: {{ section.settings.row_bg_color }};
+      border: 1px solid {{ section.settings.row_border_color }};
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-icon {
+      flex-shrink: 0;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-icon.is-good {
+      background: {{ section.settings.good_color }};
+    }
+
+    #vs-comparison-{{ section.id }} .vs-icon.is-bad {
+      background: {{ section.settings.bad_color }};
+      opacity: 0.15;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-icon svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-icon.is-bad svg {
+      width: 12px;
+      height: 12px;
+    }
+
+    #vs-comparison-{{ section.id }} .vs-text {
+      font-size: 14px;
+      line-height: 1.4;
+      color: {{ section.settings.text_color }};
+    }
+
+    #vs-comparison-{{ section.id }} .vs-cell.is-them .vs-text {
+      color: {{ section.settings.text_color_them | default: section.settings.text_color }};
+    }
+
+    /* Mobile */
+    @media screen and (max-width: 749px) {
+      #vs-comparison-{{ section.id }} .vs-title {
+        font-size: {{ section.settings.title_size | times: 0.75 | round }}px;
+      }
+
+      #vs-comparison-{{ section.id }} .vs-header-col {
+        max-width: 140px;
+      }
+
+      #vs-comparison-{{ section.id }} .vs-badge {
+        width: 40px;
+        height: 40px;
+        font-size: 11px;
+      }
+
+      #vs-comparison-{{ section.id }} .vs-cell {
+        padding: 10px 8px;
+        gap: 8px;
+      }
+
+      #vs-comparison-{{ section.id }} .vs-text {
+        font-size: 12px;
+      }
+
+      #vs-comparison-{{ section.id }} .vs-icon {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  </style>
+
+  {% if section.settings.title != blank %}
+    <h2 class="vs-title">{{ section.settings.title }}</h2>
+  {% endif %}
+
+  <div class="vs-header">
+    <div class="vs-header-col">
+      {% if section.settings.image_left %}
+        <img src="{{ section.settings.image_left | image_url: width: 400 }}" alt="{{ section.settings.label_left }}" loading="lazy">
+      {% endif %}
+    </div>
+    <div class="vs-badge">{{ section.settings.vs_text | default: "VS" }}</div>
+    <div class="vs-header-col">
+      {% if section.settings.image_right %}
+        <img src="{{ section.settings.image_right | image_url: width: 400 }}" alt="{{ section.settings.label_right }}" loading="lazy">
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="vs-rows">
+    {% for block in section.blocks %}
+      {% if block.type == 'row' %}
+        <div class="vs-row" {{ block.shopify_attributes }}>
+          <div class="vs-cell is-us">
+            <span class="vs-icon is-good">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 13l4 4L19 7" stroke="{{ section.settings.good_icon_color }}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="vs-text">{{ block.settings.text_left }}</span>
+          </div>
+          <div class="vs-cell is-them">
+            <span class="vs-icon is-bad">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 6l12 12M18 6L6 18" stroke="{{ section.settings.bad_color }}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="vs-text">{{ block.settings.text_right }}</span>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Nous VS Eux",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre de la section",
+      "default": "Kalinelo face aux autres"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Taille du titre (desktop)",
+      "min": 16,
+      "max": 48,
+      "step": 1,
+      "default": 28
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "header",
+      "content": "Images de comparaison"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_left",
+      "label": "Image de gauche (votre produit)"
+    },
+    {
+      "type": "text",
+      "id": "label_left",
+      "label": "Nom produit gauche",
+      "default": "Votre produit"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_right",
+      "label": "Image de droite (concurrent)"
+    },
+    {
+      "type": "text",
+      "id": "label_right",
+      "label": "Nom produit droite",
+      "default": "Concurrent"
+    },
+    {
+      "type": "color",
+      "id": "image_bg_color",
+      "label": "Fond des images",
+      "default": "#f4f4f4"
+    },
+    {
+      "type": "header",
+      "content": "Badge VS"
+    },
+    {
+      "type": "text",
+      "id": "vs_text",
+      "label": "Texte du badge",
+      "default": "VS"
+    },
+    {
+      "type": "color",
+      "id": "vs_badge_bg",
+      "label": "Fond du badge",
+      "default": "#3d1152"
+    },
+    {
+      "type": "color",
+      "id": "vs_badge_color",
+      "label": "Couleur du texte badge",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Lignes de comparaison"
+    },
+    {
+      "type": "color",
+      "id": "row_bg_color",
+      "label": "Fond des lignes",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "row_border_color",
+      "label": "Bordure des lignes",
+      "default": "#ececec"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur texte (colonne gauche)",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "text_color_them",
+      "label": "Couleur texte (colonne droite)",
+      "default": "#8a8a8a"
+    },
+    {
+      "type": "color",
+      "id": "good_color",
+      "label": "Couleur fond icône check",
+      "default": "#3d1152"
+    },
+    {
+      "type": "color",
+      "id": "good_icon_color",
+      "label": "Couleur icône check",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "bad_color",
+      "label": "Couleur icône croix",
+      "default": "#e0393e"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Ligne de comparaison",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_left",
+          "label": "Texte colonne gauche (avantage)",
+          "default": "Avantage produit"
+        },
+        {
+          "type": "text",
+          "id": "text_right",
+          "label": "Texte colonne droite (inconvénient)",
+          "default": "Inconvénient concurrent"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Nous VS Eux",
+      "blocks": [
+        {
+          "type": "row",
+          "settings": {
+            "text_left": "Impression sans fil (Bluetooth & USB)",
+            "text_right": "Connexion filaire uniquement, contraignante"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "text_left": "Rapidité exceptionnelle (72 étiquettes/min)",
+            "text_right": "Impression lente, perte de temps"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "text_left": "Économies sur les fournitures (zéro encre)",
+            "text_right": "Cartouches d'encre coûteuses"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "text_left": "Formats multiples (10×15, 5×7, 7×6…)",
+            "text_right": "Un seul format disponible"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "text_left": "Facilité d'utilisation (Allumez, connectez, imprimez)",
+            "text_right": "Installation longue et technique"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
