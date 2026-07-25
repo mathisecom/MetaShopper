@@ -21,7 +21,7 @@
         "button_background": "",
         "button_text_color": "",
         "articles_per_page": 10,
-        "feature_first_article": true,
+        "feature_first_article": false,
         "feature_article_background": "",
         "feature_article_text_color": "",
         "show_excerpt": true,
