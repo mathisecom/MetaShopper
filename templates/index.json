@@ -1240,6 +1240,18 @@
             "content": "<p>Fonctionne Parfaitement.</p>"
           }
         },
+        "testimonial_VmEFt4": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/tom.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "tom.k_1",
+            "title": "",
+            "content": "<p>Site extrêmement professionnel et sérieux. La communication avec le sav a été parfaite du début à la fin : explications claires, réponses rapides et beaucoup de disponibilité. Suite à un problème avec la commande, ils ont géré la situation de manière exemplaire et a même renvoyé un colis à ses propres frais. Je recommande ce site les yeux fermés : fiable, honnête et très professionnel. 👌👍😀</p>"
+          }
+        },
         "testimonial_E97nLN": {
           "type": "testimonial",
           "settings": {
@@ -1338,6 +1350,7 @@
         "testimonial_db8iFx",
         "testimonial_zbjCVb",
         "testimonial_pRhRUC",
+        "testimonial_VmEFt4",
         "testimonial_E97nLN",
         "testimonial_BFNjTn",
         "testimonial_biaKq7",
