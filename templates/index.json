@@ -1145,6 +1145,18 @@
             "content": "<p>Très simple à installer et à utiliser. J’imprime mes étiquettes en quelques secondes depuis mon téléphone, c’est un vrai gain de temps.</p>"
           }
         },
+        "testimonial_dhyNEy": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ssz.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "szaboalex200012",
+            "title": "",
+            "content": "<p>Tout était parfait et l'imprimante fonctionne à merveille ✌️</p>"
+          }
+        },
         "testimonial_rH6CDr": {
           "type": "testimonial",
           "settings": {
@@ -1342,6 +1354,7 @@
         "testimonial_YAVyYm",
         "testimonial_3XPfiN",
         "testimonial_gzeApP",
+        "testimonial_dhyNEy",
         "testimonial_rH6CDr",
         "testimonial_iEwHfW",
         "testimonial_xGXrJX",
@@ -1462,8 +1475,8 @@
           "settings": {
             "video": "shopify://files/videos/ssstik.io_@metashopper.fr_1784984696307.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "",
-            "modal_text": ""
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
           }
         },
         "video_dYWXEJ": {
@@ -1471,8 +1484,8 @@
           "settings": {
             "video": "shopify://files/videos/ssstik.io_@metashopper.fr_1784984765419.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "",
-            "modal_text": ""
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
           }
         },
         "video_cyk9NG": {
@@ -1480,8 +1493,8 @@
           "settings": {
             "video": "shopify://files/videos/ssstik.io_@metashopper.fr_1784984845000.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "",
-            "modal_text": ""
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
           }
         },
         "video_fww7RV": {
@@ -1489,8 +1502,8 @@
           "settings": {
             "video": "shopify://files/videos/ssstik.io_@metashopper.fr_1784984901821.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "",
-            "modal_text": ""
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
           }
         }
       },
