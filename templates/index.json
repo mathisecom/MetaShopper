@@ -1109,6 +1109,18 @@
             "content": ""
           }
         },
+        "testimonial_YAVyYm": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/heinamiko.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "heinamiko",
+            "title": "",
+            "content": "<p>Vraiment top, vous pouvez y aller les yeux fermer, très compréhensif, très gentil et très professionnel ! Vraiment un professionnel carré et au top ! Je suis très contente du service ! </p>"
+          }
+        },
         "testimonial_gzeApP": {
           "type": "testimonial",
           "settings": {
@@ -1279,6 +1291,7 @@
       },
       "block_order": [
         "testimonial_QGAkea",
+        "testimonial_YAVyYm",
         "testimonial_gzeApP",
         "testimonial_rH6CDr",
         "testimonial_VREyBU",
