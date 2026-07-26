@@ -1324,6 +1324,18 @@
             "content": ""
           }
         },
+        "testimonial_NXRUQV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/yetian.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "yetianhao",
+            "title": "bien",
+            "content": ""
+          }
+        },
         "testimonial_Fhb33L": {
           "type": "testimonial",
           "settings": {
@@ -1381,6 +1393,7 @@
         "testimonial_BFNjTn",
         "testimonial_biaKq7",
         "testimonial_rdWy46",
+        "testimonial_NXRUQV",
         "testimonial_Fhb33L",
         "testimonial_wtwxgD",
         "testimonial_YcYMcH"
