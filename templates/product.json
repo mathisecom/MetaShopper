@@ -1047,10 +1047,10 @@
         "text_color": ""
       }
     },
-    "testimonials_FKTYQG": {
+    "testimonials_Dftqc6": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_4xafUi": {
+        "testimonial_zXz9qy": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/icone_19.png",
@@ -1062,7 +1062,7 @@
             "content": "<p>Très simple à installer et à utiliser. J’imprime mes étiquettes en quelques secondes depuis mon téléphone, c’est un vrai gain de temps.</p>"
           }
         },
-        "testimonial_f9xPrC": {
+        "testimonial_Ldd9w7": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/icone_17.png",
@@ -1074,7 +1074,7 @@
             "content": "<p>La qualité d’impression est nette et professionnelle. Les codes-barres sont parfaitement lisibles et je n’ai plus besoin d’acheter d’encre.</p>"
           }
         },
-        "testimonial_7p4mqk": {
+        "testimonial_hUQJVX": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/icone_18.png",
@@ -1086,7 +1086,7 @@
             "content": "<p>Connexion Bluetooth rapide et fonctionnement très fluide. Elle est devenue indispensable pour préparer toutes mes commandes au quotidien.</p>"
           }
         },
-        "testimonial_CiGQKY": {
+        "testimonial_7RRrQr": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/icone_21.png",
@@ -1098,7 +1098,7 @@
             "content": "<p>Imprimante compacte, silencieuse et efficace. Elle prend peu de place sur mon bureau et imprime très rapidement, même en grande quantité.</p>"
           }
         },
-        "testimonial_QqgdgV": {
+        "testimonial_LPrQ36": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/icone_20.png",
@@ -1109,14 +1109,74 @@
             "title": "Je suis vraiment satisfaite de mon achat.",
             "content": "<p>Je suis vraiment satisfaite de mon achat. Elle fonctionne parfaitement avec mes plateformes de vente et simplifie énormément mes expéditions.</p>"
           }
+        },
+        "testimonial_xQrdRr": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Thomas R.",
+            "title": "Très satisfait de mon achat",
+            "content": "<p>Très satisfait de mon achat. Colis reçu rapidement et imprimante conforme à la description. Installation simple et impression de très bonne qualité. Je recommande.</p>"
+          }
+        },
+        "testimonial_eExDJx": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Julien M.",
+            "title": "Reçu en 48h",
+            "content": "<p>Reçu en 48h, emballage impeccable et étiquettes fournies avec l’imprimante. Elle fonctionne directement avec Vinted et Colissimo, c’est un vrai gain de temps pour mes envois.</p>"
+          }
+        },
+        "testimonial_NTPEaW": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Nicolas B.",
+            "title": "Super imprimante thermique",
+            "content": "<p>Super imprimante thermique, facile à installer et à utiliser. Plus besoin d’acheter des cartouches d’encre et les étiquettes restent parfaitement lisibles. Vendeur sérieux et réactif.</p>"
+          }
+        },
+        "testimonial_mc7adC": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Alexandre D.",
+            "title": "Très content de mon achat",
+            "content": "<p>Produit de qualité et livraison très rapide. L’imprimante fait vraiment haut de gamme et le packaging est très soigné. Très content de mon achat, je recommande Metashopper</p>"
+          }
+        },
+        "testimonial_pX4nkL": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Maxime L.",
+            "title": "Imprimante reçue rapidement et parfaitement",
+            "content": "<p>Imprimante reçue rapidement et parfaitement conforme à la description. La connexion s’est faite facilement et j’ai pu imprimer mes premières étiquettes en quelques minutes. Service client disponible et efficace.</p>"
+          }
         }
       },
       "block_order": [
-        "testimonial_4xafUi",
-        "testimonial_f9xPrC",
-        "testimonial_7p4mqk",
-        "testimonial_CiGQKY",
-        "testimonial_QqgdgV"
+        "testimonial_zXz9qy",
+        "testimonial_Ldd9w7",
+        "testimonial_hUQJVX",
+        "testimonial_7RRrQr",
+        "testimonial_LPrQ36",
+        "testimonial_xQrdRr",
+        "testimonial_eExDJx",
+        "testimonial_NTPEaW",
+        "testimonial_mc7adC",
+        "testimonial_pX4nkL"
       ],
       "name": "Testimonials",
       "settings": {
@@ -1393,7 +1453,7 @@
     "etapeimprimante_aHGmrw",
     "logoscroll_kxTj8A",
     "rich_text_mcTiCC",
-    "testimonials_FKTYQG",
+    "testimonials_Dftqc6",
     "related-products",
     "avisvideo_QmFPtU",
     "faq_bd9tjE"
