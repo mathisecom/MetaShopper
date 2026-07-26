@@ -1239,6 +1239,18 @@
             "content": ""
           }
         },
+        "testimonial_JUpHHR": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/celest.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "celestebal",
+            "title": "Très sérieux, rapide et professionnel !",
+            "content": "<p> Je recommande fortement ! 😁</p>"
+          }
+        },
         "testimonial_3XPfiN": {
           "type": "testimonial",
           "settings": {
@@ -1587,6 +1599,7 @@
         "testimonial_jDVCfM",
         "testimonial_YAVyYm",
         "testimonial_FXUQL3",
+        "testimonial_JUpHHR",
         "testimonial_3XPfiN",
         "testimonial_gzeApP",
         "testimonial_ajLVry",
