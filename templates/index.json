@@ -242,7 +242,7 @@
             "use_product_image": false,
             "icon": "printer",
             "title": "1M+",
-            "text": "<p>Produits imprimés chaque mois</p>",
+            "text": "<p>Bordereaux imprimés chaque mois</p>",
             "link": "",
             "link_label": "",
             "open_new_tab": false
