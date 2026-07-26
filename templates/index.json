@@ -1144,6 +1144,18 @@
             "content": "<p>Vraiment top, vous pouvez y aller les yeux fermer, très compréhensif, très gentil et très professionnel ! Vraiment un professionnel carré et au top ! Je suis très contente du service ! </p>"
           }
         },
+        "testimonial_FXUQL3": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/demdem.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "damdoum33",
+            "title": "au top . merci",
+            "content": ""
+          }
+        },
         "testimonial_3XPfiN": {
           "type": "testimonial",
           "settings": {
@@ -1449,6 +1461,7 @@
         "testimonial_jDVCfM",
         "testimonial_QGAkea",
         "testimonial_YAVyYm",
+        "testimonial_FXUQL3",
         "testimonial_3XPfiN",
         "testimonial_gzeApP",
         "testimonial_ajLVry",
