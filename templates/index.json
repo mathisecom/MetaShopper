@@ -1180,6 +1180,18 @@
             "content": ""
           }
         },
+        "testimonial_BFNjTn": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/kalu.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "kalu.81",
+            "title": "",
+            "content": "<p>parfait rien à dire</p>"
+          }
+        },
         "testimonial_Fhb33L": {
           "type": "testimonial",
           "settings": {
@@ -1201,6 +1213,7 @@
         "testimonial_zbjCVb",
         "testimonial_pRhRUC",
         "testimonial_E97nLN",
+        "testimonial_BFNjTn",
         "testimonial_Fhb33L"
       ],
       "name": "Testimonials",
