@@ -47,6 +47,8 @@
     "cart_icon": "shopping_cart",
     "cart_show_free_shipping_threshold": true,
     "social_pinterest": "https://fr.pinterest.com/Metashopper/",
+    "social_instagram": "https://www.instagram.com/metashoppper",
+    "social_youtube": "https://www.youtube.com/@metashopper",
     "social_tiktok": "https://www.tiktok.com/@metashopper.fr",
     "favicon": "shopify://shop_images/icone_22.png",
     "checkout_accent_color": "#f0c417",
