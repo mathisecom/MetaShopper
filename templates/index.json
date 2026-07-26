@@ -1192,6 +1192,18 @@
             "content": "<p>parfait rien à dire</p>"
           }
         },
+        "testimonial_biaKq7": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/icone_22.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "mbelge",
+            "title": "",
+            "content": "<p>Perfecto 💯</p>"
+          }
+        },
         "testimonial_Fhb33L": {
           "type": "testimonial",
           "settings": {
@@ -1214,6 +1226,7 @@
         "testimonial_pRhRUC",
         "testimonial_E97nLN",
         "testimonial_BFNjTn",
+        "testimonial_biaKq7",
         "testimonial_Fhb33L"
       ],
       "name": "Testimonials",
