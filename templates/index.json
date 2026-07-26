@@ -1145,6 +1145,18 @@
             "content": ""
           }
         },
+        "testimonial_pjihEN": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ropapur.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "ropapuroamor",
+            "title": "Muy rápido en enviar",
+            "content": "<p>Livraison très rapide</p>"
+          }
+        },
         "testimonial_fLRWzB": {
           "type": "testimonial",
           "settings": {
@@ -1555,6 +1567,7 @@
         "testimonial_TpXJ6V",
         "testimonial_ztNcEd",
         "testimonial_AmCcrp",
+        "testimonial_pjihEN",
         "testimonial_fLRWzB",
         "testimonial_XbQ8zE",
         "testimonial_xbTEpM",
