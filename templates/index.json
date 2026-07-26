@@ -1097,6 +1097,18 @@
     "testimonials_NJ8KYx": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_TpXJ6V": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/yoland.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "yolandastroo-joosten",
+            "title": "Service impeccable",
+            "content": "<p>Service impeccable Explications claires et précises lorsque j'avais des questions, aucun problème Je recommande vivement !</p>"
+          }
+        },
         "testimonial_fLRWzB": {
           "type": "testimonial",
           "settings": {
@@ -1468,6 +1480,7 @@
         }
       },
       "block_order": [
+        "testimonial_TpXJ6V",
         "testimonial_fLRWzB",
         "testimonial_xbTEpM",
         "testimonial_jDVCfM",
