@@ -1477,6 +1477,18 @@
             "content": ""
           }
         },
+        "testimonial_GGaK69": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/panda.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "panda. youhle",
+            "title": "Génial",
+            "content": "<p>Communication au top livraison rapide et Packaging au top en plus . Tout comme sur les photo Merci à vous je recommande 10000%</p>"
+          }
+        },
         "testimonial_gajT6B": {
           "type": "testimonial",
           "settings": {
@@ -1535,6 +1547,7 @@
         "testimonial_bFpYYX",
         "testimonial_Fhb33L",
         "testimonial_wtwxgD",
+        "testimonial_GGaK69",
         "testimonial_gajT6B",
         "testimonial_YcYMcH"
       ],
