@@ -1347,6 +1347,18 @@
             "content": "<p>Perfecto 💯</p>"
           }
         },
+        "testimonial_qd7BQx": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/barbara.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "barbara.ptt",
+            "title": "Parfait",
+            "content": ""
+          }
+        },
         "testimonial_rdWy46": {
           "type": "testimonial",
           "settings": {
@@ -1442,6 +1454,7 @@
         "testimonial_E97nLN",
         "testimonial_BFNjTn",
         "testimonial_biaKq7",
+        "testimonial_qd7BQx",
         "testimonial_rdWy46",
         "testimonial_NXRUQV",
         "testimonial_Fhb33L",
