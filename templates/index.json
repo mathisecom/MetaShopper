@@ -1097,6 +1097,18 @@
     "testimonials_NJ8KYx": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_QGAkea": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/laura.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "laura6900000",
+            "title": "Le meilleur !!! 💋💋💋💋💋💋 qualité prix top top envoi rapide",
+            "content": ""
+          }
+        },
         "testimonial_TpXJ6V": {
           "type": "testimonial",
           "settings": {
@@ -1107,6 +1119,18 @@
             "author": "yolandastroo-joosten",
             "title": "Service impeccable",
             "content": "<p>Service impeccable Explications claires et précises lorsque j'avais des questions, aucun problème Je recommande vivement !</p>"
+          }
+        },
+        "testimonial_AmCcrp": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/anjb.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "enjb4",
+            "title": "thanks",
+            "content": ""
           }
         },
         "testimonial_fLRWzB": {
@@ -1140,18 +1164,6 @@
             "rating": 5,
             "author": "francois.rob",
             "title": "très bien merci",
-            "content": ""
-          }
-        },
-        "testimonial_QGAkea": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/laura.webp",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "laura6900000",
-            "title": "Le meilleur !!! 💋💋💋💋💋💋 qualité prix top top envoi rapide",
             "content": ""
           }
         },
@@ -1515,11 +1527,12 @@
         }
       },
       "block_order": [
+        "testimonial_QGAkea",
         "testimonial_TpXJ6V",
+        "testimonial_AmCcrp",
         "testimonial_fLRWzB",
         "testimonial_xbTEpM",
         "testimonial_jDVCfM",
-        "testimonial_QGAkea",
         "testimonial_YAVyYm",
         "testimonial_FXUQL3",
         "testimonial_3XPfiN",
