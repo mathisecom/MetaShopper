@@ -1121,6 +1121,18 @@
             "content": "<p>Service impeccable Explications claires et précises lorsque j'avais des questions, aucun problème Je recommande vivement !</p>"
           }
         },
+        "testimonial_ztNcEd": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/shopd2.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "shopd2lysandre",
+            "title": "",
+            "content": "<p>Alors là je peux que vous recommander, ce n’est peut-être pas un site pro mais franchement il est encore mieux que eux, j’aurais tellement de choses à dire même en cas de problème , le support nous répond dans la minute. Franchement je recommande meilleur qu’un site pro aucun problème, colis bien protégé au top du top. Merci beaucoup pour ces produits incroyables. 😊😊</p>"
+          }
+        },
         "testimonial_AmCcrp": {
           "type": "testimonial",
           "settings": {
@@ -1541,6 +1553,7 @@
       "block_order": [
         "testimonial_QGAkea",
         "testimonial_TpXJ6V",
+        "testimonial_ztNcEd",
         "testimonial_AmCcrp",
         "testimonial_fLRWzB",
         "testimonial_XbQ8zE",
