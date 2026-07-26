@@ -1145,6 +1145,18 @@
             "content": "<p>Très simple à installer et à utiliser. J’imprime mes étiquettes en quelques secondes depuis mon téléphone, c’est un vrai gain de temps.</p>"
           }
         },
+        "testimonial_ajLVry": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/stivens.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "stiveunss",
+            "title": "Parfait! Très rapide et très commercial, un grand merci :)",
+            "content": ""
+          }
+        },
         "testimonial_dhyNEy": {
           "type": "testimonial",
           "settings": {
@@ -1390,6 +1402,7 @@
         "testimonial_YAVyYm",
         "testimonial_3XPfiN",
         "testimonial_gzeApP",
+        "testimonial_ajLVry",
         "testimonial_dhyNEy",
         "testimonial_rH6CDr",
         "testimonial_iEwHfW",
