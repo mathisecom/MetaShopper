@@ -1097,6 +1097,17 @@
     "testimonials_NJ8KYx": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_fLRWzB": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "hechtj7",
+            "title": "Parfait",
+            "content": "<p>Parfait, article conforme à l’annonce Très bonne communication avec le vendeur. Envoyé très rapidement rien à dire. Je recommande ce vendeur à 100 %. Un grand merci à vous.</p>"
+          }
+        },
         "testimonial_xbTEpM": {
           "type": "testimonial",
           "settings": {
@@ -1457,6 +1468,7 @@
         }
       },
       "block_order": [
+        "testimonial_fLRWzB",
         "testimonial_xbTEpM",
         "testimonial_jDVCfM",
         "testimonial_QGAkea",
