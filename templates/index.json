@@ -1097,6 +1097,18 @@
     "testimonials_NJ8KYx": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_xbTEpM": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/hnx.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "hxn7500",
+            "title": "excellent",
+            "content": "<p>excellent site, mieux que les pro ! le Support sav, nous guident de A à Z, que ce soit sur les démarches d'installation ou concernant le produit je recommande à 100%</p>"
+          }
+        },
         "testimonial_jDVCfM": {
           "type": "testimonial",
           "settings": {
@@ -1433,6 +1445,7 @@
         }
       },
       "block_order": [
+        "testimonial_xbTEpM",
         "testimonial_jDVCfM",
         "testimonial_QGAkea",
         "testimonial_YAVyYm",
