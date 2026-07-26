@@ -1167,6 +1167,18 @@
             "title": "Parfait",
             "content": "<p>Fonctionne Parfaitement.</p>"
           }
+        },
+        "testimonial_Fhb33L": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/elfreddo88.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "elfreddo88",
+            "title": "Parfait",
+            "content": "<p>fonctionne parfaitement, très utile et un gagne temps, je recommande se site à 100%.</p>"
+          }
         }
       },
       "block_order": [
@@ -1175,7 +1187,8 @@
         "testimonial_EVe3E7",
         "testimonial_db8iFx",
         "testimonial_zbjCVb",
-        "testimonial_pRhRUC"
+        "testimonial_pRhRUC",
+        "testimonial_Fhb33L"
       ],
       "name": "Testimonials",
       "settings": {
