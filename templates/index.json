@@ -1441,6 +1441,18 @@
             "content": ""
           }
         },
+        "testimonial_bFpYYX": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/dolce.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "dolcestellaas",
+            "title": "Tout est bien",
+            "content": ""
+          }
+        },
         "testimonial_Fhb33L": {
           "type": "testimonial",
           "settings": {
@@ -1520,6 +1532,7 @@
         "testimonial_qd7BQx",
         "testimonial_rdWy46",
         "testimonial_NXRUQV",
+        "testimonial_bFpYYX",
         "testimonial_Fhb33L",
         "testimonial_wtwxgD",
         "testimonial_gajT6B",
