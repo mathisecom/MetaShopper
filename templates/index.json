@@ -760,7 +760,7 @@
         "row_XCpgcq": {
           "type": "row",
           "settings": {
-            "text_left": "Rapidité exceptionnelle (72 étiquettes/min)",
+            "text_left": "Rapidité exceptionnelle (60 étiquettes/min)",
             "text_right": "Impression lente, perte de temps"
           }
         },
