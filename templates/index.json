@@ -1252,6 +1252,18 @@
             "content": "<p>tres professionnel et article de bonne qualité, merci!</p>"
           }
         },
+        "testimonial_Xtjt6D": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/pnslucie.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "pnslucie",
+            "title": "Envoie rapide",
+            "content": ""
+          }
+        },
         "testimonial_db8iFx": {
           "type": "testimonial",
           "settings": {
@@ -1422,6 +1434,7 @@
         "testimonial_VREyBU",
         "testimonial_EVe3E7",
         "testimonial_RR3RXR",
+        "testimonial_Xtjt6D",
         "testimonial_db8iFx",
         "testimonial_zbjCVb",
         "testimonial_pRhRUC",
