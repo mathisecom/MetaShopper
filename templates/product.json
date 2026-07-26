@@ -261,6 +261,61 @@
             "title": "Je suis vraiment satisfaite de mon achat.",
             "content": "<p>Je suis vraiment satisfaite de mon achat. Elle fonctionne parfaitement avec mes plateformes de vente et simplifie énormément mes expéditions.</p>"
           }
+        },
+        "testimonial_ceiee4": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Thomas R.",
+            "title": "Très satisfait de mon achat",
+            "content": "<p>Très satisfait de mon achat. Colis reçu rapidement et imprimante conforme à la description. Installation simple et impression de très bonne qualité. Je recommande.</p>"
+          }
+        },
+        "testimonial_8TTa9x": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Julien M.",
+            "title": "Reçu en 48h",
+            "content": "<p>Reçu en 48h, emballage impeccable et étiquettes fournies avec l’imprimante. Elle fonctionne directement avec Vinted et Colissimo, c’est un vrai gain de temps pour mes envois.</p>"
+          }
+        },
+        "testimonial_49B7h6": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Nicolas B.",
+            "title": "Super imprimante thermique",
+            "content": "<p>Super imprimante thermique, facile à installer et à utiliser. Plus besoin d’acheter des cartouches d’encre et les étiquettes restent parfaitement lisibles. Vendeur sérieux et réactif.</p>"
+          }
+        },
+        "testimonial_qgVMRa": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Alexandre D.",
+            "title": "Très content de mon achat",
+            "content": "<p>Produit de qualité et livraison très rapide. L’imprimante fait vraiment haut de gamme et le packaging est très soigné. Très content de mon achat, je recommande Metashopper</p>"
+          }
+        },
+        "testimonial_K3xPT8": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Maxime L.",
+            "title": "Imprimante reçue rapidement et parfaitement",
+            "content": "<p>Imprimante reçue rapidement et parfaitement conforme à la description. La connexion s’est faite facilement et j’ai pu imprimer mes premières étiquettes en quelques minutes. Service client disponible et efficace.</p>"
+          }
         }
       },
       "block_order": [
@@ -268,7 +323,12 @@
         "testimonial_8KaqBJ",
         "testimonial_iQpra3",
         "testimonial_bK3mVH",
-        "testimonial_NCGYPt"
+        "testimonial_NCGYPt",
+        "testimonial_ceiee4",
+        "testimonial_8TTa9x",
+        "testimonial_49B7h6",
+        "testimonial_qgVMRa",
+        "testimonial_K3xPT8"
       ],
       "name": "Testimonials",
       "settings": {
