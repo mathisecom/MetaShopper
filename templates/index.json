@@ -1227,6 +1227,18 @@
             "title": "Parfait",
             "content": "<p>fonctionne parfaitement, très utile et un gagne temps, je recommande se site à 100%.</p>"
           }
+        },
+        "testimonial_wtwxgD": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/occasion388.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "occasion388",
+            "title": "Personne sérieuse et efficace. Je recommande.",
+            "content": ""
+          }
         }
       },
       "block_order": [
@@ -1240,7 +1252,8 @@
         "testimonial_BFNjTn",
         "testimonial_biaKq7",
         "testimonial_rdWy46",
-        "testimonial_Fhb33L"
+        "testimonial_Fhb33L",
+        "testimonial_wtwxgD"
       ],
       "name": "Testimonials",
       "settings": {
