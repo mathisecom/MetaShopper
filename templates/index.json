@@ -1360,6 +1360,18 @@
             "content": ""
           }
         },
+        "testimonial_gajT6B": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/arvvin.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "arvviinntteedd",
+            "title": "Parfait",
+            "content": ""
+          }
+        },
         "testimonial_YcYMcH": {
           "type": "testimonial",
           "settings": {
@@ -1396,6 +1408,7 @@
         "testimonial_NXRUQV",
         "testimonial_Fhb33L",
         "testimonial_wtwxgD",
+        "testimonial_gajT6B",
         "testimonial_YcYMcH"
       ],
       "name": "Testimonials",
