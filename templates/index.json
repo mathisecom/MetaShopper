@@ -1465,6 +1465,17 @@
             "content": "<p>parfait rien à dire</p>"
           }
         },
+        "testimonial_Pt9xQU": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "adalsboutic_956",
+            "title": "",
+            "content": "<p>Très propre, envoie rapide, professionnel, top 🔥🔥</p>"
+          }
+        },
         "testimonial_biaKq7": {
           "type": "testimonial",
           "settings": {
@@ -1618,6 +1629,7 @@
         "testimonial_VmEFt4",
         "testimonial_E97nLN",
         "testimonial_BFNjTn",
+        "testimonial_Pt9xQU",
         "testimonial_biaKq7",
         "testimonial_qd7BQx",
         "testimonial_rdWy46",
