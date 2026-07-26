@@ -62,13 +62,6 @@
           "disabled": true,
           "settings": {}
         },
-        "rapi_bundle_rapi_bundle_3z7gQE": {
-          "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "liquid_xRQDHD": {
           "type": "liquid",
           "settings": {
@@ -145,7 +138,6 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "rapi_bundle_rapi_bundle_3z7gQE",
         "liquid_xRQDHD",
         "liquid_ntiw4M",
         "buy_buttons",
