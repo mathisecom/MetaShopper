@@ -1145,6 +1145,18 @@
             "content": "<p>La qualité d’impression est nette et professionnelle. Les codes-barres sont parfaitement lisibles et je n’ai plus besoin d’acheter d’encre.</p>"
           }
         },
+        "testimonial_iEwHfW": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/thierry.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "thierryhaessig",
+            "title": "Excellent",
+            "content": ""
+          }
+        },
         "testimonial_VREyBU": {
           "type": "testimonial",
           "settings": {
@@ -1294,6 +1306,7 @@
         "testimonial_YAVyYm",
         "testimonial_gzeApP",
         "testimonial_rH6CDr",
+        "testimonial_iEwHfW",
         "testimonial_VREyBU",
         "testimonial_EVe3E7",
         "testimonial_db8iFx",
