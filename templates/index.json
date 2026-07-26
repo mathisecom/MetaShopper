@@ -1097,6 +1097,17 @@
     "testimonials_NJ8KYx": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_jDVCfM": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "francois.rob",
+            "title": "très bien merci",
+            "content": ""
+          }
+        },
         "testimonial_QGAkea": {
           "type": "testimonial",
           "settings": {
@@ -1398,6 +1409,7 @@
         }
       },
       "block_order": [
+        "testimonial_jDVCfM",
         "testimonial_QGAkea",
         "testimonial_YAVyYm",
         "testimonial_3XPfiN",
