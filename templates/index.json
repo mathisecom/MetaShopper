@@ -1204,6 +1204,18 @@
             "content": "<p>Perfecto 💯</p>"
           }
         },
+        "testimonial_rdWy46": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/laura.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "laura6900000",
+            "title": "Génial 👍",
+            "content": ""
+          }
+        },
         "testimonial_Fhb33L": {
           "type": "testimonial",
           "settings": {
@@ -1227,6 +1239,7 @@
         "testimonial_E97nLN",
         "testimonial_BFNjTn",
         "testimonial_biaKq7",
+        "testimonial_rdWy46",
         "testimonial_Fhb33L"
       ],
       "name": "Testimonials",
