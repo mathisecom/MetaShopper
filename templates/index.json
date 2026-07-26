@@ -1156,6 +1156,17 @@
             "title": "Je suis vraiment satisfaite de mon achat.",
             "content": "<p>Je suis vraiment satisfaite de mon achat. Elle fonctionne parfaitement avec mes plateformes de vente et simplifie énormément mes expéditions.</p>"
           }
+        },
+        "testimonial_pRhRUC": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "acheteuraprixjuste",
+            "title": "Parfait",
+            "content": "<p>Fonctionne Parfaitement.</p>"
+          }
         }
       },
       "block_order": [
@@ -1163,7 +1174,8 @@
         "testimonial_rH6CDr",
         "testimonial_EVe3E7",
         "testimonial_db8iFx",
-        "testimonial_zbjCVb"
+        "testimonial_zbjCVb",
+        "testimonial_pRhRUC"
       ],
       "name": "Testimonials",
       "settings": {
