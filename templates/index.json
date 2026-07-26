@@ -1346,6 +1346,17 @@
             "content": "<p>Fonctionne Parfaitement.</p>"
           }
         },
+        "testimonial_D3X9qb": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "dany6787",
+            "title": "Excellent",
+            "content": "<p>produit top et échange pareil je recommande</p>"
+          }
+        },
         "testimonial_VmEFt4": {
           "type": "testimonial",
           "settings": {
@@ -1501,6 +1512,7 @@
         "testimonial_db8iFx",
         "testimonial_zbjCVb",
         "testimonial_pRhRUC",
+        "testimonial_D3X9qb",
         "testimonial_VmEFt4",
         "testimonial_E97nLN",
         "testimonial_BFNjTn",
