@@ -1251,6 +1251,18 @@
             "title": "Personne sérieuse et efficace. Je recommande.",
             "content": ""
           }
+        },
+        "testimonial_YcYMcH": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ljl.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "ljl2424",
+            "title": "tres bon site, sav très sympathique conseiller à cent pour cent",
+            "content": ""
+          }
         }
       },
       "block_order": [
@@ -1266,7 +1278,8 @@
         "testimonial_biaKq7",
         "testimonial_rdWy46",
         "testimonial_Fhb33L",
-        "testimonial_wtwxgD"
+        "testimonial_wtwxgD",
+        "testimonial_YcYMcH"
       ],
       "name": "Testimonials",
       "settings": {
