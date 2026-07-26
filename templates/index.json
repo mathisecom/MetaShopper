@@ -1121,6 +1121,18 @@
             "content": "<p>Vraiment top, vous pouvez y aller les yeux fermer, très compréhensif, très gentil et très professionnel ! Vraiment un professionnel carré et au top ! Je suis très contente du service ! </p>"
           }
         },
+        "testimonial_3XPfiN": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/tatiana.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "tatiana999999",
+            "title": "",
+            "content": "<p>super transaction l'imprimante au top j'avais hésité... mais non je recommande le vendeur plus qu'un pro l'imprimante fonctionne très bien pour les envois mondial chronopost et collossimo télécharger l'application ouvrir la localisation et le Bluetooth taille d'étiquettes à régler et imprimer - facile</p>"
+          }
+        },
         "testimonial_gzeApP": {
           "type": "testimonial",
           "settings": {
@@ -1304,6 +1316,7 @@
       "block_order": [
         "testimonial_QGAkea",
         "testimonial_YAVyYm",
+        "testimonial_3XPfiN",
         "testimonial_gzeApP",
         "testimonial_rH6CDr",
         "testimonial_iEwHfW",
