@@ -123,6 +123,14 @@
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
+            "menu_title": "Aide & SAV"
+          }
+        },
+        "links_zEiPta": {
+          "type": "links",
+          "settings": {
+            "menu": "informations-l-gales",
+            "show_menu_title": true,
             "menu_title": "Informations Légales"
           }
         },
@@ -138,6 +146,7 @@
       "block_order": [
         "newsletter",
         "links",
+        "links_zEiPta",
         "text"
       ],
       "settings": {
