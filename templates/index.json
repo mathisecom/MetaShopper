@@ -97,7 +97,7 @@
         "product_image_alt": "Imprimante thermique Metashopper",
         "show_visual_badge": true,
         "visual_badge_top": "Connexion Bluetooth & USB",
-        "visual_badge_bottom": "Application gratuite iOS et Android",
+        "visual_badge_bottom": "Application Mobile Gratuite",
         "background_color": "#fff8f5",
         "accent_color": "#ff4713",
         "title_color": "#161616",
@@ -179,7 +179,7 @@
           "type": "item",
           "settings": {
             "product": "",
-            "custom_text": "Compatible avec tous les transporteurs",
+            "custom_text": "Compatible tous transporteurs",
             "custom_link": ""
           }
         }
