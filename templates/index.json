@@ -189,6 +189,7 @@
         "item_Kbepnj",
         "item_hFb7GK"
       ],
+      "disabled": true,
       "name": "Barre produits défilante",
       "settings": {
         "enable_marquee": true,
