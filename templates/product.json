@@ -167,42 +167,21 @@
         "input_text_color": ""
       }
     },
-    "rich_text_DeUbtA": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_493Ckn": {
-          "type": "subheading",
-          "settings": {
-            "text": "DES ENTREPRENEURS QUI NOUS FONT CONFIANCE"
-          }
-        },
-        "heading_bjR4f3": {
-          "type": "heading",
-          "settings": {
-            "text": "+3 000 Entreprises Satisfaites",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_493Ckn",
-        "heading_bjR4f3"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "testimonials_PhUMFF": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_PAGfWY": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/laura_477ce462-7d7e-4c0f-afdc-71fde391834f.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Laura",
+            "title": "Le meilleur !!! 💋💋💋💋💋💋 qualité prix top top envoi rapide",
+            "content": ""
+          }
+        },
         "testimonial_jVTHBj": {
           "type": "testimonial",
           "settings": {
@@ -320,6 +299,7 @@
         }
       },
       "block_order": [
+        "testimonial_PAGfWY",
         "testimonial_jVTHBj",
         "testimonial_8KaqBJ",
         "testimonial_iQpra3",
@@ -347,6 +327,39 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f7f7f9",
         "testimonial_card_text_color": ""
+      }
+    },
+    "rich_text_DeUbtA": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_493Ckn": {
+          "type": "subheading",
+          "settings": {
+            "text": "DES ENTREPRENEURS QUI NOUS FONT CONFIANCE"
+          }
+        },
+        "heading_bjR4f3": {
+          "type": "heading",
+          "settings": {
+            "text": "+3 000 Entreprises Satisfaites",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_493Ckn",
+        "heading_bjR4f3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "iconsbenefice_mapNKM": {
@@ -1443,8 +1456,8 @@
   },
   "order": [
     "main",
-    "rich_text_DeUbtA",
     "testimonials_PhUMFF",
+    "rich_text_DeUbtA",
     "iconsbenefice_mapNKM",
     "imagebenefice_mE9rDL",
     "barrdefilant_rHtehN",
