@@ -109,7 +109,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Informations sur la Livraisons",
+            "title": "Informations sur la Livraison",
             "content": "<p>Nous offrons la livraison express gratuite sur toutes les commandes !</p><p>Veuillez prévoir <strong>1 à 2 jours</strong> ouvrables pour traiter et expédier votre commande.</p><p><strong>Temps d'arrivée estimé : 24h à 48h.</strong></p>",
             "page": ""
           }
