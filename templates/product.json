@@ -1112,6 +1112,18 @@
             "content": "<p>Vraiment top, vous pouvez y aller les yeux fermer, très compréhensif, très gentil et très professionnel ! Vraiment un professionnel carré et au top ! Je suis très contente du service !</p>"
           }
         },
+        "testimonial_7NUhBy": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/celest.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "celestebal",
+            "title": "Très sérieux, rapide et professionnel !",
+            "content": "<p>Je recommande fortement ! 😁</p>"
+          }
+        },
         "testimonial_Ldd9w7": {
           "type": "testimonial",
           "settings": {
@@ -1292,6 +1304,7 @@
         "testimonial_BQ7EQg",
         "testimonial_zXz9qy",
         "testimonial_LVQEEe",
+        "testimonial_7NUhBy",
         "testimonial_Ldd9w7",
         "testimonial_hKBNBW",
         "testimonial_xrEcgC",
