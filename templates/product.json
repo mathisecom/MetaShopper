@@ -1100,6 +1100,18 @@
             "content": "<p>Très simple à installer et à utiliser. J’imprime mes étiquettes en quelques secondes depuis mon téléphone, c’est un vrai gain de temps.</p>"
           }
         },
+        "testimonial_LVQEEe": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/heinamiko.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "heinamiko",
+            "title": "Qualité prix au top",
+            "content": "<p>Vraiment top, vous pouvez y aller les yeux fermer, très compréhensif, très gentil et très professionnel ! Vraiment un professionnel carré et au top ! Je suis très contente du service !</p>"
+          }
+        },
         "testimonial_Ldd9w7": {
           "type": "testimonial",
           "settings": {
@@ -1267,6 +1279,7 @@
         "testimonial_Vx7YqM",
         "testimonial_BQ7EQg",
         "testimonial_zXz9qy",
+        "testimonial_LVQEEe",
         "testimonial_Ldd9w7",
         "testimonial_hKBNBW",
         "testimonial_hUQJVX",
