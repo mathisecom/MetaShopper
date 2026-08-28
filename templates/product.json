@@ -1303,6 +1303,18 @@
             "content": "<p>Imprimante compacte, silencieuse et efficace. Elle prend peu de place sur mon bureau et imprime très rapidement, même en grande quantité.</p>"
           }
         },
+        "testimonial_pxkWRt": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/panda.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "panda. youhle",
+            "title": "Génial",
+            "content": "<p>Communication au top livraison rapide et Packaging au top en plus . Tout comme sur les photo Merci à vous je recommande 10000%</p>"
+          }
+        },
         "testimonial_deakbk": {
           "type": "testimonial",
           "settings": {
@@ -1487,6 +1499,7 @@
         "testimonial_dMmWR4",
         "testimonial_NJEQ9z",
         "testimonial_7RRrQr",
+        "testimonial_pxkWRt",
         "testimonial_deakbk",
         "testimonial_LPrQ36",
         "testimonial_F4QQjL",
