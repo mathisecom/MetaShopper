@@ -1315,6 +1315,18 @@
             "content": "<p>Communication au top livraison rapide et Packaging au top en plus . Tout comme sur les photo Merci à vous je recommande 10000%</p>"
           }
         },
+        "testimonial_dqP3TV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ljl.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "ljl2424",
+            "title": "tres bon site, sav très sympathique conseiller à cent pour cent",
+            "content": ""
+          }
+        },
         "testimonial_deakbk": {
           "type": "testimonial",
           "settings": {
@@ -1500,6 +1512,7 @@
         "testimonial_NJEQ9z",
         "testimonial_7RRrQr",
         "testimonial_pxkWRt",
+        "testimonial_dqP3TV",
         "testimonial_deakbk",
         "testimonial_LPrQ36",
         "testimonial_F4QQjL",
