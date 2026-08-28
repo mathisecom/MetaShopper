@@ -1148,6 +1148,18 @@
             "content": "<p>Site extrêmement professionnel et sérieux. La communication avec le sav a été parfaite du début à la fin : explications claires, réponses rapides et beaucoup de disponibilité. Suite à un problème avec la commande, ils ont géré la situation de manière exemplaire et a même renvoyé un colis à ses propres frais. Je recommande ce site les yeux fermés : fiable, honnête et très professionnel. 👌👍😀</p>"
           }
         },
+        "testimonial_LrYk4w": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/kalu.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "kalu.81",
+            "title": "parfait rien à dire",
+            "content": ""
+          }
+        },
         "testimonial_zXz9qy": {
           "type": "testimonial",
           "settings": {
@@ -1415,6 +1427,7 @@
         "testimonial_apn7ir",
         "testimonial_ApFBqx",
         "testimonial_qzPy9H",
+        "testimonial_LrYk4w",
         "testimonial_zXz9qy",
         "testimonial_LVQEEe",
         "testimonial_7NUhBy",
