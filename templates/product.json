@@ -1064,6 +1064,18 @@
     "testimonials_Dftqc6": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_Vx7YqM": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/laura_477ce462-7d7e-4c0f-afdc-71fde391834f.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "laura6900000",
+            "title": "Le meilleur !!! 💋💋💋💋💋💋 qualité prix top top envoi rapide",
+            "content": ""
+          }
+        },
         "testimonial_zXz9qy": {
           "type": "testimonial",
           "settings": {
@@ -1181,6 +1193,7 @@
         }
       },
       "block_order": [
+        "testimonial_Vx7YqM",
         "testimonial_zXz9qy",
         "testimonial_Ldd9w7",
         "testimonial_hUQJVX",
