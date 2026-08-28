@@ -1232,6 +1232,18 @@
             "content": "<p>excellent site, mieux que les pro ! le Support sav, nous guident de A à Z, que ce soit sur les démarches d'installation ou concernant le produit je recommande à 100%</p>"
           }
         },
+        "testimonial_TdxWT7": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ssz.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "szaboalex200012",
+            "title": "",
+            "content": "<p>Tout était parfait et l'imprimante fonctionne à merveille ✌️</p>"
+          }
+        },
         "testimonial_xQrdRr": {
           "type": "testimonial",
           "settings": {
@@ -1338,6 +1350,7 @@
         "testimonial_LPrQ36",
         "testimonial_F4QQjL",
         "testimonial_My7a9a",
+        "testimonial_TdxWT7",
         "testimonial_xQrdRr",
         "testimonial_eExDJx",
         "testimonial_teJQLE",
