@@ -1433,6 +1433,18 @@
             "content": ""
           }
         },
+        "testimonial_z34dRK": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/arvvin.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "arvviinntteedd",
+            "title": "Parfait pour vinted , au Top 👍",
+            "content": ""
+          }
+        },
         "testimonial_fYLegC": {
           "type": "testimonial",
           "settings": {
@@ -1522,6 +1534,7 @@
         "testimonial_eExDJx",
         "testimonial_teJQLE",
         "testimonial_jPw4LG",
+        "testimonial_z34dRK",
         "testimonial_fYLegC",
         "testimonial_NTPEaW",
         "testimonial_mc7adC",
