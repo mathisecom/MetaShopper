@@ -1266,6 +1266,18 @@
             "content": "<p>Parfait, je recommande fortement merci</p>"
           }
         },
+        "testimonial_fYLegC": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/stivens.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "stiveunss",
+            "title": "",
+            "content": "<p><strong>Parfait! Très rapide et très commercial, un grand merci :)</strong></p>"
+          }
+        },
         "testimonial_NTPEaW": {
           "type": "testimonial",
           "settings": {
@@ -1329,6 +1341,7 @@
         "testimonial_xQrdRr",
         "testimonial_eExDJx",
         "testimonial_teJQLE",
+        "testimonial_fYLegC",
         "testimonial_NTPEaW",
         "testimonial_mc7adC",
         "testimonial_pX4nkL",
