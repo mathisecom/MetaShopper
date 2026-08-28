@@ -1250,6 +1250,17 @@
             "title": "Imprimante reçue rapidement et parfaitement",
             "content": "<p>Imprimante reçue rapidement et parfaitement conforme à la description. La connexion s’est faite facilement et j’ai pu imprimer mes premières étiquettes en quelques minutes. Service client disponible et efficace.</p>"
           }
+        },
+        "testimonial_XWhQfE": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "francois.rob",
+            "title": "très bien merci",
+            "content": ""
+          }
         }
       },
       "block_order": [
@@ -1268,7 +1279,8 @@
         "testimonial_teJQLE",
         "testimonial_NTPEaW",
         "testimonial_mc7adC",
-        "testimonial_pX4nkL"
+        "testimonial_pX4nkL",
+        "testimonial_XWhQfE"
       ],
       "name": "Testimonials",
       "settings": {
