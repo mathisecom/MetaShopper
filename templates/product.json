@@ -1112,6 +1112,18 @@
             "content": "<p>Service impeccable Explications claires et précises lorsque j'avais des questions, aucun problème Je recommande vivement !</p>"
           }
         },
+        "testimonial_apn7ir": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/pnslucie.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "pnslucie",
+            "title": "Envoie rapide",
+            "content": ""
+          }
+        },
         "testimonial_zXz9qy": {
           "type": "testimonial",
           "settings": {
@@ -1376,6 +1388,7 @@
         "testimonial_gFcDgb",
         "testimonial_PtdNAE",
         "testimonial_BQ7EQg",
+        "testimonial_apn7ir",
         "testimonial_zXz9qy",
         "testimonial_LVQEEe",
         "testimonial_7NUhBy",
