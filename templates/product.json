@@ -1160,6 +1160,18 @@
             "content": "<p>Je suis vraiment satisfaite de mon achat. Elle fonctionne parfaitement avec mes plateformes de vente et simplifie énormément mes expéditions.</p>"
           }
         },
+        "testimonial_F4QQjL": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/baylove.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "babylove19895",
+            "title": "",
+            "content": "<p>envoi rapide et Imprimante thermique conforme à sa description, je recommande vivement.</p>"
+          }
+        },
         "testimonial_xQrdRr": {
           "type": "testimonial",
           "settings": {
@@ -1180,6 +1192,18 @@
             "author": "Julien M.",
             "title": "Reçu en 48h",
             "content": "<p>Reçu en 48h, emballage impeccable et étiquettes fournies avec l’imprimante. Elle fonctionne directement avec Vinted et Colissimo, c’est un vrai gain de temps pour mes envois.</p>"
+          }
+        },
+        "testimonial_teJQLE": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/natsu.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "natsu1391",
+            "title": "Parfait de très bonne qualité",
+            "content": "<p>Parfait, je recommande fortement merci</p>"
           }
         },
         "testimonial_NTPEaW": {
@@ -1225,8 +1249,10 @@
         "testimonial_hUQJVX",
         "testimonial_7RRrQr",
         "testimonial_LPrQ36",
+        "testimonial_F4QQjL",
         "testimonial_xQrdRr",
         "testimonial_eExDJx",
+        "testimonial_teJQLE",
         "testimonial_NTPEaW",
         "testimonial_mc7adC",
         "testimonial_pX4nkL"
