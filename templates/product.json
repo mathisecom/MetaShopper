@@ -1136,6 +1136,18 @@
             "content": "<p>Alors là je peux que vous recommander METASHOPPER, ce n’est peut-être pas un site pro mais franchement il est encore mieux que eux, j’aurais tellement de choses à dire même en cas de problème , le support nous répond dans la minute. Franchement je recommande meilleur qu’un site pro aucun problème, colis bien protégé au top du top. Merci beaucoup pour ces produits incroyables. 😊😊</p>"
           }
         },
+        "testimonial_xrEcgC": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/demdem.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "damdoum33",
+            "title": "Au top . merci",
+            "content": ""
+          }
+        },
         "testimonial_hUQJVX": {
           "type": "testimonial",
           "settings": {
@@ -1282,6 +1294,7 @@
         "testimonial_LVQEEe",
         "testimonial_Ldd9w7",
         "testimonial_hKBNBW",
+        "testimonial_xrEcgC",
         "testimonial_hUQJVX",
         "testimonial_7RRrQr",
         "testimonial_LPrQ36",
