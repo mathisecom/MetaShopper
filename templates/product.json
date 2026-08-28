@@ -1278,6 +1278,18 @@
             "content": "<p>Parfait, je recommande fortement merci</p>"
           }
         },
+        "testimonial_jPw4LG": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/thierry.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "thierryhaessig",
+            "title": "Excellent",
+            "content": ""
+          }
+        },
         "testimonial_fYLegC": {
           "type": "testimonial",
           "settings": {
@@ -1354,6 +1366,7 @@
         "testimonial_xQrdRr",
         "testimonial_eExDJx",
         "testimonial_teJQLE",
+        "testimonial_jPw4LG",
         "testimonial_fYLegC",
         "testimonial_NTPEaW",
         "testimonial_mc7adC",
