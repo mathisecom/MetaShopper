@@ -1255,6 +1255,18 @@
             "content": "<p>Connexion Bluetooth rapide et fonctionnement très fluide. Elle est devenue indispensable pour préparer toutes mes commandes au quotidien.</p>"
           }
         },
+        "testimonial_NJEQ9z": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/barbara.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "barbara.ptt",
+            "title": "Parfait",
+            "content": ""
+          }
+        },
         "testimonial_7RRrQr": {
           "type": "testimonial",
           "settings": {
@@ -1447,6 +1459,7 @@
         "testimonial_hKBNBW",
         "testimonial_xrEcgC",
         "testimonial_hUQJVX",
+        "testimonial_NJEQ9z",
         "testimonial_7RRrQr",
         "testimonial_deakbk",
         "testimonial_LPrQ36",
