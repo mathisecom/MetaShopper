@@ -1184,6 +1184,18 @@
             "content": "<p>Imprimante compacte, silencieuse et efficace. Elle prend peu de place sur mon bureau et imprime très rapidement, même en grande quantité.</p>"
           }
         },
+        "testimonial_deakbk": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/tatiana.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "tatiana999999",
+            "title": "",
+            "content": "<p>super transaction l'imprimante au top j'avais hésité... mais non je recommande le vendeur plus qu'un pro l'imprimante fonctionne très bien pour les envois mondial relay, chronopost et colissimo télécharger l'application ouvrir la localisation et le Bluetooth taille d'étiquettes à régler et imprimer - facile</p>"
+          }
+        },
         "testimonial_LPrQ36": {
           "type": "testimonial",
           "settings": {
@@ -1310,6 +1322,7 @@
         "testimonial_xrEcgC",
         "testimonial_hUQJVX",
         "testimonial_7RRrQr",
+        "testimonial_deakbk",
         "testimonial_LPrQ36",
         "testimonial_F4QQjL",
         "testimonial_My7a9a",
