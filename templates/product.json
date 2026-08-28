@@ -1124,6 +1124,18 @@
             "content": ""
           }
         },
+        "testimonial_ApFBqx": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/cyntia.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "cynthia24190",
+            "title": "Imprimante au top 👌",
+            "content": ""
+          }
+        },
         "testimonial_qzPy9H": {
           "type": "testimonial",
           "settings": {
@@ -1401,6 +1413,7 @@
         "testimonial_PtdNAE",
         "testimonial_BQ7EQg",
         "testimonial_apn7ir",
+        "testimonial_ApFBqx",
         "testimonial_qzPy9H",
         "testimonial_zXz9qy",
         "testimonial_LVQEEe",
