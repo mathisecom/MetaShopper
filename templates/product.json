@@ -1076,6 +1076,18 @@
             "content": ""
           }
         },
+        "testimonial_PtdNAE": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/angie13.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "angiiie13",
+            "title": "Très bien 👍 ✨",
+            "content": ""
+          }
+        },
         "testimonial_BQ7EQg": {
           "type": "testimonial",
           "settings": {
@@ -1349,6 +1361,7 @@
       },
       "block_order": [
         "testimonial_Vx7YqM",
+        "testimonial_PtdNAE",
         "testimonial_BQ7EQg",
         "testimonial_zXz9qy",
         "testimonial_LVQEEe",
