@@ -1267,6 +1267,18 @@
             "content": "<p>Connexion Bluetooth rapide et fonctionnement très fluide. Elle est devenue indispensable pour préparer toutes mes commandes au quotidien.</p>"
           }
         },
+        "testimonial_dMmWR4": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/occasion388.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "occasion388",
+            "title": "Personne sérieuse et efficace. Je recommande.",
+            "content": ""
+          }
+        },
         "testimonial_NJEQ9z": {
           "type": "testimonial",
           "settings": {
@@ -1472,6 +1484,7 @@
         "testimonial_hKBNBW",
         "testimonial_xrEcgC",
         "testimonial_hUQJVX",
+        "testimonial_dMmWR4",
         "testimonial_NJEQ9z",
         "testimonial_7RRrQr",
         "testimonial_deakbk",
