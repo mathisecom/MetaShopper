@@ -765,18 +765,32 @@
             "text_right": "Impression lente, perte de temps"
           }
         },
+        "row_bn3xLx": {
+          "type": "row",
+          "settings": {
+            "text_left": "Étiquette autocollante directe",
+            "text_right": "Découpe et ruban adhésif"
+          }
+        },
         "row_BKafkt": {
           "type": "row",
           "settings": {
-            "text_left": "Économies sur les fournitures (zéro encre)",
+            "text_left": "Économies sur les fournitures (sans cartouche)",
             "text_right": "Cartouches d'encre coûteuses"
+          }
+        },
+        "row_UJLaTL": {
+          "type": "row",
+          "settings": {
+            "text_left": "Compacte et dédiée aux expéditions",
+            "text_right": "Plus encombrant"
           }
         },
         "row_wNt4hC": {
           "type": "row",
           "settings": {
-            "text_left": "Formats multiples (10×15, 5×7, 7×6…)",
-            "text_right": "Un seul format disponible"
+            "text_left": "Formats multiples (10×15, 5×7, 7×6…cm)",
+            "text_right": "Un seul format disponible (A4)"
           }
         },
         "row_RcCmXM": {
@@ -790,7 +804,9 @@
       "block_order": [
         "row_byKFDq",
         "row_XCpgcq",
+        "row_bn3xLx",
         "row_BKafkt",
+        "row_UJLaTL",
         "row_wNt4hC",
         "row_RcCmXM"
       ],
