@@ -1188,7 +1188,47 @@
         "pay_with_credit_card": "Pay by credit card",
         "pay_with_debit_card": "Pay by debit card",
         "payment_method_unavailable_error": "This payment method is not currently available. Choose another payment method.",
-        "payment_method_loading_error": "This payment method is loading. Please try again in a few seconds."
+        "payment_method_loading_error": "This payment method is loading. Please try again in a few seconds.",
+        "same_billing_address_label": "Same as the shipping address",
+        "purchase_options_card_update_agreement_label_html": "By updating your payment method, you authorize payments for any recurring or deferred purchase, in accordance with the store’s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">cancellation policy</a>.",
+        "receiver_payment_experience_hint": "After placing your order, you will receive the payment details. Make the payment via Multibanco or online within %{due_days} days.",
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Make the payment via Multibanco or online using the information below. For any questions or changes to your payment information, %{contact_us}.",
+            "find_nearest_atm": "Find the nearest ATM"
+          }
+        },
+        "purchase_options_agreement_label": "One or more items in your cart are subject to a deferred or recurring purchase. By proceeding to checkout, you agree that your payment method will be automatically charged at the price and frequency indicated on this page until this purchase ends or you cancel it. All cancellations are subject to the %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "I understand that one or more items in my cart are subject to a deferred or recurring purchase. By continuing, I agree to the\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancellation policy</a>\nand authorize you to charge my payment method at the prices, frequency, and dates indicated on this page until my order is processed or I cancel it, if permitted.",
+        "same_billing_address_checkbox_label": "Use the shipping address as the billing address",
+        "shipping_rate_updated": "The available shipping methods have been updated. Confirm your choice before proceeding to payment.",
+        "preview_not_available": {
+          "title": "Preview unavailable",
+          "content": "Don’t worry, this express payment works for your customers.",
+          "button": "OK"
+        },
+        "purchase_options_and_vaulting_agreement_label": "At least one item in your cart is a deferred purchase or subscription. By proceeding with your payment, you agree that your payment method will be automatically charged at the price and frequency indicated on this page until they end or you choose to cancel them. All cancellations are subject to the %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "Cancellation policy",
+        "saved_credit_cards_modal": {
+          "done": "Finish"
+        },
+        "purchase_order_number": {
+          "title": "N° purchase order number",
+          "label": "Purchase order number (optional)"
+        },
+        "shop_pay_installments_label": "Pay in installments with Shop Pay",
+        "saved_credit_card_actions": {
+          "edit": "Modifier"
+        },
+        "purchase_options_agreement_label_wallets": "By proceeding with your payment, you agree to the upcoming charges listed on this page and the cancellation policy.",
+        "saved_credit_card_cvv_verification": "For verification purposes, enter your card’s security code.",
+        "proposed_gateway_unavailable": "The proposed payment gateway is not available",
+        "simulated_express_checkout": "Wallets aren’t available in the editor preview due to your region or browser.",
+        "separate_payments_label": "Your items come from multiple stores. You will be charged in %{separate_payments_link}.",
+        "purchase_options_subscription_agreement_label": "Your cart contains an automatically renewing subscription. By clicking “%{button_label}”, %{consent_text} %{cancellation_instructions}",
+        "purchase_options_subscription_consent_text": "You expressly and formally agree that the recurring amount(s) indicated in your cart (plus shipping and taxes) will be automatically charged to you until the subscription(s) ends or you cancel.",
+        "purchase_options_subscription_cancellation_instructions": "%{cancel_text} Please review the %{cancellation_policy_label}.",
+        "purchase_options_subscription_cancel_text": "You can cancel at any time by accessing your account or contacting the store."
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
