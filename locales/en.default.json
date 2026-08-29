@@ -1002,7 +1002,9 @@
           "prepaid_initial_order_discounted": "%{discounted_shipping_price} in shipping costs upfront %{prepaid_delivery_frequency}",
           "prepaid_initial_order_discounted_with_per_delivery_price": "%{discounted_shipping_price} in shipping costs first %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
           "prepaid_initial_order_discounted_with_renewal": "%{discounted_shipping_price} in shipping costs for the first %{prepaid_delivery_frequency}, then %{shipping_price} %{billing_cycle}",
-          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "%{discounted_shipping_price} in shipping costs for the first %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), then %{shipping_price} %{billing_cycle}"
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "%{discounted_shipping_price} in shipping costs for the first %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), then %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Including",
+          "recurring_order_shipping_price": "tracking of %{recurring_order_shipping_price}"
         },
         "shipping_method_first_shipment_group_title": {
           "many": "First shipments"
@@ -1012,10 +1014,14 @@
           "one": "Recurring delivery"
         },
         "unbranded_description_with_fulfillment_days": {
-          "many": "Ships within %{count} business days"
+          "many": "Ships within %{count} business days",
+          "one": "Shipping on the next business day",
+          "other": "Ships within %{count} business days"
         },
         "unbranded_description_with_fulfillment_weeks": {
-          "many": "Ships within %{count} weeks"
+          "many": "Shipping within %{count} weeks",
+          "one": "Shipping within %{count} week",
+          "other": "Shipping within %{count} weeks"
         },
         "address_edit": "Change the address",
         "address_delete": "Delete the address",
@@ -1075,7 +1081,17 @@
           "default": "Prime delivery is not available for your order. Your shipping options have been updated."
         },
         "shipping_method_rollup_accessibility_label": "Shipping mode options",
-        "shipping_address_rollup_accessibility_label": "Options Ship to address"
+        "shipping_address_rollup_accessibility_label": "Options Ship to address",
+        "waiting_on_rate_notice": "Shipping rates are being retrieved…",
+        "waiting_on_pickup_location_notice": "Get available pickup locations…",
+        "subscription_local_delivery": "Local subscription delivery",
+        "subscription_pickup": "Subscription cancellation",
+        "two_day_delivery": "Delivery within 2 days %{time}",
+        "third_party_address_timeout": "Unable to load addresses. Please try again or use a different address.",
+        "third_party_address_error": "An error occurred while loading the address selection. Enter your address manually below.",
+        "third_party_payment_timeout": "Unable to load payment methods. Please try again or use another payment method.",
+        "third_party_payment_error": "An error occurred while loading the payment selection. Use another payment method.",
+        "unbranded_description_same_day": "Shipped the same business day"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -1337,11 +1353,24 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "many": "Some items in your cart cannot be shipped to the address you entered. Please check that your address is correct and try again, or select a different address."
+          "many": "Some items in your cart cannot be shipped to the address you entered. Check that your address was entered correctly, then try again or select a different address.",
+          "one": "Your order cannot be shipped to the selected address. Please check that your address was entered correctly, then try again or select another address.",
+          "other": "Some items in your cart cannot be shipped to the address you entered. Check that your address was entered correctly, then try again or select a different address."
         },
         "shipping_method_not_available_updated": {
-          "many": "At least one of the items you have added cannot be shipped to your location. Please remove it/them to proceed to checkout, or contact the store."
-        }
+          "many": "It is not possible to ship at least one of the items you added to your location. Please remove it/them to proceed to checkout, or contact the store.",
+          "one": "The item you added cannot be shipped to your location. Please remove it to proceed to checkout, or contact the store.",
+          "other": "It is not possible to ship at least one of the items you added to your location. Please remove it/them to proceed to checkout, or contact the store."
+        },
+        "shipping_method": "The shipping options for your order have changed. Please review your selection.",
+        "shipping_method_not_available": "Your cart has been updated, and the items you added cannot be shipped to your address. Remove the items to complete your order.",
+        "payment_method_not_supported": "You cannot use this payment method for the following country: %{country}. Use another payment method to ship the order to this country.",
+        "empty_state": "Enter your shipping address to see the available shipping methods.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "The items in your cart do not meet the price or weight requirements for shipping. Update your cart and try again.",
+        "title": "Shipping is not available.",
+        "invalid_selected_address": "The selected shipping address is not valid",
+        "invalid_selected_address_with_update_link": "The selected shipping address is invalid. %{update_address_link} or select a different address",
+        "unavailable_address_country": "Shipping is not available to the country you selected. Use a different address to continue."
       },
       "processing": {
         "wait": {
