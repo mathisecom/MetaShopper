@@ -1431,25 +1431,39 @@
       },
       "thank_you": {
         "login_reorder_link_text": {
-          "many": "also buy these products"
+          "many": "Buy these products too",
+          "one": "Also buy this product",
+          "other": "Buy these products too"
         },
         "gift_card_confirmation_by_text_typ": {
-          "many": "You will receive an SMS with your gift cards in a few minutes."
+          "many": "You will receive a text message with your gift cards in a few minutes.",
+          "one": "You will receive a text message with your gift card in a few minutes.",
+          "other": "You will receive a text message with your gift cards in a few minutes."
         },
         "gift_card_confirmation_by_email_typ": {
-          "many": "You will receive an email with your gift cards in a few minutes."
+          "many": "You will receive an email with your gift cards in a few minutes.",
+          "one": "You will receive an email with your gift card in a few minutes.",
+          "other": "You will receive an email with your gift cards in a few minutes."
         },
         "gift_card_email_title": {
-          "many": "The gift cards have been sent by email"
+          "many": "The gift cards were sent by email",
+          "one": "The gift card was sent by email",
+          "other": "The gift cards were sent by email"
         },
         "gift_card_text_title": {
-          "many": "Gift cards have been sent by SMS"
+          "many": "The gift cards were sent by text message",
+          "one": "The gift card was sent by text message",
+          "other": "The gift cards were sent by text message"
         },
         "gift_card_resent_confirmation": {
-          "many": "The gift cards have been returned."
+          "many": "The gift cards have been resent.",
+          "one": "The gift card was resent.",
+          "other": "The gift cards have been resent."
         },
         "gift_card_resend_failure": {
-          "many": "There was a problem resending your gift cards. Please try again or contact us."
+          "many": "A problem occurred while resending your gift cards. Try again or contact us.",
+          "one": "A problem occurred while resending your gift card. Please try again or contact us.",
+          "other": "A problem occurred while resending your gift cards. Try again or contact us."
         },
         "thank_you_unconfirmed_items_heading": {
           "many": "Some items are not confirmed"
@@ -1461,7 +1475,9 @@
           "many": "%{count} articles"
         },
         "items_fulfilled_by_store": {
-          "many": "The items you purchased will be shipped by other stores."
+          "many": "The items you purchased will be shipped by other stores.",
+          "one": "The items you purchased will be shipped by %{remote_shop_name}.",
+          "other": "The items you purchased will be shipped by other stores."
         },
         "confirmation_email_sent_text": "A confirmation email was sent to %{email}",
         "contact_information_title": "Contact details",
@@ -1489,7 +1505,27 @@
         "checkout_on_remote_shop_link_text": "Pay on %{remoteShopName}",
         "checkout_on_another_store": "Pay at another store",
         "checkout_again": "Retry payment",
-        "cashback_notice": "You will receive your cashback after 30 days"
+        "cashback_notice": "You will receive your cashback after 30 days",
+        "in_transit": "In transit",
+        "in_transit_description": "You will receive updates on its progress.",
+        "in_transit_description_days": "You should receive your order within the next %{number} days.",
+        "in_transit_description_tomorrow": "Your order should arrive tomorrow.",
+        "login_title": "Log in to see all order details",
+        "login_description": "You will find the order number in the receipt you received by email.",
+        "login_description_phone": "You will find your order number in the receipt you received by text message.",
+        "login_not_customer_html": "You’re not %{name}? You can %{link}",
+        "login": "Log in",
+        "marker": {
+          "current": "Current order location"
+        },
+        "fulfillment": {
+          "unfulfilled_table_title": "Items being prepared for shipment"
+        },
+        "let_us_know": "Please let us know.",
+        "gift_card_confirmation_by_text": "If you didn’t receive it, resend the text message or contact us.",
+        "gift_card_confirmation_by_email": "If you haven’t received it, resend the email or contact us.",
+        "first_payment_complete": "First payment completed",
+        "manage_order_label": "Manage your orders"
       },
       "review": {
         "blocks": {
