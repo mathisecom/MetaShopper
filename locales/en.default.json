@@ -471,11 +471,66 @@
             "checkout_completion_target_is_invalid_proc": "Invalid payment completion target.",
             "company_location_required": "The client must choose a business location to continue.",
             "company_purchase_permission_required": "The customer is not authorized to place business orders.",
-            "buyer_identity_presentment_currency_does_not_match": "An error occurred while processing your order. Please try again in a few minutes."
+            "buyer_identity_presentment_currency_does_not_match": "An error occurred while processing your order. Please try again in a few minutes.",
+            "customer_account_required": "You must log in to continue.",
+            "phone_number_does_not_match_expected_pattern": "The specified phone number does not match the expected format.",
+            "email_required": "An email address is required when items are purchased with a subscription.",
+            "missing_contact_method": "A valid contact method is missing.",
+            "customer_profile_access_restricted": "Payment is not authorized to access the customer profile.",
+            "lost_access_to_company": "The client has lost access to a company.",
+            "personal_order_not_allowed": "Personal orders are not allowed for this store."
           },
           "attribution": {
             "retail_attribution_not_allowed": "Itemized allocation is not permitted for this payment.",
             "retail_attribution_required": "Retail sales attribution is required for this payment."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "The cart must have only one delivery.",
+            "wrong_number_of_delivery_lines": "A delivery must be specified for each group of items.",
+            "external_delivery_promise_error": "An error occurred while retrieving an external delivery promise.",
+            "options_instructions_invalid": "The specified instructions do not match the expected model.",
+            "destination_address_required": "A destination address is required to continue.",
+            "local_pickup_delivery_line_detail_changed": "The current in-store pickup strategy must be modified in order to continue.",
+            "local_pickup_no_delivery_strategy_available": "No in-store pickup strategy available was found.",
+            "origin_location_id_required": "An origin location ID is required when the RETAIL delivery mode is requested.",
+            "invalid_origin_location_id": "Unable to find a location matching the ID of the original location.",
+            "origin_location_id_not_allowed": "The requested shipping methods do not support the origin location ID.",
+            "auto_fulfill_not_allowed": "This visit is not authorized to replace the order-processing behavior.",
+            "auto_fulfill_required": "Automatic order processing is required when the RETAIL delivery mode is requested.",
+            "prefetch_shipping_rates_used": "Pre-extracted shipping rates should never return any rates.",
+            "fulfillment_constraints_not_satisfied": "One or more order processing constraints were not met.",
+            "must_fulfill_from_constraint_not_satisfied": "The order processing constraints are not satisfied because the items cannot be processed from the required locations.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "The order processing constraints are not satisfied because the items cannot be processed from the same locations.",
+            "delivery_strategy_conditions_not_satisfied": "Delivery strategies are available for this location, but their conditions are not met.",
+            "out_of_stock_at_origin_location": "No stock at the original location.",
+            "invalid_signature": "Invalid signature for the discount.",
+            "mixed_destination_countries": "Delivery is unavailable because the delivery lines are distributed across several countries."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "The personalized discount provided was not honored.",
+            "unsupported_expectation": "The discount on a provided category contained a requirement that the policy could not interpret.",
+            "additional_requested_discount_code_discarded": "{{code}} is valid but not applicable. Check the discount terms.",
+            "discount_title_too_long": "The Discount title cannot exceed 255 characters.",
+            "additional_requested_discount_discarded": "Your discount is valid but not applicable. Check the discount terms.",
+            "mixed_destination_countries": "Discounts are unavailable because the delivery lines are distributed across multiple countries."
+          },
+          "inventory": {
+            "changing_behavior_not_allowed": "This customer is not authorized to modify stock behavior."
+          },
+          "captcha": {
+            "metadata_missing": "Responding to a CAPTCHA is required for this order.",
+            "metadata_mismatch": "The specified CAPTCHA provider and type do not match the expected values.",
+            "token_missing": "A CAPTCHA token must be provided to complete this payment.",
+            "job_enqueue_failed": "The CAPTCHA validation task could not be queued.",
+            "token_expired": "The provided CAPTCHA token has expired. Complete the new CAPTCHA to continue with payment.",
+            "token_invalid": "The provided CAPTCHA token was invalid. Complete the new CAPTCHA to continue checkout.",
+            "token_not_valid_for_session": "The provided CAPTCHA cannot be used with this payment."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "The amount received must be in the store’s currency."
+          },
+          "checkout_source": {
+            "revoked": "This payment is no longer available."
           }
         },
         "dates": {
