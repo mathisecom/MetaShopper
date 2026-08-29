@@ -752,14 +752,19 @@
         },
         "discount_discovery": {
           "merchandise_quantity_label": {
-            "many": "%{count} articles"
-          }
+            "many": "%{count} articles",
+            "one": "%{count} article",
+            "other": "%{count} articles"
+          },
+          "add_code": "Add a discount",
+          "back_to_finalize_order": "Back to complete the order"
         },
         "discount_title_stacking": {
           "many": "Discounts"
         },
         "discount_order_stacking": {
-          "many": "Order discounts"
+          "many": "Order discounts",
+          "one": "Discount on the order"
         },
         "subtotal_label_with_quantity": {
           "many": "Subtotal · %{count} items"
@@ -797,7 +802,35 @@
         "cost_table_item_column_header": "Article",
         "compare_at_sale": "Promotion (%{sale_amount})",
         "automatic_discount_tooltip": "Automatically applied discounts cannot be removed",
-        "alternative_payment_currency_chinese_yuan": "Confirm the final total in CNY in the %{wallet} app."
+        "alternative_payment_currency_chinese_yuan": "Confirm the final total in CNY in the %{wallet} app.",
+        "discount_title": "Promo code",
+        "discount_label": "discount code",
+        "discount_placeholder": "discount code",
+        "discount_has_been_applied": "The discount has been applied",
+        "discount_has_been_removed": "The discount has been removed",
+        "discount_already_applied": "A discount has already been applied to this order. You cannot apply another discount.",
+        "discount_requires_customer_notice": "Enter your shipping information to apply the discount code <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "discount_and_gift_card_savings_notice": "After %{discount_amount} off and %{gift_card_amount} in gift cards",
+        "discount_savings_notice": "After %{discount_amount} off",
+        "estimated_taxes_finalization_tooltip_content": "The final tax and total will be confirmed by email or text message after you place your order.",
+        "deferred_payment_info": {
+          "description_html": "If you have any questions about your order, %{contact_us}.",
+          "paid_today": "Total amount paid today",
+          "due_on_fulfillment_title": "Payment of %{amount_due} is due when the order is processed.",
+          "due_on_receipt_title": "Payment of %{amount_due} is due upon receipt"
+        },
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> is not working at the moment. Contact us for help.",
+        "due_on_fulfillment": "Due once the order has been processed",
+        "duties_label": "Customs duties",
+        "error_duties_tooltip": "As this order is being shipped from another country, customs duties and taxes may be charged upon delivery.",
+        "enter_shipping_address": "Enter a shipping address",
+        "duties_included_label": "The total includes taxes and customs fees. No additional charges upon delivery.",
+        "eligible_customer_missing_notice": "The discount code <strong style=\"text-transform:uppercase\">%{code}</strong> requires an eligible customer",
+        "discount_code_allocations_mismatch": "Your discount code <strong style=\"text-transform:uppercase\">%{code}</strong> has changed. Review your cart and try again.",
+        "discount_code_removed": "The discount code %{code} has been removed",
+        "discount_code_replaced": "The discount code %{old_code} was removed, and %{code} was applied.",
+        "discount_code_replaced_multiple": "Several discount codes were removed and %{code} was applied",
+        "discount_applies_to_subscription_items_only": "This discount applies only to subscription items."
       },
       "shipping": {
         "estimated_delivery_date": {
