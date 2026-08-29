@@ -712,7 +712,9 @@
           }
         },
         "item_label": {
-          "many": "{{count}} articles"
+          "many": "{{count}} articles",
+          "one": "{{count}} article",
+          "other": "{{count}} articles"
         },
         "out_of_stock": {
           "missing_items": {
@@ -734,7 +736,9 @@
           "default_message": {
             "many": "The selected shipping method is no longer available for these items."
           }
-        }
+        },
+        "go_back_to_cart_button_label": "Return to my cart",
+        "continue_cta_label": "Continue to payment"
       },
       "order_summary": {
         "unit_price": {
@@ -1743,23 +1747,30 @@
         "inventory_issue_banner": {
           "heading": {
             "cannot_be_picked_up": {
-              "many": "Could not retrieve %{count} items"
+              "many": "%{count} articles cannot be retrieved",
+              "one": "%{count} article cannot be retrieved",
+              "other": "%{count} articles cannot be retrieved"
             },
             "cannot_be_shipped": {
-              "many": "%{count} items cannot be shipped"
+              "many": "%{count} items cannot be shipped",
+              "one": "%{count} item cannot be shipped",
+              "other": "%{count} items cannot be shipped"
             }
           },
           "remove_item": {
-            "many": "remove items"
+            "many": "remove the items",
+            "one": "Remove the item",
+            "other": "remove the items"
           },
           "ship_separately": {
-            "many": "Send them separately"
+            "many": "Ship them separately"
           },
           "pick_them_up_in_store": {
-            "many": "Collect in store"
+            "many": "Pick them up in store"
           },
           "remove_item_only": {
-            "many": "Remove items"
+            "many": "Remove items",
+            "one": "Remove the item"
           }
         },
         "pickup_items_count": {
@@ -1769,7 +1780,24 @@
           "many": "Ship %{count} items"
         },
         "items_count": {
-          "many": "%{count} items"
+          "many": "%{count} articles"
+        },
+        "pickup_all_items": "Select all articles",
+        "delivery_method_menu": "Split Delivery Mode Menu",
+        "items_for_shipping": "Shipping supplies",
+        "items_moved_to_shipping_toast": "Items that cannot be removed have been transferred to shipping.",
+        "cross_border": {
+          "modal": {
+            "content": "Your pickup and shipping locations must be in the same country. Changing the country will reset all items for shipping."
+          },
+          "banner": "Your delivery method has been updated"
+        },
+        "accessibility": {
+          "status": {
+            "ship_separately": "%{items} will be shipped separately.",
+            "pickup_in_store": "%{items} will be picked up in-store.",
+            "remove_items": "%{items} removed from the cart."
+          }
         }
       },
       "merchandise_unavailable_in_buyer_location": {
@@ -2359,7 +2387,11 @@
         "error": {
           "title": "Unable to load your Shop Pay wallet"
         },
-        "ready_status": "Your Shop Pay digital wallet is ready. Choose a payment method."
+        "ready_status": "Your Shop Pay digital wallet is ready. Choose a payment method.",
+        "title": "Shop Pay electronic wallet",
+        "shipping_address": {
+          "heading": "Delivery address"
+        }
       }
     },
     "notices": {
