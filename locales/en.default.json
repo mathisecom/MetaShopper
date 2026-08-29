@@ -452,8 +452,16 @@
       },
       "customer_account": {
         "saved_address_option_description": {
-          "many": "You have {{count}} saved addresses."
-        }
+          "many": "You have {{count}} saved addresses.",
+          "one": "You have {{count}} saved addresses."
+        },
+        "have_an_account_label": "Do you have an account?",
+        "sign_in_link_label": "Log in",
+        "sign_out_link_label": "Log out",
+        "save_my_information_label": "Save my details for next time",
+        "invalid_address": "The selected address is not valid. %{update_address_link} or select a different address.",
+        "incomplete_address": "The selected address is incomplete. %{update_address_link} or select a different address.",
+        "invalid_shipping_method_summary": "Select a valid shipping address to display the available shipping methods"
       },
       "stock": {
         "unshippable_product": {
@@ -740,10 +748,14 @@
       },
       "contextual_availability": {
         "title": {
-          "many": "Unavailable products"
+          "many": "Products unavailable",
+          "one": "Product unavailable",
+          "other": "Products unavailable"
         },
         "products_not_available": {
-          "many": "These products will be removed from your cart as they are not available in your country/region."
+          "many": "These products will be removed from your cart because they are not available in your country/region.",
+          "one": "This product will be removed from your cart because it is not available in your country/region.",
+          "other": "These products will be removed from your cart because they are not available in your country/region."
         },
         "all_products_in_cart_unavailable": {
           "many": "These products are not available in your country/region."
@@ -760,7 +772,9 @@
             "many": "No delivery available for %{count} items"
           },
           "message": {
-            "many": "These items will be removed from your cart because there is no delivery method available for your address."
+            "many": "These items will be removed from your cart because no shipping method is available for your address.",
+            "one": "This item will be removed from your cart because no delivery method is available for your address.",
+            "other": "These items will be removed from your cart because no shipping method is available for your address."
           }
         }
       },
@@ -957,7 +971,13 @@
         "optional_zip_code_label": "Postal code (optional)",
         "optional_postcode_label": "Postal code (optional)",
         "phone_country_code_label": "Country code for the phone number",
-        "field_tooltip_accessibility_label": "More information about the use of your contact details"
+        "field_tooltip_accessibility_label": "More information about the use of your contact details",
+        "state_label": "Status",
+        "state_placeholder": "Status",
+        "state_and_territory_label": "State/Territory",
+        "state_and_territory_placeholder": "State/Territory",
+        "ward_label": "Canton",
+        "storefront_link": "merchant website"
       },
       "change_currency": {
         "payment_total_label": "Total payment",
@@ -977,6 +997,13 @@
       },
       "clipboard": {
         "failed_to_copy": "Unable to copy"
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Update the card",
+        "delete_customer_mandate": {
+          "generic_error": "An error occurred while processing your request.",
+          "success_message": "Your payment method has been successfully removed."
+        }
       }
     },
     "notices": {
