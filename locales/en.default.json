@@ -2841,7 +2841,20 @@
           "inventory": "Unavailable products",
           "customer": "The customer modified/canceled the order"
         },
-        "cash_on_delivery": "Cash on delivery"
+        "cash_on_delivery": "Cash on delivery",
+        "financial_status": {
+          "pending": "In progress",
+          "voided": "Canceled"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Confirmed",
+          "unfulfilled": "Untreated",
+          "restocked": "Back in stock"
+        },
+        "transaction_status": {
+          "success": "Operation successful",
+          "pending": "In progress"
+        }
       },
       "address": {
         "updated": "The address was successfully updated.",
@@ -2898,12 +2911,28 @@
           "decrement_fulfilled_line_item": "%{delta} of %{total} returned",
           "decrement_return_line_item": "Removal of %{delta} from the return"
         }
+      },
+      "storefront": {
+        "invalid_password": "Incorrect password, please try again."
+      },
+      "tags": {
+        "add_articles": "Refine the search to articles that also have a %{tag} tag",
+        "add_products": "Refine the selection to products matching the %{tag} tag",
+        "remove_articles": "Expand the search to articles that are not tagged %{tag}",
+        "remove_products": "Delete the %{tag} tag"
       }
     },
     "page_titles": {
       "search_results": {
-        "many": "Search: %{count} results found for \"%{terms}\""
-      }
+        "many": "Search: %{count} results found for “%{terms}”",
+        "one": "Search: %{count} result found for “%{terms}”",
+        "other": "Search: %{count} results found for “%{terms}”"
+      },
+      "shopping_cart": "Your cart",
+      "create_account": "Create an account",
+      "reset_account": "Reset account",
+      "not_found": "404 Page not found",
+      "blog_or_article_with_error": "Error – %{title}"
     },
     "attributes": {
       "password_confirmation": "Password confirmation",
@@ -3048,6 +3077,24 @@
     },
     "feed": {
       "more": "Plus"
+    },
+    "sentence": {
+      "last_word_connector": "and",
+      "two_words_connector": "and"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "twenty_four_hours": "Usually ready within 24 hours",
+        "five_or_more_days": "Usually ready in 5 days or more",
+        "next_day": "Ready for pickup the following day"
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Price: low to high",
+        "price_descending": "Price: High to low"
+      },
+      "error": "A problem occurred while loading your search results. Please refresh the page or try again later."
     }
   },
   "customer_accounts": {
