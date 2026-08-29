@@ -1006,7 +1006,9 @@
           "other": "Credit and debit card payments are currently unavailable.<br><a href=\"%{current_url}\">Refresh this page</a> or try another payment method."
         },
         "expired_cards_info": {
-          "many": "You have %{count} expired cards that you can view and update in your account."
+          "many": "There are %{count} expired cards that you can view and edit in your account.",
+          "one": "There is %{count} expired card that you can view and edit in your account.",
+          "other": "There are %{count} expired cards that you can view and edit in your account."
         },
         "order_edit_banner_items_added": {
           "many": "%{count} added"
@@ -1024,13 +1026,18 @@
           "many": "Show %{count} more"
         },
         "discount_codes_removed_summary": {
-          "many": "%{count} discount codes have been deleted"
+          "many": "%{count} discount codes were deleted",
+          "one": "%{count} discount code has been deleted",
+          "other": "%{count} discount codes were deleted"
         },
         "discount_codes_modified_summary": {
-          "many": "%{count} discount codes have been modified"
+          "many": "%{count} discount codes have been modified",
+          "one": "%{count} discount code has been modified",
+          "other": "%{count} discount codes have been modified"
         },
         "discount_codes_removed_or_modified_summary": {
-          "many": "%{count} discount codes have been removed or modified"
+          "many": "%{count} discount codes were removed or modified",
+          "one": "%{count} discount code was removed or modified"
         },
         "add_credit_card_modal": {
           "title": "Add the card"
@@ -1092,7 +1099,59 @@
             "web_component_error": "An issue occurred while loading this page"
           }
         },
-        "continue_to_guest_checkout": "Continue as a guest"
+        "continue_to_guest_checkout": "Continue as a guest",
+        "discount_button_action_label": "Apply a discount code",
+        "ends_with_label": "ending in %{last_digits}",
+        "express_checkout_free_order": "You will not be charged for a free order.",
+        "generic_incorrect_card_info": "We couldn't verify your payment details. Check your card information and try again.",
+        "eps_label": "eps bank transfer (electronic payment system)",
+        "different_credit_card_label": "Try another credit card",
+        "ftd_vault_credit_card_label": "Save my credit card for faster checkout",
+        "delete_customer_mandate_modal_title": "Delete this payment card?",
+        "delete_customer_mandate_modal_body": "If you delete this card, you’ll need to add it again before using it for payments.",
+        "delete_customer_mandate_modal_confirm": "Delete the card",
+        "custom_onsite_payment_method_modal": {
+          "title": "Personalized on-site payment confirmation"
+        },
+        "delete_credit_card_modal": {
+          "title": "Delete the card",
+          "confirmation": "Do you really want to delete the {{brandName}} ending in {{lastDigits}}?"
+        },
+        "edit_credit_card_modal": {
+          "title": "Edit the card",
+          "done": "Finish",
+          "description": "You can only change your card’s billing address.",
+          "fields": {
+            "name": "Name on the card"
+          }
+        },
+        "expired_payment_method": "The selected payment method has expired",
+        "default": "By default",
+        "name_on_card_label": "Name on the card",
+        "name_on_card_placeholder": "Name on the card",
+        "offsite_gateway_redirect_hint": "You will be redirected to %{gateway_label} to complete your purchase.",
+        "no_method_error": "This store cannot accept payments at the moment.",
+        "not_configured_error": "This store cannot accept payments at the moment.",
+        "missing_credit_card_error": "Enter your card details to complete the payment.",
+        "no_real_orders_dev_store": "This store cannot accept real orders or real payments.",
+        "no_taxes_banner_content": "Taxes will not be charged on this order. Taxes can no longer be added once you have collected payment.",
+        "google": {
+          "error_authorizing": "Error authorizing the payment"
+        },
+        "mor_disclaimer_html": "By clicking below and completing your order, you agree to purchase your items from Global-e as the seller of record for this transaction, in accordance with Global-e’s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Terms of Use</a> and <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacy Policy</a>. Global-e is an international provider of fulfillment services for %{shop_name}",
+        "no_working_method_error": "This store cannot accept payments at the moment. Refresh the page or try again later.",
+        "local_payment_method_receiver_notice": "After placing your order, you will receive the payment details. Make the payment at an ATM or online within {{dueDays}} days.",
+        "markets_pro_disclaimer_label": "By placing your order, you agree to purchase from Global-e as the designated seller, in accordance with Global-e’s %{markets_pro_terms} and %{privacy_policy}, and to share your information with %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "General Terms of Use",
+        "markets_pro_disclaimer_terms_and_conditions_title": "General Terms and Conditions of Use of the Designated Seller",
+        "markets_pro_disclaimer_privacy_policy_title": "Privacy Policy of the Assigned Seller",
+        "gift_card_store_credit": {
+          "manage_label": "Manage gift cards or store credits"
+        },
+        "gift_card_checkbox_label": "Apply a gift card",
+        "kcp_creditcard_label": "KCP credit card",
+        "offsite_gateway_redirect_hint_no_button_label": "You will be redirected to %{gateway_label} to complete your purchase.",
+        "new_bank_account_disclaimer": "By completing your order, you authorize %{shop_name} to debit the amount indicated from the account below via ACH on the specified date."
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
