@@ -2754,7 +2754,9 @@
           "generic": "There was a problem with {{walletName}}. Try again or use another payment method.",
           "terminal": "A problem occurred with {{walletName}}. Use another payment method.",
           "unsupported": {
-            "address": "The seller does not ship to the shipping address you selected."
+            "address": "The seller does not ship to the shipping address you selected.",
+            "postal_code": "This location is not supported",
+            "wallet_is_unavailable": "{{walletName}} can't be used with this address. Select a different address or close {{walletName}} to complete your purchase"
           },
           "outdated": {
             "shipping_method": "The shipping options for your order have changed. Please review your selection.",
@@ -2797,7 +2799,17 @@
         },
         "deceleration": {
           "one_more_step": "Just one more step..."
-        }
+        },
+        "return_to_store": "Return to the store",
+        "redirect_hint": "You will be prompted to connect with {{walletName}}.",
+        "payment_in_progress_body": "Your payment is being processed. Your order will be completed shortly.",
+        "redirection_notice": "You will be redirected to {{walletName}} to complete your purchase.",
+        "return_to_checkout": "Return to payment",
+        "scrim": {
+          "and_return_to_checkout": "and return to payment"
+        },
+        "place_order": "Place the order",
+        "recovery_notice": "There was a problem with your order details. Update your information to proceed with payment."
       },
       "vaulted": {
         "change_button": "Modifier"
@@ -2850,6 +2862,56 @@
     "challenge": {
       "message": "To continue, let us know that you are not a robot.",
       "error": "Your answer is incorrect, please try again."
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "Best sellers",
+        "az": "Alphabetical, A to Z",
+        "za": "Alphabetical, Z to A",
+        "price_ascending": "Price: low to high",
+        "price_descending": "Price: high to low",
+        "date_ascending": "Date, from oldest to newest",
+        "date_descending": "Date, from newest to oldest"
+      }
+    },
+    "checkpoint": {
+      "message": "Solve the CAPTCHA to continue"
+    },
+    "email_marketing": {
+      "unsubscribed": {
+        "confirmation": "You have unsubscribed from our mailing list.",
+        "disclaimer": "You will no longer receive marketing messages from us. You can resubscribe at any time.",
+        "preview": "You are viewing a preview of what customers will see when they unsubscribe."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>You have accepted email open tracking.</b>",
+          "visibility": "Email open rates will be reported anonymously. We will only see whether you opened an email as an aggregated email open rate.",
+          "opt_out_html": "You can <a style='text-decoration:underline;' href='%{link}'>disable</a> email open tracking if you do not wish to share this information.",
+          "preview_bar": "You are viewing a preview of what customers will see when they subscribe to email open tracking."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>You have disabled email open tracking.</b>",
+          "visibility": "We will not see whether you opened our emails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Enable</a> email open tracking.",
+          "preview_bar": "You are viewing a preview of what customers will see when they unsubscribe from email open tracking."
+        },
+        "no_longer_track": {
+          "privacy_policy": "After sending this email, we updated our privacy policy and no longer track opens."
+        },
+        "track": {
+          "status_html": "<b>Email open tracking is being reported.</b>",
+          "visibility": "We will only see whether you opened the email through its overall open rate."
+        },
+        "updated_policy": {
+          "status_html": "<b>Email open tracking is being reported.</b>",
+          "visibility": "We have updated our policy, and we now track email opens. Email open rates will be reported anonymously in a report. We will only see whether you opened an email as part of its overall open rate.",
+          "opt_out_html": "If you do not wish to provide this information, you can <a style='text-decoration:underline;' href='%{link}'>unsubscribe</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Do you really want to unsubscribe from SMS marketing?"
+      }
     }
   },
   "customer_accounts": {
