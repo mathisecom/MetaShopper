@@ -923,7 +923,10 @@
           "many": "%{count} business days"
         },
         "other_method": {
-          "many": "%{count} other methods available from"
+          "many": "%{count} other methods available from",
+          "zero": "No other shipping method is available",
+          "one": "%{count} other method available at",
+          "other": "%{count} other methods available from"
         },
         "subscription_delivery_description": {
           "prepaid_delivery_frequency": {
@@ -984,10 +987,11 @@
           }
         },
         "shipping_method_first_shipment_group_title": {
-          "many": "First Shipments"
+          "many": "First shipments"
         },
         "shipping_method_recurring_shipments_group_title": {
-          "many": "Recurring shipments"
+          "many": "Recurring shipments",
+          "one": "Recurring delivery"
         },
         "unbranded_description_with_fulfillment_days": {
           "many": "Ships within %{count} business days"
@@ -1034,7 +1038,26 @@
         },
         "missing_shipping_address": "The shipping address is missing",
         "default_description": "Shipping within 1 business day",
-        "invalid_shipping_method_summary_selected": "Select a different shipping address to view the available shipping methods"
+        "invalid_shipping_method_summary_selected": "Select a different shipping address to view the available shipping methods",
+        "shipping_line_phone": "Your carrier may use this number to contact you.",
+        "shipping_rate_discounted_amount": "Before: %{original_amount}. Now: %{amount}",
+        "shipping_line_delivery_phone": "You may be contacted with new information about your delivery.",
+        "shipping_line_delivery_phone_label": "Mobile phone",
+        "shipping_line_delivery_instructions": "Enter the necessary information, such as door codes or delivery instructions.",
+        "shipping_used_as_billing_notice": "This address will also be used as the billing address for this order.",
+        "split_shipping_merchandise_quantity_label_additional": "and %{quantity} more",
+        "split_shipping_merchandise_shipment_number": "Send %{number} of %{total}",
+        "pre_order_ships_now": "Ship now",
+        "pre_order_ships_later": "Ship later",
+        "pre_order_ships_date": "Shipping on %{date}",
+        "split_shipping_multiple_shipment_notice": "Your order will arrive in multiple shipments.",
+        "split_shipping_option_fastest": "The fastest",
+        "split_shipping_option_custom": "Customize",
+        "prime_not_available": {
+          "default": "Prime delivery is not available for your order. Your shipping options have been updated."
+        },
+        "shipping_method_rollup_accessibility_label": "Shipping mode options",
+        "shipping_address_rollup_accessibility_label": "Options Ship to address"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
