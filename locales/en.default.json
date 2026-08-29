@@ -1040,8 +1040,37 @@
         "validation_errors_banner": {
           "heading": {
             "many": "There are {{count}} errors:"
+          },
+          "errors_in_section": {
+            "many": "{{count}} errors in {{section}}"
           }
-        }
+        },
+        "return_to_cart_link_text": "Back to cart",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} to update quantities",
+        "violations_title": "{{violation}} missing or invalid",
+        "individual_violations_title": {
+          "OtherViolations": "Order information",
+          "UnhandledViolations": "Order information"
+        },
+        "all_violations_content": "Call us or send us an {{emailLink}} to update this information and finalize your order:",
+        "editable_shipping_address_violations_message_footer": "To permanently update this location’s address, {{emailLink}}",
+        "editable_shipping_address_violations_email_link": "Contact us",
+        "company_location_changed_product_removed": "Your cart has been updated because some products are not available at this location. Please check your order before submitting it.",
+        "shipping_address_incomplete_title": "The shipping address is incomplete",
+        "calculating_shipping": "Shipping cost calculation is still in progress. Please try again in a few seconds. You have not been charged.",
+        "calculating_taxes": "Tax calculation is still in progress. Please try again in a few seconds. You have not been charged.",
+        "generic_processing_error": {
+          "title": "A problem occurred while processing your order.",
+          "body": "You were not charged. Please try again or use another payment method."
+        },
+        "contact_information": {
+          "title": "The contact details are not valid.",
+          "email_link": "Contact us"
+        },
+        "payment_method_not_available_with_payment_terms": "The payment method you selected is no longer available because payment for this order is now subject to the {{paymentTerms}} terms.",
+        "payment_method_not_available_with_fulfillment_terms": "The payment method you selected is no longer available because payment for this order is now due when the order is processed.",
+        "payment_method_not_available_with_fixed_terms": "The payment method you selected is no longer available because payment for this order is due at a later date.",
+        "payment_method_not_available_with_review_requirement": "The payment method you selected is no longer available because payment will be due once the order is confirmed."
       },
       "local_pickup": {
         "location_information": {
@@ -1532,7 +1561,8 @@
         "accept_shop_pay_marketing_checkbox_label": "Send me news and offers from this store"
       },
       "mor_policies": {
-        "privacy_policy": "Privacy Policy of the Assigned Seller"
+        "privacy_policy": "Privacy Policy of the Assigned Seller",
+        "terms_and_conditions": "General Terms and Conditions of Use of the Designated Seller"
       },
       "marketplaces": {
         "legal_notice": {
@@ -1554,6 +1584,19 @@
       "memberships": {
         "delivery_promise_unfulfillable": "This address is not supported for the current membership.",
         "items_split_across_locations_unsupported": "Prime delivery is not available for your order. Your shipping options have been updated."
+      },
+      "no_address_location": {
+        "title": "Location without an address",
+        "header": "You do not have a shipping address for this location.",
+        "message": "Contact us to add an address to this location and complete the payment."
+      },
+      "note": {
+        "length_exceeds_maximum": "Reduce the note to 5,000 characters or fewer."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Try scanning the QR code again. If it still doesn’t work, inform our staff and try another payment method.",
+        "payment_link_expired_title": "Expired payment link",
+        "title": "Off-site payment failed"
       }
     },
     "notices": {
