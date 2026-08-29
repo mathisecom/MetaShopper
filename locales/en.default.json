@@ -998,7 +998,8 @@
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
-          "many": "Your orders are covered by your gift cards."
+          "many": "Your orders are covered by your gift cards.",
+          "other": "Your orders are covered by your gift cards."
         },
         "card_fields_unavailable_html": {
           "many": "Credit and debit card payments are currently unavailable.<br><a href=\"%{current_url}\">Refresh this page</a> or try another payment method.",
@@ -1011,7 +1012,8 @@
           "other": "There are %{count} expired cards that you can view and edit in your account."
         },
         "order_edit_banner_items_added": {
-          "many": "%{count} added"
+          "many": "%{count} added",
+          "other": "%{count} added"
         },
         "crypto_payment_method": {
           "cashback_descriptor": {
@@ -1151,7 +1153,42 @@
         "gift_card_checkbox_label": "Apply a gift card",
         "kcp_creditcard_label": "KCP credit card",
         "offsite_gateway_redirect_hint_no_button_label": "You will be redirected to %{gateway_label} to complete your purchase.",
-        "new_bank_account_disclaimer": "By completing your order, you authorize %{shop_name} to debit the amount indicated from the account below via ACH on the specified date."
+        "new_bank_account_disclaimer": "By completing your order, you authorize %{shop_name} to debit the amount indicated from the account below via ACH on the specified date.",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "The total may not include taxes, shipping fees, deferred fees, and certain discounts. Continue to the checkout page to see the amount due today."
+        },
+        "payment_method_saved": "Saved payment method",
+        "order_edit_banner_title": "A payment of {{amount_owed}} is required",
+        "order_edit_banner_subtitle": "Your order {{order_number}} has been updated. Review these changes, then pay to confirm your order.",
+        "order_edit_banner_multiple_items_added": "{{amount}} added",
+        "order_edit_banner_single_item_removed": "Deleted",
+        "order_edit_banner_multiple_items_removed": "{{amount}} deleted",
+        "order_edit_banner_single_item_returned": "Returned order",
+        "order_edit_banner_multiple_items_returned": "{{amount}} returned",
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} out of {{quantity}} removed"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} returned",
+          "with_quantities": "{{delta}} of {{quantity}} returned"
+        },
+        "order_edit_banner_updated_order_label": "Order updated",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Removed from the return",
+          "with_quantities": "Removal of {{delta}} from the return"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Removed from the return",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Removal of {{amount}} from the return",
+        "payment_method_not_available_for_shipping_address_error": "This payment method is not available for the selected shipping address. Choose another payment method.",
+        "paypal_disconnect": "Log out",
+        "payment_method_update_failed": "The payment method update failed.",
+        "payment_flexibility_terms_id_mismatch": "Mismatch in payment flexibility conditions ID",
+        "offsite_gateway_review_page_redirect_hint": "After reviewing your order, you will be redirected to %{gateway_label} to complete your purchase.",
+        "payment_method_incompatible_with_payment_terms": "The payment method is incompatible with the payment terms.",
+        "pay_with_credit_card": "Pay by credit card",
+        "pay_with_debit_card": "Pay by debit card",
+        "payment_method_unavailable_error": "This payment method is not currently available. Choose another payment method.",
+        "payment_method_loading_error": "This payment method is loading. Please try again in a few seconds."
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
