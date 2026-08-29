@@ -446,7 +446,8 @@
       "general": {
         "map": {
           "cluster_title": {
-            "many": "Cluster of {{number}} markers"
+            "many": "Cluster of {{number}} markers",
+            "one": "Cluster of {{number}} markers"
           }
         },
         "breadcrumb": "Breadcrumb trail",
@@ -662,9 +663,31 @@
         "list_formatter": {
           "and": {
             "lastWordConnector": "{{previousWords}} and {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} or {{lastWord}}"
           }
         },
-        "finalize_order_accessibility_label": "Complete the order"
+        "finalize_order_accessibility_label": "Complete the order",
+        "page_title": "Payment",
+        "tooltip_accessibility_label": "Learn more",
+        "title": "Payment - {{shopName}}",
+        "loading_title": "Payment - {{shopName}}",
+        "submit_order_button_label": "Submit the order",
+        "submit_for_review_notice_label": "Payment will only be due once your order has been reviewed.",
+        "submit": "Send",
+        "processing": "Processing...",
+        "stepper": {
+          "increase": "Increase in {{type}}",
+          "decrease": "Reduction of {{type}}"
+        },
+        "remove_item": "Delete %{label}",
+        "remove_tag": "Remove the tag",
+        "sheet": {
+          "expand": "Enlarge"
+        },
+        "loading": "Loading...",
+        "remove_chip": "Delete the item"
       },
       "customer_account": {
         "saved_address_option_description": {
@@ -1034,8 +1057,14 @@
         },
         "all_stores_far_away": {
           "title_with_item": {
-            "many": "The closest location with your items is over %{distance} from %{location}"
-          }
+            "many": "The nearest location with your items is more than %{distance} from %{location}",
+            "one": "The nearest location with your item is more than %{distance} from %{location}",
+            "other": "The nearest location with your items is more than %{distance} from %{location}"
+          },
+          "title": "The nearest locations are more than %{distance} away",
+          "ship_to_address_link": "Ship to the address",
+          "title_with_location": "The nearest location is more than %{distance} from %{location}",
+          "title_with_specific_location": "The closest location with your item is more than %{distance} from %{location}"
         },
         "location_information_far_away": {
           "many": "There are %{count} locations with your item"
@@ -1077,11 +1106,18 @@
           "many": "%{count} nearby locations with your items"
         },
         "location_far_away_one_item": {
-          "many": "%{count} locations with your item"
+          "many": "%{count} locations carrying your item"
         },
         "location_far_away_other_items": {
           "many": "%{count} locations with your items"
-        }
+        },
+        "could_not_resolve_address": "We couldn't locate your address. Please try again or use a different address.",
+        "geolocation": {
+          "permission_not_allowed": "Enable location sharing or search manually."
+        },
+        "location_closest": "Nearest location with your item",
+        "location_closest_one_item": "Nearest location with your item",
+        "location_closest_other_items": "Nearest location carrying your items"
       },
       "split_delivery": {
         "inventory_issue_banner": {
