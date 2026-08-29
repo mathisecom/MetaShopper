@@ -152,8 +152,8 @@
     "general": {
       "empty_collection": "This collection is empty",
       "all_collections": "All collections",
-      "no_collections": "This store does not contain any collection.",
-      "continue_shopping": "Continue shopping"
+      "no_collections": "This store contains no collections.",
+      "continue_shopping": "Explore our products"
     },
     "products_count": {
       "zero": "0 products",
@@ -164,14 +164,14 @@
       "filters": "Filters",
       "filter_and_sort": "Filter and sort",
       "filter_button": "Filter",
-      "clear_filters": "Clear all",
+      "clear_filters": "Delete",
       "apply_filters": "Apply",
       "sort_by": "Sort by",
-      "remove_filter": "Remove filter \"{{ name }}\"",
-      "no_results": "No products match those filters.",
-      "price_range_to": "to",
-      "price_filter_from": "From price",
-      "price_filter_to": "To price",
+      "remove_filter": "Remove the \"{{ name }}\" filter",
+      "no_results": "No products match these criteria",
+      "price_range_to": "à",
+      "price_filter_from": "Of",
+      "price_filter_to": "A",
       "price_filter": "{{ min_price }} - {{ max_price }}",
       "availability_label": "In stock only"
     }
@@ -208,21 +208,21 @@
   "contact": {
     "form": {
       "name": "Name",
-      "email": "E-mail",
+      "email": "Email",
       "message": "Message",
-      "submit": "Send message",
-      "success_message": "Your message has been sent."
+      "submit": "Send",
+      "success_message": "Your message has been sent"
     }
   },
   "customer": {
     "account": {
       "welcome": "Welcome, {{first_name}}",
-      "tagline": "View all your orders and manage your account information.",
+      "tagline": "Access your orders and set up your account.",
       "orders": "Orders",
       "addresses": "Addresses",
-      "logout": "Logout",
-      "no_orders": "You haven't placed any orders yet.",
-      "continue_shopping": "Continue shopping"
+      "logout": "Log out",
+      "no_orders": "You haven't placed any orders.",
+      "continue_shopping": "Explore our products"
     },
     "login": {
       "title": "Login",
@@ -253,8 +253,8 @@
       "title": "Activate account",
       "instructions": "Enter a password to create your account:",
       "password": "Password",
-      "password_confirmation": "Password confirmation",
-      "submit": "Activate",
+      "password_confirmation": "Password (confirmation)",
+      "submit": "Enable",
       "cancel": "Cancel"
     },
     "reset_password": {
@@ -344,23 +344,23 @@
       "change_quantity": "Change quantity",
       "increase_quantity": "Increase the quantity",
       "decrease_quantity": "Decrease the quantity",
-      "remove": "Remove",
-      "remove_with_title": "Remove {{ title }}"
+      "remove": "Delete",
+      "remove_with_title": "Delete {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Spend {{ remaining_amount }} more to get free shipping.",
       "limit_reached_html": "Free shipping!"
     },
     "shipping_estimator": {
-      "estimate_shipping": "Estimate shipping",
+      "estimate_shipping": "Estimate shipping costs",
       "country": "Country",
-      "province": "Province",
-      "zip": "Zip code",
+      "province": "Region",
+      "zip": "Postal code",
       "estimate": "Estimate",
-      "no_results": "Sorry, we do not ship to your address.",
-      "one_result": "There is one shipping rate for your address:",
-      "multiple_results": "There are several shipping rates for your address:",
-      "error": "One or more error occurred while retrieving shipping rates:"
+      "no_results": "We do not deliver to your address.",
+      "one_result": "There is one result for your address:",
+      "multiple_results": "There are several results for your address:",
+      "error": "Unable to estimate shipping costs:"
     }
   },
   "404": {
