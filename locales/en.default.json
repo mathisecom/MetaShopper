@@ -1030,7 +1030,40 @@
           "title": "Add the card"
         },
         "alternative_payment_currency_total_manual_payment_notice": "Note: the converted total is %{amount_due}.",
-        "add_payment_method": "Add a payment method"
+        "add_payment_method": "Add a payment method",
+        "amazon_payments_login_hint": "You will be prompted to sign in with Amazon.",
+        "amazon_payments_logout": "Sign out of Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "The selected payment method could not be used. Select another method or contact your bank or card issuer.",
+        "amazon_payments_abandoned_mfa_challenge": "Your payment could not be processed. Try another payment method or contact your bank or card issuer.",
+        "amazon_payments_could_not_enqueue_authorize": "A problem occurred while processing your payment. Please try again or use another payment method.",
+        "card_change_label": "Modifier",
+        "billing_address_description": "Select the address associated with your card or payment method.",
+        "billing_address_description_no_shipping_address": "Select the address associated with your card or payment method.",
+        "billing_address_not_supported_for_payment_method_error": "This payment method is not available for your currency and billing address. Try another payment method.",
+        "apple_pay_payment_error": "Your payment could not be processed. Please try again or use another payment method.",
+        "apple": {
+          "not_available": "Apple Pay is not available on this browser. To connect your Apple Pay account, you’ll need to use Safari on an Apple device."
+        },
+        "billing_address_associated_with_mandate": "Use the address associated with the payment method",
+        "billing_address_associated_with_mandate_info": "If you wish to change your billing address, delete and re-enter your credit card information.",
+        "billing_must_match_shipping_notice": "The billing address for your payment method must match the shipping address.",
+        "brand_not_available": "This store does not accept {{brand}}. Use another card to pay.",
+        "business_customer_vaulting_payment_label": "Save this payment method during checkout and authorize %{company} to charge it for future purchases for this location. All contacts assigned to this location can use the payment method.",
+        "bank_account_type": {
+          "checking": "Verification in progress"
+        },
+        "bank_account_connect": "Connect a bank account",
+        "bank_account_missing": "The bank account must be connected",
+        "business_customer_with_bank_account_vaulting_payment_label": "Save this payment method during checkout and authorize %{company} to charge your account for future purchases you approve for this location until you cancel. All contacts assigned to this location can use the payment method.",
+        "bank_account_disclaimer": "ACH payment processing can take up to 4 business days.",
+        "bank_account_generic_error": "Unable to add a bank account. Please try again later.",
+        "bogus_test_checkout": {
+          "title": "Test instructions",
+          "gateway_failure": "{{card_number}} to simulate a gateway error",
+          "additional_instructions": "Use a later expiration date and any 3-digit security code of your choice.",
+          "support_link": "Get assistance"
+        },
+        "bank_payment_method_label": "Bank payment method"
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
