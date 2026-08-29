@@ -1001,7 +1001,9 @@
           "many": "Your orders are covered by your gift cards."
         },
         "card_fields_unavailable_html": {
-          "many": "Credit and debit card payments are unavailable at this time.<br><a href=\"%{current_url}\">Refresh this page</a> or try another payment method."
+          "many": "Credit and debit card payments are currently unavailable.<br><a href=\"%{current_url}\">Refresh this page</a> or try another payment method.",
+          "one": "Credit and debit card payments are currently unavailable.<br><a href=\"%{current_url}\">Refresh this page</a> or try again later.",
+          "other": "Credit and debit card payments are currently unavailable.<br><a href=\"%{current_url}\">Refresh this page</a> or try another payment method."
         },
         "expired_cards_info": {
           "many": "You have %{count} expired cards that you can view and update in your account."
@@ -1011,8 +1013,12 @@
         },
         "crypto_payment_method": {
           "cashback_descriptor": {
-            "many": "You will receive your cashback after %{count} days"
-          }
+            "many": "You will receive your cashback after %{count} days",
+            "one": "You will receive your cashback after %{count} day",
+            "other": "You will receive your cashback after %{count} days"
+          },
+          "description": "Connect your wallet securely. Your balance and address will not be shared.",
+          "tooltip": "Your e-wallet balance and address will not be shared, and only the requested amount may be deducted."
         },
         "discount_show_more_warnings": {
           "many": "Show %{count} more"
@@ -1063,7 +1069,30 @@
           "additional_instructions": "Use a later expiration date and any 3-digit security code of your choice.",
           "support_link": "Get assistance"
         },
-        "bank_payment_method_label": "Bank payment method"
+        "bank_payment_method_label": "Bank payment method",
+        "card_expiry_label": "Expiration date (MM/YY)",
+        "card_expiry_placeholder": "Expiration date (MM/YY)",
+        "card_expiry_date_explanation": "Card expiration date in the format: month, month, year, year",
+        "card_verification_value_explanation": "3-digit security code usually located on the back of your card. The security code for American Express cards consists of 4 digits and is located on the front of your card.",
+        "card_verification_value_explanation_amex": "The 4-digit security code on the front of your card",
+        "card_verification_value_explanation_other": "The 3-digit security code on the back of your card",
+        "card_fields_container_prefix": "Field frame:",
+        "card_fields_processing_error": "A problem occurred while processing the payment. Try refreshing this page or checking your Internet connection.",
+        "credit_card_start_month": "Month of issue",
+        "credit_card_start_year": "Year of issue",
+        "card_security_vault_notice": "We need your information for future payments. All transactions are secure and encrypted.",
+        "card_update_label": "Update the card",
+        "card_verification_confirm": "For verification purposes, enter your card’s security code.",
+        "credit_card_vaulting_sign_in_banner_info": "Log in or create an account to save your credit card for future purchases",
+        "clear": "Delete",
+        "crypto_modal": {
+          "header": "Pay %{total_price} USDC to %{shop_name}",
+          "error": {
+            "sandbox_error": "An error occurred",
+            "web_component_error": "An issue occurred while loading this page"
+          }
+        },
+        "continue_to_guest_checkout": "Continue as a guest"
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
