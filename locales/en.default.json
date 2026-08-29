@@ -1045,12 +1045,17 @@
       },
       "local_pickup": {
         "location_information": {
-          "many": "There are %{count} locations with stock nearby"
+          "many": "There are %{count} nearby locations with stock",
+          "one": "There is %{count} location with stock nearby",
+          "other": "There are %{count} nearby locations with stock"
         },
         "paginator": {
           "label": {
-            "many": "%{first} – %{last} of %{count} stores"
-          }
+            "many": "%{first} – %{last} of %{count} stores",
+            "one": "%{first} – %{last} of %{count} stores",
+            "other": "%{first} – %{last} of %{count} stores"
+          },
+          "accessibility_label": "In-store pickup pagination"
         },
         "reveal_more_label": {
           "many": "See %{count} more locations"
@@ -1088,28 +1093,42 @@
           "many": "No locations in %{country} with your items"
         },
         "location_information_far_away_one_item": {
-          "many": "There are %{count} locations with your item"
+          "many": "There are %{count} locations that have your item",
+          "one": "There is %{count} location with your item.",
+          "other": "There are %{count} locations that have your item"
         },
         "location_information_far_away_other_items": {
-          "many": "There are %{count} locations with your items"
+          "many": "There are %{count} locations carrying your items",
+          "one": "There is %{count} location carrying your items",
+          "other": "There are %{count} locations carrying your items"
         },
         "location_nearby_one_item": {
-          "many": "There are %{count} locations nearby with your item"
+          "many": "There are %{count} nearby locations that have your item in stock",
+          "other": "There are %{count} nearby locations that have your item in stock"
         },
         "location_nearby_other_items": {
-          "many": "There are %{count} nearby locations with your items"
+          "many": "There are %{count} nearby locations that have your items.",
+          "one": "There is %{count} nearby location with your items.",
+          "other": "There are %{count} nearby locations that have your items."
         },
         "location_nearby_short_one_item": {
-          "many": "%{count} nearby locations with your item"
+          "many": "%{count} nearby locations with your item",
+          "one": "%{count} nearby locations that have your item"
         },
         "location_nearby_short_other_items": {
-          "many": "%{count} nearby locations with your items"
+          "many": "%{count} nearby locations that have your items",
+          "one": "%{count} nearby locations with your items",
+          "other": "%{count} nearby locations that have your items"
         },
         "location_far_away_one_item": {
-          "many": "%{count} locations carrying your item"
+          "many": "%{count} locations carrying your item",
+          "one": "%{count} locations carrying your item",
+          "other": "%{count} locations carrying your item"
         },
         "location_far_away_other_items": {
-          "many": "%{count} locations with your items"
+          "many": "%{count} locations carrying your items",
+          "one": "%{count} locations that have your items",
+          "other": "%{count} locations carrying your items"
         },
         "could_not_resolve_address": "We couldn't locate your address. Please try again or use a different address.",
         "geolocation": {
@@ -1117,7 +1136,13 @@
         },
         "location_closest": "Nearest location with your item",
         "location_closest_one_item": "Nearest location with your item",
-        "location_closest_other_items": "Nearest location carrying your items"
+        "location_closest_other_items": "Nearest location carrying your items",
+        "or": "OU",
+        "pick_up_location": "Pickup point",
+        "no_pickup_locations_found": "No pickup point found",
+        "pickup_unavailable_banner_body": {
+          "search_elsewhere": "Search elsewhere"
+        }
       },
       "split_delivery": {
         "inventory_issue_banner": {
