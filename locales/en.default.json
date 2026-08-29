@@ -515,7 +515,9 @@
             "mixed_destination_countries": "Discounts are unavailable because the delivery lines are distributed across multiple countries."
           },
           "inventory": {
-            "changing_behavior_not_allowed": "This customer is not authorized to modify stock behavior."
+            "changing_behavior_not_allowed": "This customer is not authorized to modify stock behavior.",
+            "missing_quantity_value": "The “Quantity” field is missing from the buyer’s stock lines.",
+            "only_one_inventory_behavior_allowed": "Currently, only one stock behavior is allowed per payment."
           },
           "captcha": {
             "metadata_missing": "Responding to a CAPTCHA is required for this order.",
@@ -531,6 +533,54 @@
           },
           "checkout_source": {
             "revoked": "This payment is no longer available."
+          },
+          "line_item_limit_reached": "The maximum number of sections has been reached.",
+          "merchandise": {
+            "only_value_constraint": "Only exact values are allowed when entering goods.",
+            "merchandise_not_applicable": "Unable to purchase the product variant.",
+            "bundle_products_not_supported_for_b2b": "Bulk items cannot be added to B2B orders for this location.",
+            "gift_card_quantity_mismatch": "When specifying gift card codes, the quantity of the item and the number of gift card codes must match.",
+            "gift_card_not_supported": "This payment does not support gift cards.",
+            "gift_card_not_unique": "The gift card with code {{code}} appears more than once during this payment. The codes are formatted before comparison.",
+            "gift_card_used": "The gift card code {{code}} is already assigned to a gift card. The codes are formatted before comparison.",
+            "gift_card_invalid": "The gift card code {{code}} is invalid.",
+            "gift_card_code_changed": "The gift card code {{proposed_code}} was replaced with {{formatted_code}} to comply with formatting rules.",
+            "gift_card_with_attributes_not_supported": "Gift cards with custom attributes are not supported during this checkout.",
+            "gift_card_with_components_not_supported": "Gift cards with components are not supported for this payment.",
+            "selling_plan_not_supported_b2b": "Subscriptions are not supported for B2B payments.",
+            "price_mismatch": "The price previously offered for these items was invalid and has been updated.",
+            "inventory_not_found": "No stock found for these items.",
+            "product_not_published": "The product is not published.",
+            "duplicated_stable_id": "This range of items has the same stable ID as another range.",
+            "minimum_quantity_not_met": "The quantity of certain items does not meet the required minimum.",
+            "maximum_quantity_exceeded": "The quantity of some items exceeds the permitted maximum.",
+            "quantity_increment_not_met": "The quantity of some items does not meet the order limits.",
+            "quantity_rules_not_met": "The quantity of some items does not meet the order limits.",
+            "bundle_requires_components": "These bundled products contain no components.",
+            "title_too_long": "The article title is too long.",
+            "title_empty": "The title of the articles is empty.",
+            "mixed_currencies": "The payment contains line items with different currencies.",
+            "product_not_published_in_buyer_location": "The product is unavailable at the buyer’s current location.",
+            "combined_listing_parent_not_purchasable": "The parent products in a bundled offer cannot be purchased directly."
+          },
+          "payment": {
+            "positive_amount_expected": "The amount to pay must be greater than 0.",
+            "missing_session_id": "Missing credit card visit information.",
+            "gateway_not_supported": "The payment gateway does not support storing the payment method.",
+            "credit_card_last_name_required": "“Last name” cannot be null.",
+            "credit_card_update_failed": "The credit card update failed.",
+            "invalid_address_type": "The address type provided is not valid for this payment method.",
+            "missing_retail_attributions": "Retail attributions are required for manually entered credit card payments.",
+            "invalid_card_source": "This site is not authorized to use this map source.",
+            "payment_instrument_not_found": "Unable to find the payment method",
+            "method_required": "A payment method must be offered."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Your buyer’s proposal must contain non-negotiable_terms.",
+            "invalid_signature": "The signature of {{target_terms}} is invalid."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Refusal of customs fees is not permitted for this payment."
           }
         },
         "dates": {
