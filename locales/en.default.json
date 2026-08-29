@@ -1567,7 +1567,44 @@
         "order_status_payments_app_failed_pending_payment_payment": "You have not been charged for your order. Return to your cart to review your order and try checking out again.",
         "order_status_payments_app_failed_pending_payment_pick_up": "You have not been charged for your order. Return to your cart to review your order and try checking out again.",
         "order_status_confirmed_order_local_pick_up": "We are currently preparing your order.",
-        "order_status_confirmed_order_local_payment": "We are currently preparing your order."
+        "order_status_confirmed_order_local_payment": "We are currently preparing your order.",
+        "return_to_store_link_label": "Back to the store",
+        "print_link_label": "Print",
+        "shipping_information_title": "Delivery information",
+        "shipping_address_title": "Delivery address",
+        "shipping_address_map_title": "Google Maps indicates the shipping address location: %{address}",
+        "re-order": "Reorder the same items",
+        "order_status_updates_with_phone": "You may receive shipping and delivery updates by text message.",
+        "order_status_updates_with_missing": "Choose how you would like to receive shipping updates.",
+        "order_updates_description_html": "A confirmation was sent to %{customer_contact}",
+        "order_updates_current_step_prefix": "Current step:",
+        "order_updates_past_step_prefix": "Step completed:",
+        "order_updates_upcoming_step_prefix": "Upcoming step:",
+        "out_for_delivery_description_html": "Your order is on its way. You will receive it today. If it is not delivered within the next 2 days, %{contact_us}.",
+        "order_updates_description_missing": "You are not receiving updates on the status of your shipment.",
+        "order_updates_subscribe_to_email_notifications": "Receive shipping status updates by email",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Receive shipping updates by email or text message.",
+        "order_updates_subscribe_to_phone_notifications": "Receive updates by SMS",
+        "order_updates_submit_subscription": "Send",
+        "pick_up_in_store_marker": {
+          "current": "Current order location",
+          "shipping": "Pickup center"
+        },
+        "ready_for_pickup_title": "Your order is ready for pickup.",
+        "ready_for_pickup_description": "Your order is ready for pickup. Please bring your order confirmation when picking up your order.",
+        "shop_phone_description": "You will receive a message containing a link to the Shop app to help you track your order.",
+        "ready_for_delivery_description": "We have prepared your order.",
+        "out_for_delivery_local_description_html": "You will receive your order shortly.",
+        "qr_code": {
+          "title": "Track it on your phone"
+        },
+        "resend_gift_cards": "Resend the gift cards",
+        "purchase_order_number_title": "Purchase order number %{purchase_order_number}",
+        "order_updates_subscribe_to_email_notifications_failed": "We can't register this email address for updates. Please try again or use a different email address.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "The email address you entered already exists.",
+        "resend_gift_cards_by_email": "Resend the email",
+        "resend_gift_cards_by_text": "Resend the SMS",
+        "payment_method_not_charged": "Not billed"
       },
       "review": {
         "blocks": {
