@@ -1370,7 +1370,10 @@
         "title": "Shipping is not available.",
         "invalid_selected_address": "The selected shipping address is not valid",
         "invalid_selected_address_with_update_link": "The selected shipping address is invalid. %{update_address_link} or select a different address",
-        "unavailable_address_country": "Shipping is not available to the country you selected. Use a different address to continue."
+        "unavailable_address_country": "Shipping is not available to the country you selected. Use a different address to continue.",
+        "unavailable_selected_address": "Shipping is not available for the selected address",
+        "unavailable_selected_address_for_region": "Shipping is not available for the {{region}} region. Select a different address to continue",
+        "unavailable_addresses_only_countries": "Your order can only be shipped to the following countries: {{countriesList}}. Add a new address to continue."
       },
       "processing": {
         "wait": {
@@ -2309,6 +2312,54 @@
       "session_errors": {
         "session_not_unique": "An error occurred while processing your order. Refresh this page to return to the store.",
         "session_already_finished": "This order has already been submitted. You can return to the store to create a new order."
+      },
+      "shop_policies": {
+        "refund_policy": "Refund Policy",
+        "privacy_policy": "Privacy Policy",
+        "terms_of_service": "Terms of Use",
+        "legal_notice": "Legal notices",
+        "terms_of_sale": "Terms and Conditions of Sale",
+        "purchase_options_policy": "Purchase Options Policy",
+        "terms_and_policies": "Terms and Policies"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "A problem occurred while loading Shop Pay",
+          "checkout_has_expired": "Your payment has expired. Close this window and try making the payment again from {{shopName}}."
+        },
+        "return_to_store_simple": "Back to the store",
+        "title": "Shop Pay payment"
+      },
+      "shop_wallet": {
+        "description": "Choose what you would like to use for this purchase.",
+        "payment_method": {
+          "expiry": "Expires on {{expiry}}"
+        },
+        "confirm": {
+          "success_message": "The selected e-wallet details are ready. This prototype does not yet return them to the partner app.",
+          "retryable_error_title": "Unshared selection",
+          "retryable_error_message": "Try confirming your e-wallet selection again.",
+          "terminal_error_title": "Connection to the electronic wallet completed"
+        },
+        "cancelled": {
+          "title": "Selection canceled",
+          "message": "No e-wallet details were shared, and no purchase was made."
+        },
+        "empty": {
+          "title": "No saved card",
+          "message": "There are no cards saved in this Shop Pay wallet."
+        },
+        "ineligible": {
+          "title": "No eligible card"
+        },
+        "expired": {
+          "title": "This e-wallet session has expired",
+          "message": "Return to the partner app and restart the purchase."
+        },
+        "error": {
+          "title": "Unable to load your Shop Pay wallet"
+        },
+        "ready_status": "Your Shop Pay digital wallet is ready. Choose a payment method."
       }
     },
     "notices": {
