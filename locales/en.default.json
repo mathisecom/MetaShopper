@@ -999,10 +999,42 @@
         "address_delete": "Delete the address",
         "address_confirm": "Would you like to delete this address from your account?",
         "address_form": {
-          "add_address": "Add an address"
+          "add_address": "Add an address",
+          "generic_error": "An issue occurred while saving your address. Please try again.",
+          "edit": "Change the address"
         },
         "add_shipping_address": "Add a shipping address",
-        "add_new_delivery_address": "Add a new shipping address"
+        "add_new_delivery_address": "Add a new shipping address",
+        "no_rates_for_cart_or_destination_notice": "No shipping method is available for your cart or address",
+        "no_pickup_location_notice": "At least one of your products is not available for pickup",
+        "cheapest_rate_label": "The cheapest",
+        "estimated_delivery_time": "Delivery expected by %{time}",
+        "estimated_delivery_time_range": "Estimated delivery between: %{min_time}–%{max_time}",
+        "arrives_time": "Arriving at %{time}",
+        "arrives_time_range": "Arrival between %{min_time}–%{max_time}",
+        "estimated_time": "Scheduled for %{time}",
+        "estimated_time_range": "Scheduled between %{min_time} and %{max_time}",
+        "duties_and_taxes_title": "Customs duties and taxes",
+        "loading_progressive_rates": "Searching for additional rates…",
+        "no_other_methods_available": "No other shipping method is available",
+        "duties_and_taxes_options": {
+          "ddp_caption": "No additional delivery fees"
+        },
+        "edit": "Modifier",
+        "different_shipping_method_summary": "Enter a different shipping address to display the available shipping methods",
+        "invalid_shipping_method_summary": "Enter a valid shipping address to view the available shipping methods",
+        "method_summary": {
+          "incomplete_address_entered": "Enter a complete shipping address to view the available shipping methods",
+          "incomplete_address_selected": "Select a complete shipping address to display the available shipping methods"
+        },
+        "local_pickup": {
+          "search_address": "Search for an address",
+          "rollup_title": "Pickup point",
+          "rollup_accessibility_label": "Pickup point options"
+        },
+        "missing_shipping_address": "The shipping address is missing",
+        "default_description": "Shipping within 1 business day",
+        "invalid_shipping_method_summary_selected": "Select a different shipping address to view the available shipping methods"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
