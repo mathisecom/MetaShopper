@@ -1516,7 +1516,8 @@
         "login_not_customer_html": "You’re not %{name}? You can %{link}",
         "login": "Log in",
         "marker": {
-          "current": "Current order location"
+          "current": "Current order location",
+          "shipping": "Delivery address"
         },
         "fulfillment": {
           "unfulfilled_table_title": "Items being prepared for shipment"
@@ -1525,7 +1526,48 @@
         "gift_card_confirmation_by_text": "If you didn’t receive it, resend the text message or contact us.",
         "gift_card_confirmation_by_email": "If you haven’t received it, resend the email or contact us.",
         "first_payment_complete": "First payment completed",
-        "manage_order_label": "Manage your orders"
+        "manage_order_label": "Manage your orders",
+        "order_status_confirmed_order_with_email": "You will receive an email when your order is ready.",
+        "order_status_confirmed_order_with_phone": "You may receive a text message when your order is ready.",
+        "order_status_confirmed_order_with_email_and_phone": "You will receive an email when your order is ready.",
+        "order_status_updates_with_email": "You will receive shipping and delivery updates by email.",
+        "order_status_updates_with_email_and_phone": "You will receive shipping and delivery updates by email.",
+        "no_tracking_number": "No tracking number is associated with this order.",
+        "order_status_confirmed_order_with_email_pick_up": "You will receive an email when your order is ready for pickup.",
+        "order_status_confirmed_order_with_phone_pick_up": "You will receive a text message when your order is ready for pickup.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "You will receive an email and a text message when your order is ready for pickup.",
+        "order_status_confirmed_order_local": "We are currently preparing your order for delivery.",
+        "order_status_confirmed_order_with_email_payment": "You made a payment on your order on %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "You made a payment on your order on %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "You made a payment on your order on %{date}.",
+        "missing_shipping_address_banner": {
+          "title": "The order does not contain a shipping address"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Contact the sales staff.",
+        "order_status_confirmed_with_installments_payment_confirm": "You will soon receive a confirmation email containing your order number and the details of your installment payment plan.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "You will receive a confirmation email shortly. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "You will receive a confirmation email shortly. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "You will soon receive a confirmation by SMS. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_failed_pending_payment": "You have not been charged for your order. Return to your cart to review your order and try checking out again.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "You will receive a confirmation email shortly. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "You will receive a confirmation email shortly. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "You will receive a confirmation email shortly. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "You will receive a confirmation email shortly. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "You will soon receive a confirmation by SMS. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "You will soon receive a confirmation by SMS. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "After your payment has been completed, you will receive a confirmation by email. Track your order using the Shop app.",
+        "order_status_payments_app_failed_pending_payment_payment": "You have not been charged for your order. Return to your cart to review your order and try checking out again.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "You have not been charged for your order. Return to your cart to review your order and try checking out again.",
+        "order_status_confirmed_order_local_pick_up": "We are currently preparing your order.",
+        "order_status_confirmed_order_local_payment": "We are currently preparing your order."
       },
       "review": {
         "blocks": {
