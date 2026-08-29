@@ -80,23 +80,23 @@
     "general": {
       "description": "Description",
       "view_product": "View product",
-      "quick_add": "+ Quick add",
+      "quick_add": "+ Add",
       "add_to_cart_short": "+ Add",
       "add_to_cart_button": "Add to cart",
       "pre_order_button": "Pre-order",
-      "sold_out_button": "Sold out",
+      "sold_out_button": "Out of stock",
       "unavailable_button": "Unavailable",
       "added_to_cart": "Product added to cart!",
-      "sold_out_badge": "Sold out",
+      "sold_out_badge": "Out of stock",
       "on_sale_badge": "Promotion",
       "discount_badge_html": "Save {{ savings }}",
       "sku": "SKU:",
       "variant": "Variant",
-      "view_in_space": "View in your space",
-      "taxes_included": "Tax included.",
-      "taxes_excluded": "Tax excluded.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated</a> at checkout",
-      "size_chart": "Size chart",
+      "view_in_space": "Display in your space",
+      "taxes_included": "Taxes included",
+      "taxes_excluded": "Taxes excluded",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping fees calculated</a> at checkout",
+      "size_chart": "Size guide",
       "available_colors_count": {
         "one": "{{ count }} color",
         "other": "{{ count }} colors"
@@ -114,38 +114,38 @@
     },
     "quantity": {
       "label": "Quantity",
-      "increase_quantity": "Increase quantity",
-      "decrease_quantity": "Decrease quantity",
+      "increase_quantity": "Increase the quantity",
+      "decrease_quantity": "Decrease the quantity",
       "minimum_of": "Minimum of {{ min }}",
       "maximum_of": "Maximum of {{ max }}",
       "increment_of": "Increment of {{ step }}"
     },
     "volume_pricing": {
-      "title": "Volume pricing",
-      "minimum": "{{ minimum_quantity }}+",
-      "price_at_each": "{{ price }}/ea"
+      "title": "Volume-based pricing",
+      "minimum": "{{ quantity }} or more",
+      "price_at_each": "at {{ price }}/piece"
     },
     "rating_count": {
       "zero": "No reviews",
-      "one": "{{ count }} review",
+      "one": "{{ count }} reviews",
       "other": "{{ count }} reviews"
     },
     "inventory": {
       "in_stock": "In stock",
-      "oversell_stock": "Re-stocking soon",
-      "incoming_stock": "Re-stocking on {{ next_incoming_date }}",
+      "oversell_stock": "Restocking soon",
+      "incoming_stock": "Restocking on {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
-        "one": "Only {{count}} unit left",
-        "other": "Only {{count}} units left"
+        "one": "Only one product left in stock",
+        "other": "Only {{count}} products left in stock"
       }
     },
     "store_availability": {
-      "view_store_info": "View store information",
+      "view_store_info": "Display store information",
       "check_other_stores": "Check availability at other stores",
       "pick_up_available": "Pickup available",
-      "pick_up_currently_unavailable": "Pickup currently unavailable",
+      "pick_up_currently_unavailable": "Retrieval currently unavailable",
       "pick_up_available_at": "Pickup available at {{ location_name }}",
-      "pick_up_unavailable_at": "Pickup currently unavailable at {{ location_name }}"
+      "pick_up_unavailable_at": "Pickup is currently unavailable at {{ location_name }}"
     }
   },
   "collection": {
@@ -372,17 +372,17 @@
   "search": {
     "general": {
       "title": "Search",
-      "terms": "Results for \"{{ terms }}\"",
-      "search_placeholder": "Search for...",
+      "terms": "Results for \"{{terms}}\"",
+      "search_placeholder": "Search...",
       "products": "Products",
       "suggestions": "Suggestions",
       "collections": "Collections",
       "posts": "Blog posts",
       "pages": "Pages",
-      "clear": "Clear",
+      "clear": "Delete",
       "view_all": "View all",
-      "view_all_results": "View all results",
-      "no_results": "No results could be found."
+      "view_all_results": "View results",
+      "no_results": "No results match your search."
     },
     "results_count": {
       "zero": "0 results for \"{{ terms }}\"",
