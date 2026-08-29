@@ -1462,7 +1462,34 @@
         },
         "items_fulfilled_by_store": {
           "many": "The items you purchased will be shipped by other stores."
-        }
+        },
+        "confirmation_email_sent_text": "A confirmation email was sent to %{email}",
+        "contact_information_title": "Contact details",
+        "estimated_arrival": "Estimated delivery date:",
+        "confirmed_title": "Your order is now confirmed",
+        "confirmed_description": "We have accepted your order and are preparing it. Return to this page for updates on the shipment status.",
+        "attempted_delivery": "Delivery attempt",
+        "attempted_delivery_title": "We tried to deliver your order",
+        "attempted_delivery_description_html": "We tried to deliver your order, but the delivery was unsuccessful. Please %{contact_us} to schedule another delivery attempt.",
+        "delivered_description_html": "Your order was delivered to the address you provided. If you have not received it or have encountered another issue, please %{contact_us}.",
+        "failed_title": "Your order could not be delivered",
+        "customer_information_hidden_fields_message": "Log in to view all customer information.",
+        "customer_validation_error": "Enter a valid email address or order number.",
+        "customer_validation_error_phone": "Enter a valid phone number or order number.",
+        "attempted_delivery_local_description_html": "We were unable to deliver your order. To schedule another delivery, %{contact_us}.",
+        "estimated_delivery": "Current delivery estimate:",
+        "breadcrumbs_in_review": "Under review",
+        "choose_payment_method_later": "Choose a payment method later",
+        "failed_pending_payment_page_title": "A problem occurred with your payment",
+        "announcement": {
+          "expand": "Develop",
+          "collapse": "Reduce"
+        },
+        "confirmed_items_count": "%{confirmed_count} articles out of %{total_count} are confirmed",
+        "checkout_on_remote_shop_link_text": "Pay on %{remoteShopName}",
+        "checkout_on_another_store": "Pay at another store",
+        "checkout_again": "Retry payment",
+        "cashback_notice": "You will receive your cashback after 30 days"
       },
       "review": {
         "blocks": {
