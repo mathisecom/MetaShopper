@@ -1412,6 +1412,12 @@
         },
         "pickup_unavailable_banner_title": {
           "many": "No pickup location is available for your items"
+        },
+        "could_not_resolve_address": "Your address could not be located. Please try again or use a different address.",
+        "geolocation": {
+          "errors": {
+            "permission_denied": "Unable to obtain your location. Please try again."
+          }
         }
       },
       "notice_banner": {
@@ -2038,7 +2044,18 @@
           "no_longer_supported": "The store’s currency is no longer supported."
         },
         "installments_payment_method_incompatible": "The selected payment method cannot be used for installment payments. Choose another payment method.",
-        "custom_redeemable_no_longer_available": "This offer is no longer available."
+        "custom_redeemable_no_longer_available": "This offer is no longer available.",
+        "three_d_secure_failed": "Your payment details could not be verified. Please try again or use another payment method.",
+        "three_d_secure_throttled": "Too many attempts; please wait before trying again",
+        "subscription_agreement_blank": "To subscribe, your payment information must be saved. To continue, confirm that you accept or remove the subscriptions from your order.",
+        "three_d_secure_failed_duplicate": "3D Secure authentication for the credit card failed because another authentication is already in progress.",
+        "shipping_must_match_billing": "The billing address must match the shipping address. Use another payment method.",
+        "test_mode_live_card": "This store cannot accept real orders or real payments.",
+        "transient_error": "A problem occurred while processing your payment. Try refreshing this page or check your Internet connection.",
+        "successful_offsite_with_gift_card_error": "A problem occurred while processing your gift card payment. Please try again or use another payment method.",
+        "three_d_secure_failed_payment_method": "Your card could not be verified. Try again or add another card.",
+        "shop_pay_wallet_not_available": "Shop Pay isn’t available for this payment.",
+        "test_mode_enabled_only_test_cards": "Test mode is enabled; only test credit cards can be added."
       },
       "payment_challenge_modal": {
         "instructions": "Complete your purchase with your {{paymentMethod}} code",
@@ -2056,6 +2073,29 @@
       "payment_collection": {
         "cancelled": "This payment is no longer required. Visit the order page to view the details.",
         "paid": "This payment has already been submitted. Visit the order page to view the details."
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Expires %{month}/%{year}"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bank deposit",
+        "cash_on_delivery_label": "Cash on delivery",
+        "money_order_label": "Mandate",
+        "deferred_payment_label": "Choose a payment method later",
+        "generic_payment_terms": "Your terms are {{translatedName}}. Your payment will be due on {{dueDate}}.",
+        "direct_payment_terms": "Your due date is {{translatedName}}. Your card will be charged on {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Your payment will be due once your order has been processed.",
+        "order_due_on_fulfillment_payment": "Your card will be charged once your order has been processed.",
+        "draft_order_payment_due_later_terms": "You will be subject to {{translatedName}}'s terms once your order is confirmed.",
+        "draft_order_payment_due_on_fulfillment": "Your payment will be due once your order has been confirmed and processed.",
+        "fixed_payment_label": "Your payment is due on {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} is due today. The balance is under the terms of {{translatedName}} and must be paid by {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} is due today. The balance will be due once your order has been processed.",
+        "order_due_on_receipt_choose_later": "Your payment will be due upon receipt.",
+        "draft_order_deposit_due_later": "{{depositAmount}} of the amount will be due once your order is confirmed. The remaining balance will be due at {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} of the amount will be due once your order is confirmed. The balance will be due once your order has been processed.",
+        "credit_or_debit_card_label": "Credit/debit",
+        "bogus_label": "Test payment gateway"
       }
     },
     "notices": {
