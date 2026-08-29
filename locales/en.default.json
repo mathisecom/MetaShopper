@@ -1472,7 +1472,9 @@
           "many": "You have not been billed for these"
         },
         "thank_you_item_label": {
-          "many": "%{count} articles"
+          "many": "%{count} articles",
+          "one": "%{count} article",
+          "other": "%{count} articles"
         },
         "items_fulfilled_by_store": {
           "many": "The items you purchased will be shipped by other stores.",
@@ -1604,7 +1606,49 @@
         "order_updates_subscribe_to_email_notifications_email_already_exists": "The email address you entered already exists.",
         "resend_gift_cards_by_email": "Resend the email",
         "resend_gift_cards_by_text": "Resend the SMS",
-        "payment_method_not_charged": "Not billed"
+        "payment_method_not_charged": "Not billed",
+        "thank_you_confirmed_order_with_email": "You will soon receive a confirmation email with your order number.",
+        "thank_you_confirmed_order_with_phone": "You will shortly receive a confirmation message with your order number.",
+        "thank_you_confirmed_order_with_email_and_phone": "You will soon receive a confirmation email with your order number.",
+        "thank_you_confirmed_order_with_email_pick_up": "You will receive an email when your order is ready for pickup.",
+        "thank_you_confirmed_order_with_phone_pick_up": "You will receive a text message when your order is ready for pickup.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "You will receive an email when your order is ready for pickup.",
+        "thank_you_confirmed_order_with_email_payment": "You made a payment on your order on %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "You made a payment on your order on %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "You made a payment on your order on %{date}.",
+        "thank_you_confirmed_order_with_draft": "We will contact you if we need additional information or when your order has been confirmed.",
+        "thank_you_payments_app_failed_pending_payment": "You have not been charged for your order. Return to your cart to review your order and try checking out again.",
+        "thank_you_confirmed_order_with_draft_payment": "We will contact you if we need additional information or when your order has been confirmed.",
+        "thank_you_confirmed_order_with_draft_pick_up": "We will contact you if we need additional information or when your order has been confirmed.",
+        "thank_you_payments_app_failed_pending_payment_payment": "You have not been charged for your order. Return to your cart to review your order and try checking out again.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "You have not been charged for your order. Return to your cart to review your order and try checking out again.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "You will shortly receive a confirmation email indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "You will shortly receive a confirmation email indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "You will shortly receive a confirmation email indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "After completing your payment, you will receive a confirmation email containing your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "After completing your payment, you will receive a confirmation email containing your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "After completing your payment, you will receive a confirmation email containing your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "After completing your payment, you will receive a confirmation email containing your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "After completing your payment, you will receive a confirmation email containing your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "After completing your payment, you will receive a confirmation email containing your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "After your payment has been completed, you will receive a confirmation text message containing your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "After your payment has been completed, you will receive a confirmation text message containing your order number.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "After your payment has been completed, you will receive a confirmation text message containing your order number.",
+        "thank_you_confirmed_orders_with_email": "You will soon receive separate confirmation emails containing your order numbers.",
+        "thank_you_confirmed_orders_with_phone": "You will soon receive separate confirmation text messages containing your order numbers.",
+        "thank_you_confirmed_orders_with_email_and_phone": "You will soon receive separate confirmation emails containing your order numbers.",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "You will receive a confirmation email shortly",
+          "multi_store": "You will soon receive separate confirmation emails from each store."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "You will soon receive a confirmation text message.",
+          "multi_store": "You will soon receive separate confirmation text messages from each store."
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "You will receive a confirmation email shortly",
+          "multi_store": "You will soon receive separate confirmation emails from each store."
+        }
       },
       "review": {
         "blocks": {
