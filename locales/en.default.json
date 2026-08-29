@@ -1793,7 +1793,12 @@
         },
         "footer": {
           "heading": "Do not refresh this page; it will update automatically."
-        }
+        },
+        "line_to_check_out": "You are in the checkout queue",
+        "merchandise": {
+          "sold_out": "Sold out"
+        },
+        "time_to_checkout_title": "It’s time to proceed to payment - {{shopName}}"
       },
       "deliverability": {
         "not_deliverable": {
@@ -2723,6 +2728,47 @@
               "valid": "The VAT number is valid"
             }
           }
+        }
+      },
+      "tips": {
+        "title": "Add a tip",
+        "description": "Show your support for the %{shop_name} team",
+        "add_tip": "Add a tip",
+        "update_tip": "Modify the tip",
+        "message": "Thank you very much!",
+        "not_available_with_spi": "Not available with Shop Pay installment payments"
+      },
+      "wallets": {
+        "errors": {
+          "detour": {
+            "price_change": "Prices for some items have changed. Close {{walletName}} to review your order and try again.",
+            "currency_change": "You cannot use a different address with {{walletName}}. Use the original address or try another payment method."
+          }
+        },
+        "deceleration": {
+          "one_more_step": "Just one more step..."
+        }
+      },
+      "vaulted": {
+        "change_button": "Modifier"
+      },
+      "units": {
+        "fluid_ounce": "fl oz.",
+        "inch": "po",
+        "foot": "pi",
+        "square_foot": "pi²",
+        "item": "article"
+      },
+      "tooltip": {
+        "additional_payment_methods": "Other payment methods"
+      },
+      "too_many_requests": {
+        "title": "Too many payment attempts",
+        "body": "Please wait a few minutes, then restart the process from your cart."
+      },
+      "ucp": {
+        "standard_errors": {
+          "item_unavailable": "The item cannot be purchased"
         }
       }
     },
