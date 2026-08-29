@@ -459,7 +459,50 @@
         },
         "back_button_label": "Back",
         "autocomplete_powered_by_google": "Optimized by {{brandName}}",
-        "confirm_order_button_label": "Confirm the order"
+        "confirm_order_button_label": "Confirm the order",
+        "edit_link_label": "Modifier",
+        "continue_to_payment_method": "Proceed to checkout",
+        "continue_to_review": "Check the order",
+        "errors": {
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "The company contact does not have access to it.",
+            "contact_info_does_not_match_customer_account": "The contact information must match the account you are signed in to.",
+            "checkout_completion_target_is_missing": "The payment completion target is missing.",
+            "checkout_completion_target_is_invalid_proc": "Invalid payment completion target.",
+            "company_location_required": "The client must choose a business location to continue.",
+            "company_purchase_permission_required": "The customer is not authorized to place business orders.",
+            "buyer_identity_presentment_currency_does_not_match": "An error occurred while processing your order. Please try again in a few minutes."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Itemized allocation is not permitted for this payment.",
+            "retail_attribution_required": "Retail sales attribution is required for this payment."
+          }
+        },
+        "dates": {
+          "weekdays_abbreviation": {
+            "monday": "Moon",
+            "tuesday": "Tuesday",
+            "wednesday": "Sea",
+            "thursday": "Game",
+            "friday": "Come",
+            "saturday": "Sam",
+            "sunday": "Dim"
+          },
+          "months": {
+            "march": "Mars"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Show the previous month, {{month}} {{year}}",
+          "range_start": "Start of the period",
+          "in_range": "During the period",
+          "range_end": "End of the period"
+        },
+        "dropzone": {
+          "add_file": "Add a file",
+          "invalid_file_type": "Unsupported file type",
+          "dragged_over": "Drop the file to import"
+        }
       },
       "customer_account": {
         "saved_address_option_description": {
