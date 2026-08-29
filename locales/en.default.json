@@ -722,7 +722,9 @@
               "many": "{{count}} items are no longer available"
             },
             "some_available_notice": {
-              "many": "Remaining items are still available for payment. Unavailable items will be removed from the cart."
+              "many": "The remaining items are still available for checkout. Unavailable items will be removed from the cart.",
+              "one": "The remaining items are still available for purchase. The unavailable item will be removed from the cart.",
+              "other": "The remaining items are still available for checkout. Unavailable items will be removed from the cart."
             },
             "none_available_notice": {
               "many": "These items are no longer available and have been removed from your cart."
@@ -734,11 +736,34 @@
             "many": "%{delivery_method} is no longer available for these items."
           },
           "default_message": {
-            "many": "The selected shipping method is no longer available for these items."
-          }
+            "many": "The selected delivery method is no longer available for these items.",
+            "one": "The selected delivery method is no longer available for this item.",
+            "other": "The selected delivery method is no longer available for these items."
+          },
+          "title": "Delivery unavailable"
         },
         "go_back_to_cart_button_label": "Return to my cart",
-        "continue_cta_label": "Continue to payment"
+        "continue_cta_label": "Continue to payment",
+        "quantity_update": {
+          "description": "The available quantities for these items have changed and have been updated in your cart."
+        },
+        "unpurchasable_product": {
+          "header": "Some items have been removed from your cart",
+          "status_column_header": "Unavailable"
+        },
+        "unpurchasable_product_generic": {
+          "header": "Some items have been removed from your cart",
+          "status_column_header": "Unavailable"
+        },
+        "price_update": {
+          "title": "Price change",
+          "description": "The prices of these items have changed and have been updated in your cart."
+        },
+        "return_to_store_label": "Back to the store",
+        "price_and_quantity_update": {
+          "title": "Update of prices and quantities",
+          "description": "The prices and available quantities for these items have changed and have been updated in your cart."
+        }
       },
       "order_summary": {
         "unit_price": {
