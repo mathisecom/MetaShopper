@@ -1058,7 +1058,9 @@
           "accessibility_label": "In-store pickup pagination"
         },
         "reveal_more_label": {
-          "many": "See %{count} more locations"
+          "many": "View %{count} more locations",
+          "one": "View %{count} more locations",
+          "other": "View %{count} more locations"
         },
         "all_stores_far_away": {
           "title_with_item": {
@@ -1084,13 +1086,18 @@
           "many": "%{count} locations with your item"
         },
         "toggle_more_locations": {
-          "many": "%{count} other locations"
+          "many": "%{count} other locations",
+          "one": "%{count} other location",
+          "other": "%{count} other locations"
         },
         "pickup_unavailable_banner_title": {
-          "many": "No locations with your items"
+          "many": "No location with your items",
+          "one": "No location with your item",
+          "other": "No location with your items"
         },
         "pickup_unavailable_banner_title_with_country": {
-          "many": "No locations in %{country} with your items"
+          "many": "No locations in %{country} have your items",
+          "other": "No locations in %{country} have your items"
         },
         "location_information_far_away_one_item": {
           "many": "There are %{count} locations that have your item",
@@ -1141,8 +1148,15 @@
         "pick_up_location": "Pickup point",
         "no_pickup_locations_found": "No pickup point found",
         "pickup_unavailable_banner_body": {
-          "search_elsewhere": "Search elsewhere"
-        }
+          "search_elsewhere": "Search elsewhere",
+          "ship_to_address": "Ship to the address",
+          "there_are_no_stores": "There is no store near your address, or your items are not available for pickup."
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "The location you previously selected is no longer available",
+          "description": "We selected the closest location where your items are in stock."
+        },
+        "toggle_multiple_locations": "+ %{count} more locations"
       },
       "split_delivery": {
         "inventory_issue_banner": {
@@ -1462,6 +1476,26 @@
         "split_by_delivery_method_not_allowed": "Split delivery is not allowed for this visit or store.",
         "split_by_delivery_method_unsupported_method_type": "Splitting by delivery method was attempted with an unsupported delivery method type.",
         "split_by_delivery_method_requires_merchandise_from_single_location": "Splitting by delivery method requires individual item lines to be processed from a single location."
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_kr": "Personal customs code",
+          "tax_credential_it": "Tax identification number (optional)",
+          "tax_credential_co": "Tax ID/VAT",
+          "shipping_credential_co": "Tax ID/VAT",
+          "shipping_credential_type_co": "ID Type",
+          "tax_credential_ec": "ID/TIN/VAT",
+          "shipping_credential_ec": "ID/TIN/VAT",
+          "tax_credential_gt": "Tax ID/VAT",
+          "shipping_credential_gt": "Tax ID/VAT",
+          "tax_credential_id": "Taxpayer Identification Number",
+          "shipping_credential_id": "Taxpayer Identification Number",
+          "shipping_credential_my": "TIN/Registration number",
+          "shipping_credential_py": "ID/TIN/VAT",
+          "shipping_credential_pt": "VAT ID",
+          "shipping_credential_tw": "National ID/VAT number",
+          "shipping_credential_tr": "Turkish Republic Identification Number/VAT"
+        }
       }
     },
     "notices": {
