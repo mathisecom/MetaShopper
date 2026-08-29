@@ -1193,8 +1193,16 @@
       },
       "merchandise_unavailable_in_buyer_location": {
         "remove_items_action": {
-          "many": "remove unavailable items"
-        }
+          "many": "Remove unavailable items",
+          "one": "Remove the unavailable item",
+          "other": "Remove unavailable items"
+        },
+        "banner_title": {
+          "some_products_one": "This product cannot be delivered to %{location_name}."
+        },
+        "change_address_only": "Change the delivery address to continue.",
+        "change_address_or_remove": "Change the delivery address or %{remove_action}.",
+        "empty_cart_action": "Empty the cart and return to the shop"
       },
       "review_address_modal": {
         "subtitle": {
@@ -1494,8 +1502,58 @@
           "shipping_credential_py": "ID/TIN/VAT",
           "shipping_credential_pt": "VAT ID",
           "shipping_credential_tw": "National ID/VAT number",
-          "shipping_credential_tr": "Turkish Republic Identification Number/VAT"
+          "shipping_credential_tr": "Turkish Republic Identification Number/VAT",
+          "tax_credential_type_co": "ID Type",
+          "tax_credential_my": "TIN/Registration number",
+          "tax_credential_type_mx": "Tax Regime",
+          "tax_credential_use_mx": "Use of CFDI",
+          "tax_credential_py": "ID/TIN/VAT",
+          "tax_credential_pt": "VAT ID",
+          "tax_credential_tr": "Turkish Republic Identification Number/VAT"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Email me news and offers",
+        "unsubscribe": {
+          "title": "You have unsubscribed",
+          "description": "You will no longer receive reminders from us about your cart."
+        },
+        "accept_sms_checkbox_label": "Send me news and offers by text message",
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Terms of Use",
+            "description_html": "By signing up to receive text messages, you agree to receive automated marketing messages at the phone number provided, including cart reminders. Consent is not a condition of purchase. Reply STOP to unsubscribe. Reply HELP for help. Message frequency varies. Message and data rates may apply. See our %{privacy_policy_link} and %{terms_of_service_link}.",
+            "description_transactional_html": "You may receive text messages about your order confirmation and shipping status updates. Reply STOP to unsubscribe. Reply HELP for assistance. Message frequency varies. Message and data rates may apply. See our %{privacy_policy_modal_link} and %{terms_of_service_modal_link}."
+          },
+          "get_offers_by_text": "Receive offers by SMS"
+        },
+        "post_accept_marketing_checkbox_label": "You are subscribed to receive news and offers by email",
+        "pending_accept_marketing_checkbox_label": "Check your inbox to confirm your subscription to news and offers",
+        "accept_shop_pay_marketing_checkbox_label": "Send me news and offers from this store"
+      },
+      "mor_policies": {
+        "privacy_policy": "Privacy Policy of the Assigned Seller"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Verify",
+          "link_label": "Terms and Conditions of Use of {{partnerDisplayName}}"
+        }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Check your details before completing the payment"
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "The instructions for items %{position} %{name} contain an empty stable ID.",
+        "invalid_stable_id_target": "The instructions for items %{position} %{name} mention stable ID %{stable_id}, but this stable ID does not appear in the item lines.",
+        "duplicate_variant_id": "The instructions for items %{position} %{name} contain a duplicate variant ID %{variant_id}.",
+        "invalid_variant_id_target": "The instructions for the items %{name} mention variant ID %{variant_id}, but this variant does not appear in the item lines.",
+        "invalid_price_override_target": "The instruction regarding item price replacements for cart item %{stable_id} is invalid because it is a component of the bundle.",
+        "discount_not_supported": "The merchant instruction for applying a discount to items does not support this type of discount."
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "This address is not supported for the current membership.",
+        "items_split_across_locations_unsupported": "Prime delivery is not available for your order. Your shipping options have been updated."
       }
     },
     "notices": {
