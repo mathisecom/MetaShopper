@@ -2912,6 +2912,58 @@
       "sms_unsubscribe_confirm": {
         "message": "Do you really want to unsubscribe from SMS marketing?"
       }
+    },
+    "errors": {
+      "blank": "cannot be left blank",
+      "credit_card_session_expired": "The credit card authorization has expired. Please enter your payment information again. Your card has not been charged.",
+      "empty": "cannot be empty",
+      "discount_disabled": "This promotion has been disabled",
+      "discount_expired": "This promotion is no longer valid",
+      "discount_limit_reached": "This promotion has reached its usage limit",
+      "discount_not_found": "We couldn't find a valid promotion corresponding to this code.",
+      "customer_already_used_once_per_customer_discount_notice": "This promotion has reached its usage limit",
+      "gift_card_already_applied": "This code has already been applied to your order",
+      "gift_card_code_invalid": "The code is invalid",
+      "gift_card_currency_mismatch": "This gift card cannot be used for this purchase. Contact %{shop_name} to have it reissued.",
+      "gift_card_depleted": "There is no money left on this gift card.",
+      "gift_card_disabled": "The gift card has been deactivated",
+      "gift_card_expired": "The gift card has expired",
+      "invalid_province_in_country": "is not a valid province for %{country}",
+      "invalid_state_in_country": "is not a valid state for %{country}",
+      "invalid_region_in_country": "is not a valid region for %{country}",
+      "not_supported": "not supported",
+      "full_name_required": "Enter a first and last name",
+      "invalid_for_card_type": "is not valid for this type of card",
+      "invalid_type": "Unfortunately, we do not accept cards of this type.",
+      "invalid_format": "is not a credit card number",
+      "expired": "The credit card has expired",
+      "invalid_start_date_or_issue_number_for_debit": "A valid start or issue date is required",
+      "reset_password_html": "This email address is already associated with an account. If this account belongs to you, you can <a href=\"/account/login#recover\">reset your password</a>",
+      "blocked_address": "This location is not supported",
+      "product_not_available": "The product is not published for this customer.",
+      "shop_404": {
+        "heros": {
+          "no_storefront": "This store doesn’t have a website yet."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "caption": "Access the features you need to manage your physical retail store, whether you're just starting out or your business is growing.",
+            "link_text": "Start the free trial"
+          },
+          "open_a_store": {
+            "caption": "Start a 3-day free trial, then continue for USD 1/month for the next 3 months."
+          },
+          "editions": {
+            "header": "Discover Shopify Editions",
+            "caption": "With more than 100 product updates, your business can become more productive, creative, and powerful.",
+            "link_text": "Explore the latest editions program"
+          },
+          "store_owner": {
+            "caption": "Having trouble accessing your store? Try the %{forgot_your_store_link} feature. If you’d like to reactivate your store, contact %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify assistance"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {
