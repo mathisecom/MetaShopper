@@ -13,24 +13,24 @@
     "home": "Home",
     "accessibility": {
       "skip_to_content": "Skip to content",
-      "pagination": "Pagination navigation",
+      "pagination": "Pagination",
       "go_to_page": "Go to page {{ index }}",
       "go_to_item": "Go to item {{ index }}",
       "item_nth_of_count": "Item {{ index }} of {{ count }}",
-      "drag": "Drag",
+      "drag": "Pull",
       "close": "Close",
       "next": "Next",
       "previous": "Previous",
-      "play_video": "Play video",
-      "read_more": "Read more"
+      "play_video": "Play the video",
+      "read_more": "Learn more"
     },
     "label": {
-      "color": "Color,Colour",
+      "color": "Color",
       "white": "White",
       "size": "Size"
     },
     "social": {
-      "follow_on": "Follow on {{ social_media }}",
+      "follow_on": "Follow us on {{ social_media }}",
       "share": "Share",
       "share_on": "Share on {{ social_media }}",
       "share_email": "Share by email"
@@ -40,9 +40,9 @@
     },
     "newsletter": {
       "email": "E-mail",
-      "subscribe": "Subscribe",
+      "subscribe": "Sign up",
       "notify_me": "Notify me",
-      "subscribed_successfully": "You have been subscribed to our newsletter."
+      "subscribed_successfully": "You are now subscribed to our newsletter."
     },
     "localization": {
       "country": "Country",
@@ -55,22 +55,22 @@
       "decline": "Decline"
     },
     "form": {
-      "max_characters": "{{ max_chars }} characters max"
+      "max_characters": "{{ max_chars }} characters maximum"
     },
     "on_boarding": {
       "blog_post_category": "Category",
       "blog_post_title": "Article",
-      "blog_post_excerpt": "Write text about your blog post.",
-      "product_vendor": "Vendor",
+      "blog_post_excerpt": "Write something about your blog post.",
+      "product_vendor": "Brand",
       "product_title": "Product",
-      "product_description": "Write text about your product.",
+      "product_description": "Write something about your product.",
       "collection_title": "Collection"
     }
   },
   "header": {
     "general": {
       "account": "Account",
-      "login": "Login",
+      "login": "Log in",
       "menu": "Menu",
       "search": "Search",
       "cart": "Cart"
@@ -86,9 +86,9 @@
       "pre_order_button": "Pre-order",
       "sold_out_button": "Sold out",
       "unavailable_button": "Unavailable",
-      "added_to_cart": "Added to your cart!",
+      "added_to_cart": "Product added to cart!",
       "sold_out_badge": "Sold out",
-      "on_sale_badge": "On sale",
+      "on_sale_badge": "Promotion",
       "discount_badge_html": "Save {{ savings }}",
       "sku": "SKU:",
       "variant": "Variant",
@@ -98,14 +98,14 @@
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated</a> at checkout",
       "size_chart": "Size chart",
       "available_colors_count": {
-        "one": "{{ count }} color available",
-        "other": "{{ count }} colors available"
+        "one": "{{ count }} color",
+        "other": "{{ count }} colors"
       }
     },
     "gallery": {
-      "close": "Close gallery",
-      "zoom": "Zoom",
-      "error": "Image cannot be loaded"
+      "close": "Close the gallery",
+      "zoom": "Zoom in on the image",
+      "error": "The image cannot be loaded"
     },
     "price": {
       "regular_price": "Regular price",
@@ -233,21 +233,21 @@
       "sign_up": "Sign up"
     },
     "recover_password": {
-      "title": "Recover password",
+      "title": "Password recovery",
       "email": "E-mail",
-      "submit": "Recover",
-      "back_to_login": "Back to login",
-      "success_message": "An e-mail has been sent to your address with instructions to reset your password."
+      "submit": "Retrieve",
+      "back_to_login": "Log in",
+      "success_message": "An email has been sent to your address with instructions for resetting your password."
     },
     "register": {
-      "title": "Sign up",
+      "title": "Registration",
       "first_name": "First name",
-      "last_name": "Last name",
-      "email": "E-mail",
+      "last_name": "Name",
+      "email": "Email",
       "password": "Password",
-      "accepts_marketing": "Register to our newsletter",
-      "submit": "Create account",
-      "login": "Login"
+      "accepts_marketing": "Sign up for our newsletter",
+      "submit": "Create an account",
+      "login": "Log in"
     },
     "activate_account": {
       "title": "Activation",
@@ -258,15 +258,15 @@
       "cancel": "Cancel"
     },
     "reset_password": {
-      "title": "Reset password",
+      "title": "Resetting",
       "password": "Password",
-      "password_confirmation": "Password confirmation",
+      "password_confirmation": "Password (confirmation)",
       "submit": "Reset"
     },
     "order": {
       "order": "Order",
       "order_name": "Order {{name}}",
-      "view_details": "View order details",
+      "view_details": "View details",
       "back": "Back",
       "date": "Date",
       "payment_status": "Payment status",
@@ -392,42 +392,42 @@
   },
   "gift_card": {
     "general": {
-      "title": "Here's your gift card",
-      "copy": "Copy",
+      "title": "Here is your gift card",
+      "copy": "Copier",
       "print": "Print",
       "scan": "or scan this QR code",
       "back_to_store": "Back to the store"
     },
     "issued": {
       "remaining_amount": "Remaining amount",
-      "out_of_html": "out of {{ initial_value }}",
-      "redeem_instructions": "Use this code to redeem your gift card at checkout:",
+      "out_of_html": "on {{ initial_value }}",
+      "redeem_instructions": "Enter this code at checkout to use your gift card:",
       "code": "Gift card code",
       "expires_on": "Expires on: {{ expires_on }}",
-      "expired": "Your gift card has expired or has been disabled.",
+      "expired": "Your gift card has expired or been deactivated.",
       "add_to_apple_wallet": "Add to Apple Wallet"
     },
     "recipient": {
-      "checkbox": "I want to send this as a gift",
-      "email_label": "Recipient email",
+      "checkbox": "I want to send this product as a gift",
+      "email_label": "Recipient's email address",
       "name_label": "Recipient name (optional)",
-      "send_on_label": "Send on (optional)",
-      "message_label": "Message (optional)"
+      "send_on_label": "Send it (optional)",
+      "message_label": "Optional message"
     }
   },
   "password": {
     "general": {
       "follow_us": "Follow us",
-      "powered_by": "This shop is powered by",
-      "store_owner": "Store owner?",
-      "login": "Login"
+      "powered_by": "This store is powered by",
+      "store_owner": "Shop manager?",
+      "login": "Log in"
     },
     "storefront_access": {
-      "enter_password": "Enter using password",
-      "store_access": "Store access",
-      "instructions": "Enter password below to access the store",
+      "enter_password": "Access with password",
+      "store_access": "Access the shop",
+      "instructions": "Enter the password to access the store",
       "password": "Password",
-      "enter_store": "Enter the store"
+      "enter_store": "Validate"
     }
   },
   "apps": {
