@@ -746,7 +746,9 @@
           "many": "Show %{count} articles"
         },
         "collapse_component_information": {
-          "many": "Hide %{count} articles"
+          "many": "Hide %{count} articles",
+          "one": "Hide %{count} article",
+          "other": "Hide %{count} articles"
         },
         "discount_discovery": {
           "merchandise_quantity_label": {
@@ -776,7 +778,26 @@
         },
         "discount_code_applied_count": {
           "many": "Show %{count} discounts"
-        }
+        },
+        "apply_discount_button_label": "Validate",
+        "applied_discount_message": "%{amount} was deducted from the total price",
+        "cart_does_not_meet_discount_requirements_notice": "The discount code <strong style=\"text-transform:uppercase\">%{code}</strong> is not valid for the items in your cart",
+        "customer_does_not_meet_discount_requirements_notice": "The discount code <strong style=\"text-transform:uppercase\">%{code}</strong> is not currently available to you",
+        "customer_already_used_once_per_customer_discount_notice": "The promo code <strong style=\"text-transform:uppercase\">%{code}</strong> has already been used",
+        "calculating_shipping": "Calculating...",
+        "applied_free_shipping_discount_label": "Appliqué",
+        "confirmation_number_label": "Confirmation No. %{confirmation_number}",
+        "amount_off_shipping": "%{amount} off shipping fees",
+        "custom_discount": "Personalized discount",
+        "alternative_payment_currency_total": "Billed amount of %{amount_due}",
+        "deferred_balance_info": {
+          "title": "The balance of {{amount_due}} is due on {{due_at}}",
+          "due_on_fulfillment_title": "The balance of {{amount_due}} is due when the order is processed."
+        },
+        "cost_table_item_column_header": "Article",
+        "compare_at_sale": "Promotion (%{sale_amount})",
+        "automatic_discount_tooltip": "Automatically applied discounts cannot be removed",
+        "alternative_payment_currency_chinese_yuan": "Confirm the final total in CNY in the %{wallet} app."
       },
       "shipping": {
         "estimated_delivery_date": {
@@ -950,13 +971,24 @@
       "order_payment_collection": {
         "changes_summary": {
           "added": {
-            "many": "%{count} added"
-          }
-        }
+            "many": "%{count} added",
+            "other": "%{count} added"
+          },
+          "removed": "Deleted",
+          "subtracted": "%{count} deleted",
+          "returned": "%{count} returned",
+          "return_line_item_removed": "Removal of %{count} from the return"
+        },
+        "additional_payment_requested": "A payment of %{total_outstanding} is required",
+        "checkout_review_and_pay": "Your order %{order_name} has been updated. Review these changes, then pay to confirm your order.",
+        "order_review_and_pay": "Your order has been updated. Review and pay to confirm your order."
       },
       "open_graph_meta_tag": {
         "title_with_products": {
-          "many": "Buy %{product_name} and %{count} other items"
+          "many": "Buy %{product_name} and %{count} other items",
+          "zero": "Buy %{product_name}",
+          "one": "Buy %{product_name} and %{count} other item",
+          "other": "Buy %{product_name} and %{count} other items"
         }
       },
       "subscriptions": {
@@ -1597,6 +1629,20 @@
         "payment_not_processed_text": "Try scanning the QR code again. If it still doesn’t work, inform our staff and try another payment method.",
         "payment_link_expired_title": "Expired payment link",
         "title": "Off-site payment failed"
+      },
+      "order_errors": {
+        "creation_failure": "An error occurred while creating your order. Please try again or contact us for more details.",
+        "network_failure": "Your order could not be submitted due to a network error. Check your connection and try again."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "The gift card price must be greater than 0.",
+            "subtotal_limit_reached": "The maximum value for the categories has been reached.",
+            "gift_card_price_must_not_exceed_limit": "The gift card price must not exceed %{gift_card_limit}.",
+            "signature_mismatch": "Item signature mismatch for line %{stable_id}."
+          }
+        }
       }
     },
     "notices": {
