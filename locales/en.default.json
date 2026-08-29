@@ -994,7 +994,15 @@
         },
         "unbranded_description_with_fulfillment_weeks": {
           "many": "Ships within %{count} weeks"
-        }
+        },
+        "address_edit": "Change the address",
+        "address_delete": "Delete the address",
+        "address_confirm": "Would you like to delete this address from your account?",
+        "address_form": {
+          "add_address": "Add an address"
+        },
+        "add_shipping_address": "Add a shipping address",
+        "add_new_delivery_address": "Add a new shipping address"
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -1323,7 +1331,9 @@
       "review": {
         "blocks": {
           "pickup_items_at": {
-            "many": "Removing %{count} items from"
+            "many": "Removal of %{count} items from",
+            "one": "Removal of %{count} item from",
+            "other": "Removal of %{count} items from"
           },
           "ship_items_to": {
             "many": "Ship %{count} items to"
@@ -1333,9 +1343,24 @@
           "change_billing_address_link_label": "Change the billing address",
           "change_purchase_order_number_label": "Change the purchase order number",
           "change_delivery_method_link_label": "Change the delivery method",
-          "change_company_location_link_label": "Change the company location"
+          "change_company_location_link_label": "Change the company location",
+          "change_shipping_address_link_label": "Change the delivery address",
+          "change_shipping_method_link_label": "Change the shipping method",
+          "pick_up_in_store_shipping_method_html": "In-store pickup · %{location_name}",
+          "purchase_order_number_title": "Purchase order number",
+          "no_purchase_order_number": "(No purchase order number)",
+          "due_after_order_reviewed_html": "Due after review of the order",
+          "review_title_free_order": "Review and finalize your order",
+          "payment_method_saved_company_location": "Save the map for this location"
         },
-        "block_title": "Check your information"
+        "block_title": "Check your information",
+        "title": "Confirmation",
+        "checkout_as_guest": "Pay as a guest",
+        "checkout_a_different_way": "Pay with another payment method",
+        "item_header": {
+          "change_value": "Modify the value"
+        },
+        "review_and_confirm_title": "Verify and confirm"
       },
       "order_payment_collection": {
         "changes_summary": {
@@ -1657,8 +1682,12 @@
       },
       "review_address_modal": {
         "subtitle": {
-          "many": "This order will be shipped to an address provided by {{merchant}}. Select a shipping address."
-        }
+          "many": "This order will be shipped to an address provided by {{merchant}}. Select a delivery address.",
+          "other": "This order will be shipped to an address provided by {{merchant}}. Select a delivery address."
+        },
+        "title": "Verify the address",
+        "subtitle_no_match": "This address does not match any of the addresses you have saved.",
+        "return_to_cart": "Back to cart"
       },
       "remote_merchandise_only": {
         "detail_item_label": {
@@ -2174,6 +2203,10 @@
         "errors": {
           "interaction_required": "An extension interaction is required to complete the payment."
         }
+      },
+      "session_errors": {
+        "session_not_unique": "An error occurred while processing your order. Refresh this page to return to the store.",
+        "session_already_finished": "This order has already been submitted. You can return to the store to create a new order."
       }
     },
     "notices": {
