@@ -179,15 +179,15 @@
   "blog": {
     "general": {
       "empty_blog": "This blog is empty",
-      "back_to_home": "Back to home",
+      "back_to_home": "Back to the store",
       "view": "View",
-      "all_posts": "All posts"
+      "all_posts": "All items"
     },
     "post": {
       "written_by": "By {{ author }}",
       "share": "Share",
       "tags": "Tags",
-      "continue_reading": "Reading next"
+      "continue_reading": "Read more"
     },
     "comments": {
       "leave_comment": "Leave a comment",
@@ -195,11 +195,11 @@
       "name": "Name",
       "email": "E-mail",
       "message": "Message",
-      "submit": "Submit",
-      "comment_sent": "Your comment has been sent. We will publish it in a little while, as our blog is moderated.",
-      "comment_published": "Your comment has been published.",
+      "submit": "Send",
+      "comment_sent": "Your comment has been submitted. Since our blog is moderated, it will not be visible immediately.",
+      "comment_published": "Your comment has been posted.",
       "count": {
-        "zero": "{{ count }} comments",
+        "zero": "{{ count }} comment",
         "one": "{{ count }} comment",
         "other": "{{ count }} comments"
       }
@@ -318,23 +318,23 @@
       "empty": "Your cart is empty",
       "item_count": {
         "zero": "{{ count }} items",
-        "one": "{{ count }} item",
-        "other": "{{ count }} items"
+        "one": "{{ count }} article",
+        "other": "{{ count }} articles"
       },
-      "continue_shopping": "Continue shopping",
+      "continue_shopping": "Explore our products",
       "weight": "Weight",
       "subtotal": "Subtotal",
       "total": "Total",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\" class=\"link\">shipping</a> calculated at checkout",
-      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\" class=\"link\">Shipping</a> calculated at checkout.",
-      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "add_order_note": "Add order note",
-      "edit_order_note": "Edit order note",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\" class=\"link\">shipping costs</a> calculated at checkout",
+      "taxes_included_but_shipping_at_checkout": "Taxes included and shipping costs calculated at checkout",
+      "taxes_included_and_shipping_policy_html": "Taxes included. <a href=\"{{ link }}\" class=\"link\">Shipping costs</a> calculated at checkout.",
+      "taxes_and_shipping_at_checkout": "Taxes and shipping fees calculated at checkout",
+      "add_order_note": "Add a note",
+      "edit_order_note": "Edit the note",
       "order_note": "Order note",
       "save_note": "Save",
-      "view_cart": "View cart",
-      "checkout": "Checkout",
+      "view_cart": "Cart",
+      "checkout": "Place the order",
       "we_accept": "We accept"
     },
     "order": {
@@ -342,14 +342,14 @@
       "total": "Total",
       "quantity": "Quantity",
       "change_quantity": "Change quantity",
-      "increase_quantity": "Increase quantity",
-      "decrease_quantity": "Decrease quantity",
+      "increase_quantity": "Increase the quantity",
+      "decrease_quantity": "Decrease the quantity",
       "remove": "Remove",
       "remove_with_title": "Remove {{ title }}"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Spend {{ remaining_amount }} more and get free shipping!",
-      "limit_reached_html": "You are eligible for free shipping."
+      "limit_unreached_html": "Spend {{ remaining_amount }} more to get free shipping.",
+      "limit_reached_html": "Free shipping!"
     },
     "shipping_estimator": {
       "estimate_shipping": "Estimate shipping",
@@ -366,7 +366,7 @@
   "404": {
     "general": {
       "title": "Page not found",
-      "continue_shopping": "Continue shopping"
+      "continue_shopping": "Explore our products"
     }
   },
   "search": {
@@ -432,12 +432,12 @@
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "This product is rated {{ rating_value }} of {{ rating_max }} stars.",
+      "review_info": "This product is rated {{ rating_value }} out of {{ rating_max }} stars.",
       "leave_review": "Leave a review",
       "review_count": {
-        "zero": "This product has no reviews yet.",
-        "one": "It has received {{ count }} review.",
-        "other": "It has received {{ count }} reviews."
+        "zero": "This product has not received any reviews.",
+        "one": "He received {{ count }} reviews.",
+        "other": "He received {{ count }} reviews."
       }
     }
   },
