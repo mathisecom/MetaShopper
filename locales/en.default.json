@@ -743,7 +743,7 @@
           }
         },
         "expand_component_information": {
-          "many": "Show %{count} articles"
+          "many": "Show %{count} items"
         },
         "collapse_component_information": {
           "many": "Hide %{count} articles",
@@ -770,7 +770,9 @@
           "many": "Subtotal · %{count} items"
         },
         "number_items": {
-          "many": "%{count} articles"
+          "many": "%{count} articles",
+          "one": "%{count} article",
+          "other": "%{count} articles"
         },
         "view_all_items": {
           "many": "Show all %{count} items"
@@ -830,7 +832,37 @@
         "discount_code_removed": "The discount code %{code} has been removed",
         "discount_code_replaced": "The discount code %{old_code} was removed, and %{code} was applied.",
         "discount_code_replaced_multiple": "Several discount codes were removed and %{code} was applied",
-        "discount_applies_to_subscription_items_only": "This discount applies only to subscription items."
+        "discount_applies_to_subscription_items_only": "This discount applies only to subscription items.",
+        "gift_card_has_been_applied": "The gift card has been applied",
+        "gift_card_has_been_removed": "The gift card has been removed",
+        "expand_order_summary_short": "View",
+        "no_pickup_location": "No pickup point is available.",
+        "information_estimated_taxes_label": "Taxes (estimate)",
+        "gift_card_ending": "Gift card ending in %{last_characters}",
+        "higher_value_discount_applied": "The code <strong style=\"text-transform:uppercase\">%{code}</strong> could not be used with your existing discounts.",
+        "maximum_discount_code_limit_reached": "You have reached the maximum number of discount codes allowed. Remove an existing code to use <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "may_be_charged_on_delivery": "Billed upon delivery",
+        "full_price": "Total price: %{price}",
+        "more_items_modal": {
+          "empty_results": "No results found for “%{searchText}”. Check the spelling or use another word or phrase."
+        },
+        "from_other_stores_heading": "Other stores",
+        "gift_cards_apply_to_local_shop": "Gift cards apply only to %{shop_name} items",
+        "from_multiple_stores_heading": "From different stores",
+        "lpm": {
+          "wechat_pay": {
+            "checkout_disclosure": "Confirm the final total in CNY in the WeChat app",
+            "post_purchase_disclosure": "Display the total in CNY on WeChat",
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} will process this payment of %{amount_due} %{processing_currency}, which WeChat converts to CNY",
+            "checkout_disclosure_charged_in_cny": "%{shop_name} will process this payment of %{amount_due} %{processing_currency}"
+          },
+          "alipay": {
+            "checkout_disclosure": "Confirm the final total in CNY in the Alipay app",
+            "post_purchase_disclosure": "Show the total in CNY in Alipay",
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} will process this payment of %{amount_due} %{processing_currency}, which Alipay converts to CNY",
+            "checkout_disclosure_charged_in_cny": "%{shop_name} will process this payment of %{amount_due} %{processing_currency}"
+          }
+        }
       },
       "shipping": {
         "estimated_delivery_date": {
