@@ -1469,7 +1469,9 @@
           "many": "Some items are not confirmed"
         },
         "thank_you_unconfirmed_items_description": {
-          "many": "You have not been billed for these"
+          "many": "You were not charged for these",
+          "one": "You were not charged for this",
+          "other": "You were not charged for these"
         },
         "thank_you_item_label": {
           "many": "%{count} articles",
@@ -1648,7 +1650,23 @@
         "thank_you_confirmed_with_email_and_phone_description": {
           "single_store": "You will receive a confirmation email shortly",
           "multi_store": "You will soon receive separate confirmation emails from each store."
-        }
+        },
+        "thank_you_title": "Your order is now confirmed",
+        "unfulfilled_items_title": "Preparing for shipment",
+        "unfulfilled_items_description": "We are currently preparing these items for shipment.",
+        "track_shipment": "Track the shipment",
+        "thank_you_ready_for_picked_up": "Your order was picked up at the following address: %{address}.",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Your order has been received",
+        "thank_you_title_payments_app_failed_pending_payment": "Your payment could not be processed",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "You will shortly receive a confirmation email indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "You will shortly receive a confirmation email indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "You will shortly receive a confirmation email indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "You will receive a confirmation text message shortly indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "You will receive a confirmation text message shortly indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "You will receive a confirmation text message shortly indicating your order number.",
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "You will receive an email once your payment has been confirmed.",
+        "verify_shop_account_message": "Your information has been saved with Shop. Check your account to use it automatically across millions of stores.",
+        "verify_shop_account_confirmation": "Saved payment details"
       },
       "review": {
         "blocks": {
@@ -1758,7 +1776,23 @@
       },
       "throttle": {
         "estimated_wait_time": {
-          "many": "The estimated waiting time is {{count}} minutes"
+          "many": "The estimated wait time is {{count}} minutes",
+          "calculating": "Estimated wait time is being calculated",
+          "less_than_one": "The estimated wait time is less than 1 minute.",
+          "one": "The estimated wait time is {{count}} minute",
+          "other": "The estimated wait time is {{count}} minutes"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Part of your cart is out of stock and will not be available for purchase at checkout.",
+          "sold_out": {
+            "heading": "Your cart is empty",
+            "storefront_body": "Return to the store to continue shopping",
+            "no_storefront_body": "Unfortunately, the item you want to purchase is no longer available.",
+            "link": "Back to the store"
+          }
+        },
+        "footer": {
+          "heading": "Do not refresh this page; it will update automatically."
         }
       },
       "deliverability": {
