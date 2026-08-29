@@ -2839,6 +2839,29 @@
         "cancel_reason": {
           "many": "Other"
         }
+      },
+      "address": {
+        "updated": "The address was successfully updated.",
+        "error_updating": "Error updating the address",
+        "created": "The address was created successfully",
+        "error_creating": "Error creating the address.",
+        "deleted": "The address was successfully deleted",
+        "error_deleting": "Error deleting the address."
+      },
+      "cart": {
+        "all_items_in_cart": "Your %{count} %{name} have been added to your cart.",
+        "empty_update": "We couldn’t reset your cart",
+        "generic_error": "Cart error",
+        "changed": "The cart has been modified",
+        "items_changed": "One or more items have been modified.",
+        "digital_product_not_available_for_company_locations": "It is not possible to add this item to a B2B order",
+        "bundle_requires_components": "The bundle product “%{name}” cannot be added to the cart.",
+        "gift_card_with_components_not_supported": "The bundle product “%{name}” cannot be added to the cart.",
+        "gift_card_price_must_be_greater_than_zero": "The bundle product “%{name}” cannot be added to the cart.",
+        "cart_too_large": "The basket is too large.",
+        "invalid_input": "The %{parameter} parameter is not valid.",
+        "buyer_cannot_purchase_for_company_locations": "You cannot purchase for this location",
+        "cart_attributes_error": "The cart attributes contain invalid data."
       }
     },
     "page_titles": {
@@ -2943,7 +2966,9 @@
       "product_not_available": "The product is not published for this customer.",
       "shop_404": {
         "heros": {
-          "no_storefront": "This store doesn’t have a website yet."
+          "no_storefront": "This store doesn’t have a website yet.",
+          "store_unavailable": "This shop is currently unavailable.",
+          "store_will_be_right_back": "This store will be back soon"
         },
         "ctas": {
           "sell_in_person": {
@@ -2962,8 +2987,31 @@
             "caption": "Having trouble accessing your store? Try the %{forgot_your_store_link} feature. If you’d like to reactivate your store, contact %{shopify_support_link}.",
             "shopify_support_link_text": "Shopify assistance"
           }
+        },
+        "title": "Create an e-commerce website and sell online! Shopify e-commerce software",
+        "owner_ctas": {
+          "fix_domain": "Complete the setup of your new web address by going to %{domain_settings_link}. Click “Connect a domain,” then enter: %{domain}.<br>If you’re having trouble accessing your store, try the %{forgot_your_store_link} page.",
+          "forgot_your_store_link_text": "Have you forgotten your store address?",
+          "add_storefront": "You can set up your website by adding the Online Store channel in your %{admin_link}. If you’re having trouble accessing your store, try the %{forgot_your_store_link} page.",
+          "admin_link_text": "Administrator interface"
+        },
+        "subtitles": {
+          "store_will_be_right_back": "Shopify is doing everything possible to bring it back online as soon as possible."
+        },
+        "status_card": {
+          "eyebrow": "Help for shop owners",
+          "header": "Shopify status",
+          "caption": "Check whether a Shopify outage is affecting other stores in addition to this one.",
+          "link_text": "Check Shopify system status"
         }
-      }
+      },
+      "taken": "is already taken",
+      "too_short": "is too short (the minimum is %{count} characters)",
+      "too_long": "is too long (the maximum is %{count} characters)",
+      "verify_email": "An email was sent to %{customer_email}. Please click the link in the email to confirm your address."
+    },
+    "feed": {
+      "more": "Plus"
     }
   },
   "customer_accounts": {
