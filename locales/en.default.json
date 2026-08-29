@@ -1265,13 +1265,25 @@
       "processing": {
         "wait": {
           "medium": {
-            "many": "Your order is being processed. The estimated wait time is %{count} minutes."
-          }
+            "many": "Your order is being processed. The estimated wait time is %{count} minutes.",
+            "one": "Your order is being processed. The estimated wait time is %{count} minutes.",
+            "other": "Your order is being processed. The estimated wait time is %{count} minutes."
+          },
+          "short": "Your order is being processed.",
+          "long": "You will receive an email as soon as your order has been processed. There is currently a high volume of orders.",
+          "no_auto_refresh_html": "Si vous n’êtes pas redirigé(e) automatiquement, %{link}.",
+          "refresh_this_page": "Refresh this page"
         },
         "continue_to_payment_gateway_notice": "Proceed to checkout to add your payment information.",
         "continue_to_payment_gateway_button_label": "Proceed to checkout",
         "continue_to_payment_gateway_notice_error": "Your payment information could not be verified.",
-        "page_title": "Order processing"
+        "page_title": "Order processing",
+        "redirecting_notice": "Please wait while we redirect you.",
+        "title": "Order processing",
+        "your_order_has_been_received_title": "Thank you for your order",
+        "you_will_receive_confirmation": "We are currently receiving a large number of orders. You should receive a confirmation by email or text message shortly. If you do not receive it within the next hour, please let us know.",
+        "you_will_not_be_charged": "You will not be charged yet.",
+        "remote_shops_payments_processing": "Payments being processed"
       },
       "thank_you": {
         "login_reorder_link_text": {
@@ -1315,8 +1327,15 @@
           },
           "ship_items_to": {
             "many": "Ship %{count} items to"
-          }
-        }
+          },
+          "change_link_label": "Modifier",
+          "change_contact_method_link_label": "Edit contact details",
+          "change_billing_address_link_label": "Change the billing address",
+          "change_purchase_order_number_label": "Change the purchase order number",
+          "change_delivery_method_link_label": "Change the delivery method",
+          "change_company_location_link_label": "Change the company location"
+        },
+        "block_title": "Check your information"
       },
       "order_payment_collection": {
         "changes_summary": {
@@ -1643,8 +1662,14 @@
       },
       "remote_merchandise_only": {
         "detail_item_label": {
-          "many": "{{count}} articles"
-        }
+          "many": "{{count}} articles",
+          "one": "{{count}} article",
+          "other": "{{count}} articles"
+        },
+        "return_to_store_label": "Return to the store",
+        "checkout_on_shop_label": "Complete payment on %{shop_name}",
+        "single_shop_transition": "You are currently being redirected to %{advertiser} to complete your purchase.",
+        "remote_only_notice": "These items are sold and shipped by other stores. You must pay for each order separately."
       },
       "alternative_payment_method_banner": {
         "or": "OU",
@@ -2123,6 +2148,31 @@
         "components": {
           "expand": "Show more",
           "processing": "Processing..."
+        }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "The gift card has already been applied to your order.",
+          "insufficient_funds": "This gift card has no funds remaining",
+          "generic": "The gift card could not be added to the payment.",
+          "throttle_limit_exceeded": "You have reached the maximum number of attempts. Please try again later.",
+          "no_longer_available": "This gift card can no longer be used with this payment"
+        }
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "This item cannot be added to your cart because it comes from a store that uses a different currency.",
+          "max_remote_shops_exceeded": "This product cannot be added because your cart already contains the maximum number of products from other stores.",
+          "currency_mismatch_removal": "An item was removed from your cart because it comes from a store that uses a different currency.",
+          "only_remote_merchandise_lines": "Payment applies only to items from an external store. You need to be redirected to that store to complete the payment."
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "No %{policy_name} has been provided for this store. For more information, contact %{shop_name} directly."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "An extension interaction is required to complete the payment."
         }
       }
     },
