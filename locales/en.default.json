@@ -2837,8 +2837,11 @@
     "notices": {
       "order": {
         "cancel_reason": {
-          "many": "Other"
-        }
+          "many": "Other",
+          "inventory": "Unavailable products",
+          "customer": "The customer modified/canceled the order"
+        },
+        "cash_on_delivery": "Cash on delivery"
       },
       "address": {
         "updated": "The address was successfully updated.",
@@ -2861,7 +2864,40 @@
         "cart_too_large": "The basket is too large.",
         "invalid_input": "The %{parameter} parameter is not valid.",
         "buyer_cannot_purchase_for_company_locations": "You cannot purchase for this location",
-        "cart_attributes_error": "The cart attributes contain invalid data."
+        "cart_attributes_error": "The cart attributes contain invalid data.",
+        "only_n_items_available": "You can only add %{count} %{name} to your cart.",
+        "too_many_items_in_cart": "You cannot add more than %{name} to the cart.",
+        "missing_parameters": "No valid line ID or parameter",
+        "too_many_line_items_error": "Your cart cannot contain more than %{max} items.",
+        "link_expired": "The link has expired",
+        "link_no_longer_exists": "The link no longer exists.",
+        "stock_problems_html": "One or more items are no longer available. Here is your <a href='%{link}'>updated cart</a>.",
+        "product_sold_out": "The product “%{name}” is already out of stock.",
+        "variant_not_found": "We did not find any variants",
+        "variant_requires_selling_plan": "The variant can only be purchased with a sales package.",
+        "shipping_address_invalid": "An error occurred while calculating your shipping costs. Continue to checkout to choose a shipping rate before placing your order.",
+        "selling_plan_not_applicable": "Unable to apply the sales plan to the variant",
+        "selling_plan_not_available_for_company_locations": "Only one-time purchases are available for B2B orders.",
+        "product_not_available": "This product is not available.",
+        "only_one_added_to_cart": "Only one item was added to your cart due to availability.",
+        "only_n_added_to_cart": "Seules %{quantity} items were added to your cart due to availability.",
+        "merchandise_not_applicable": "An item cannot be purchased as configured."
+      },
+      "customer": {
+        "password_reset_error": "Error resetting the password",
+        "no_account_found": "No account associated with this email address was found.",
+        "invalid_credentials": "Incorrect email or password",
+        "denylisted_reset_password": "Your account could not be accessed because your current password is not secure. You will receive an email to update your password.",
+        "subscribe_error": "Subscription error"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} added",
+          "increment_item": "%{delta} added",
+          "decrement_item": "%{delta} out of %{total} withdrawn",
+          "decrement_fulfilled_line_item": "%{delta} of %{total} returned",
+          "decrement_return_line_item": "Removal of %{delta} from the return"
+        }
       }
     },
     "page_titles": {
