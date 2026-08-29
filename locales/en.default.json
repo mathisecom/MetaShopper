@@ -739,8 +739,12 @@
       "order_summary": {
         "unit_price": {
           "per_item": {
-            "many": "%{price} for %{count} items"
-          }
+            "many": "%{price} for %{count} items",
+            "single": "%{price} per piece",
+            "one": "%{price} for %{count} item",
+            "other": "%{price} for %{count} items"
+          },
+          "accessible_separator": "by"
         },
         "expand_component_information": {
           "many": "Show %{count} items"
@@ -767,7 +771,8 @@
           "one": "Discount on the order"
         },
         "subtotal_label_with_quantity": {
-          "many": "Subtotal · %{count} items"
+          "many": "Subtotal · %{count} items",
+          "one": "Subtotal · %{count} items"
         },
         "number_items": {
           "many": "%{count} articles",
@@ -775,7 +780,9 @@
           "other": "%{count} articles"
         },
         "view_all_items": {
-          "many": "Show all %{count} items"
+          "many": "Show all %{count} items",
+          "one": "Show %{count} items",
+          "other": "Show all %{count} items"
         },
         "pickup_unavailable_banner_title": {
           "many": "No store is available with your items",
@@ -896,6 +903,19 @@
         "order_discounts_apply_to_local_shop": "Order discounts apply only to %{shop_name} items",
         "product_disclosures": {
           "title": "Product-related mentions"
+        },
+        "shopping_cart_label": "Cart",
+        "shipping_information_does_not_meet_discount_requirements_notice": "The discount code<strong style=\"text-transform:uppercase\"> %{code}</strong> is not available for your shipping address",
+        "vat_label_html": "Taxes of %{amount} included",
+        "total_updated_label_with_price": "Updated total amount: %{totalPrice}",
+        "updated_shipping_method": "Shipping method updated: %{shipping_method}",
+        "tax_line": {
+          "hst": "TVH",
+          "gst": "TPS",
+          "pst": "TVP",
+          "rst": "TVD",
+          "qst": "TVQ",
+          "vpt": "TPV"
         }
       },
       "shipping": {
@@ -1005,7 +1025,12 @@
         },
         "discount_codes_removed_or_modified_summary": {
           "many": "%{count} discount codes have been removed or modified"
-        }
+        },
+        "add_credit_card_modal": {
+          "title": "Add the card"
+        },
+        "alternative_payment_currency_total_manual_payment_notice": "Note: the converted total is %{amount_due}.",
+        "add_payment_method": "Add a payment method"
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
