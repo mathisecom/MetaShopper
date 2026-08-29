@@ -708,7 +708,9 @@
             "many": "No delivery available for %{count} items"
           },
           "message": {
-            "many": "These items will be removed from your cart because there is no delivery method available for your address."
+            "many": "These items will be removed from your cart because no shipping method is available for your address.",
+            "one": "This item will be removed from your cart because no delivery method is available for your address.",
+            "other": "These items will be removed from your cart because no shipping method is available for your address."
           }
         },
         "item_label": {
@@ -1522,8 +1524,11 @@
       "subscriptions": {
         "recurring_totals_with_policies": {
           "first_cycles": {
-            "many": "To start, %{count} payments of %{total_price} each"
-          }
+            "many": "To start, %{count} payments of %{total_price} each",
+            "one": "First payment of %{total_price}",
+            "other": "To start, %{count} payments of %{total_price} each"
+          },
+          "following_cycles": ", then %{total_price} per %{interval} period"
         },
         "recurring_total_intervals": {
           "day": {
@@ -1536,14 +1541,19 @@
             "many": "%{count} months"
           },
           "year": {
-            "many": "%{count} years"
+            "many": "%{count} years",
+            "one": "an"
           }
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "many": ", then %{count} payments of %{total_price} each"
+            "many": ", then %{count} payments of %{total_price} each",
+            "one": ", then %{count} payment of %{total_price}",
+            "other": ", then %{count} payments of %{total_price} each"
           }
-        }
+        },
+        "recurring_totals": "%{total_price} per %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "First payment of %{total_price_with_discount}, then %{recurring_total}"
       },
       "contextual_availability": {
         "title": {
@@ -2416,6 +2426,35 @@
         "title": "Shop Pay electronic wallet",
         "shipping_address": {
           "heading": "Delivery address"
+        }
+      },
+      "store_credit_errors": {
+        "generic_error": "There was a problem with your store credit. Please try again or reload the page."
+      },
+      "taxes": {
+        "tax_details": "Additional tax information",
+        "vat_number": {
+          "field": {
+            "tooltip": "Validate the VAT number and automatically apply the reverse charge for eligible orders"
+          },
+          "domestic_order": "The reverse-charge exemption applies only to cross-border orders within the EU. For local orders, standard VAT is charged.",
+          "status": {
+            "invalid_format": {
+              "at": "In Austria, VAT numbers consist of the prefix AT followed by 9 characters.",
+              "be": "In Belgium, VAT numbers consist of the prefix BE followed by 10 characters.",
+              "bg": "In Bulgaria, VAT numbers consist of the prefix BG followed by 9 or 10 characters.",
+              "cy": "In Cyprus, VAT numbers consist of the prefix CY followed by 9 characters.",
+              "cz": "In Czechia, VAT numbers consist of the prefix CZ followed by 8, 9, or 10 characters.",
+              "dk": "In Denmark, VAT numbers consist of the prefix DK followed by 8 characters",
+              "ee": "In Estonia, VAT numbers consist of the prefix EE followed by 9 characters",
+              "de": "In Germany, VAT numbers consist of the prefix DE followed by 9 characters."
+            }
+          },
+          "accessibility": {
+            "status": {
+              "valid": "The VAT number is valid"
+            }
+          }
         }
       }
     },
