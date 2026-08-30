@@ -31,6 +31,12 @@
             "heading_tag": "h3"
           }
         },
+        "text_EMimez": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fermez vos cartons plus vite, proprement et sans effort.</p>"
+          }
+        },
         "price_L3ctEa": {
           "type": "price",
           "settings": {
@@ -130,6 +136,7 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "text_EMimez",
         "price_L3ctEa",
         "liquid_mUKjG4",
         "description",
@@ -274,7 +281,6 @@
       "settings": {
         "heading": "L’impression n’a jamais été aussi simple.",
         "subheading": "",
-        "image": "shopify://shop_images/ChatGPT_Image_24_juil._2026_15_34_09_3.png",
         "image_alt": "Imprimante d’étiquettes et exemples d’impression",
         "content_heading": "",
         "content_intro": "",
