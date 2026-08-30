@@ -1776,6 +1776,7 @@
         "item_F6aQwp",
         "item_ByVcWk"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "full_width": true,
