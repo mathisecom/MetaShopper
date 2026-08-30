@@ -31,16 +31,10 @@
             "heading_tag": "h3"
           }
         },
-        "text_ima9gg": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share some content to your customers about your products.</p>"
-          }
-        },
         "text_YAgzEm": {
           "type": "text",
           "settings": {
-            "text": "<p>Share some content to your customers about your products.</p>"
+            "text": "<p>Fermez vos cartons plus vite, proprement et sans effort.</p>"
           }
         },
         "text_EMimez": {
@@ -148,7 +142,6 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
-        "text_ima9gg",
         "text_YAgzEm",
         "text_EMimez",
         "price_L3ctEa",
