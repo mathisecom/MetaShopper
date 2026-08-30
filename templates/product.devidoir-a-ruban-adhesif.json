@@ -30,6 +30,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_pf6R8V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fermez vos cartons plus vite, proprement et sans effort.</p>"
+          }
+        },
         "liquid_mUKjG4": {
           "type": "liquid",
           "settings": {
@@ -135,6 +141,7 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "text_pf6R8V",
         "liquid_mUKjG4",
         "description",
         "variant_picker",
