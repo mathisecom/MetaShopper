@@ -31,6 +31,18 @@
             "heading_tag": "h3"
           }
         },
+        "text_ima9gg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "text_YAgzEm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
         "text_EMimez": {
           "type": "text",
           "settings": {
@@ -136,6 +148,8 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "text_ima9gg",
+        "text_YAgzEm",
         "text_EMimez",
         "price_L3ctEa",
         "liquid_mUKjG4",
