@@ -31,12 +31,6 @@
             "heading_tag": "h3"
           }
         },
-        "text_YAgzEm": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fermez vos cartons plus vite, proprement et sans effort.</p>"
-          }
-        },
         "text_EMimez": {
           "type": "text",
           "settings": {
@@ -142,7 +136,6 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
-        "text_YAgzEm",
         "text_EMimez",
         "price_L3ctEa",
         "liquid_mUKjG4",
