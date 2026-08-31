@@ -129,12 +129,6 @@
             "content": "<p>Il suffit d'installer le rouleau dans son support, de régler son maintien puis de tirer le ruban sur le carton. </p><p>La lame dentelée située à l'avant permet ensuite de couper le ruban directement.</p>",
             "page": ""
           }
-        },
-        "liquid_CzKMxJ": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div id='ss-product-videos'></div>"
-          }
         }
       },
       "block_order": [
@@ -153,8 +147,7 @@
         "liquid_xht8Li",
         "liquid_4tqfL7",
         "collapsible_text_N6kP84",
-        "collapsible_text_PAbMgp",
-        "liquid_CzKMxJ"
+        "collapsible_text_PAbMgp"
       ],
       "settings": {
         "full_width": true,
@@ -336,39 +329,6 @@
         "testimonial_card_text_color": ""
       }
     },
-    "rich_text_DeUbtA": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_493Ckn": {
-          "type": "subheading",
-          "settings": {
-            "text": "Notée 4,9/5 par nos e-commerçants Vinted, Tik-Tok shop, Shopify."
-          }
-        },
-        "heading_bjR4f3": {
-          "type": "heading",
-          "settings": {
-            "text": "+ 3 000 e-Commerçants Satisfaits",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_493Ckn",
-        "heading_bjR4f3"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "iconsbenefice_mapNKM": {
       "type": "iconsbenefice",
       "blocks": {
@@ -481,6 +441,7 @@
       "settings": {
         "heading": "Emballez vos colis plus rapidement",
         "subheading": "",
+        "image": "shopify://shop_images/D_vidoir_vert_avantages_cl_s_I_Metashopper.webp",
         "image_alt": "Dévidoir à ruban adhésif pour emballer un colis",
         "content_heading": "",
         "content_intro": "",
@@ -504,10 +465,10 @@
         "column_gap_tablet": 32,
         "column_gap_mobile": 32,
         "image_ratio": "1 / 1",
-        "image_fit": "cover",
+        "image_fit": "contain",
         "image_position_x": 50,
         "image_position_y": 50,
-        "image_radius": 0,
+        "image_radius": 10,
         "heading_size_desktop": 36,
         "heading_size_mobile": 28,
         "heading_weight": "700",
@@ -551,248 +512,21 @@
         "header_bottom_spacing_mobile": 28
       }
     },
-    "barrdefilant_rHtehN": {
-      "type": "barrdefilant",
-      "blocks": {
-        "item_DpMHfM": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "custom_text": "Impression ultra rapide",
-            "custom_link": ""
-          }
-        },
-        "item_C6Jprg": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "custom_text": "Zéro encre, zéro cartouche",
-            "custom_link": ""
-          }
-        },
-        "item_px6hAh": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "custom_text": "Compatible avec tous les transporteurs",
-            "custom_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_DpMHfM",
-        "item_C6Jprg",
-        "item_px6hAh"
-      ],
-      "name": "Barre produits défilante",
-      "settings": {
-        "enable_marquee": true,
-        "direction": "left",
-        "speed_desktop": 30,
-        "speed_mobile": 22,
-        "pause_on_hover": true,
-        "uppercase": true,
-        "font_weight": "700",
-        "font_size_desktop": 14,
-        "font_size_mobile": 12,
-        "letter_spacing": 8,
-        "open_new_tab": false,
-        "show_separator": true,
-        "separator": "•",
-        "background_color": "#ff4713",
-        "text_color": "#ffffff",
-        "hover_color": "#ffe4e4",
-        "separator_color": "#ff9b9b",
-        "border_color": "#ff4713",
-        "border_width": 0,
-        "padding_y_desktop": 14,
-        "padding_y_mobile": 14,
-        "gap_desktop": 24,
-        "gap_mobile": 16,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "accessibility_label": "Nos produits et avantages"
-      }
-    },
-    "pourquoinouschoisir_GhLyKW": {
-      "type": "pourquoinouschoisir",
-      "blocks": {
-        "highlight_AaeeBR": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_11.png",
-            "icon": "shipping",
-            "title": "Étiquettes créées en un clic",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_cYDcCp": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_12.png",
-            "icon": "shipping",
-            "title": "Moins de consommables",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_CAJKxL": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_14.png",
-            "icon": "shipping",
-            "title": "Compatible avec vos plateformes",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_ycrMFL": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_13.png",
-            "icon": "shipping",
-            "title": "Personnalisation illimitée",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        }
-      },
-      "block_order": [
-        "highlight_AaeeBR",
-        "highlight_cYDcCp",
-        "highlight_CAJKxL",
-        "highlight_ycrMFL"
-      ],
-      "name": "Cartes produits",
-      "settings": {
-        "heading": "Simplifiez Vos Expéditions",
-        "text": "",
-        "section_background": "#ffffff",
-        "card_background": "#ffffff",
-        "text_color": "#111111",
-        "accent_color": "#ff4713",
-        "content_width": 1320,
-        "columns_desktop": "4",
-        "columns_mobile": "2",
-        "card_gap": 20,
-        "card_gap_mobile": 12,
-        "card_radius": 12,
-        "card_height": 200,
-        "card_height_mobile": 140,
-        "icon_box_size": 60,
-        "icon_size": 34,
-        "icon_radius": 16,
-        "icon_box_size_mobile": 62,
-        "icon_size_mobile": 34,
-        "icon_radius_mobile": 14,
-        "title_size": 17,
-        "text_size": 16,
-        "title_size_mobile": 14,
-        "text_size_mobile": 13,
-        "padding_top": 80,
-        "padding_bottom": 60,
-        "padding_top_mobile": 52,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "nousvseux_6UGzcP": {
-      "type": "nousvseux",
-      "blocks": {
-        "row_kVj9eg": {
-          "type": "row",
-          "settings": {
-            "text_left": "Impression sans fil (Bluetooth & USB)",
-            "text_right": "Connexion filaire uniquement, contraignante"
-          }
-        },
-        "row_cPdXJT": {
-          "type": "row",
-          "settings": {
-            "text_left": "Rapidité exceptionnelle (60 étiquettes/min)",
-            "text_right": "Impression lente, perte de temps"
-          }
-        },
-        "row_LeaG6H": {
-          "type": "row",
-          "settings": {
-            "text_left": "Économies sur les fournitures (zéro encre)",
-            "text_right": "Cartouches d'encre coûteuses"
-          }
-        },
-        "row_NNYejL": {
-          "type": "row",
-          "settings": {
-            "text_left": "Formats multiples (10×15, 5×7, 7×6…)",
-            "text_right": "Un seul format disponible"
-          }
-        },
-        "row_KgChJp": {
-          "type": "row",
-          "settings": {
-            "text_left": "Facilité d'utilisation (Allumez, connectez, imprimez)",
-            "text_right": "Installation longue et technique"
-          }
-        }
-      },
-      "block_order": [
-        "row_kVj9eg",
-        "row_cPdXJT",
-        "row_LeaG6H",
-        "row_NNYejL",
-        "row_KgChJp"
-      ],
-      "name": "Nous VS Eux",
-      "settings": {
-        "title": "MetaShopper Face aux Autres",
-        "title_size": 28,
-        "title_color": "#1a1a1a",
-        "label_left": "Votre produit",
-        "label_right": "Concurrent",
-        "image_bg_color": "#f5f5f5",
-        "vs_text": "VS",
-        "vs_badge_bg": "#ff4713",
-        "vs_badge_color": "#ffffff",
-        "row_bg_color": "#ffffff",
-        "row_border_color": "#ececec",
-        "text_color": "#000000",
-        "text_color_them": "#8a8a8a",
-        "good_color": "#ff4713",
-        "good_icon_color": "#ffffff",
-        "bad_color": "#ca2d00"
-      }
-    },
     "media_with_text_jMajNb": {
       "type": "media-with-text",
       "blocks": {
         "image_P9xt7e": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_25_juil._2026_12_46_27.png",
+            "image": "shopify://shop_images/09.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "La liberté sans fil",
-            "content": "<p><strong>Dites adieu aux câbles encombrants</strong> et imprimez facilement en Bluetooth ou par USB. Compatible avec Windows, Mac, iPhone, iPad et Android pour une <strong>impression simple, où que vous soyez.</strong></p>",
+            "title": "La lame du dévidoir est-elle remplaçable ?",
+            "content": "<p>Oui, la conception du dévidoir permet le remplacement de la lame lorsque cela devient nécessaire.</p>",
             "link_text": "OBTENIR MAINTENANT",
             "link_url": "#shopify-section-template--30926980546885__main",
             "background": "#f5f5f5",
@@ -1811,12 +1545,8 @@
   "order": [
     "main",
     "testimonials_PhUMFF",
-    "rich_text_DeUbtA",
     "iconsbenefice_mapNKM",
     "imagebenefice_mE9rDL",
-    "barrdefilant_rHtehN",
-    "pourquoinouschoisir_GhLyKW",
-    "nousvseux_6UGzcP",
     "media_with_text_jMajNb",
     "etapeimprimante_aHGmrw",
     "logoscroll_kxTj8A",
