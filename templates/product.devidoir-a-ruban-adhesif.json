@@ -15,7 +15,7 @@
         "liquid_YrnFVj": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% if request.page_type == 'product' %}\n  <div class=\"product-mini-badges\">\n    <span class=\"product-mini-badge\">BEST SELLER</span>\n    <span class=\"product-mini-badge\">1 ROULEAU OFFERTE</span>\n  </div>\n\n  <style>\n    .product-mini-badges {\n      display: flex;\n      flex-wrap: nowrap;\n      gap: 6px;\n      width: 100%;\n      margin: 0 0 8px;\n    }\n\n    .product-mini-badge {\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      flex: 1 1 0;\n      min-width: 0;\n\n      padding: 5px 8px;\n      border: 1px solid #ff9d86;\n      border-radius: 7px;\n      background: #fff8f5;\n\n      color: #ff471f;\n      font-size: 11px;\n      font-weight: 800;\n      line-height: 1.1;\n      text-align: center;\n      white-space: nowrap;\n    }\n\n    @media screen and (max-width: 390px) {\n      .product-mini-badge {\n        padding: 4px 5px;\n        font-size: 11px;\n      }\n    }\n  </style>\n{% endif %}"
+            "liquid": "{% if request.page_type == 'product' %}\n  <div class=\"product-mini-badges\">\n    <span class=\"product-mini-badge\">BEST SELLER</span>\n    <span class=\"product-mini-badge\">1 ROULEAU OFFERT</span>\n  </div>\n\n  <style>\n    .product-mini-badges {\n      display: flex;\n      flex-wrap: nowrap;\n      gap: 6px;\n      width: 100%;\n      margin: 0 0 8px;\n    }\n\n    .product-mini-badge {\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      flex: 1 1 0;\n      min-width: 0;\n\n      padding: 5px 8px;\n      border: 1px solid #ff9d86;\n      border-radius: 7px;\n      background: #fff8f5;\n\n      color: #ff471f;\n      font-size: 11px;\n      font-weight: 800;\n      line-height: 1.1;\n      text-align: center;\n      white-space: nowrap;\n    }\n\n    @media screen and (max-width: 390px) {\n      .product-mini-badge {\n        padding: 4px 5px;\n        font-size: 11px;\n      }\n    }\n  </style>\n{% endif %}"
           }
         },
         "liquid_iy79cp": {
@@ -125,8 +125,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Comment Fonctionne L'Imprimante ?",
-            "content": "<ol><li><strong>Téléchargez l'application</strong> – Scannez le QR code fourni pour installer l'application sur votre smartphone.</li><li><strong>Connectez votre imprimante</strong> – Ouvrez l'application et appuyez sur « Connecter » pour l'associer à votre imprimante.</li><li><strong>Personnalisez votre étiquette</strong> – Choisissez le format et la taille qui correspondent à votre besoin.</li><li><strong>Imprimez instantanément</strong> – Téléchargez votre création et lancez l'impression en un clic.</li></ol>",
+            "title": "Comment utiliser un dévidoir pour colis ?",
+            "content": "<p>Il suffit d'installer le rouleau dans son support, de régler son maintien puis de tirer le ruban sur le carton. </p><p>La lame dentelée située à l'avant permet ensuite de couper le ruban directement.</p>",
             "page": ""
           }
         },
