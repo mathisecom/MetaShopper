@@ -31,6 +31,12 @@
             "heading_tag": "h3"
           }
         },
+        "text_mNKzGK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Étiquettes thermiques adhésives grand format conçues pour l’impression de bordereaux d’expédition et d’étiquettes colis. Format standard 100×150 mm (4×6), idéal pour les e-commerçants, vendeurs professionnels et expéditions quotidiennes.</strong></p><p></p>"
+          }
+        },
         "text_EMimez": {
           "type": "text",
           "settings": {
@@ -136,6 +142,7 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "text_mNKzGK",
         "text_EMimez",
         "price_L3ctEa",
         "liquid_mUKjG4",
