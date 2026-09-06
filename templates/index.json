@@ -316,7 +316,7 @@
         "collection": "",
         "products": [
           "metashopper-imprimante-thermique-bluetooth",
-          "etiquettes-thermiques-expedition-colis-4x6",
+          "metashopper-etiquettes-thermiques-100x150",
           "support-detiquettes-thermique",
           "pochettes-envoi-colis-grises-pack-30",
           "pochettes-envoi-colis-roses-pack-30"
@@ -500,7 +500,7 @@
         "product_card_LFbgUR": {
           "type": "product_card",
           "settings": {
-            "product": "etiquettes-thermiques-expedition-colis-4x6",
+            "product": "metashopper-etiquettes-thermiques-100x150",
             "custom_title": "Étiquettes Thermique",
             "subtitle": "",
             "button_label": "",
