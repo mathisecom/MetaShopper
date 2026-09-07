@@ -164,6 +164,16 @@
             "page": ""
           }
         },
+        "collapsible_text_m7QibK": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Puis-je imprimer mes étiquettes Vinted dessus ?",
+            "content": "<p>Oui. Ces étiquettes sont particulièrement adaptées aux vendeurs <strong>Vinted</strong> qui utilisent une imprimante thermique pour leurs bordereaux colis.</p><p>Téléchargez votre bordereau, sélectionnez le format adapté dans votre logiciel ou votre application d’impression, puis imprimez directement sur l’étiquette.</p>",
+            "page": ""
+          }
+        },
         "liquid_CzKMxJ": {
           "type": "liquid",
           "settings": {
@@ -191,6 +201,7 @@
         "collapsible_text_PWewhC",
         "collapsible_text_XC4kpY",
         "collapsible_text_BabUg8",
+        "collapsible_text_m7QibK",
         "liquid_CzKMxJ"
       ],
       "settings": {
