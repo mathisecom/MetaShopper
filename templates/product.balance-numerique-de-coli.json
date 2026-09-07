@@ -120,16 +120,6 @@
             "page": ""
           }
         },
-        "collapsible_text_PAbMgp": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Comment Fonctionne L'Imprimante ?",
-            "content": "<ol><li><strong>Téléchargez l'application</strong> – Scannez le QR code fourni pour installer l'application sur votre smartphone.</li><li><strong>Connectez votre imprimante</strong> – Ouvrez l'application et appuyez sur « Connecter » pour l'associer à votre imprimante.</li><li><strong>Personnalisez votre étiquette</strong> – Choisissez le format et la taille qui correspondent à votre besoin.</li><li><strong>Imprimez instantanément</strong> – Téléchargez votre création et lancez l'impression en un clic.</li></ol>",
-            "page": ""
-          }
-        },
         "liquid_CzKMxJ": {
           "type": "liquid",
           "settings": {
@@ -153,7 +143,6 @@
         "liquid_xht8Li",
         "liquid_4tqfL7",
         "collapsible_text_N6kP84",
-        "collapsible_text_PAbMgp",
         "liquid_CzKMxJ"
       ],
       "settings": {
