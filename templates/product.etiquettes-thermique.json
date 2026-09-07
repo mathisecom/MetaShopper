@@ -15,7 +15,7 @@
         "liquid_YrnFVj": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% if request.page_type == 'product' %}\n  <div class=\"product-mini-badges\">\n    <span class=\"product-mini-badge\">BEST SELLER</span>\n    <span class=\"product-mini-badge\">ÉTIQUETTES OFFERTES</span>\n  </div>\n\n  <style>\n    .product-mini-badges {\n      display: flex;\n      flex-wrap: nowrap;\n      gap: 6px;\n      width: 100%;\n      margin: 0 0 8px;\n    }\n\n    .product-mini-badge {\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      flex: 1 1 0;\n      min-width: 0;\n\n      padding: 5px 8px;\n      border: 1px solid #ff9d86;\n      border-radius: 7px;\n      background: #fff8f5;\n\n      color: #ff471f;\n      font-size: 11px;\n      font-weight: 800;\n      line-height: 1.1;\n      text-align: center;\n      white-space: nowrap;\n    }\n\n    @media screen and (max-width: 390px) {\n      .product-mini-badge {\n        padding: 4px 5px;\n        font-size: 11px;\n      }\n    }\n  </style>\n{% endif %}"
+            "liquid": "{% if request.page_type == 'product' %}\n  <div class=\"product-mini-badges\">\n    <span class=\"product-mini-badge\">INDISPENSABLE</span>\n    <span class=\"product-mini-badge\">ÉTIQUETTES ADÉSIFS</span>\n  </div>\n\n  <style>\n    .product-mini-badges {\n      display: flex;\n      flex-wrap: nowrap;\n      gap: 6px;\n      width: 100%;\n      margin: 0 0 8px;\n    }\n\n    .product-mini-badge {\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      flex: 1 1 0;\n      min-width: 0;\n\n      padding: 5px 8px;\n      border: 1px solid #ff9d86;\n      border-radius: 7px;\n      background: #fff8f5;\n\n      color: #ff471f;\n      font-size: 11px;\n      font-weight: 800;\n      line-height: 1.1;\n      text-align: center;\n      white-space: nowrap;\n    }\n\n    @media screen and (max-width: 390px) {\n      .product-mini-badge {\n        padding: 4px 5px;\n        font-size: 11px;\n      }\n    }\n  </style>\n{% endif %}"
           }
         },
         "liquid_iy79cp": {
@@ -119,8 +119,48 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Comment Fonctionne L'Imprimante ?",
-            "content": "<ol><li><strong>Téléchargez l'application</strong> – Scannez le QR code fourni pour installer l'application sur votre smartphone.</li><li><strong>Connectez votre imprimante</strong> – Ouvrez l'application et appuyez sur « Connecter » pour l'associer à votre imprimante.</li><li><strong>Personnalisez votre étiquette</strong> – Choisissez le format et la taille qui correspondent à votre besoin.</li><li><strong>Imprimez instantanément</strong> – Téléchargez votre création et lancez l'impression en un clic.</li></ol>",
+            "title": "Quel est le format de ces étiquettes thermiques ?",
+            "content": "<p>Chaque étiquette mesure <strong>100 × 150 mm</strong>, soit environ <strong>4 × 6 pouces</strong>. C’est l’un des formats les plus utilisés pour l’impression des bordereaux d’expédition et des étiquettes colis en e-commerce.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_NefmDF": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Ces étiquettes nécessitent-elles de l’encre ou du toner ?",
+            "content": "<p>Non. Ces étiquettes sont conçues pour fonctionner avec une <strong>imprimante thermique directe</strong>. L’impression est réalisée grâce à la chaleur de la tête d’impression, sans cartouche d’encre ni toner.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_PWewhC": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Avec quelles imprimantes sont-elles compatibles ?",
+            "content": "<p>Les étiquettes sont destinées aux <strong>imprimantes thermiques acceptant le format 100 × 150 mm (4×6)</strong>. Elles sont notamment parfaitement adaptées à l’<strong>Imprimante Thermique Bluetooth Metashopper</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_XC4kpY": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Peut-on les utiliser pour Mondial Relay ?",
+            "content": "<p>Oui. Elles peuvent être utilisées pour imprimer les bordereaux <strong>Mondial Relay</strong> lorsque votre bordereau est généré au format compatible 100 × 150 mm.</p><h3></h3>",
+            "page": ""
+          }
+        },
+        "collapsible_text_BabUg8": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Sont-elles compatibles avec Colissimo et Chronopost ?",
+            "content": "<p>Oui. Le format 100 × 150 mm convient à de nombreux bordereaux d’expédition <strong>Colissimo, Chronopost et autres transporteurs</strong>, à condition de sélectionner un format d’impression 4×6 lorsqu’il est proposé.</p>",
             "page": ""
           }
         },
@@ -147,6 +187,10 @@
         "liquid_4tqfL7",
         "collapsible_text_N6kP84",
         "collapsible_text_PAbMgp",
+        "collapsible_text_NefmDF",
+        "collapsible_text_PWewhC",
+        "collapsible_text_XC4kpY",
+        "collapsible_text_BabUg8",
         "liquid_CzKMxJ"
       ],
       "settings": {
