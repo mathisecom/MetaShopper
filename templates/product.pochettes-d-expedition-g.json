@@ -114,16 +114,6 @@
             "page": ""
           }
         },
-        "collapsible_text_PAbMgp": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Comment Fonctionne L'Imprimante ?",
-            "content": "<ol><li><strong>Téléchargez l'application</strong> – Scannez le QR code fourni pour installer l'application sur votre smartphone.</li><li><strong>Connectez votre imprimante</strong> – Ouvrez l'application et appuyez sur « Connecter » pour l'associer à votre imprimante.</li><li><strong>Personnalisez votre étiquette</strong> – Choisissez le format et la taille qui correspondent à votre besoin.</li><li><strong>Imprimez instantanément</strong> – Téléchargez votre création et lancez l'impression en un clic.</li></ol>",
-            "page": ""
-          }
-        },
         "liquid_CzKMxJ": {
           "type": "liquid",
           "settings": {
@@ -146,7 +136,6 @@
         "liquid_xht8Li",
         "liquid_4tqfL7",
         "collapsible_text_N6kP84",
-        "collapsible_text_PAbMgp",
         "liquid_CzKMxJ"
       ],
       "settings": {
@@ -165,6 +154,52 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "rich_text_DeUbtA": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_493Ckn": {
+          "type": "subheading",
+          "settings": {
+            "text": "Notée 4,9/5 par nos e-commerçants Vinted, Tik-Tok shop, Shopify."
+          }
+        },
+        "heading_bjR4f3": {
+          "type": "heading",
+          "settings": {
+            "text": "+ 3 000 e-Commerçants Satisfaits",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_493Ckn",
+        "heading_bjR4f3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_fmyDLH": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{% comment %}\n  ==========================================================\n  METASHOPPER — POCHETTES D’EXPÉDITION GRISES\n  PACK DE 30 — S / M / L\n  SEO / GEO / CONVERSION\n\n  Compatible avec Shopify « Liquid personnalisé »\n\n  DONNÉES À COMPLÉTER UNE FOIS CONFIRMÉES :\n{% endcomment %}\n\n{% assign ms_size_s = '' %}\n{% assign ms_size_m = '' %}\n{% assign ms_size_l = '' %}\n{% assign ms_material = '' %}\n\n{% assign ms_labels = all_products['metashopper-etiquettes-thermiques-100x150'] %}\n{% assign ms_printer = all_products['metashopper-imprimante-thermique-bluetooth'] %}\n{% assign ms_scale = all_products['balance-colis-digitale'] %}\n{% assign ms_support = all_products['support-detiquettes-thermique'] %}\n\n<div class=\"ms-pouch-page\">\n\n\n  <!-- =====================================================\n       1. EMBALLEZ, FERMEZ, EXPÉDIEZ\n  ====================================================== -->\n\n  <section class=\"msp-hero\">\n\n    <div class=\"msp-hero__media\">\n\n      {% if product.images[1] %}\n        {{\n          product.images[1]\n          | image_url: width: 1400\n          | image_tag:\n            loading: 'lazy',\n            widths: '500, 800, 1100, 1400',\n            sizes: '(min-width: 990px) 50vw, 100vw',\n            alt: 'Pochette d’expédition grise auto-adhésive pour colis e-commerce'\n        }}\n      {% elsif product.featured_image %}\n        {{\n          product.featured_image\n          | image_url: width: 1400\n          | image_tag:\n            loading: 'lazy',\n            widths: '500, 800, 1100, 1400',\n            sizes: '(min-width: 990px) 50vw, 100vw',\n            alt: 'Pochette d’expédition grise auto-adhésive pour colis e-commerce'\n        }}\n      {% endif %}\n\n    </div>\n\n\n    <div class=\"msp-hero__content\">\n\n      <span class=\"msp-kicker\">EMBALLAGE E-COMMERCE</span>\n\n      <h2>Emballez, fermez, expédiez</h2>\n\n      <p class=\"msp-hero__lead\">\n        Préparez vos commandes rapidement avec une\n        <strong>pochette opaque et auto-adhésive</strong>,\n        conçue pour protéger vos articles pendant leur expédition.\n      </p>\n\n      <p>\n        Insérez votre article, retirez la bande de protection puis refermez\n        la pochette. Il ne vous reste plus qu’à apposer votre étiquette\n        d’expédition avant la remise au transporteur.\n      </p>\n\n      <div class=\"msp-checks\">\n\n        <div>\n          <span>✓</span>\n          <small>Fermeture rapide sans ruban supplémentaire</small>\n        </div>\n\n        <div>\n          <span>✓</span>\n          <small>Contenu masqué grâce à la matière opaque</small>\n        </div>\n\n        <div>\n          <span>✓</span>\n          <small>Surface pratique pour votre étiquette colis</small>\n        </div>\n\n      </div>\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       2. BÉNÉFICES VENDEURS\n  ====================================================== -->\n\n  <section class=\"msp-section\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">PRÉPARATION DE COMMANDES</span>\n\n      <h2>Un emballage pensé pour les vendeurs en ligne</h2>\n\n      <p>\n        Un emballage simple à intégrer à votre poste de préparation\n        pour gagner du temps sur les commandes du quotidien.\n      </p>\n\n    </div>\n\n\n    <div class=\"msp-benefits\">\n\n\n      <article class=\"msp-benefit\">\n\n        <div class=\"msp-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\">\n            <path d=\"M4 7h16v12H4V7Z\"/>\n            <path d=\"m4 7 8 6 8-6\"/>\n            <path d=\"M8 4h8\"/>\n          </svg>\n        </div>\n\n        <h3>Fermez sans ruban</h3>\n\n        <p>\n          La bande auto-adhésive permet de fermer rapidement votre pochette.\n        </p>\n\n      </article>\n\n\n\n      <article class=\"msp-benefit\">\n\n        <div class=\"msp-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\">\n            <path d=\"M3 12s3-5 9-5 9 5 9 5-3 5-9 5-9-5-9-5Z\"/>\n            <circle cx=\"12\" cy=\"12\" r=\"2.5\"/>\n            <path d=\"M4 4 20 20\"/>\n          </svg>\n        </div>\n\n        <h3>Préservez la confidentialité</h3>\n\n        <p>\n          La matière opaque masque le contenu de votre envoi.\n        </p>\n\n      </article>\n\n\n\n      <article class=\"msp-benefit\">\n\n        <div class=\"msp-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\">\n            <circle cx=\"12\" cy=\"13\" r=\"8\"/>\n            <path d=\"M12 9v4l3 2\"/>\n            <path d=\"M9 2h6M12 2v3\"/>\n          </svg>\n        </div>\n\n        <h3>Préparez plus rapidement</h3>\n\n        <p>\n          Emballez, fermez et passez immédiatement à l’étiquetage.\n        </p>\n\n      </article>\n\n\n\n      <article class=\"msp-benefit\">\n\n        <div class=\"msp-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\">\n            <path d=\"M5 4h14v16H5V4Z\"/>\n            <path d=\"M8 8h8M8 12h8M8 16h5\"/>\n          </svg>\n        </div>\n\n        <h3>Un rendu professionnel</h3>\n\n        <p>\n          Présentez vos commandes dans un emballage sobre et propre.\n        </p>\n\n      </article>\n\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       3. S / M / L\n  ====================================================== -->\n\n  <section class=\"msp-section msp-soft\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">3 FORMATS</span>\n\n      <h2>Trois formats pour différents types d’envois</h2>\n\n      <p>\n        Choisissez la taille de pochette en fonction du volume\n        de l’article à emballer.\n      </p>\n\n    </div>\n\n\n    <div class=\"msp-sizes\">\n\n\n      <article class=\"msp-size\">\n\n        <span class=\"msp-size__badge\">S</span>\n\n        <h3>Petits accessoires</h3>\n\n        {% if ms_size_s != blank %}\n          <strong>{{ ms_size_s }}</strong>\n        {% endif %}\n\n        <p>\n          Pour les petits vêtements, accessoires et articles peu volumineux.\n        </p>\n\n      </article>\n\n\n\n      <article class=\"msp-size msp-size--featured\">\n\n        <span class=\"msp-size__badge\">M</span>\n\n        <h3>Vêtements légers</h3>\n\n        {% if ms_size_m != blank %}\n          <strong>{{ ms_size_m }}</strong>\n        {% endif %}\n\n        <p>\n          Un format polyvalent pour de nombreuses commandes e-commerce.\n        </p>\n\n      </article>\n\n\n\n      <article class=\"msp-size\">\n\n        <span class=\"msp-size__badge\">L</span>\n\n        <h3>Articles plus volumineux</h3>\n\n        {% if ms_size_l != blank %}\n          <strong>{{ ms_size_l }}</strong>\n        {% endif %}\n\n        <p>\n          Pour les textiles et produits nécessitant davantage d’espace.\n        </p>\n\n      </article>\n\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       4. MARKETPLACES\n  ====================================================== -->\n\n  <section class=\"msp-section\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">E-COMMERCE & MARKETPLACES</span>\n\n      <h2>Idéales pour vos commandes e-commerce</h2>\n\n      <p>\n        Les <strong>pochettes d’expédition</strong> sont utilisées par les\n        vendeurs en ligne pour emballer et protéger des articles avant leur\n        remise au transporteur.\n      </p>\n\n    </div>\n\n\n    <div class=\"msp-platforms\">\n\n      <span>Vinted</span>\n      <span>Shopify</span>\n      <span>Amazon</span>\n      <span>eBay</span>\n      <span>Etsy</span>\n      <span>TikTok Shop</span>\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       5. TRANSPORTEURS\n  ====================================================== -->\n\n  <section class=\"msp-section msp-soft\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">PRÉPARATION DES ENVOIS</span>\n\n      <h2>Préparez vos colis pour les principaux transporteurs</h2>\n\n      <p>\n        Ces pochettes peuvent servir d’<strong>emballage d’expédition</strong>\n        pour vos commandes, à condition de respecter les exigences de\n        dimensions, de poids et d’emballage du service de transport choisi.\n      </p>\n\n    </div>\n\n\n    <div class=\"msp-carriers\">\n\n      <span>Mondial Relay</span>\n      <span>Colissimo</span>\n      <span>Chronopost</span>\n      <span>DHL</span>\n      <span>UPS</span>\n      <span>GLS</span>\n      <span>FedEx</span>\n\n    </div>\n\n\n    <div class=\"msp-notice\">\n\n      <b>i</b>\n\n      <p>\n        La pochette n’est pas liée à un transporteur spécifique.\n        Vérifiez toujours les conditions d’emballage du service utilisé,\n        en particulier pour les objets fragiles ou à angles saillants.\n      </p>\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       6. CARACTÉRISTIQUES\n  ====================================================== -->\n\n  <section class=\"msp-section\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">FICHE TECHNIQUE</span>\n\n      <h2>Caractéristiques des pochettes d’expédition grises</h2>\n\n    </div>\n\n\n    <div class=\"msp-specs\">\n\n      <div>\n        <span>Type</span>\n        <strong>Pochette d’expédition</strong>\n      </div>\n\n      <div>\n        <span>Couleur</span>\n        <strong>Gris</strong>\n      </div>\n\n      <div>\n        <span>Fermeture</span>\n        <strong>Auto-adhésive</strong>\n      </div>\n\n      <div>\n        <span>Opacité</span>\n        <strong>Opaque</strong>\n      </div>\n\n      <div>\n        <span>Protection</span>\n        <strong>Résistante à l’humidité</strong>\n      </div>\n\n      <div>\n        <span>Résistance</span>\n        <strong>Conçue pour résister aux déchirures</strong>\n      </div>\n\n      <div>\n        <span>Quantité</span>\n        <strong>30 pochettes</strong>\n      </div>\n\n      <div>\n        <span>Tailles</span>\n        <strong>S / M / L</strong>\n      </div>\n\n\n      {% if ms_size_s != blank or ms_size_m != blank or ms_size_l != blank %}\n        <div>\n          <span>Dimensions</span>\n          <strong>\n            {% if ms_size_s != blank %}S : {{ ms_size_s }}{% endif %}\n            {% if ms_size_m != blank %} · M : {{ ms_size_m }}{% endif %}\n            {% if ms_size_l != blank %} · L : {{ ms_size_l }}{% endif %}\n          </strong>\n        </div>\n      {% endif %}\n\n\n      <div>\n        <span>Usage</span>\n        <strong>Vêtements, accessoires, e-commerce, expédition</strong>\n      </div>\n\n\n      {% if ms_material != blank %}\n        <div>\n          <span>Matière</span>\n          <strong>{{ ms_material }}</strong>\n        </div>\n      {% endif %}\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       7. COMMENT UTILISER\n  ====================================================== -->\n\n  <section class=\"msp-section\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">4 ÉTAPES</span>\n\n      <h2>Comment préparer un colis avec une pochette d’expédition ?</h2>\n\n      <p>\n        Une méthode simple pour préparer vos commandes avant leur expédition.\n      </p>\n\n    </div>\n\n\n    <div class=\"msp-steps\">\n\n\n      <article>\n\n        <span class=\"msp-step-number\">1</span>\n\n        <div class=\"msp-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\">\n            <path d=\"M5 5h14v14H5V5Z\"/>\n            <path d=\"M8 9h8M8 13h5\"/>\n          </svg>\n        </div>\n\n        <h3>Insérez votre article</h3>\n\n        <p>\n          Placez le produit ou vêtement à l’intérieur de la pochette adaptée.\n        </p>\n\n      </article>\n\n\n\n      <article>\n\n        <span class=\"msp-step-number\">2</span>\n\n        <div class=\"msp-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\">\n            <path d=\"M4 8h16v10H4V8Z\"/>\n            <path d=\"M4 8h16\"/>\n            <path d=\"m8 5 8 3\"/>\n          </svg>\n        </div>\n\n        <h3>Retirez la protection</h3>\n\n        <p>\n          Enlevez la bande protégeant l’adhésif de fermeture.\n        </p>\n\n      </article>\n\n\n\n      <article>\n\n        <span class=\"msp-step-number\">3</span>\n\n        <div class=\"msp-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\">\n            <path d=\"M4 7h16v12H4V7Z\"/>\n            <path d=\"m4 7 8 6 8-6\"/>\n          </svg>\n        </div>\n\n        <h3>Fermez la pochette</h3>\n\n        <p>\n          Rabattez la fermeture puis appliquez une pression régulière.\n        </p>\n\n      </article>\n\n\n\n      <article>\n\n        <span class=\"msp-step-number\">4</span>\n\n        <div class=\"msp-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\">\n            <path d=\"M5 4h14v16H5V4Z\"/>\n            <path d=\"M8 8h8M8 12h5\"/>\n            <path d=\"m15 17 2 2 4-4\"/>\n          </svg>\n        </div>\n\n        <h3>Collez votre étiquette</h3>\n\n        <p>\n          Apposez votre bordereau d’expédition sur une surface plane et visible.\n        </p>\n\n      </article>\n\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       8. POCHETTE VS CARTON\n  ====================================================== -->\n\n  <section class=\"msp-section\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">QUEL EMBALLAGE CHOISIR ?</span>\n\n      <h2>Pochette d’expédition ou carton ?</h2>\n\n      <p>\n        Les deux solutions répondent à des usages différents.\n        La pochette est particulièrement pratique pour les articles souples\n        et non fragiles, tandis que le carton reste préférable pour les objets\n        nécessitant davantage de protection.\n      </p>\n\n    </div>\n\n\n    <div class=\"msp-comparison\">\n\n      <div class=\"msp-comparison__head\">\n        <div>Critère</div>\n        <div class=\"msp-comparison__winner\">Pochette d’expédition</div>\n        <div>Carton</div>\n      </div>\n\n      <div class=\"msp-comparison__row\">\n        <strong>Vêtements / textile</strong>\n        <span class=\"msp-good\">✓ Très pratique</span>\n        <span>Possible</span>\n      </div>\n\n      <div class=\"msp-comparison__row\">\n        <strong>Poids de l’emballage</strong>\n        <span class=\"msp-good\">Léger</span>\n        <span>Plus lourd</span>\n      </div>\n\n      <div class=\"msp-comparison__row\">\n        <strong>Fermeture</strong>\n        <span class=\"msp-good\">Auto-adhésive</span>\n        <span>Ruban souvent nécessaire</span>\n      </div>\n\n      <div class=\"msp-comparison__row\">\n        <strong>Stockage</strong>\n        <span class=\"msp-good\">Peu encombrant</span>\n        <span>Plus volumineux</span>\n      </div>\n\n      <div class=\"msp-comparison__row\">\n        <strong>Produits fragiles</strong>\n        <span>Protection limitée</span>\n        <span class=\"msp-good\">Généralement préférable</span>\n      </div>\n\n      <div class=\"msp-comparison__row\">\n        <strong>Préparation rapide</strong>\n        <span class=\"msp-good\">✓</span>\n        <span>Variable</span>\n      </div>\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       9. POURQUOI UTILISER\n  ====================================================== -->\n\n  <section class=\"msp-section msp-why\">\n\n    <div>\n\n      <span class=\"msp-kicker\">EMBALLAGE COLIS</span>\n\n      <h2>Pourquoi utiliser une pochette d’expédition pour vos commandes ?</h2>\n\n      <p class=\"msp-why__lead\">\n        Une pochette d’expédition permet d’emballer rapidement certains\n        articles non fragiles tout en conservant un colis léger,\n        compact et facile à étiqueter.\n      </p>\n\n      <p>\n        Pour un vendeur en ligne, ce type d’<strong>emballage colis</strong>\n        facilite la <strong>préparation de commande</strong>, protège\n        le contenu des regards grâce à son opacité et crée une surface\n        adaptée à la pose du bordereau avant\n        <strong>l’expédition e-commerce</strong>.\n      </p>\n\n    </div>\n\n\n    <div class=\"msp-why__grid\">\n\n      <div>\n        <strong>Protection des articles</strong>\n        <span>Une enveloppe extérieure souple pour les produits non fragiles.</span>\n      </div>\n\n      <div>\n        <strong>Confidentialité</strong>\n        <span>La matière opaque masque le contenu du colis.</span>\n      </div>\n\n      <div>\n        <strong>Préparation rapide</strong>\n        <span>Une fermeture auto-adhésive simple à utiliser.</span>\n      </div>\n\n      <div>\n        <strong>Expédition e-commerce</strong>\n        <span>Une solution adaptée aux workflows de commande en ligne.</span>\n      </div>\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       10. DEFINITION GEO\n  ====================================================== -->\n\n  <section class=\"msp-section msp-definition\">\n\n    <div class=\"msp-definition__icon\">\n\n      <svg viewBox=\"0 0 24 24\" fill=\"none\">\n        <path d=\"M4 7h16v12H4V7Z\"/>\n        <path d=\"m4 7 8 6 8-6\"/>\n      </svg>\n\n    </div>\n\n\n    <div>\n\n      <span class=\"msp-kicker\">DÉFINITION</span>\n\n      <h2>Qu’est-ce qu’une pochette d’expédition ?</h2>\n\n      <p class=\"msp-definition__answer\">\n        Une <strong>pochette d’expédition</strong> est un emballage souple\n        utilisé pour protéger et envoyer des articles tels que des vêtements,\n        accessoires et produits non fragiles. Généralement opaque et\n        auto-adhésive, elle permet de fermer rapidement une commande puis\n        d’y apposer une étiquette de transport avant expédition.\n      </p>\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       11. CONFIANCE\n  ====================================================== -->\n\n  <section class=\"msp-section\">\n\n    <div class=\"msp-heading msp-heading--center\">\n\n      <span class=\"msp-kicker\">METASHOPPER</span>\n\n      <h2>Une solution pensée pour les e-commerçants</h2>\n\n      <p>\n        Des fournitures et équipements destinés à simplifier\n        votre préparation de commandes.\n      </p>\n\n    </div>\n\n\n    <div class=\"msp-trust\">\n\n      <article>\n        <strong>Expédition rapide</strong>\n        <span>Préparation et suivi de vos commandes.</span>\n      </article>\n\n      <article>\n        <strong>Retours sous 30 jours</strong>\n        <span>Une procédure de retour prévue si nécessaire.</span>\n      </article>\n\n      <article>\n        <strong>Support réactif</strong>\n        <span>Une équipe disponible pour vous accompagner.</span>\n      </article>\n\n      <article>\n        <strong>Spécialiste e-commerce</strong>\n        <span>Des produits dédiés à vos expéditions.</span>\n      </article>\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       12. AVIS CLIENTS\n  ====================================================== -->\n\n  <section class=\"msp-section\" id=\"avis-clients\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">AVIS CLIENTS</span>\n\n      <h2>Les avis sur nos pochettes d’expédition</h2>\n\n      <p>\n        Retrouvez ici les retours authentiques de clients ayant utilisé\n        ces pochettes pour leurs expéditions.\n      </p>\n\n    </div>\n\n    {% comment %}\n      INSÉRER ICI LE WIDGET RÉEL DE VOTRE APPLICATION D’AVIS.\n\n      Avis particulièrement utiles :\n      - résistance\n      - fermeture\n      - opacité\n      - tailles\n      - Vinted / e-commerce\n\n      Ne jamais recopier les avis de l’imprimante.\n    {% endcomment %}\n\n  </section>\n\n\n\n  <!-- =====================================================\n       13. FAQ\n  ====================================================== -->\n\n  <section class=\"msp-section\">\n\n    <div class=\"msp-heading\">\n\n      <span class=\"msp-kicker\">QUESTIONS FRÉQUENTES</span>\n\n      <h2>Questions fréquentes sur les pochettes d’expédition</h2>\n\n    </div>\n\n\n    <div class=\"msp-faq\">\n\n\n      <details>\n        <summary>\n          Combien de pochettes contient le pack ?\n          <span>+</span>\n        </summary>\n        <div>\n          Le pack contient <strong>30 pochettes d’expédition grises</strong>.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Quelles sont les dimensions S, M et L ?\n          <span>+</span>\n        </summary>\n        <div>\n          Les dimensions exactes doivent être vérifiées dans les\n          caractéristiques du produit avant publication.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Les pochettes sont-elles opaques ?\n          <span>+</span>\n        </summary>\n        <div>\n          Oui. Leur matière grise opaque permet de masquer le contenu\n          de votre commande pendant son acheminement.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Sont-elles auto-adhésives ?\n          <span>+</span>\n        </summary>\n        <div>\n          Oui. Une bande adhésive intégrée permet de fermer la pochette\n          après avoir retiré sa protection.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Faut-il ajouter du ruban adhésif ?\n          <span>+</span>\n        </summary>\n        <div>\n          Pour une utilisation normale, la fermeture auto-adhésive permet\n          de fermer la pochette sans ruban supplémentaire.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Résistent-elles à l’humidité ?\n          <span>+</span>\n        </summary>\n        <div>\n          Elles sont conçues pour être\n          <strong>résistantes à l’humidité</strong> et aider à protéger\n          leur contenu pendant le transport.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Peut-on les utiliser pour Vinted ?\n          <span>+</span>\n        </summary>\n        <div>\n          Oui, elles peuvent servir à emballer des articles adaptés à ce\n          type d’enveloppe avant une expédition liée à une vente Vinted.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Peut-on coller une étiquette thermique 100×150 mm dessus ?\n          <span>+</span>\n        </summary>\n        <div>\n          Oui. Une étiquette d’expédition 100×150 mm peut être apposée\n          sur une zone propre, plane et suffisamment grande de la pochette.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Quels produits peut-on expédier dans une pochette ?\n          <span>+</span>\n        </summary>\n        <div>\n          Elles conviennent particulièrement aux vêtements, textiles,\n          accessoires et autres produits non fragiles adaptés à un\n          emballage souple.\n        </div>\n      </details>\n\n\n      <details>\n        <summary>\n          Pochette ou carton : lequel choisir ?\n          <span>+</span>\n        </summary>\n        <div>\n          Une pochette est particulièrement pratique pour les articles\n          souples et non fragiles. Pour un produit fragile, rigide ou\n          nécessitant une protection contre les chocs, un carton avec un\n          calage adapté est généralement préférable.\n        </div>\n      </details>\n\n\n    </div>\n\n  </section>\n\n\n\n  <!-- =====================================================\n       14. CROSS SELL\n  ====================================================== -->\n\n  <section class=\"msp-crosssell\">\n\n    <div class=\"msp-crosssell__content\">\n\n      <span class=\"msp-crosssell__kicker\">\n        PRÉPARATION DE COMMANDES\n      </span>\n\n      <h2>Complétez votre préparation de commandes</h2>\n\n      <p>\n        Associez vos pochettes aux outils essentiels pour peser,\n        imprimer et étiqueter vos commandes depuis votre poste d’expédition.\n      </p>\n\n\n      <div class=\"msp-workflow\">\n\n        <span><b>1</b>Pochette</span>\n        <i>→</i>\n        <span><b>2</b>Balance</span>\n        <i>→</i>\n        <span><b>3</b>Imprimante</span>\n        <i>→</i>\n        <span><b>4</b>Étiquette</span>\n\n      </div>\n\n\n      <a\n        href=\"/products/metashopper-etiquettes-thermiques-100x150\"\n        class=\"msp-cta\"\n      >\n        Découvrir les étiquettes thermiques 4×6\n        <span>→</span>\n      </a>\n\n    </div>\n\n\n    {% if ms_labels.featured_image %}\n\n      <div class=\"msp-crosssell__image\">\n\n        {{\n          ms_labels.featured_image\n          | image_url: width: 900\n          | image_tag:\n            loading: 'lazy',\n            widths: '400, 600, 900',\n            alt: 'Étiquettes thermiques 100x150 mm Metashopper'\n        }}\n\n      </div>\n\n    {% endif %}\n\n  </section>\n\n\n\n  <!-- =====================================================\n       15. PRODUITS COMPLÉMENTAIRES\n  ====================================================== -->\n\n  <section class=\"msp-section\">\n\n    <div class=\"msp-heading msp-heading--center\">\n\n      <span class=\"msp-kicker\">COMPLÉTEZ VOTRE ÉQUIPEMENT</span>\n\n      <h2>Les indispensables pour vos expéditions</h2>\n\n    </div>\n\n\n    <div class=\"msp-products\">\n\n\n      {% if ms_labels != blank %}\n        <a href=\"{{ ms_labels.url }}\" class=\"msp-product\">\n\n          <div class=\"msp-product__image\">\n            {{\n              ms_labels.featured_image\n              | image_url: width: 600\n              | image_tag:\n                loading: 'lazy',\n                alt: ms_labels.title\n            }}\n          </div>\n\n          <div class=\"msp-product__content\">\n            <span>ÉTIQUETAGE</span>\n            <strong>{{ ms_labels.title }}</strong>\n            <small>À partir de {{ ms_labels.price | money }}</small>\n            <b>Découvrir →</b>\n          </div>\n\n        </a>\n      {% endif %}\n\n\n\n      {% if ms_printer != blank %}\n        <a href=\"{{ ms_printer.url }}\" class=\"msp-product\">\n\n          <div class=\"msp-product__image\">\n            {{\n              ms_printer.featured_image\n              | image_url: width: 600\n              | image_tag:\n                loading: 'lazy',\n                alt: ms_printer.title\n            }}\n          </div>\n\n          <div class=\"msp-product__content\">\n            <span>IMPRESSION</span>\n            <strong>{{ ms_printer.title }}</strong>\n            <small>À partir de {{ ms_printer.price | money }}</small>\n            <b>Découvrir →</b>\n          </div>\n\n        </a>\n      {% endif %}\n\n\n\n      {% if ms_scale != blank %}\n        <a href=\"{{ ms_scale.url }}\" class=\"msp-product\">\n\n          <div class=\"msp-product__image\">\n            {{\n              ms_scale.featured_image\n              | image_url: width: 600\n              | image_tag:\n                loading: 'lazy',\n                alt: ms_scale.title\n            }}\n          </div>\n\n          <div class=\"msp-product__content\">\n            <span>PESÉE</span>\n            <strong>{{ ms_scale.title }}</strong>\n            <small>{{ ms_scale.price | money }}</small>\n            <b>Découvrir →</b>\n          </div>\n\n        </a>\n      {% endif %}\n\n\n\n      {% if ms_support != blank %}\n        <a href=\"{{ ms_support.url }}\" class=\"msp-product\">\n\n          <div class=\"msp-product__image\">\n            {{\n              ms_support.featured_image\n              | image_url: width: 600\n              | image_tag:\n                loading: 'lazy',\n                alt: ms_support.title\n            }}\n          </div>\n\n          <div class=\"msp-product__content\">\n            <span>ACCESSOIRE</span>\n            <strong>{{ ms_support.title }}</strong>\n            <small>{{ ms_support.price | money }}</small>\n            <b>Découvrir →</b>\n          </div>\n\n        </a>\n      {% endif %}\n\n\n    </div>\n\n  </section>\n\n\n</div>\n\n\n<style>\n\n/* ==========================================================\n   METASHOPPER DESIGN SYSTEM\n========================================================== */\n\n.ms-pouch-page,\n.ms-pouch-page * {\n  box-sizing: border-box;\n}\n\n.ms-pouch-page {\n  --orange: #ff4713;\n  --black: #111111;\n  --text: #303030;\n  --muted: #6b6b6b;\n  --soft: #f7f7f9;\n  --border: #e8e8e8;\n  --white: #ffffff;\n\n  width: 100%;\n}\n\n.msp-section {\n  margin: 60px 0;\n}\n\n.msp-soft {\n  padding: 42px;\n  background: var(--soft);\n}\n\n.msp-heading {\n  max-width: 850px;\n  margin-bottom: 28px;\n}\n\n.msp-heading--center {\n  margin-left: auto;\n  margin-right: auto;\n  text-align: center;\n}\n\n.msp-kicker {\n  display: inline-block;\n  margin-bottom: 10px;\n\n  color: var(--orange);\n\n  font-size: 12px;\n  font-weight: 800;\n  letter-spacing: .12em;\n}\n\n.ms-pouch-page h2 {\n  margin: 0 0 15px;\n\n  color: var(--black);\n\n  font-size: clamp(28px, 3vw, 42px);\n  line-height: 1.06;\n  letter-spacing: -.035em;\n}\n\n.msp-heading p,\n.msp-hero p {\n  color: var(--text);\n\n  font-size: 15px;\n  line-height: 1.7;\n}\n\n\n/* HERO */\n\n.msp-hero {\n  display: grid;\n\n  grid-template-columns: 1fr 1fr;\n\n  gap: 36px;\n\n  align-items: center;\n\n  margin: 55px 0;\n}\n\n.msp-hero__media {\n  aspect-ratio: 1 / 1;\n\n  overflow: hidden;\n\n  background: var(--soft);\n\n  border: 1px solid var(--border);\n}\n\n.msp-hero__media img {\n  width: 100%;\n  height: 100%;\n\n  object-fit: cover;\n}\n\n.msp-hero__lead {\n  color: var(--black) !important;\n\n  font-size: 17px !important;\n  font-weight: 600;\n}\n\n.msp-checks {\n  display: grid;\n\n  gap: 9px;\n\n  margin-top: 20px;\n}\n\n.msp-checks > div {\n  display: flex;\n\n  gap: 9px;\n\n  align-items: flex-start;\n\n  padding: 11px 13px;\n\n  background: var(--soft);\n\n  border: 1px solid var(--border);\n}\n\n.msp-checks span {\n  width: 21px;\n  height: 21px;\n\n  flex: 0 0 21px;\n\n  display: flex;\n\n  align-items: center;\n  justify-content: center;\n\n  border-radius: 50%;\n\n  background: var(--orange);\n  color: #fff;\n\n  font-size: 11px;\n  font-weight: 800;\n}\n\n.msp-checks small {\n  color: var(--text);\n\n  font-size: 12px;\n  line-height: 1.45;\n}\n\n\n/* ICON */\n\n.msp-icon {\n  width: 37px;\n  height: 37px;\n\n  margin-bottom: 18px;\n\n  color: var(--orange);\n}\n\n.msp-icon svg {\n  width: 100%;\n  height: 100%;\n\n  stroke: currentColor;\n\n  stroke-width: 1.6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n\n\n/* BENEFITS */\n\n.msp-benefits {\n  display: grid;\n\n  grid-template-columns: repeat(4, minmax(0, 1fr));\n\n  gap: 12px;\n}\n\n.msp-benefit {\n  min-height: 220px;\n\n  padding: 23px 19px;\n\n  background: var(--soft);\n\n  border: 1px solid var(--border);\n}\n\n.msp-benefit h3 {\n  margin: 0 0 8px;\n\n  color: var(--black);\n\n  font-size: 15px;\n}\n\n.msp-benefit p {\n  margin: 0;\n\n  color: var(--muted);\n\n  font-size: 12px;\n  line-height: 1.55;\n}\n\n\n/* SIZES */\n\n.msp-sizes {\n  display: grid;\n\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n\n  gap: 12px;\n}\n\n.msp-size {\n  position: relative;\n\n  padding: 27px 21px;\n\n  background: #fff;\n\n  border: 1px solid var(--border);\n}\n\n.msp-size--featured {\n  border: 2px solid var(--orange);\n}\n\n.msp-size__badge {\n  width: 42px;\n  height: 42px;\n\n  display: flex;\n\n  align-items: center;\n  justify-content: center;\n\n  margin-bottom: 18px;\n\n  background: var(--black);\n  color: #fff;\n\n  border-radius: 50%;\n\n  font-size: 15px;\n  font-weight: 800;\n}\n\n.msp-size--featured .msp-size__badge {\n  background: var(--orange);\n}\n\n.msp-size h3 {\n  margin: 0 0 7px;\n\n  color: var(--black);\n\n  font-size: 16px;\n}\n\n.msp-size strong {\n  display: block;\n\n  margin-bottom: 8px;\n\n  color: var(--orange);\n\n  font-size: 13px;\n}\n\n.msp-size p {\n  margin: 0;\n\n  color: var(--muted);\n\n  font-size: 12px;\n  line-height: 1.55;\n}\n\n\n/* PLATFORMS */\n\n.msp-platforms {\n  display: grid;\n\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n\n  gap: 9px;\n}\n\n.msp-platforms span {\n  padding: 16px 14px;\n\n  text-align: center;\n\n  background: var(--soft);\n\n  border: 1px solid var(--border);\n\n  color: var(--black);\n\n  font-size: 13px;\n  font-weight: 750;\n}\n\n\n/* CARRIERS */\n\n.msp-carriers {\n  display: flex;\n\n  flex-wrap: wrap;\n\n  gap: 8px;\n}\n\n.msp-carriers span {\n  padding: 10px 14px;\n\n  background: #fff;\n\n  border: 1px solid var(--border);\n\n  color: var(--black);\n\n  font-size: 12px;\n  font-weight: 700;\n}\n\n.msp-notice {\n  display: flex;\n\n  gap: 11px;\n\n  align-items: flex-start;\n\n  margin-top: 20px;\n\n  padding: 14px 16px;\n\n  background: #fff6f2;\n\n  border-left: 3px solid var(--orange);\n}\n\n.msp-notice b {\n  width: 22px;\n  height: 22px;\n\n  flex: 0 0 22px;\n\n  display: flex;\n\n  align-items: center;\n  justify-content: center;\n\n  border-radius: 50%;\n\n  background: var(--orange);\n  color: #fff;\n\n  font-size: 12px;\n}\n\n.msp-notice p {\n  margin: 0;\n\n  color: var(--text);\n\n  font-size: 12px;\n  line-height: 1.55;\n}\n\n\n/* SPECS */\n\n.msp-specs {\n  overflow: hidden;\n\n  border: 1px solid var(--border);\n}\n\n.msp-specs > div {\n  display: grid;\n\n  grid-template-columns: .8fr 1.2fr;\n\n  border-bottom: 1px solid var(--border);\n}\n\n.msp-specs > div:last-child {\n  border-bottom: 0;\n}\n\n.msp-specs > div:nth-child(even) {\n  background: var(--soft);\n}\n\n.msp-specs span,\n.msp-specs strong {\n  padding: 15px 18px;\n\n  font-size: 13px;\n}\n\n.msp-specs span {\n  color: var(--muted);\n}\n\n.msp-specs strong {\n  color: var(--black);\n}\n\n\n/* STEPS */\n\n.msp-steps {\n  display: grid;\n\n  grid-template-columns: repeat(4, minmax(0, 1fr));\n\n  gap: 12px;\n}\n\n.msp-steps article {\n  position: relative;\n\n  min-height: 225px;\n\n  padding: 23px 18px;\n\n  background: var(--soft);\n\n  border: 1px solid var(--border);\n}\n\n.msp-step-number {\n  position: absolute;\n\n  right: 13px;\n  top: 10px;\n\n  color: #d1d1d1;\n\n  font-size: 32px;\n  font-weight: 800;\n}\n\n.msp-steps h3 {\n  margin: 0 0 8px;\n\n  color: var(--black);\n\n  font-size: 15px;\n}\n\n.msp-steps p {\n  margin: 0;\n\n  color: var(--muted);\n\n  font-size: 11.5px;\n  line-height: 1.55;\n}\n\n\n/* COMPARISON */\n\n.msp-comparison {\n  overflow: hidden;\n\n  border: 1px solid var(--border);\n}\n\n.msp-comparison__head,\n.msp-comparison__row {\n  display: grid;\n\n  grid-template-columns: .9fr 1.1fr 1.1fr;\n}\n\n.msp-comparison__head {\n  background: var(--black);\n  color: #fff;\n}\n\n.msp-comparison__head > div,\n.msp-comparison__row > * {\n  padding: 15px 17px;\n}\n\n.msp-comparison__head > div {\n  font-size: 12.5px;\n  font-weight: 750;\n}\n\n.msp-comparison__winner {\n  background: var(--orange);\n}\n\n.msp-comparison__row {\n  border-bottom: 1px solid var(--border);\n}\n\n.msp-comparison__row:last-child {\n  border-bottom: 0;\n}\n\n.msp-comparison__row:nth-child(odd) {\n  background: var(--soft);\n}\n\n.msp-comparison__row > * {\n  font-size: 12px;\n}\n\n.msp-good {\n  color: var(--black);\n\n  font-weight: 750;\n}\n\n\n/* WHY */\n\n.msp-why {\n  display: grid;\n\n  grid-template-columns: 1.05fr .95fr;\n\n  gap: 40px;\n\n  padding: 42px;\n\n  background: #fff6f2;\n\n  border-left: 4px solid var(--orange);\n}\n\n.msp-why p {\n  color: var(--text);\n\n  font-size: 14px;\n  line-height: 1.7;\n}\n\n.msp-why__lead {\n  font-size: 16px !important;\n  font-weight: 600;\n}\n\n.msp-why__grid {\n  display: grid;\n\n  gap: 8px;\n}\n\n.msp-why__grid > div {\n  padding: 13px;\n\n  background: #fff;\n\n  border: 1px solid var(--border);\n}\n\n.msp-why__grid strong,\n.msp-why__grid span {\n  display: block;\n}\n\n.msp-why__grid strong {\n  margin-bottom: 4px;\n\n  color: var(--black);\n\n  font-size: 12.5px;\n}\n\n.msp-why__grid span {\n  color: var(--muted);\n\n  font-size: 10.5px;\n  line-height: 1.4;\n}\n\n\n/* GEO */\n\n.msp-definition {\n  display: grid;\n\n  grid-template-columns: 80px 1fr;\n\n  gap: 25px;\n\n  padding: 38px;\n\n  background: var(--soft);\n}\n\n.msp-definition__icon {\n  width: 60px;\n  height: 60px;\n\n  color: var(--orange);\n}\n\n.msp-definition__icon svg {\n  width: 100%;\n  height: 100%;\n\n  stroke: currentColor;\n\n  stroke-width: 1.5;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n\n.msp-definition__answer {\n  max-width: 900px;\n\n  color: var(--text);\n\n  font-size: 16px;\n  line-height: 1.7;\n}\n\n\n/* TRUST */\n\n.msp-trust {\n  display: grid;\n\n  grid-template-columns: repeat(4, minmax(0, 1fr));\n\n  gap: 10px;\n}\n\n.msp-trust article {\n  padding: 20px 16px;\n\n  background: var(--soft);\n\n  border: 1px solid var(--border);\n}\n\n.msp-trust strong,\n.msp-trust span {\n  display: block;\n}\n\n.msp-trust strong {\n  margin-bottom: 5px;\n\n  color: var(--black);\n\n  font-size: 13.5px;\n}\n\n.msp-trust span {\n  color: var(--muted);\n\n  font-size: 10.5px;\n  line-height: 1.45;\n}\n\n\n/* FAQ */\n\n.msp-faq {\n  border-top: 1px solid var(--border);\n}\n\n.msp-faq details {\n  border-bottom: 1px solid var(--border);\n}\n\n.msp-faq summary {\n  display: flex;\n\n  justify-content: space-between;\n  align-items: center;\n\n  gap: 20px;\n\n  padding: 18px 3px;\n\n  cursor: pointer;\n\n  list-style: none;\n\n  color: var(--black);\n\n  font-size: 13.5px;\n  font-weight: 700;\n}\n\n.msp-faq summary::-webkit-details-marker {\n  display: none;\n}\n\n.msp-faq summary span {\n  color: var(--orange);\n\n  font-size: 22px;\n\n  transition: transform .2s ease;\n}\n\n.msp-faq details[open] summary span {\n  transform: rotate(45deg);\n}\n\n.msp-faq details > div {\n  max-width: 850px;\n\n  padding: 0 35px 18px 3px;\n\n  color: var(--muted);\n\n  font-size: 12px;\n  line-height: 1.65;\n}\n\n\n/* CROSS SELL */\n\n.msp-crosssell {\n  display: grid;\n\n  grid-template-columns: 1.15fr .85fr;\n\n  overflow: hidden;\n\n  margin: 65px 0;\n\n  background: var(--black);\n}\n\n.msp-crosssell__content {\n  padding: 45px;\n}\n\n.msp-crosssell__kicker {\n  color: var(--orange);\n\n  font-size: 11px;\n  font-weight: 800;\n  letter-spacing: .12em;\n}\n\n.msp-crosssell h2 {\n  margin-top: 11px;\n\n  color: #fff;\n}\n\n.msp-crosssell p {\n  max-width: 600px;\n\n  color: #c8c8c8;\n\n  font-size: 13px;\n  line-height: 1.65;\n}\n\n.msp-workflow {\n  display: flex;\n\n  flex-wrap: wrap;\n\n  align-items: center;\n\n  gap: 8px;\n\n  margin: 23px 0;\n}\n\n.msp-workflow span {\n  display: flex;\n\n  align-items: center;\n\n  gap: 5px;\n\n  color: #fff;\n\n  font-size: 10.5px;\n}\n\n.msp-workflow span b {\n  width: 21px;\n  height: 21px;\n\n  display: inline-flex;\n\n  justify-content: center;\n  align-items: center;\n\n  border-radius: 50%;\n\n  background: var(--orange);\n}\n\n.msp-workflow i {\n  color: #777;\n\n  font-style: normal;\n}\n\n.msp-cta {\n  display: inline-flex;\n\n  align-items: center;\n\n  gap: 9px;\n\n  padding: 14px 18px;\n\n  background: var(--orange);\n\n  color: #fff;\n\n  text-decoration: none;\n\n  font-size: 12.5px;\n  font-weight: 750;\n}\n\n.msp-crosssell__image {\n  display: flex;\n\n  align-items: center;\n  justify-content: center;\n\n  background: #fff;\n}\n\n.msp-crosssell__image img {\n  width: 100%;\n  height: 100%;\n\n  max-height: 420px;\n\n  object-fit: contain;\n}\n\n\n/* PRODUCTS */\n\n.msp-products {\n  display: grid;\n\n  grid-template-columns: repeat(4, minmax(0, 1fr));\n\n  gap: 11px;\n}\n\n.msp-product {\n  overflow: hidden;\n\n  border: 1px solid var(--border);\n\n  color: inherit;\n\n  text-decoration: none;\n\n  background: #fff;\n\n  transition:\n    transform .2s ease,\n    box-shadow .2s ease;\n}\n\n.msp-product:hover {\n  transform: translateY(-3px);\n\n  box-shadow: 0 12px 28px rgba(0,0,0,.08);\n}\n\n.msp-product__image {\n  aspect-ratio: 1 / 1;\n\n  overflow: hidden;\n\n  background: var(--soft);\n}\n\n.msp-product__image img {\n  width: 100%;\n  height: 100%;\n\n  object-fit: contain;\n}\n\n.msp-product__content {\n  padding: 15px;\n}\n\n.msp-product__content > span {\n  display: block;\n\n  margin-bottom: 6px;\n\n  color: var(--orange);\n\n  font-size: 9px;\n  font-weight: 800;\n  letter-spacing: .09em;\n}\n\n.msp-product__content strong {\n  display: block;\n\n  min-height: 44px;\n\n  color: var(--black);\n\n  font-size: 12px;\n  line-height: 1.35;\n}\n\n.msp-product__content small {\n  display: block;\n\n  margin-top: 8px;\n\n  color: var(--black);\n\n  font-size: 12.5px;\n  font-weight: 800;\n}\n\n.msp-product__content b {\n  display: block;\n\n  margin-top: 10px;\n\n  color: var(--orange);\n\n  font-size: 10.5px;\n}\n\n\n/* TABLETTE */\n\n@media screen and (max-width: 989px) {\n\n  .msp-hero {\n    grid-template-columns: 1fr;\n  }\n\n  .msp-benefits,\n  .msp-steps,\n  .msp-trust,\n  .msp-products {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .msp-platforms {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .msp-why {\n    grid-template-columns: 1fr;\n  }\n\n  .msp-crosssell {\n    grid-template-columns: 1fr;\n  }\n\n}\n\n\n/* MOBILE */\n\n@media screen and (max-width: 749px) {\n\n  .msp-section {\n    margin: 38px 0;\n  }\n\n  .msp-soft {\n    padding: 22px 15px;\n  }\n\n  .ms-pouch-page h2 {\n    font-size: 27px;\n    line-height: 1.08;\n  }\n\n  .msp-heading p,\n  .msp-hero p {\n    font-size: 12.5px;\n  }\n\n  .msp-hero {\n    gap: 18px;\n\n    margin: 35px 0;\n  }\n\n  .msp-hero__lead {\n    font-size: 14px !important;\n  }\n\n  .msp-benefits {\n    gap: 7px;\n  }\n\n  .msp-benefit {\n    min-height: 175px;\n\n    padding: 15px 11px;\n  }\n\n  .msp-icon {\n    width: 29px;\n    height: 29px;\n\n    margin-bottom: 12px;\n  }\n\n  .msp-benefit h3 {\n    font-size: 12px;\n  }\n\n  .msp-benefit p {\n    font-size: 10px;\n  }\n\n  .msp-sizes {\n    grid-template-columns: 1fr;\n\n    gap: 8px;\n  }\n\n  .msp-platforms {\n    gap: 6px;\n  }\n\n  .msp-platforms span {\n    padding: 12px 8px;\n\n    font-size: 11px;\n  }\n\n  .msp-carriers span {\n    padding: 8px 9px;\n\n    font-size: 10.5px;\n  }\n\n  .msp-specs > div {\n    grid-template-columns: .85fr 1.15fr;\n  }\n\n  .msp-specs span,\n  .msp-specs strong {\n    padding: 11px 8px;\n\n    font-size: 10.5px;\n  }\n\n  .msp-steps {\n    gap: 7px;\n  }\n\n  .msp-steps article {\n    min-height: 190px;\n\n    padding: 15px 10px;\n  }\n\n  .msp-steps h3 {\n    font-size: 12px;\n  }\n\n  .msp-steps p {\n    font-size: 10px;\n  }\n\n  .msp-comparison__head,\n  .msp-comparison__row {\n    grid-template-columns: .75fr 1fr 1fr;\n  }\n\n  .msp-comparison__head > div,\n  .msp-comparison__row > * {\n    padding: 9px 5px;\n\n    font-size: 9.3px;\n  }\n\n  .msp-why {\n    gap: 20px;\n\n    padding: 23px 16px;\n  }\n\n  .msp-why p {\n    font-size: 12px;\n  }\n\n  .msp-why__lead {\n    font-size: 14px !important;\n  }\n\n  .msp-definition {\n    grid-template-columns: 1fr;\n\n    gap: 13px;\n\n    padding: 23px 16px;\n  }\n\n  .msp-definition__icon {\n    width: 43px;\n    height: 43px;\n  }\n\n  .msp-definition__answer {\n    font-size: 13.5px;\n  }\n\n  .msp-trust {\n    gap: 7px;\n  }\n\n  .msp-trust article {\n    padding: 14px 10px;\n  }\n\n  .msp-trust strong {\n    font-size: 11.5px;\n  }\n\n  .msp-trust span {\n    font-size: 9.5px;\n  }\n\n  .msp-faq summary {\n    font-size: 12px;\n  }\n\n  .msp-faq details > div {\n    font-size: 11px;\n  }\n\n  .msp-crosssell {\n    margin: 42px 0;\n  }\n\n  .msp-crosssell__content {\n    padding: 27px 18px;\n  }\n\n  .msp-crosssell p {\n    font-size: 11.5px;\n  }\n\n  .msp-cta {\n    width: 100%;\n\n    justify-content: center;\n\n    text-align: center;\n\n    font-size: 11.5px;\n  }\n\n  .msp-products {\n    gap: 7px;\n  }\n\n  .msp-product__content {\n    padding: 10px;\n  }\n\n  .msp-product__content strong {\n    min-height: 49px;\n\n    font-size: 10px;\n  }\n\n  .msp-product__content small {\n    font-size: 11px;\n  }\n\n}\n\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "testimonials_PhUMFF": {
@@ -327,705 +362,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f7f7f9",
         "testimonial_card_text_color": ""
-      }
-    },
-    "rich_text_DeUbtA": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_493Ckn": {
-          "type": "subheading",
-          "settings": {
-            "text": "Notée 4,9/5 par nos e-commerçants Vinted, Tik-Tok shop, Shopify."
-          }
-        },
-        "heading_bjR4f3": {
-          "type": "heading",
-          "settings": {
-            "text": "+ 3 000 e-Commerçants Satisfaits",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_493Ckn",
-        "heading_bjR4f3"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "iconsbenefice_mapNKM": {
-      "type": "iconsbenefice",
-      "blocks": {
-        "highlight_CyEBhQ": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "store",
-            "title": "+3,000",
-            "text": "<p>Les entreprises nous font confiance</p>",
-            "link": "",
-            "link_label": "",
-            "open_new_tab": false
-          }
-        },
-        "highlight_FbFDQ9": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "printer",
-            "title": "1M+",
-            "text": "<p>Bordereaux imprimés chaque mois</p>",
-            "link": "",
-            "link_label": "",
-            "open_new_tab": false
-          }
-        },
-        "highlight_xEBFEL": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon": "review",
-            "title": "4.9★",
-            "text": "<p>Plus de 10 000 clients satisfaits</p>",
-            "link": "",
-            "link_label": "",
-            "open_new_tab": false
-          }
-        }
-      },
-      "block_order": [
-        "highlight_CyEBhQ",
-        "highlight_FbFDQ9",
-        "highlight_xEBFEL"
-      ],
-      "name": "Produits / chiffres clés",
-      "settings": {
-        "heading": "",
-        "intro": "",
-        "header_alignment": "center",
-        "max_width": 1200,
-        "desktop_columns": 3,
-        "mobile_layout": "scroll",
-        "text_alignment": "center",
-        "show_separators": true,
-        "gap_desktop": 48,
-        "gap_mobile": 24,
-        "background_color": "#ffffff",
-        "card_background": "#ffffff",
-        "heading_color": "#111111",
-        "title_color": "#ff3b0a",
-        "text_color": "#050505",
-        "icon_color": "#111111",
-        "link_color": "#ff3b0a",
-        "icon_size": 48,
-        "icon_size_mobile": 44,
-        "title_size": 30,
-        "title_size_mobile": 26,
-        "text_size": 16,
-        "text_size_mobile": 15,
-        "card_radius": 0,
-        "card_padding": 8,
-        "card_padding_mobile": 12,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 12,
-        "padding_bottom_mobile": 16
-      }
-    },
-    "imagebenefice_mE9rDL": {
-      "type": "imagebenefice",
-      "blocks": {
-        "feature_7QaiGC": {
-          "type": "feature",
-          "settings": {
-            "show_icon": false,
-            "icon": "check",
-            "title": "Sans encre, pour toujours",
-            "text": "<p>Imprimez sans acheter d’encre ni de cartouches. La technologie thermique directe permet une impression simple, rapide et économique.</p>"
-          }
-        },
-        "feature_Bqp6Bh": {
-          "type": "feature",
-          "settings": {
-            "show_icon": false,
-            "icon": "check",
-            "title": "Simplifiez vos expéditions",
-            "text": "<p>Décollez l’étiquette, collez-la sur l’emballage et votre colis est prêt à partir. C’est aussi simple que cela.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_7QaiGC",
-        "feature_Bqp6Bh"
-      ],
-      "name": "Image et Avantages",
-      "settings": {
-        "heading": "L’impression n’a jamais été aussi simple.",
-        "subheading": "",
-        "image": "shopify://shop_images/Imprimante_Thermique_id_al_pour_les_e-commer_ants.png",
-        "image_alt": "Imprimante d’étiquettes et exemples d’impression",
-        "content_heading": "",
-        "content_intro": "",
-        "button_text": "OBTENIR L'IMPRIMANTE",
-        "button_link": "https://metashopper.fr/products/metashopper-imprimante-thermique-bluetooth",
-        "show_button_arrow": true,
-        "section_background": "#ffffff",
-        "image_background": "#f9fafb",
-        "title_color": "#000000",
-        "text_color": "#000000",
-        "muted_color": "#5e6470",
-        "accent_color": "#ff4713",
-        "icon_background": "#f0f5ff",
-        "max_width": 1480,
-        "header_max_width": 900,
-        "image_position": "right",
-        "mobile_order": "image-first",
-        "image_column_width": 1,
-        "text_column_width": 1,
-        "column_gap": 44,
-        "column_gap_tablet": 32,
-        "column_gap_mobile": 32,
-        "image_ratio": "1 / 1",
-        "image_fit": "cover",
-        "image_position_x": 50,
-        "image_position_y": 50,
-        "image_radius": 0,
-        "heading_size_desktop": 36,
-        "heading_size_mobile": 28,
-        "heading_weight": "700",
-        "heading_line_height": 105,
-        "subheading_size": 17,
-        "content_heading_size": 40,
-        "content_heading_size_mobile": 30,
-        "content_heading_weight": "700",
-        "content_intro_size": 17,
-        "content_intro_size_mobile": 16,
-        "feature_title_size": 34,
-        "feature_title_size_mobile": 24,
-        "feature_title_weight": "700",
-        "feature_text_size": 17,
-        "feature_text_size_mobile": 16,
-        "feature_text_line_height": 155,
-        "feature_gap": 36,
-        "features_top_spacing": 0,
-        "icon_gap": 14,
-        "icon_size": 40,
-        "icon_font_size": 18,
-        "icon_radius": 20,
-        "button_background": "#ff4713",
-        "button_text_color": "#ffffff",
-        "button_border_color": "#ff4713",
-        "button_border_width": 1,
-        "button_radius": 10,
-        "button_height": 50,
-        "button_height_mobile": 48,
-        "button_font_size": 16,
-        "button_font_size_mobile": 15,
-        "button_weight": "700",
-        "button_top_spacing": 28,
-        "button_top_spacing_mobile": 24,
-        "button_full_width_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 44,
-        "header_bottom_spacing": 36,
-        "padding_top_mobile": 48,
-        "padding_bottom_mobile": 48,
-        "header_bottom_spacing_mobile": 28
-      }
-    },
-    "barrdefilant_rHtehN": {
-      "type": "barrdefilant",
-      "blocks": {
-        "item_DpMHfM": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "custom_text": "Impression ultra rapide",
-            "custom_link": ""
-          }
-        },
-        "item_C6Jprg": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "custom_text": "Zéro encre, zéro cartouche",
-            "custom_link": ""
-          }
-        },
-        "item_px6hAh": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "custom_text": "Compatible avec tous les transporteurs",
-            "custom_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_DpMHfM",
-        "item_C6Jprg",
-        "item_px6hAh"
-      ],
-      "name": "Barre produits défilante",
-      "settings": {
-        "enable_marquee": true,
-        "direction": "left",
-        "speed_desktop": 30,
-        "speed_mobile": 22,
-        "pause_on_hover": true,
-        "uppercase": true,
-        "font_weight": "700",
-        "font_size_desktop": 14,
-        "font_size_mobile": 12,
-        "letter_spacing": 8,
-        "open_new_tab": false,
-        "show_separator": true,
-        "separator": "•",
-        "background_color": "#ff4713",
-        "text_color": "#ffffff",
-        "hover_color": "#ffe4e4",
-        "separator_color": "#ff9b9b",
-        "border_color": "#ff4713",
-        "border_width": 0,
-        "padding_y_desktop": 14,
-        "padding_y_mobile": 14,
-        "gap_desktop": 24,
-        "gap_mobile": 16,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "accessibility_label": "Nos produits et avantages"
-      }
-    },
-    "pourquoinouschoisir_GhLyKW": {
-      "type": "pourquoinouschoisir",
-      "blocks": {
-        "highlight_AaeeBR": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_11.png",
-            "icon": "shipping",
-            "title": "Étiquettes créées en un clic",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_cYDcCp": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_12.png",
-            "icon": "shipping",
-            "title": "Moins de consommables",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_CAJKxL": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_14.png",
-            "icon": "shipping",
-            "title": "Compatible avec vos plateformes",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_ycrMFL": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_13.png",
-            "icon": "shipping",
-            "title": "Personnalisation illimitée",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        }
-      },
-      "block_order": [
-        "highlight_AaeeBR",
-        "highlight_cYDcCp",
-        "highlight_CAJKxL",
-        "highlight_ycrMFL"
-      ],
-      "name": "Cartes produits",
-      "settings": {
-        "heading": "Simplifiez Vos Expéditions",
-        "text": "",
-        "section_background": "#ffffff",
-        "card_background": "#ffffff",
-        "text_color": "#111111",
-        "accent_color": "#ff4713",
-        "content_width": 1320,
-        "columns_desktop": "4",
-        "columns_mobile": "2",
-        "card_gap": 20,
-        "card_gap_mobile": 12,
-        "card_radius": 12,
-        "card_height": 200,
-        "card_height_mobile": 140,
-        "icon_box_size": 60,
-        "icon_size": 34,
-        "icon_radius": 16,
-        "icon_box_size_mobile": 62,
-        "icon_size_mobile": 34,
-        "icon_radius_mobile": 14,
-        "title_size": 17,
-        "text_size": 16,
-        "title_size_mobile": 14,
-        "text_size_mobile": 13,
-        "padding_top": 80,
-        "padding_bottom": 60,
-        "padding_top_mobile": 52,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "nousvseux_6UGzcP": {
-      "type": "nousvseux",
-      "blocks": {
-        "row_kVj9eg": {
-          "type": "row",
-          "settings": {
-            "text_left": "Impression sans fil (Bluetooth & USB)",
-            "text_right": "Connexion filaire uniquement, contraignante"
-          }
-        },
-        "row_cPdXJT": {
-          "type": "row",
-          "settings": {
-            "text_left": "Rapidité exceptionnelle (60 étiquettes/min)",
-            "text_right": "Impression lente, perte de temps"
-          }
-        },
-        "row_LeaG6H": {
-          "type": "row",
-          "settings": {
-            "text_left": "Économies sur les fournitures (zéro encre)",
-            "text_right": "Cartouches d'encre coûteuses"
-          }
-        },
-        "row_NNYejL": {
-          "type": "row",
-          "settings": {
-            "text_left": "Formats multiples (10×15, 5×7, 7×6…)",
-            "text_right": "Un seul format disponible"
-          }
-        },
-        "row_KgChJp": {
-          "type": "row",
-          "settings": {
-            "text_left": "Facilité d'utilisation (Allumez, connectez, imprimez)",
-            "text_right": "Installation longue et technique"
-          }
-        }
-      },
-      "block_order": [
-        "row_kVj9eg",
-        "row_cPdXJT",
-        "row_LeaG6H",
-        "row_NNYejL",
-        "row_KgChJp"
-      ],
-      "name": "Nous VS Eux",
-      "settings": {
-        "title": "MetaShopper Face aux Autres",
-        "title_size": 28,
-        "title_color": "#1a1a1a",
-        "image_left": "shopify://shop_images/1784902591Rapi-Bundles-icone_8.webp",
-        "label_left": "Votre produit",
-        "image_right": "shopify://shop_images/iMPRIMANTE_CLASSIQUE_COMPARAISON.png",
-        "label_right": "Concurrent",
-        "image_bg_color": "#f5f5f5",
-        "vs_text": "VS",
-        "vs_badge_bg": "#ff4713",
-        "vs_badge_color": "#ffffff",
-        "row_bg_color": "#ffffff",
-        "row_border_color": "#ececec",
-        "text_color": "#000000",
-        "text_color_them": "#8a8a8a",
-        "good_color": "#ff4713",
-        "good_icon_color": "#ffffff",
-        "bad_color": "#ca2d00"
-      }
-    },
-    "media_with_text_jMajNb": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_P9xt7e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_25_juil._2026_12_46_27.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "La liberté sans fil",
-            "content": "<p><strong>Dites adieu aux câbles encombrants</strong> et imprimez facilement en Bluetooth ou par USB. Compatible avec Windows, Mac, iPhone, iPad et Android pour une <strong>impression simple, où que vous soyez.</strong></p>",
-            "link_text": "OBTENIR MAINTENANT",
-            "link_url": "#shopify-section-template--30926980546885__main",
-            "background": "#f5f5f5",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "#ff4713",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_P9xt7e"
-      ],
-      "name": "Media with text",
-      "settings": {
-        "full_width": false,
-        "alternate_media_position": false,
-        "spacing": "small"
-      }
-    },
-    "etapeimprimante_aHGmrw": {
-      "type": "etapeimprimante",
-      "blocks": {
-        "step_QeeXEa": {
-          "type": "step",
-          "settings": {
-            "number": "1",
-            "title": "Scannez le QR code",
-            "text": "<p>Scannez le QR code pour télécharger l’application.</p>"
-          }
-        },
-        "step_XkeMVt": {
-          "type": "step",
-          "settings": {
-            "number": "2",
-            "title": "Connectez l’imprimante",
-            "text": "<p>Ouvrez l’application et cliquez sur « Connecter ».</p>"
-          }
-        },
-        "step_BkC7qm": {
-          "type": "step",
-          "settings": {
-            "number": "3",
-            "title": "Créez votre étiquette",
-            "text": "<p>Choisissez le format et la taille adaptés à votre besoin.</p>"
-          }
-        },
-        "step_KYB3yk": {
-          "type": "step",
-          "settings": {
-            "number": "4",
-            "title": "Imprimez instantanément",
-            "text": "<p>Téléchargez votre création et imprimez-la immédiatement.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "step_QeeXEa",
-        "step_XkeMVt",
-        "step_BkC7qm",
-        "step_KYB3yk"
-      ],
-      "name": "Étapes imprimante Avisi",
-      "settings": {
-        "heading": "Comment Fonctionne l'imprimante Thermique ?",
-        "subtitle": "4 étapes simples pour créer et imprimer vos étiquettes",
-        "heading_uppercase": false,
-        "background_color": "#fff8f5",
-        "accent_color": "#ff4713",
-        "number_text_color": "#ffffff",
-        "title_color": "#111111",
-        "text_color": "#222222",
-        "muted_color": "#4b4b4b",
-        "grid_line_color": "#e9ddd8",
-        "max_width": 1440,
-        "header_max_width": 900,
-        "desktop_columns": 4,
-        "tablet_columns": 2,
-        "desktop_gap": 32,
-        "tablet_gap": 24,
-        "mobile_gap": 28,
-        "item_min_height": 220,
-        "item_padding_vertical": 20,
-        "item_padding_horizontal": 16,
-        "item_padding_vertical_mobile": 12,
-        "item_padding_horizontal_mobile": 12,
-        "grid_size": 80,
-        "grid_size_mobile": 60,
-        "grid_opacity": 18,
-        "heading_size_desktop": 32,
-        "heading_size_mobile": 26,
-        "heading_weight": "700",
-        "heading_line_height": 110,
-        "subtitle_size_desktop": 15,
-        "subtitle_size_mobile": 13,
-        "subtitle_weight": "400",
-        "item_title_size_desktop": 19,
-        "item_title_size_mobile": 19,
-        "item_title_weight": "700",
-        "item_text_size_desktop": 16,
-        "item_text_size_mobile": 14,
-        "item_text_weight": "400",
-        "item_text_line_height": 155,
-        "item_text_max_width": 320,
-        "item_text_max_width_mobile": 360,
-        "number_size": 56,
-        "number_radius": 16,
-        "number_font_size": 24,
-        "number_bottom_spacing": 22,
-        "number_bottom_spacing_mobile": 18,
-        "number_shadow_y": 8,
-        "number_shadow_blur": 18,
-        "number_shadow_opacity": 18,
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "header_bottom_spacing": 48,
-        "padding_top_mobile": 48,
-        "padding_bottom_mobile": 48,
-        "header_bottom_spacing_mobile": 32
-      }
-    },
-    "logoscroll_kxTj8A": {
-      "type": "logoscroll",
-      "blocks": {
-        "image_9gtxyR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Shopify_c9926203-23ed-4bdf-9e68-3b3a6470fec3.avif",
-            "url": ""
-          }
-        },
-        "image_jARi3W": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tiktok_f9316f07-c5cd-49f9-ad5a-9793ffa8658c.avif",
-            "url": ""
-          }
-        },
-        "image_6bfiCH": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Etsy_a65a0f11-44d4-4abc-a427-6771c57e0fbf.avif",
-            "url": ""
-          }
-        },
-        "image_aYReEr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DHL.avif",
-            "url": ""
-          }
-        },
-        "image_xGWfTk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Amazon_c206df84-1e40-42b2-aeaa-d9464bda369a.avif",
-            "url": ""
-          }
-        },
-        "image_aajzwK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Ebay_d5a89c7c-e63c-4a80-8840-7723c98c2c62.avif",
-            "url": ""
-          }
-        },
-        "image_Tptp7x": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Fedex.avif",
-            "url": ""
-          }
-        },
-        "image_3UCHMK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/UPS.webp",
-            "url": ""
-          }
-        },
-        "image_kprm9p": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/GLS_dcb20778-8b10-4169-8ab0-e30b1df7d7a6.avif",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_9gtxyR",
-        "image_jARi3W",
-        "image_6bfiCH",
-        "image_aYReEr",
-        "image_xGWfTk",
-        "image_aajzwK",
-        "image_Tptp7x",
-        "image_3UCHMK",
-        "image_kprm9p"
-      ],
-      "name": "SS - Scrolling logo cloud #5",
-      "settings": {
-        "layout_radius": 30,
-        "layout_border_thickness": 0,
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 18,
-        "heading_size_mobile": 18,
-        "heading_height": 130,
-        "scrolling_velocity": 22,
-        "scrolling_velocity_mobile": 24,
-        "scrolling_direction": "left",
-        "pause_hover": false,
-        "scrolling_gap": 70,
-        "scrolling_gap_mobile": 30,
-        "card_width_desktop": 130,
-        "card_width_mobile": 100,
-        "heading_color": "#121212",
-        "layout_bg_color": "#ffffff",
-        "layout_border_color": "#121212",
-        "background_color": "#ffffff",
-        "border_color": "#121212",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 16,
-        "padding_bottom": 0,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 1200,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
       }
     },
     "rich_text_mcTiCC": {
@@ -1740,85 +1076,16 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "faq_bd9tjE": {
-      "type": "faq",
-      "blocks": {
-        "item_nBidzM": {
-          "type": "item",
-          "settings": {
-            "title": "Quelle est la vitesse d'impression de cette imprimante thermique ?",
-            "content": "<p>Cette imprimante thermique Bluetooth Pro 4x6 offre une vitesse d'impression de 150 mm/seconde, permettant un traitement rapide et efficace de vos étiquettes de colis. Cette performance garantit une gestion optimisée de vos flux d'expédition sans compromettre la qualité d'impression.</p>"
-          }
-        },
-        "item_Rf8qUX": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que l'imprimante est facile à installer et à utiliser ?",
-            "content": "<p>Absolument ! L'installation est un jeu d'enfant grâce à la connexion Bluetooth. Que vous soyez sur Windows, macOS ou ChromeOS, l'application dédiée vous permettra de créer et imprimer vos étiquettes en quelques clics, même depuis votre smartphone.</p>"
-          }
-        },
-        "item_F6aQwp": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je personnaliser les étiquettes selon mon identité de marque ?",
-            "content": "<p>Oui, vous pouvez totalement personnaliser vos étiquettes ! Accédez à une vaste bibliothèque de modèles, graphiques et polices pour créer des étiquettes uniques qui reflètent parfaitement l'identité de votre marque, que ce soit pour l'expédition ou des projets spéciaux.</p>"
-          }
-        },
-        "item_ByVcWk": {
-          "type": "item",
-          "settings": {
-            "title": "Y a-t-il des économies à réaliser avec cette imprimante ?",
-            "content": "<p>Oui, l'imprimante thermique élimine le besoin d'encre coûteuse et utilise un papier spécial pour des impressions de haute qualité, permettant ainsi de réaliser des économies significatives sur vos fournitures d'impression tout en maintenant un excellent rapport qualité prix.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_nBidzM",
-        "item_Rf8qUX",
-        "item_F6aQwp",
-        "item_ByVcWk"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Questions Fréquentes",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "#f7f7f9",
-        "accordion_text_color": ""
-      }
     }
   },
   "order": [
     "main",
-    "testimonials_PhUMFF",
     "rich_text_DeUbtA",
-    "iconsbenefice_mapNKM",
-    "imagebenefice_mE9rDL",
-    "barrdefilant_rHtehN",
-    "pourquoinouschoisir_GhLyKW",
-    "nousvseux_6UGzcP",
-    "media_with_text_jMajNb",
-    "etapeimprimante_aHGmrw",
-    "logoscroll_kxTj8A",
+    "custom_liquid_fmyDLH",
+    "testimonials_PhUMFF",
     "rich_text_mcTiCC",
     "testimonials_Dftqc6",
     "related-products",
-    "avisvideo_QmFPtU",
-    "faq_bd9tjE"
+    "avisvideo_QmFPtU"
   ]
 }
