@@ -30,6 +30,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_dgCPRR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Des pochettes d’expédition fiables pour protéger vos colisOpaques, résistantes à l’humidité et conçues pour une fermeture rapide.</p>"
+          }
+        },
         "liquid_mUKjG4": {
           "type": "liquid",
           "settings": {
@@ -135,6 +141,7 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "text_dgCPRR",
         "liquid_mUKjG4",
         "description",
         "variant_picker",
