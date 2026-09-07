@@ -30,6 +30,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_HBbUtX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vérifiez le poids réel de votre colis avant de générer votre bordereau et sélectionnez plus facilement la tranche tarifaire adaptée.</p>"
+          }
+        },
         "liquid_mUKjG4": {
           "type": "liquid",
           "settings": {
@@ -135,6 +141,7 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "text_HBbUtX",
         "liquid_mUKjG4",
         "description",
         "variant_picker",
