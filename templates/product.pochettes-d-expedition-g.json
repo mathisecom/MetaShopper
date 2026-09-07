@@ -30,6 +30,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_Dyk7Pr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pesez vos colis avant chaque expédition</p>"
+          }
+        },
         "liquid_mUKjG4": {
           "type": "liquid",
           "settings": {
@@ -119,6 +125,7 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "text_Dyk7Pr",
         "liquid_mUKjG4",
         "description",
         "variant_picker",
