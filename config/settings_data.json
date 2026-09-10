@@ -47,6 +47,7 @@
     "cart_type": "drawer",
     "cart_icon": "shopping_cart",
     "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "0",
     "social_pinterest": "https://fr.pinterest.com/Metashopper/",
     "social_instagram": "https://www.instagram.com/metashoppper",
     "social_youtube": "https://www.youtube.com/@metashopper",
