@@ -30,6 +30,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_RdUtLw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le support indispensable pour garder vos étiquettes prêtes à imprimer et vos expéditions parfaitement organisées.</p>"
+          }
+        },
         "liquid_mUKjG4": {
           "type": "liquid",
           "settings": {
@@ -119,6 +125,7 @@
         "liquid_YrnFVj",
         "liquid_iy79cp",
         "title",
+        "text_RdUtLw",
         "liquid_mUKjG4",
         "description",
         "variant_picker",
