@@ -344,104 +344,6 @@
         "testimonial_card_text_color": ""
       }
     },
-    "pourquoinouschoisir_GhLyKW": {
-      "type": "pourquoinouschoisir",
-      "blocks": {
-        "highlight_AaeeBR": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_11.png",
-            "icon": "shipping",
-            "title": "Étiquettes créées en un clic",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_cYDcCp": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_12.png",
-            "icon": "shipping",
-            "title": "Moins de consommables",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_CAJKxL": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_14.png",
-            "icon": "shipping",
-            "title": "Compatible avec vos plateformes",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        },
-        "highlight_ycrMFL": {
-          "type": "highlight",
-          "settings": {
-            "product": "",
-            "use_product_image": false,
-            "icon_image": "shopify://shop_images/icone_13.png",
-            "icon": "shipping",
-            "title": "Personnalisation illimitée",
-            "text": "",
-            "link": "",
-            "show_button": false,
-            "button_label": "Découvrir"
-          }
-        }
-      },
-      "block_order": [
-        "highlight_AaeeBR",
-        "highlight_cYDcCp",
-        "highlight_CAJKxL",
-        "highlight_ycrMFL"
-      ],
-      "name": "Cartes produits",
-      "settings": {
-        "heading": "Simplifiez Vos Expéditions",
-        "text": "",
-        "section_background": "#ffffff",
-        "card_background": "#ffffff",
-        "text_color": "#111111",
-        "accent_color": "#ff4713",
-        "content_width": 1320,
-        "columns_desktop": "4",
-        "columns_mobile": "2",
-        "card_gap": 20,
-        "card_gap_mobile": 12,
-        "card_radius": 12,
-        "card_height": 200,
-        "card_height_mobile": 140,
-        "icon_box_size": 60,
-        "icon_size": 34,
-        "icon_radius": 16,
-        "icon_box_size_mobile": 62,
-        "icon_size_mobile": 34,
-        "icon_radius_mobile": 14,
-        "title_size": 17,
-        "text_size": 16,
-        "title_size_mobile": 14,
-        "text_size_mobile": 13,
-        "padding_top": 80,
-        "padding_bottom": 60,
-        "padding_top_mobile": 52,
-        "padding_bottom_mobile": 28
-      }
-    },
     "media_with_text_jMajNb": {
       "type": "media-with-text",
       "name": "Media with text",
@@ -449,123 +351,6 @@
         "full_width": false,
         "alternate_media_position": false,
         "spacing": "small"
-      }
-    },
-    "logoscroll_kxTj8A": {
-      "type": "logoscroll",
-      "blocks": {
-        "image_9gtxyR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Shopify_c9926203-23ed-4bdf-9e68-3b3a6470fec3.avif",
-            "url": ""
-          }
-        },
-        "image_jARi3W": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tiktok_f9316f07-c5cd-49f9-ad5a-9793ffa8658c.avif",
-            "url": ""
-          }
-        },
-        "image_6bfiCH": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Etsy_a65a0f11-44d4-4abc-a427-6771c57e0fbf.avif",
-            "url": ""
-          }
-        },
-        "image_aYReEr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DHL.avif",
-            "url": ""
-          }
-        },
-        "image_xGWfTk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Amazon_c206df84-1e40-42b2-aeaa-d9464bda369a.avif",
-            "url": ""
-          }
-        },
-        "image_aajzwK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Ebay_d5a89c7c-e63c-4a80-8840-7723c98c2c62.avif",
-            "url": ""
-          }
-        },
-        "image_Tptp7x": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Fedex.avif",
-            "url": ""
-          }
-        },
-        "image_3UCHMK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/UPS.webp",
-            "url": ""
-          }
-        },
-        "image_kprm9p": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/GLS_dcb20778-8b10-4169-8ab0-e30b1df7d7a6.avif",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_9gtxyR",
-        "image_jARi3W",
-        "image_6bfiCH",
-        "image_aYReEr",
-        "image_xGWfTk",
-        "image_aajzwK",
-        "image_Tptp7x",
-        "image_3UCHMK",
-        "image_kprm9p"
-      ],
-      "name": "SS - Scrolling logo cloud #5",
-      "settings": {
-        "layout_radius": 30,
-        "layout_border_thickness": 0,
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 18,
-        "heading_size_mobile": 18,
-        "heading_height": 130,
-        "scrolling_velocity": 22,
-        "scrolling_velocity_mobile": 24,
-        "scrolling_direction": "left",
-        "pause_hover": false,
-        "scrolling_gap": 70,
-        "scrolling_gap_mobile": 30,
-        "card_width_desktop": 130,
-        "card_width_mobile": 100,
-        "heading_color": "#121212",
-        "layout_bg_color": "#ffffff",
-        "layout_border_color": "#121212",
-        "background_color": "#ffffff",
-        "border_color": "#121212",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 16,
-        "padding_bottom": 0,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 1200,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
       }
     },
     "rich_text_mcTiCC": {
@@ -1299,12 +1084,10 @@
     "main",
     "rich_text_DeUbtA",
     "testimonials_PhUMFF",
-    "pourquoinouschoisir_GhLyKW",
     "media_with_text_jMajNb",
-    "logoscroll_kxTj8A",
+    "custom_liquid_M9DGKt",
     "rich_text_mcTiCC",
     "testimonials_Dftqc6",
-    "custom_liquid_M9DGKt",
     "related-products",
     "avisvideo_QmFPtU"
   ]
