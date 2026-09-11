@@ -1122,7 +1122,10 @@
         "third_party_address_error": "An error occurred while loading the address selection. Enter your address manually below.",
         "third_party_payment_timeout": "Unable to load payment methods. Please try again or use another payment method.",
         "third_party_payment_error": "An error occurred while loading the payment selection. Use another payment method.",
-        "unbranded_description_same_day": "Shipped the same business day"
+        "unbranded_description_same_day": "Shipped the same business day",
+        "split_shipping_shipment_count_notice_one_time_purchase": {
+          "many": "Your order will arrive in %{count} shipments"
+        }
       },
       "payment": {
         "order_covered_by_gift_cards_notice": {
@@ -1324,6 +1327,11 @@
           "multibanco": {
             "instruction_html": "Make the payment via Multibanco or online using the information below. For any questions or changes to your payment information, %{contact_us}.",
             "find_nearest_atm": "Find the nearest ATM"
+          },
+          "oxxo": {
+            "days_left": {
+              "many": "%{count} days"
+            }
           }
         },
         "purchase_options_agreement_label": "One or more items in your cart are subject to a deferred or recurring purchase. By proceeding to checkout, you agree that your payment method will be automatically charged at the price and frequency indicated on this page until this purchase ends or you cancel it. All cancellations are subject to the %{cancellation_policy_label}.",
