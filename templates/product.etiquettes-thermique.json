@@ -815,6 +815,46 @@
         "text_color": ""
       }
     },
+    "rich_text_egXTTq": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_zpEt3X": {
+          "type": "subheading",
+          "settings": {
+            "text": "Notée 4,9/5 par nos e-commerçants Vinted, Tik-Tok shop, Shopify."
+          }
+        },
+        "heading_yPhTEJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Ils utilisent MetaShopper pour leurs expéditions",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_y87Whd": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zpEt3X",
+        "heading_yPhTEJ",
+        "richtext_y87Whd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_PhUMFF": {
       "type": "testimonials",
       "blocks": {
@@ -1172,6 +1212,7 @@
     "custom_liquid_h8GmPV",
     "custom_liquid_zCPinX",
     "custom_liquid_CqMCU3",
+    "rich_text_egXTTq",
     "testimonials_PhUMFF",
     "related-products",
     "avisvideo_QmFPtU"
