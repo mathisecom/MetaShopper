@@ -1938,6 +1938,19 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "custom_liquid_nH6NM4": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -1958,6 +1971,7 @@
     "rich_text_LhUqTA",
     "testimonials_NJ8KYx",
     "faq_dPFARi",
-    "avisvideo_zCiGC3"
+    "avisvideo_zCiGC3",
+    "custom_liquid_nH6NM4"
   ]
 }
