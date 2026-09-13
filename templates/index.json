@@ -78,6 +78,7 @@
         "feature_KQMpCt",
         "feature_gcJChM"
       ],
+      "disabled": true,
       "name": "Hero Metashopper",
       "settings": {
         "eyebrow": "LIVRAISON RAPIDE 48H EN FRANCE",
@@ -281,6 +282,7 @@
         "highlight_38hXqh",
         "highlight_B4qpJR"
       ],
+      "disabled": true,
       "name": "Produits / chiffres clés",
       "settings": {
         "heading": "",
@@ -317,6 +319,7 @@
     },
     "featured_collection_kpBPDr": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 699px) {.product-list {--product-list-carousel-item-width: 46vw !important; }}",
         ".product-card__figure {position: relative;}",
@@ -441,6 +444,7 @@
         "image_7kAFax",
         "image_YdtxFR"
       ],
+      "disabled": true,
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
         "layout_radius": 30,
@@ -546,6 +550,7 @@
         "product_card_LFbgUR",
         "product_card_Hprydb"
       ],
+      "disabled": true,
       "name": "Produits vedette",
       "settings": {
         "heading": "",
@@ -628,6 +633,7 @@
         "highlight_maatC6",
         "highlight_LpttWF"
       ],
+      "disabled": true,
       "name": "Cartes produits",
       "settings": {
         "heading": "Simplifiez vos expéditions",
@@ -686,6 +692,7 @@
         "feature_AJJTf7",
         "feature_VLWDi9"
       ],
+      "disabled": true,
       "name": "Image et avantages Avisi",
       "settings": {
         "heading": "L’impression n’a jamais été aussi simple.",
@@ -823,6 +830,7 @@
         "row_wNt4hC",
         "row_RcCmXM"
       ],
+      "disabled": true,
       "name": "Nous VS Eux",
       "settings": {
         "title": "MetaShopper Face aux Autres",
@@ -887,6 +895,7 @@
         "step_GqUYFG",
         "step_mpFJpg"
       ],
+      "disabled": true,
       "name": "Étapes imprimante Avisi",
       "settings": {
         "heading": "Comment Fonctionne l'imprimante Thermique ?",
@@ -951,6 +960,7 @@
       "blocks": {
         "featured_product_qYjQnL": {
           "type": "featured_product",
+          "disabled": true,
           "settings": {
             "product": "metashopper-imprimante-thermique-bluetooth",
             "custom_image": "shopify://shop_images/PACK_BUSINESS_PRO.png",
@@ -983,6 +993,7 @@
       "block_order": [
         "featured_product_qYjQnL"
       ],
+      "disabled": true,
       "name": "Produits vedette",
       "settings": {
         "heading": "",
@@ -1114,6 +1125,7 @@
         "subheading_yE3tMf",
         "heading_meeX7C"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -1671,6 +1683,7 @@
         "testimonial_gajT6B",
         "testimonial_YcYMcH"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "full_width": true,
@@ -1743,6 +1756,7 @@
         "item_zhx3dG",
         "item_iFY66p"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "full_width": true,
