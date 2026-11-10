@@ -17,7 +17,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "LIVRAISON RAPIDE 48H EN FRANCE",
+            "text": "LIVRAISON OFFERTE 24/48H EN FRANCE",
             "url": ""
           }
         }
@@ -32,7 +32,7 @@
         "text_size": "text-xxs",
         "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#FF4713",
+        "background": "#ff4713",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -43,7 +43,7 @@
         "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/Nouveau_projet_60.jpg",
-        "logo_max_width": 180,
+        "logo_max_width": 190,
         "logo_mobile_max_width": 160,
         "menu": "main-menu",
         "sidebar_menu": "",
