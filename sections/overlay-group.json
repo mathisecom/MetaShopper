@@ -40,10 +40,11 @@
         "show_checkout_button": true,
         "recommendations_title": "Compléter Votre Commande",
         "products": [
-          "metashopper-etiquettes-thermiques-100x150",
-          "support-detiquettes-thermique",
           "pochettes-envoi-colis-roses-pack-30",
-          "pochettes-envoi-colis-grises-pack-30"
+          "pochettes-envoi-colis-grises-pack-30",
+          "balance-colis-digitale",
+          "devidoir-ruban-adhesif-colis",
+          "support-detiquettes-thermique"
         ],
         "product_card_background": "#f7f7f9",
         "product_card_text_color": ""
